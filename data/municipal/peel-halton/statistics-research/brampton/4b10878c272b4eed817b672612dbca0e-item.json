@@ -1,0 +1,88 @@
+{
+  "id": "4b10878c272b4eed817b672612dbca0e",
+  "owner": "BramptonMaps",
+  "ownerId": "fcfa4d9609ee9742e0316e35c17ad8d6",
+  "orgId": "rl7ACuZkiFsmDA2g",
+  "created": 1597329383000,
+  "modified": 1702062988000,
+  "guid": null,
+  "name": null,
+  "title": "Madoc Neighbourhood",
+  "type": "Hub Page",
+  "typeKeywords": [
+    "Hub",
+    "hubPage",
+    "hubSolution",
+    "JavaScript",
+    "Map",
+    "Mapping Site",
+    "Online Map",
+    "OpenData",
+    "selfConfigured",
+    "Web Map"
+  ],
+  "description": "DO NOT DELETE OR MODIFY THIS ITEM. This item is managed by the ArcGIS Hub application. To make changes to this page, please visit https://hub.arcgis.com/admin/",
+  "tags": [
+    ""
+  ],
+  "snippet": "Madoc Neighbourhood Page",
+  "thumbnail": "thumbnail/thumbnail_ago_downloaded.png",
+  "documentation": null,
+  "extent": [
+    [
+      -79.9909999999973,
+      43.59199999999852
+    ],
+    [
+      -79.49199999999733,
+      43.863999999998505
+    ]
+  ],
+  "categories": [],
+  "spatialReference": null,
+  "accessInformation": null,
+  "classification": null,
+  "licenseInfo": null,
+  "culture": "en-us",
+  "properties": {
+    "children": [
+      "9b85ba611ac541a3af209f249d082684",
+      "718dfd191f194c6abea7204805761720",
+      "133a18ec09b84554b8418ae85380ab17",
+      "de8fb98923554c84801732ee972366eb",
+      "d42da30b00c94f998b718f808e21d97c",
+      "62ee6cf836234c4c9adbf22a15ba0d35",
+      "2148d7d4be9a4c80bf3573d571b3729d",
+      "80ee876289ff40469f48cfb2f3c7a9b8",
+      "5b28ea3986c04e60807f26ada5003c53",
+      "997b3d598dad460589ebdbdecf8db80c",
+      "744a19f7ea134a298bed43c81c5feac3",
+      "95c508b72e1f4bbdb9e9cbe7e7b53473",
+      "665c806bd45d4f14a7560de449df4eab",
+      "de8bae6deac6426a8a6d5717d900905c"
+    ]
+  },
+  "advancedSettings": null,
+  "url": "",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 2035357,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 1707,
+  "scoreCompleteness": 48,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "lastViewed": 1793728800000
+}

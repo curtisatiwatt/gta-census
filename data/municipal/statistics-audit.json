@@ -1,0 +1,26 @@
+{
+  "sourceHashes": {
+    "data/municipal/statistics-sources.json": "8551eb28900a6db302bac4de79252b959b360082bbe32da1b373886ef3d413f5",
+    "public/data/neighbourhoods.geojson": "ee74a9ce83e40403b52bed81865b38cf805ef029f6e66d37c9c1193805856458",
+    "public/data/neighbourhood-data.json": "9b451ab51e9141fd92a224a2427ef17380fea5f0eabe0e0419ba0006691e090b",
+    "public/data/communities.geojson": "ff10d61ec46021f297f8ee5602706c437f36e0f9718174dadd4f14f3ee6e53d2",
+    "public/data/population-groups.json": "08c09302fc3d2b674092578e97feb7c5bfde55cb4e6543efccf18a744c81f2fa",
+    "data/municipal/york/statistics-research/supplemental-areas.geojson": "f4bb5b39cc46d9b14ccb775d27b2c794e459d8a74964237b33419e8bc19d5a15",
+    "data/municipal/york/statistics-research/supplemental-data.json": "ceb080be0db6aedf92a32ce3c9761ac7edd6ed6fe5080594d0396c9209a3be02",
+    "data/municipal/york/statistics-research/supplemental-manifest.json": "c4260f69deba9b7ae41121a98ddfea2805b9fec2a36f40cd94d168b70500e568",
+    "data/municipal/peel-halton/statistics-research/halton/supplemental-areas.geojson": "b1da92615781accc3ee7fc397fc8e4996a647340d634a5817b56908e2e97527e",
+    "data/municipal/peel-halton/statistics-research/halton/supplemental-data.json": "98f5496fe1b03337f4c9fd558cf79797c08ce911df8f59016c2f04871774392a",
+    "data/municipal/peel-halton/statistics-research/halton/supplemental-manifest.json": "712fa855c87d0352f0af5373dfe19c73beda7835e37d1c201677db624f92cb3e",
+    "data/municipal/peel-halton/statistics-research/halton/77416F9F09.json": "295c63c58d3fc14dc31e50e984c053b78e8dafcb8f7b16c86953298107ac2506",
+    "data/municipal/peel-halton/statistics-research/halton/layer-18.geojson": "01cd5c29f5dc5974eebb8ce5722576fffd9f077c8549927df6dd30fadb08f63c"
+  },
+  "hashes": {
+    "statistics-areas.geojson": "f6d095c2595b6afa23c98d1d0ebd76f8940ffbcb11473468d6a426c7f0a8c876",
+    "statistics-data.json": "8b1f2c1520fc38e6d597e21935bbe714dc25362c1046ea2823d9cbcd15356332",
+    "statistics-display.geojson": "61935888b65238f61ec19ff2c07216f72ec1e6e3a9a4e0719b99cb8a18519d9d"
+  },
+  "extraAreaCount": 1214,
+  "relatedCommunityCount": 450,
+  "displayFragmentCount": 1819,
+  "method": "Spatial intersections link complete source statistical areas; no statistical value is reallocated. Display masks contain only references, never population or income values."
+}

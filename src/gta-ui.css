@@ -17,6 +17,27 @@
 .boundary-help{font-size:.8125rem;line-height:1.6;color:var(--muted);margin:10px 0}
 .census-detail-button{display:block;width:100%;min-height:44px;margin-top:16px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:var(--surface-soft);color:var(--ink);font:inherit;font-size:.875rem;text-align:left;cursor:pointer}
 .census-detail-button[hidden]{display:none}
+.related-statistics{padding:14px 0 18px;border-bottom:1px solid var(--line)}
+.related-statistics[hidden],.statistics-selection[hidden]{display:none}
+.related-statistics h2,.community-profile-heading{font-size:.875rem;line-height:1.5;margin:0 0 8px}
+.related-statistics .metric-basis,.statistics-selection .metric-basis{margin:6px 0 12px;line-height:1.6}
+.statistics-table-heading,.statistics-row{display:grid;grid-template-columns:minmax(0,1fr) 76px 60px;gap:8px;align-items:center}
+.statistics-table-heading{color:var(--muted);font-size:.6875rem;padding:8px 6px}
+.statistics-table-heading>*:not(:first-child),.statistics-row>*:not(:first-child){text-align:right}
+.statistics-rows{max-height:240px;overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:9px}
+.statistics-row{width:100%;min-height:62px;padding:10px 7px;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;font-size:.75rem;text-align:left;cursor:pointer}
+.statistics-row:last-child{border-bottom:0}
+.statistics-row:hover,.statistics-row[aria-pressed=true]{background:var(--surface-soft)}
+.statistics-row[aria-pressed=true]{box-shadow:inset 3px 0 #a85d0e}
+.statistics-row:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.statistics-row>span:first-child{overflow-wrap:anywhere;line-height:1.35}
+.statistics-row small{display:block;font-size:.625rem;color:var(--muted);margin-top:4px}
+.statistics-selection{margin:16px 0;padding:12px;border:1px dashed #a85d0e;border-radius:8px}
+.statistics-selection>strong{display:block;margin:6px 0;line-height:1.4}
+.statistics-selection .text-button{min-height:40px}
+.community-profile-heading{margin-top:18px}
+#statistics-legend-note,.statistics-legend-note{max-width:290px;line-height:1.5;font-size:.6875rem}
+.population-summary-note{max-width:76px;text-align:right;line-height:1.5}
 #group-scope-label{font-size:.8125rem;line-height:1.45;color:var(--muted);margin:0 0 12px}
 #transit-line-list{display:flex;flex-direction:column;gap:9px;margin-top:14px}
 #transit-line-list>span{display:flex;gap:10px;align-items:center;font-size:.875rem;line-height:1.4}

@@ -1,0 +1,42 @@
+{
+  "purpose": "Reproducible municipal population sources and audit evidence. No averaged income median is displayed.",
+  "retrieved": "2026-11-06",
+  "usedData": {
+    "brampton": "brampton/population-estimates-selected.json (53 named communities; Environics 2022 estimates; separate from 2021 Census)",
+    "halton": "halton/supplemental-areas.geojson + supplemental-data.json + supplemental-manifest.json (30 OKN statistical neighbourhoods; 2023 boundaries, 2021 population)"
+  },
+  "researchOnly": {
+    "mississauga": "2021 Census dashboards and 711-field backend inspected independently of existing CSV; AG sample-population table retained, no household median found. Original city CSV and legend are in the parent directory.",
+    "peel": "HDZ income/ethnicity failed consistency checks and are NOT application data. Full official snapshots plus concise diagnostics retained."
+  },
+  "commands": [
+    "python3 data/municipal/peel-halton/statistics-research/brampton/prepare-population.py",
+    "python3 data/municipal/peel-halton/statistics-research/prepare-mississauga-population.py",
+    "python3 data/municipal/peel-halton/statistics-research/verify-peel-indicators.py",
+    "python3 data/municipal/peel-halton/statistics-research/halton/prepare-supplemental.py"
+  ],
+  "dependencies": "The first three checks require only Python standard library. Halton preparation also uses Shapely and pyproj for inside-polygon representative points and municipality attribution.",
+  "rawSources": {
+    "mississauga-census-esri-neighbourhoods.json": "https://services6.arcgis.com/hM5ymMLbxIyWTjn2/arcgis/rest/services/2021_Census_ESRI/FeatureServer/0/query?where=Geog_Cat%3D%27Neighbourhood%27%20AND%20GEN%3D%27All%27&outFields=*&returnGeometry=false&f=json",
+    "mississauga-census-esri-layer.json": "https://services6.arcgis.com/hM5ymMLbxIyWTjn2/arcgis/rest/services/2021_Census_ESRI/FeatureServer/0?f=pjson",
+    "mississauga-census-esri-item.json": "https://www.arcgis.com/sharing/rest/content/items/87b4f4627b5d4beeaf725eee3c6e423f?f=json",
+    "mississauga-2021-income-dashboard-data.json": "https://www.arcgis.com/sharing/rest/content/items/025790ec9dba4362a97d78d1be52f0fa/data?f=json",
+    "mississauga-2021-population-dashboard-data.json": "https://www.arcgis.com/sharing/rest/content/items/791f128b7aa54f6fb9c02e6710d95af7/data?f=json",
+    "peel-hdz-all.geojson": "https://services6.arcgis.com/ONZht79c8QWuX759/arcgis/rest/services/PHDZ_2021_Dashboard/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+    "peel-hdz-item.json": "https://www.arcgis.com/sharing/rest/content/items/971575ea39f845b3ac50a1698439a9f0?f=pjson",
+    "peel-hdz-layer.json": "https://services6.arcgis.com/ONZht79c8QWuX759/arcgis/rest/services/PHDZ_2021_Dashboard/FeatureServer/0?f=pjson",
+    "brampton-census-tracts-income.geojson": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Census_2021/FeatureServer/8/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson"
+  },
+  "rootSnapshotHashes": {
+    "mississauga-census-esri-neighbourhoods.json": "02adcab88acb232e82c12baaa07e12e7a5dcef1fa17633c244a5c89455c732e6",
+    "mississauga-census-esri-layer.json": "9ef419d47b47de3f9a68932d7978f87066b491f8f435d0f116235b68cf99a72a",
+    "mississauga-census-esri-item.json": "222c98c664fb3c3a9a5a4cff09410eebd54ec6174e9eccefdace617da037309d",
+    "mississauga-2021-income-dashboard-data.json": "949916525c746dcbb1aa0dc0676fac22aa9596929f49c36d293e238418adc411",
+    "mississauga-2021-population-dashboard-data.json": "97b39c0011368c8af565fd99dd9f03eb216d6c007c7b29d8e234873bcbfc3c3e",
+    "peel-hdz-all.geojson": "58e1b7b128f8febfb5cbfeab0aa44e4813bbc40292fe55b354fe0f1e0153a16e",
+    "peel-hdz-item.json": "40a517aba75da47fd618cc77f5fe4be1e867756d7eef516f6abf0909a088366b",
+    "peel-hdz-layer.json": "2aff7df8c7b21ac180822da943c336fb4a52fcd631b477b74c00a6105acd4669",
+    "brampton-census-tracts-income.geojson": "c45b5a515e0dfd88449c39e9566b838c9993b518164623b611f3a0155fc98ead"
+  },
+  "archive": "Exploratory/unselected artifacts moved rather than deleted to /private/tmp/gta-statistics-research-unused; excluded from the repository package."
+}

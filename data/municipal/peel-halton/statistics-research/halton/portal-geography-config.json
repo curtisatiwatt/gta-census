@@ -1,0 +1,46 @@
+{
+  "sourceUrl": "https://okndataportal.ca/js/main.bundle.js",
+  "extractedFrom": "Public client configuration, downloaded 2026-11-06; full bundle SHA256 is recorded in portal-bundle-hash.json.",
+  "dataEndpointDetails": {
+    "type": "halton",
+    "baseUrl": "https://maps.healthlandscape.org/hlcdp_api",
+    "callType": "querystring",
+    "idField": "metadataID",
+    "requestPath": "/restore.aspx?metadataID={metadataID}"
+  },
+  "layers": [
+    {
+      "name": "Neighbourhood",
+      "key": "HaltonID2",
+      "url": "https://services5.arcgis.com/f65GOlAcHzjG3q3P/ArcGIS/rest/services/Halton_20230822/FeatureServer/18",
+      "id_field": "HaltonID",
+      "name_field": "NbrhdTxt"
+    },
+    {
+      "name": "Tract",
+      "key": "HaltonTracts2",
+      "url": "https://services5.arcgis.com/f65GOlAcHzjG3q3P/ArcGIS/rest/services/Halton_20230822/FeatureServer/19",
+      "id_field": "CTUID",
+      "name_field": "CTUID"
+    },
+    {
+      "name": "Municipality",
+      "key": "Municipality",
+      "url": "https://services5.arcgis.com/f65GOlAcHzjG3q3P/ArcGIS/rest/services/Halton_20230822/FeatureServer/12",
+      "id_field": "MUN_BND_ID",
+      "name_field": "MUN_BND_ID"
+    }
+  ],
+  "selectedIndicators": [
+    {
+      "category": "Population by Neighbourhood (2023 neighbourhood boundaries)",
+      "label": "Total Population",
+      "metadataID": "77416F9F09"
+    },
+    {
+      "category": "Demographics by Neighbourhood (2023 neighbourhood boundaries)",
+      "label": "Racialized population",
+      "metadataID": "7573BC59E8"
+    }
+  ]
+}

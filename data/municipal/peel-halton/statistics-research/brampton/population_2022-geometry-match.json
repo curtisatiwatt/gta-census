@@ -1,0 +1,479 @@
+[
+  {
+    "name": "LAKELANDS VILLAGE",
+    "currentId": 1,
+    "sourceId": 1,
+    "sourcePopulation": 10849,
+    "symmetricDifferenceM2": 0.058749332984405545,
+    "symmetricDifferenceFraction": 3.3434848851585596e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "MADOC",
+    "currentId": 2,
+    "sourceId": 2,
+    "sourcePopulation": 15011,
+    "symmetricDifferenceM2": 0.07661335715727081,
+    "symmetricDifferenceFraction": 2.899404791857382e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "N-SECTION (BRAMALEA)",
+    "currentId": 3,
+    "sourceId": 3,
+    "sourcePopulation": 8663,
+    "symmetricDifferenceM2": 0.06631222328960296,
+    "symmetricDifferenceFraction": 3.352528905892925e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "BRAMALEA WOODS",
+    "currentId": 4,
+    "sourceId": 4,
+    "sourcePopulation": 7303,
+    "symmetricDifferenceM2": 0.07707058961685047,
+    "symmetricDifferenceFraction": 3.7007983940492605e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "NORTON PARK",
+    "currentId": 5,
+    "sourceId": 5,
+    "sourcePopulation": 10821,
+    "symmetricDifferenceM2": 0.10035541690061218,
+    "symmetricDifferenceFraction": 5.991413258134486e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "HUTTONVILLE",
+    "currentId": 6,
+    "sourceId": 6,
+    "sourcePopulation": 1043,
+    "symmetricDifferenceM2": 0.08024474751176855,
+    "symmetricDifferenceFraction": 4.387465608830562e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "MOUNT PLEASANT NORTH",
+    "currentId": 7,
+    "sourceId": 7,
+    "sourcePopulation": 12070,
+    "symmetricDifferenceM2": 0.06865530639941077,
+    "symmetricDifferenceFraction": 3.974783688206357e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "MOUNT PLEASANT VILLAGE",
+    "currentId": 8,
+    "sourceId": 8,
+    "sourcePopulation": 24559,
+    "symmetricDifferenceM2": 0.10164287771499099,
+    "symmetricDifferenceFraction": 3.0719251735384664e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "SPRING VALLEY",
+    "currentId": 9,
+    "sourceId": 9,
+    "sourcePopulation": 13081,
+    "symmetricDifferenceM2": 0.1115254745603852,
+    "symmetricDifferenceFraction": 4.630907196876933e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "CREDIT VALLEY",
+    "currentId": 10,
+    "sourceId": 10,
+    "sourcePopulation": 20496,
+    "symmetricDifferenceM2": 0.15593355040833037,
+    "symmetricDifferenceFraction": 3.015179734052642e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "SPRINGBROOK",
+    "currentId": 11,
+    "sourceId": 11,
+    "sourcePopulation": 17545,
+    "symmetricDifferenceM2": 0.13909456288222344,
+    "symmetricDifferenceFraction": 3.409067803929092e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "CHURCHVILLE",
+    "currentId": 12,
+    "sourceId": 12,
+    "sourcePopulation": 11701,
+    "symmetricDifferenceM2": 0.15325021735936115,
+    "symmetricDifferenceFraction": 3.505565869245991e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "HICKORY WOODS",
+    "currentId": 13,
+    "sourceId": 13,
+    "sourcePopulation": 16489,
+    "symmetricDifferenceM2": 0.09414844369484278,
+    "symmetricDifferenceFraction": 4.9470553097856816e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "FLETCHERS WEST",
+    "currentId": 14,
+    "sourceId": 14,
+    "sourcePopulation": 23112,
+    "symmetricDifferenceM2": 0.132404701537723,
+    "symmetricDifferenceFraction": 3.14003809655692e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "FLETCHERS MEADOW SOUTH",
+    "currentId": 15,
+    "sourceId": 15,
+    "sourcePopulation": 11871,
+    "symmetricDifferenceM2": 0.09106604787461518,
+    "symmetricDifferenceFraction": 3.972612498979036e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "ROYAL ORCHARD",
+    "currentId": 16,
+    "sourceId": 16,
+    "sourcePopulation": 16950,
+    "symmetricDifferenceM2": 0.15339124580014168,
+    "symmetricDifferenceFraction": 4.6670701676217115e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "DOWNTOWN",
+    "currentId": 17,
+    "sourceId": 17,
+    "sourcePopulation": 17955,
+    "symmetricDifferenceM2": 0.1512121911939574,
+    "symmetricDifferenceFraction": 4.0927625249268036e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "RIDGEHILL / ARMBRO HEIGHTS",
+    "currentId": 18,
+    "sourceId": 18,
+    "sourcePopulation": 16297,
+    "symmetricDifferenceM2": 0.1324257839862011,
+    "symmetricDifferenceFraction": 4.120421585084945e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "SHERIDAN",
+    "currentId": 19,
+    "sourceId": 19,
+    "sourcePopulation": 13166,
+    "symmetricDifferenceM2": 0.07358512679622155,
+    "symmetricDifferenceFraction": 3.0406385215797844e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "COUNTY COURT",
+    "currentId": 20,
+    "sourceId": 20,
+    "sourcePopulation": 6777,
+    "symmetricDifferenceM2": 0.07978922084899123,
+    "symmetricDifferenceFraction": 2.9996017665959864e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "PEEL VILLAGE",
+    "currentId": 21,
+    "sourceId": 21,
+    "sourcePopulation": 11804,
+    "symmetricDifferenceM2": 0.06785133807502271,
+    "symmetricDifferenceFraction": 2.2759014851218475e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "CENTRE",
+    "currentId": 22,
+    "sourceId": 22,
+    "sourcePopulation": 19868,
+    "symmetricDifferenceM2": 0.10444570441639252,
+    "symmetricDifferenceFraction": 2.7719630999613026e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "HEART LAKE SOUTH",
+    "currentId": 23,
+    "sourceId": 23,
+    "sourcePopulation": 24358,
+    "symmetricDifferenceM2": 0.12950713434286448,
+    "symmetricDifferenceFraction": 2.4082180406959165e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "HEART LAKE NORTH",
+    "currentId": 24,
+    "sourceId": 24,
+    "sourcePopulation": 9845,
+    "symmetricDifferenceM2": 0.12237485442934239,
+    "symmetricDifferenceFraction": 4.660023906401923e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "SNELGROVE",
+    "currentId": 25,
+    "sourceId": 25,
+    "sourcePopulation": 13505,
+    "symmetricDifferenceM2": 0.13210340876116342,
+    "symmetricDifferenceFraction": 3.114924611999467e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "ROSEDALE VILLAGE",
+    "currentId": 26,
+    "sourceId": 26,
+    "sourcePopulation": 7554,
+    "symmetricDifferenceM2": 0.07554204484287773,
+    "symmetricDifferenceFraction": 5.450224801985921e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "TRINITY COMMONS",
+    "currentId": 27,
+    "sourceId": 27,
+    "sourcePopulation": 8395,
+    "symmetricDifferenceM2": 0.07044891042991304,
+    "symmetricDifferenceFraction": 3.8159714755269144e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "H-SECTION (BRAMALEA)",
+    "currentId": 28,
+    "sourceId": 28,
+    "sourcePopulation": 9576,
+    "symmetricDifferenceM2": 0.06016730927207092,
+    "symmetricDifferenceFraction": 2.8815477467451993e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "M-SECTION (BRAMALEA)",
+    "currentId": 29,
+    "sourceId": 29,
+    "sourcePopulation": 10862,
+    "symmetricDifferenceM2": 0.08093193268374546,
+    "symmetricDifferenceFraction": 3.845862133077821e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "DEERFIELD",
+    "currentId": 30,
+    "sourceId": 30,
+    "sourcePopulation": 15738,
+    "symmetricDifferenceM2": 0.08237773386122202,
+    "symmetricDifferenceFraction": 3.786255457963715e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "SPRINGDALE",
+    "currentId": 31,
+    "sourceId": 31,
+    "sourcePopulation": 15572,
+    "symmetricDifferenceM2": 0.0795668731586046,
+    "symmetricDifferenceFraction": 3.947359820602286e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "COUNTRYSIDE",
+    "currentId": 32,
+    "sourceId": 32,
+    "sourcePopulation": 6485,
+    "symmetricDifferenceM2": 0.058037337191405004,
+    "symmetricDifferenceFraction": 3.408275901931753e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "SANDALWOOD WEST (SUNNY MEADOW)",
+    "currentId": 33,
+    "sourceId": 33,
+    "sourcePopulation": 31384,
+    "symmetricDifferenceM2": 0.11367698254083189,
+    "symmetricDifferenceFraction": 2.6899959712919682e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "PROFESSORS LAKE",
+    "currentId": 34,
+    "sourceId": 34,
+    "sourcePopulation": 12366,
+    "symmetricDifferenceM2": 0.09477232412971338,
+    "symmetricDifferenceFraction": 3.241078006948685e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "G-SECTION (BRAMALEA)",
+    "currentId": 35,
+    "sourceId": 35,
+    "sourcePopulation": 8962,
+    "symmetricDifferenceM2": 0.0802902178313478,
+    "symmetricDifferenceFraction": 3.920284858793218e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "SANDALWOOD EAST (MOUNTAINASH)",
+    "currentId": 36,
+    "sourceId": 36,
+    "sourcePopulation": 26316,
+    "symmetricDifferenceM2": 0.15024161607939926,
+    "symmetricDifferenceFraction": 3.5701660529775e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "VALES OF CASTLEMORE",
+    "currentId": 37,
+    "sourceId": 37,
+    "sourcePopulation": 19408,
+    "symmetricDifferenceM2": 0.1420759567364526,
+    "symmetricDifferenceFraction": 3.3296051938838854e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "MOUNT ROYAL",
+    "currentId": 38,
+    "sourceId": 38,
+    "sourcePopulation": 8017,
+    "symmetricDifferenceM2": 0.09414312793907705,
+    "symmetricDifferenceFraction": 4.724043793313486e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "CASTLEMORE ESTATES",
+    "currentId": 39,
+    "sourceId": 39,
+    "sourcePopulation": 3106,
+    "symmetricDifferenceM2": 0.20439079742342486,
+    "symmetricDifferenceFraction": 2.2782355142355053e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "WILDFIELD",
+    "currentId": 40,
+    "sourceId": 40,
+    "sourcePopulation": 8571,
+    "symmetricDifferenceM2": 0.07826791209308798,
+    "symmetricDifferenceFraction": 2.9229496263363354e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "ALLOA",
+    "currentId": 52,
+    "sourceId": 41,
+    "sourcePopulation": 7149,
+    "symmetricDifferenceM2": 0.07500005538352461,
+    "symmetricDifferenceFraction": 2.954981971030516e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "VAN KIRK",
+    "currentId": 53,
+    "sourceId": 42,
+    "sourcePopulation": 14883,
+    "symmetricDifferenceM2": 0.10123989430923419,
+    "symmetricDifferenceFraction": 3.868937162349424e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "NEW SPRINGBROOK",
+    "currentId": 41,
+    "sourceId": 43,
+    "sourcePopulation": 10101,
+    "symmetricDifferenceM2": 0.18505915966295308,
+    "symmetricDifferenceFraction": 2.227151709003659e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "E-F-K-SECTION (BRAMALEA)",
+    "currentId": 42,
+    "sourceId": 44,
+    "sourcePopulation": 16160,
+    "symmetricDifferenceM2": 0.07598854998955785,
+    "symmetricDifferenceFraction": 3.5790403628327966e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "A-B-C-D-SECTION (BRAMALEA)",
+    "currentId": 43,
+    "sourceId": 45,
+    "sourcePopulation": 18363,
+    "symmetricDifferenceM2": 0.11265772438421681,
+    "symmetricDifferenceFraction": 2.1196492626932744e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "VALLEY CREEK",
+    "currentId": 44,
+    "sourceId": 46,
+    "sourcePopulation": 19538,
+    "symmetricDifferenceM2": 0.14732337893924055,
+    "symmetricDifferenceFraction": 2.8864464715922374e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "RIVERS EDGE / CASTLEMORE CROSSING",
+    "currentId": 45,
+    "sourceId": 47,
+    "sourcePopulation": 8738,
+    "symmetricDifferenceM2": 0.08760441127530237,
+    "symmetricDifferenceFraction": 3.74725967211796e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "EBENEZER WEST",
+    "currentId": 46,
+    "sourceId": 48,
+    "sourcePopulation": 13584,
+    "symmetricDifferenceM2": 0.10832919787518505,
+    "symmetricDifferenceFraction": 3.239012611147611e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "EBENEZER EAST",
+    "currentId": 47,
+    "sourceId": 49,
+    "sourcePopulation": 30204,
+    "symmetricDifferenceM2": 0.13122801076880755,
+    "symmetricDifferenceFraction": 2.763740513092625e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "FLETCHERS CREEK VILLAGE / LUNDY VILLAGE",
+    "currentId": 48,
+    "sourceId": 50,
+    "sourcePopulation": 17219,
+    "symmetricDifferenceM2": 0.10926261557616658,
+    "symmetricDifferenceFraction": 3.9412036185927425e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "FLETCHERS MEADOW NORTH",
+    "currentId": 49,
+    "sourceId": 51,
+    "sourcePopulation": 16011,
+    "symmetricDifferenceM2": 0.11427327109812735,
+    "symmetricDifferenceFraction": 3.990854247369966e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "CREDITVIEW",
+    "currentId": 50,
+    "sourceId": 52,
+    "sourcePopulation": 9348,
+    "symmetricDifferenceM2": 0.15806480798523023,
+    "symmetricDifferenceFraction": 4.171363728887873e-08,
+    "exactGeometryMatch": false
+  },
+  {
+    "name": "NORTHWOOD PARK",
+    "currentId": 51,
+    "sourceId": 53,
+    "sourcePopulation": 11680,
+    "symmetricDifferenceM2": 0.08066330954960875,
+    "symmetricDifferenceFraction": 3.647559327568406e-08,
+    "exactGeometryMatch": false
+  }
+]

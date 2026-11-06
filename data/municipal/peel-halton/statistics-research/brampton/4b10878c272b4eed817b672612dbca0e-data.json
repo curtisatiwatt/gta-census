@@ -1,0 +1,408 @@
+{
+  "source": "PAGEEDITOR",
+  "folderId": null,
+  "values": {
+    "sites": [],
+    "layout": {
+      "sections": [
+        {
+          "containment": "fixed",
+          "isFooter": false,
+          "style": {
+            "background": {
+              "isFile": true,
+              "isUrl": false,
+              "state": "valid",
+              "display": {},
+              "transparency": 50,
+              "position": {
+                "x": "center",
+                "y": "bottom"
+              },
+              "color": "#181818",
+              "image": "https://mapsuat.brampton.ca/Geohub_ImageLib/NNP/1.jpg",
+              "parallax": false,
+              "fileSrc": "03. Madoc.jpg",
+              "cropSrc": "03. Madoc.jpg"
+            },
+            "color": "#ffffff",
+            "rowLayout": "box"
+          },
+          "rows": [
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "markdown": "<style>\na:link {text-decoration: none; color: #b7d2e4; font-weight: bold;}\na:visited {text-decoration: none; color: #fff;}\na:hover {text-decoration: none; color: #fff;}\na:active {text-decoration: none; color: #FF0000;}\n.webmap-card .webmap-title {color: #fff}\n.calcite .esriViewPopup .mainSection {color: black}\n.txt-bg {background-color: rgba(0,0,0,0.8); padding: 20px;}\n.h2-bg {background-color: rgba(32,72,155); padding: 10px;}\np {font-size: 1.2em;}\nul li {margin: 15px 0px; font-size: 1.2em;}\n.chart-card .chart-card-header {background-color: #2d2d2d}\n.chart-card {background-color: #2d2d2d}\n.chart-card .chart-card-header h4 {color: white; text-align: center}\n.panel-default {border-color: #545454}\n.panel-default .panel-heading {border-width: 0}\n.ss-title, .trailingText {color: black};\n</style>",
+                      "schemaVersion": 2.1
+                    }
+                  },
+                  "width": 12,
+                  "showEditor": false
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "markdown": "<p class=\"text-center\">\n</p><center><a href=\"/\"><img class=\"img-responsive\" width=\"600px\" src=\"https://maps1.brampton.ca/geohub/img/geohub-title.png\"></a>\n</center>",
+                      "schemaVersion": 2.1
+                    }
+                  },
+                  "width": 12,
+                  "showEditor": false
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "markdown": "<h1 style=\"font-size: 4vw; text-align: center; text-shadow: 2px 2px 6px black; margin-bottom: 30px;\"><b>The Madoc Neighbourhood</b></h1>",
+                      "schemaVersion": 2.1
+                    }
+                  },
+                  "width": 12,
+                  "showEditor": false
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "markdown": "<style>\n.nav-bar {\n    width: 100%;\n    margin: 0 auto;\n    padding: 0;\n    list-style: none;\n    background-color: rgba(0,0,0,0.8);\n    text-align: center;\n    overflow: hidden;\n}\n\n.nav-bar li {\n    display: inline-block;\n    margin: 0;\n    padding: 0;\n    vertical-align: middle;\n}\n\n.nav-bar li a {\n    display: block;\n    color: white;\n    text-align: center;\n    padding: 10px 15px;\n    text-decoration: none;\n    margin: 0;\n    font-weight: normal;\n    font-size: 14px;\n}\n\n.nav-bar li a:hover {\n    background-color: #072c4c;\n    color: white;\n}\n</style>\n\n<ul class=\"nav-bar\">\n  <li><a href=\"#neighbourhoodassets\"><img src=\"https://maps1.brampton.ca/geohub/nnp/img/icons/location.svg\" height=\"20px\">&nbsp;Neighbourhood Assets</a></li>\n  <li><a href=\"#population\"><img src=\"https://maps1.brampton.ca/geohub/nnp/img/icons/population.svg\" height=\"20px\">&nbsp;Population</a></li>\n  <li><a href=\"#language\"><img src=\"https://maps1.brampton.ca/geohub/nnp/img/icons/language.svg\" height=\"20px\">&nbsp;Language</a></li>\n  <li><a href=\"#travel\"><img src=\"https://maps1.brampton.ca/geohub/nnp/img/icons/mobility.svg\" height=\"20px\">&nbsp;Mode of Travel</a></li>\n</ul>\n<br><p></p>",
+                      "schemaVersion": 2.1
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            }
+          ],
+          "visibility": {
+            "access": "default",
+            "groups": [],
+            "catalogs": []
+          }
+        },
+        {
+          "containment": "fixed",
+          "isFooter": false,
+          "style": {
+            "background": {
+              "isFile": false,
+              "isUrl": true,
+              "state": "valid",
+              "display": {},
+              "transparency": 30,
+              "position": {
+                "x": "center",
+                "y": "center"
+              },
+              "color": "transparent",
+              "image": "https://maps1.brampton.ca/geohub/bg/home-bg.jpg",
+              "parallax": true
+            },
+            "color": "#ffffff",
+            "rowLayout": "box"
+          },
+          "rows": [
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "cardId": "co2rjk8op",
+                      "schemaVersion": 2.1,
+                      "markdown": "<a id=\"neighbourhoodassets\"></a>"
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "markdown": "<div class=\"h2-bg\"><h2 class=\"text-center\">Neighbourhood Assets</h2></div>",
+                      "schemaVersion": 2.1
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "webmap-card",
+                    "settings": {
+                      "webmap": "5e4b3723f6b347c99fb48ede8b94737d",
+                      "webscene": null,
+                      "title": "Madoc - Assets",
+                      "titleAlign": "left",
+                      "height": 500,
+                      "showTitle": false,
+                      "enableMapLegend": true,
+                      "mobileItem": null,
+                      "mobileWebmap": null,
+                      "mobileWebscene": null,
+                      "mobileTitle": "New Map",
+                      "mobileTitleAlign": "left",
+                      "mobileHeight": 500,
+                      "mobileShowTitle": true,
+                      "mobileEnableMapLegend": false
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "markdown": "<a id=\"population\"></a>",
+                      "schemaVersion": 2.1
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            }
+          ],
+          "visibility": {
+            "access": "default",
+            "groups": []
+          }
+        },
+        {
+          "containment": "fixed",
+          "isFooter": false,
+          "style": {
+            "background": {
+              "isFile": false,
+              "isUrl": true,
+              "state": "valid",
+              "display": {},
+              "transparency": 10,
+              "position": {
+                "x": "center",
+                "y": "center"
+              },
+              "color": "transparent",
+              "image": "https://maps1.brampton.ca/geohub/img/geohub-drone-bg.jpg",
+              "parallax": true
+            },
+            "color": "#ffffff",
+            "rowLayout": "box"
+          },
+          "rows": [
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "schemaVersion": 2.1,
+                      "markdown": "<div class=\"h2-bg\"><h2 class=\"text-center\">Total Neighbourhood Population</h2></div>\n\n<div class=\"txt-bg\">\n<p>As of 2022, the population of the Madoc Neighbourhood is approximately <strong>15,011</strong>&nbsp;citizens.</p>\n</div>\n"
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "schemaVersion": 2.1,
+                      "markdown": "<a id=\"language\"></a>"
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            }
+          ],
+          "visibility": {
+            "access": "default",
+            "groups": []
+          }
+        },
+        {
+          "containment": "fixed",
+          "isFooter": false,
+          "style": {
+            "background": {
+              "isFile": false,
+              "isUrl": true,
+              "state": "valid",
+              "display": {},
+              "transparency": 30,
+              "position": {
+                "x": "center",
+                "y": "center"
+              },
+              "color": "transparent",
+              "image": "https://maps1.brampton.ca/geohub/bg/home-bg.jpg",
+              "parallax": true
+            },
+            "color": "#ffffff",
+            "rowLayout": "box"
+          },
+          "rows": [
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "schemaVersion": 2.1,
+                      "markdown": "<div class=\"h2-bg\"><h2 class=\"text-center\" style=\"color:white\">Language</h2></div>\n<div class=\"txt-bg\" style=\"color:white\">\n<ul>\n <li>English remains the most common language spoken at home, followed by Punjabi, Urdu, Spanish, and Portuguese.</li>\n<li>91.79% of the population speak a single language at home and of these, 18.18% are a non-official language.</li>\n<li>8.21% of the population speak multiple languages at home. Of these, 95.94% include English and a non-official language, 2.19% include English and French, 1.14% include English, French and a non-official language, and 0.73% include French and a non-official language.</li>\n</ul>\n<p>The chart below shows the top five languages spoken at home for the Madoc neighbourhood.</p>\n</div>\n"
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "app-card",
+                    "settings": {
+                      "itemId": "5ae2bc9761dd48adacd671ca74aef932",
+                      "itemUrl": "",
+                      "itemTitle": "",
+                      "title": "",
+                      "page": "",
+                      "cardId": "ca12au7a2",
+                      "height": "500",
+                      "scrollable": true,
+                      "mobileItem": "",
+                      "mobileItemId": "",
+                      "mobileItemTitle": "",
+                      "mobileTitle": "",
+                      "mobileHeight": 500,
+                      "mobileScrollable": true
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "schemaVersion": 2.1,
+                      "markdown": "<a id=\"travel\"></a>"
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            }
+          ],
+          "visibility": {
+            "access": "default",
+            "groups": []
+          }
+        },
+        {
+          "containment": "fixed",
+          "isFooter": false,
+          "style": {
+            "background": {
+              "isFile": false,
+              "isUrl": true,
+              "state": "valid",
+              "display": {},
+              "transparency": 10,
+              "position": {
+                "x": "center",
+                "y": "center"
+              },
+              "color": "transparent",
+              "image": "https://maps1.brampton.ca/geohub/img/geohub-drone-bg.jpg",
+              "parallax": true
+            },
+            "color": "#ffffff",
+            "rowLayout": "box"
+          },
+          "rows": [
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "markdown-card",
+                    "settings": {
+                      "schemaVersion": 2.1,
+                      "markdown": "<div class=\"h2-bg\"><h2 class=\"text-center\">Method of Travel</h2></div>\n<div class=\"txt-bg\">\n<ul>\n<li style=\"margin-top:0\">The use of a car as a driver is the most popular mode of transportation to work representing 70.26% of the working population in Madoc.</li>\n<li>At 16.43%, public transit is the second most popular method of transportation, followed by the use of a car as a passenger (8.27%), walking (2.79%), other modes of transportation (1.44%). and cycling (0.8%).</li>\n</ul>\n</div>\n"
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            },
+            {
+              "cards": [
+                {
+                  "component": {
+                    "name": "app-card",
+                    "settings": {
+                      "itemId": "8e61bc27bbc94e4b9e5d540896e1bb16",
+                      "itemUrl": "",
+                      "itemTitle": "",
+                      "title": "",
+                      "page": "",
+                      "cardId": "cbk2bieni",
+                      "height": "500",
+                      "scrollable": true,
+                      "mobileItem": "",
+                      "mobileItemId": "",
+                      "mobileItemTitle": "",
+                      "mobileTitle": "",
+                      "mobileHeight": 500,
+                      "mobileScrollable": true
+                    }
+                  },
+                  "width": 12
+                }
+              ]
+            }
+          ],
+          "visibility": {
+            "access": "default",
+            "groups": []
+          }
+        }
+      ]
+    },
+    "slug": "madoc-neighbourhood-1",
+    "updatedAt": "2023-12-08T19:16:26.295Z",
+    "updatedBy": "BramptonMaps"
+  }
+}

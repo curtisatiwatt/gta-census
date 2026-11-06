@@ -1,0 +1,566 @@
+{
+  "records": {
+    "57": {
+      "sourceName": "Gateway CC",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "51": {
+      "sourceName": "Gateway EA (East)",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "49": {
+      "sourceName": "Gateway EA (West)",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "38": {
+      "sourceName": "Hurontario NHD",
+      "populationEstimate": 49385,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 6610,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "53": {
+      "sourceName": "Lakeview NHD",
+      "populationEstimate": 21960,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 3280,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "42": {
+      "sourceName": "Lakeview Waterfront MN",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "61": {
+      "sourceName": "Lisgar NHD",
+      "populationEstimate": 31565,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 5185,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "66": {
+      "sourceName": "Malton CN",
+      "populationEstimate": 2670,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 605,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "48": {
+      "sourceName": "Malton NHD",
+      "populationEstimate": 35250,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 5355,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "16": {
+      "sourceName": "Mavis-Erindale EA",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "63": {
+      "sourceName": "Meadowvale Business Park CC",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "37": {
+      "sourceName": "Meadowvale CN",
+      "populationEstimate": 2855,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 535,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "45": {
+      "sourceName": "Meadowvale NHD",
+      "populationEstimate": 35915,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 5875,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "52": {
+      "sourceName": "Meadowvale Village NHD",
+      "populationEstimate": 31240,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 5245,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "32": {
+      "sourceName": "Mineola NHD",
+      "populationEstimate": 9850,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1710,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "67": {
+      "sourceName": "Mississauga Valleys NHD",
+      "populationEstimate": 12595,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1810,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "54": {
+      "sourceName": "Central Erin Mills NHD",
+      "populationEstimate": 29995,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 4420,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "18": {
+      "sourceName": "Churchill Meadows EA",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "64": {
+      "sourceName": "Churchill Meadows NHD",
+      "populationEstimate": 48750,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 9205,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "39": {
+      "sourceName": "Clarkson - Lorne Park NHD",
+      "populationEstimate": 35885,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 5715,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "34": {
+      "sourceName": "Clarkson EA",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "31": {
+      "sourceName": "Clarkson Village CN",
+      "populationEstimate": 2810,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 230,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "25": {
+      "sourceName": "Cooksville NHD (East)",
+      "populationEstimate": 8420,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1330,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "21": {
+      "sourceName": "Cooksville NHD (West)",
+      "populationEstimate": 14640,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1985,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "62": {
+      "sourceName": "Creditview NHD",
+      "populationEstimate": 10070,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1280,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "59": {
+      "sourceName": "Dixie EA",
+      "populationEstimate": 340,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 45,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "22": {
+      "sourceName": "DT Cooksville",
+      "populationEstimate": 9575,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1775,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "36": {
+      "sourceName": "DT Core",
+      "populationEstimate": 34425,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 5160,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "58": {
+      "sourceName": "DT Fairview",
+      "populationEstimate": 16565,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 2595,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "30": {
+      "sourceName": "DT Hospital",
+      "populationEstimate": 12335,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 2270,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "50": {
+      "sourceName": "East Credit NHD",
+      "populationEstimate": 63320,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 8890,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "19": {
+      "sourceName": "Erin Mills NHD",
+      "populationEstimate": 38320,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 5525,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "15": {
+      "sourceName": "Erindale NHD",
+      "populationEstimate": 22035,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 3250,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "27": {
+      "sourceName": "Fairview NHD",
+      "populationEstimate": 7215,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 775,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "29": {
+      "sourceName": "Western Business Park EA",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "17": {
+      "sourceName": "Airport CC",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "33": {
+      "sourceName": "Airport SPA",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "24": {
+      "sourceName": "Applewood NHD",
+      "populationEstimate": 36015,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 5725,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "65": {
+      "sourceName": "Central Erin Mills MN",
+      "populationEstimate": 6295,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1065,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "47": {
+      "sourceName": "Ninth Line NHD",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "35": {
+      "sourceName": "Northeast EA (East)",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "60": {
+      "sourceName": "Northeast EA (West)",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "44": {
+      "sourceName": "Port Credit CN",
+      "populationEstimate": 4945,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 450,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "40": {
+      "sourceName": "Port Credit NHD (East)",
+      "populationEstimate": 2420,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 325,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "46": {
+      "sourceName": "Port Credit NHD (West)",
+      "populationEstimate": 3080,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 430,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "56": {
+      "sourceName": "Rathwood NHD",
+      "populationEstimate": 24865,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 3280,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "28": {
+      "sourceName": "Rathwood-Applewood CN",
+      "populationEstimate": 3345,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 475,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "68": {
+      "sourceName": "Sheridan CN",
+      "populationEstimate": 3265,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 830,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "55": {
+      "sourceName": "Sheridan NHD",
+      "populationEstimate": 12210,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1695,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "43": {
+      "sourceName": "Sheridan Park CC",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "26": {
+      "sourceName": "South Common CN",
+      "populationEstimate": 4885,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 780,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "41": {
+      "sourceName": "Southdown EA",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "20": {
+      "sourceName": "Streetsville CN",
+      "populationEstimate": 1320,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 185,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "13": {
+      "sourceName": "Streetsville NHD",
+      "populationEstimate": 10585,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1640,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "14": {
+      "sourceName": "Uptown MN",
+      "populationEstimate": 10660,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 1620,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    },
+    "23": {
+      "sourceName": "UTM SPA",
+      "populationEstimate": 0,
+      "populationEstimateYear": 2021,
+      "populationEstimateDefinition": "Total - Age groups of the population - 25% sample data",
+      "sourceMethod": "Official City of Mississauga custom 2021 Census neighbourhood tabulation; AG is also displayed as Census Population by the city's official 2021 Population dashboard. Does not replace the separately defined visible-minority denominator.",
+      "childrenCountSample": 0,
+      "income": null,
+      "sourceUrl": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7"
+    }
+  },
+  "join": "Exact Geog name -> existing geometry OBJECTID, excludes All Neighbourhoods aggregate",
+  "count": 56
+}

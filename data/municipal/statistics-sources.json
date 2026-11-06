@@ -1,0 +1,27 @@
+{
+  "primaryByRegion": {"3519": "york-da"},
+  "datasets": [
+    {
+      "id": "york-da",
+      "path": "data/municipal/york/statistics-research/supplemental-areas.geojson",
+      "dataPath": "data/municipal/york/statistics-research/supplemental-data.json",
+      "auditPaths": ["data/municipal/york/statistics-research/supplemental-manifest.json"],
+      "publisher": "The Regional Municipality of York",
+      "title": "2021 Census dissemination areas: income and population",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=3da230acb6884c77848d2fdbe5527043",
+      "regions": ["3519"],
+      "mode": "primary"
+    },
+    {
+      "id": "halton-okn",
+      "path": "data/municipal/peel-halton/statistics-research/halton/supplemental-areas.geojson",
+      "dataPath": "data/municipal/peel-halton/statistics-research/halton/supplemental-data.json",
+      "auditPaths": ["data/municipal/peel-halton/statistics-research/halton/supplemental-manifest.json", "data/municipal/peel-halton/statistics-research/halton/77416F9F09.json", "data/municipal/peel-halton/statistics-research/halton/layer-18.geojson"],
+      "publisher": "Our Kids Network · Halton",
+      "title": "2021 neighbourhood population, 2023 statistical boundaries",
+      "sourceUrl": "https://okndataportal.ca/",
+      "regions": ["3524"],
+      "mode": "related"
+    }
+  ]
+}

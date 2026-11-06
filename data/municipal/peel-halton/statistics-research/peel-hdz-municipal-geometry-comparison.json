@@ -1,0 +1,4071 @@
+{
+  "method": "Official source polygons repaired by make_valid and projected to EPSG:26917. IoU is intersection area / union area. Does not allocate or estimate population/income.",
+  "results": {
+    "Mississauga": {
+      "neighbourhoodCount": 56,
+      "zoneCount": 20,
+      "exactMatches": 0,
+      "matchesAbove99PercentIoU": 0,
+      "matchesAbove95PercentIoU": 0,
+      "bestMatches": [
+        {
+          "municipalId": "56",
+          "name": "Rathwood NHD",
+          "bestZone": {
+            "zoneId": "M14",
+            "intersectionOverUnion": 0.8415860402031924,
+            "neighbourhoodCoveredFraction": 0.9958637594305685,
+            "zoneCoveredFraction": 0.8445380896410307,
+            "symmetricDifferenceSquareMetres": 1293703.8845131483,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M14",
+              "intersectionOverUnion": 0.8415860402031924,
+              "neighbourhoodCoveredFraction": 0.9958637594305685,
+              "zoneCoveredFraction": 0.8445380896410307,
+              "symmetricDifferenceSquareMetres": 1293703.8845131483,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M16",
+              "intersectionOverUnion": 0.0008295567092940195,
+              "neighbourhoodCoveredFraction": 0.001818810884006703,
+              "zoneCoveredFraction": 0.001522873583250076,
+              "symmetricDifferenceSquareMetres": 15118930.473180901,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M15",
+              "intersectionOverUnion": 0.0005224237746800512,
+              "neighbourhoodCoveredFraction": 0.0007936084761658574,
+              "zoneCoveredFraction": 0.0015265132626138904,
+              "symmetricDifferenceSquareMetres": 10478435.558921646,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "24",
+          "name": "Applewood NHD",
+          "bestZone": {
+            "zoneId": "M16",
+            "intersectionOverUnion": 0.8298840071000926,
+            "neighbourhoodCoveredFraction": 0.9963635636704613,
+            "zoneCoveredFraction": 0.8324052247766924,
+            "symmetricDifferenceSquareMetres": 1406456.3713904037,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M16",
+              "intersectionOverUnion": 0.8298840071000926,
+              "neighbourhoodCoveredFraction": 0.9963635636704613,
+              "zoneCoveredFraction": 0.8324052247766924,
+              "symmetricDifferenceSquareMetres": 1406456.3713904037,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M15",
+              "intersectionOverUnion": 0.0004993121828007105,
+              "neighbourhoodCoveredFraction": 0.000759091184335733,
+              "zoneCoveredFraction": 0.001456897115432458,
+              "symmetricDifferenceSquareMetres": 10463706.776597146,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M20",
+              "intersectionOverUnion": 0.0001963279534960329,
+              "neighbourhoodCoveredFraction": 0.0007087103148754832,
+              "zoneCoveredFraction": 0.00027148060220442125,
+              "symmetricDifferenceSquareMetres": 24853183.13937964,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M14",
+              "intersectionOverUnion": 4.0019049557392435e-05,
+              "neighbourhoodCoveredFraction": 8.730963808211751e-05,
+              "zoneCoveredFraction": 7.387919467132461e-05,
+              "symmetricDifferenceSquareMetres": 15023070.869807769,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "54",
+          "name": "Central Erin Mills NHD",
+          "bestZone": {
+            "zoneId": "M6",
+            "intersectionOverUnion": 0.8103688473315834,
+            "neighbourhoodCoveredFraction": 0.928698787502592,
+            "zoneCoveredFraction": 0.864132017703359,
+            "symmetricDifferenceSquareMetres": 1862075.5243177556,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M6",
+              "intersectionOverUnion": 0.8103688473315834,
+              "neighbourhoodCoveredFraction": 0.928698787502592,
+              "zoneCoveredFraction": 0.864132017703359,
+              "symmetricDifferenceSquareMetres": 1862075.5243177556,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M11",
+              "intersectionOverUnion": 0.01956433477051605,
+              "neighbourhoodCoveredFraction": 0.06004700174935899,
+              "zoneCoveredFraction": 0.028200951796711032,
+              "symmetricDifferenceSquareMetres": 25783436.930499773,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M2",
+              "intersectionOverUnion": 0.0019686062250696464,
+              "neighbourhoodCoveredFraction": 0.005795915897704869,
+              "zoneCoveredFraction": 0.0029723130255538137,
+              "symmetricDifferenceSquareMetres": 25176936.75210414,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 0.0016238624480060298,
+              "neighbourhoodCoveredFraction": 0.003990579458347259,
+              "zoneCoveredFraction": 0.0027305578443602434,
+              "symmetricDifferenceSquareMetres": 21022113.745018244,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M5",
+              "intersectionOverUnion": 0.0003903766545742655,
+              "neighbourhoodCoveredFraction": 0.0007936551010054927,
+              "zoneCoveredFraction": 0.0007676744979738469,
+              "symmetricDifferenceSquareMetres": 17413010.740515865,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M8",
+              "intersectionOverUnion": 0.00037514908334829075,
+              "neighbourhoodCoveredFraction": 0.0006739058982204219,
+              "zoneCoveredFraction": 0.0008455084872562148,
+              "symmetricDifferenceSquareMetres": 15386076.150707372,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "64",
+          "name": "Churchill Meadows NHD",
+          "bestZone": {
+            "zoneId": "M5",
+            "intersectionOverUnion": 0.7806574976756746,
+            "neighbourhoodCoveredFraction": 0.9692483172883735,
+            "zoneCoveredFraction": 0.8004840428311496,
+            "symmetricDifferenceSquareMetres": 1992347.5552246787,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M5",
+              "intersectionOverUnion": 0.7806574976756746,
+              "neighbourhoodCoveredFraction": 0.9692483172883735,
+              "zoneCoveredFraction": 0.8004840428311496,
+              "symmetricDifferenceSquareMetres": 1992347.5552246787,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M11",
+              "intersectionOverUnion": 0.008768332614252724,
+              "neighbourhoodCoveredFraction": 0.03036820071949033,
+              "zoneCoveredFraction": 0.012177659365282999,
+              "symmetricDifferenceSquareMetres": 25115683.44523385,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M6",
+              "intersectionOverUnion": 0.000158938794473431,
+              "neighbourhoodCoveredFraction": 0.0003589381109100214,
+              "zoneCoveredFraction": 0.0002851655855075942,
+              "symmetricDifferenceSquareMetres": 16519177.259099139,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M1",
+              "intersectionOverUnion": 8.849980373259234e-06,
+              "neighbourhoodCoveredFraction": 2.454388129129849e-05,
+              "zoneCoveredFraction": 1.3840399689858196e-05,
+              "symmetricDifferenceSquareMetres": 20289197.87257663,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "67",
+          "name": "Mississauga Valleys NHD",
+          "bestZone": {
+            "zoneId": "M15",
+            "intersectionOverUnion": 0.776696795098913,
+            "neighbourhoodCoveredFraction": 0.9994851738402797,
+            "zoneCoveredFraction": 0.7770076523908419,
+            "symmetricDifferenceSquareMetres": 801520.2183480093,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M15",
+              "intersectionOverUnion": 0.776696795098913,
+              "neighbourhoodCoveredFraction": 0.9994851738402797,
+              "zoneCoveredFraction": 0.7770076523908419,
+              "symmetricDifferenceSquareMetres": 801520.2183480093,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.00010957543073344194,
+              "neighbourhoodCoveredFraction": 0.00048755278169316466,
+              "zoneCoveredFraction": 0.00014132131462687438,
+              "symmetricDifferenceSquareMetres": 12409536.02186019,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M16",
+              "intersectionOverUnion": 6.767437440688746e-06,
+              "neighbourhoodCoveredFraction": 2.6765565811630942e-05,
+              "zoneCoveredFraction": 9.057480190885163e-06,
+              "symmetricDifferenceSquareMetres": 11031737.577295646,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "15",
+          "name": "Erindale NHD",
+          "bestZone": {
+            "zoneId": "M12",
+            "intersectionOverUnion": 0.6342892039923606,
+            "neighbourhoodCoveredFraction": 0.9964512497533826,
+            "zoneCoveredFraction": 0.6357252758712659,
+            "symmetricDifferenceSquareMetres": 4589865.799866376,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 0.6342892039923606,
+              "neighbourhoodCoveredFraction": 0.9964512497533826,
+              "zoneCoveredFraction": 0.6357252758712659,
+              "symmetricDifferenceSquareMetres": 4589865.799866376,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M19",
+              "intersectionOverUnion": 0.0006792542609824154,
+              "neighbourhoodCoveredFraction": 0.0023329919851877417,
+              "zoneCoveredFraction": 0.0009573329815588284,
+              "symmetricDifferenceSquareMetres": 27420744.905580252,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M11",
+              "intersectionOverUnion": 0.0003005626085574244,
+              "neighbourhoodCoveredFraction": 0.0009866458819628825,
+              "zoneCoveredFraction": 0.00043204775313239387,
+              "symmetricDifferenceSquareMetres": 26217379.090376098,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.0001039391145230758,
+              "neighbourhoodCoveredFraction": 0.00022911237946585559,
+              "zoneCoveredFraction": 0.00019021001207786777,
+              "symmetricDifferenceSquareMetres": 17608317.899778727,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "19",
+          "name": "Erin Mills NHD",
+          "bestZone": {
+            "zoneId": "M11",
+            "intersectionOverUnion": 0.616632933966261,
+            "neighbourhoodCoveredFraction": 0.9987766731939707,
+            "zoneCoveredFraction": 0.6170990088144982,
+            "symmetricDifferenceSquareMetres": 6999482.951221758,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M11",
+              "intersectionOverUnion": 0.616632933966261,
+              "neighbourhoodCoveredFraction": 0.9987766731939707,
+              "zoneCoveredFraction": 0.6170990088144982,
+              "symmetricDifferenceSquareMetres": 6999482.951221758,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 0.0005709067958824309,
+              "neighbourhoodCoveredFraction": 0.0012044331045680389,
+              "zoneCoveredFraction": 0.0010842067865721706,
+              "symmetricDifferenceSquareMetres": 23767250.48458226,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M18",
+              "intersectionOverUnion": 6.795640054697184e-06,
+              "neighbourhoodCoveredFraction": 1.875817205135346e-05,
+              "zoneCoveredFraction": 1.0655973754001122e-05,
+              "symmetricDifferenceSquareMetres": 31114776.139665782,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "53",
+          "name": "Lakeview NHD",
+          "bestZone": {
+            "zoneId": "M20",
+            "intersectionOverUnion": 0.576634503197682,
+            "neighbourhoodCoveredFraction": 0.99652148766048,
+            "zoneCoveredFraction": 0.5777975124598144,
+            "symmetricDifferenceSquareMetres": 7626076.056384115,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M20",
+              "intersectionOverUnion": 0.576634503197682,
+              "neighbourhoodCoveredFraction": 0.99652148766048,
+              "zoneCoveredFraction": 0.5777975124598144,
+              "symmetricDifferenceSquareMetres": 7626076.056384115,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M19",
+              "intersectionOverUnion": 0.0004230140266620649,
+              "neighbourhoodCoveredFraction": 0.0012126315826236295,
+              "zoneCoveredFraction": 0.000649209413067011,
+              "symmetricDifferenceSquareMetres": 29866888.707380578,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.00019683927798735685,
+              "neighbourhoodCoveredFraction": 0.0003784923324354018,
+              "zoneCoveredFraction": 0.00040996620893369906,
+              "symmetricDifferenceSquareMetres": 20038234.574771594,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "50",
+          "name": "East Credit NHD",
+          "bestZone": {
+            "zoneId": "M7",
+            "intersectionOverUnion": 0.5138408220782448,
+            "neighbourhoodCoveredFraction": 0.5437629997512405,
+            "zoneCoveredFraction": 0.9032677186629268,
+            "symmetricDifferenceSquareMetres": 8277153.440751592,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M7",
+              "intersectionOverUnion": 0.5138408220782448,
+              "neighbourhoodCoveredFraction": 0.5437629997512405,
+              "zoneCoveredFraction": 0.9032677186629268,
+              "symmetricDifferenceSquareMetres": 8277153.440751592,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M8",
+              "intersectionOverUnion": 0.42251650118319256,
+              "neighbourhoodCoveredFraction": 0.42309913457923753,
+              "zoneCoveredFraction": 0.99675139868064,
+              "symmetricDifferenceSquareMetres": 9303781.653417815,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 0.017647268991356185,
+              "neighbourhoodCoveredFraction": 0.030838292042092746,
+              "zoneCoveredFraction": 0.03962157526655699,
+              "symmetricDifferenceSquareMetres": 27618604.8518866,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M2",
+              "intersectionOverUnion": 0.0007500807943967979,
+              "neighbourhoodCoveredFraction": 0.0015278847420824035,
+              "zoneCoveredFraction": 0.0014712587760674835,
+              "symmetricDifferenceSquareMetres": 32747499.061926052,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M6",
+              "intersectionOverUnion": 0.0003347887493418478,
+              "neighbourhoodCoveredFraction": 0.0005262320424590072,
+              "zoneCoveredFraction": 0.000919408490423824,
+              "symmetricDifferenceSquareMetres": 25280314.990201592,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M9",
+              "intersectionOverUnion": 0.00015542092366865241,
+              "neighbourhoodCoveredFraction": 0.0002454568428912362,
+              "zoneCoveredFraction": 0.0004235306558369014,
+              "symmetricDifferenceSquareMetres": 25405024.779799156,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "61",
+          "name": "Lisgar NHD",
+          "bestZone": {
+            "zoneId": "M1",
+            "intersectionOverUnion": 0.45102333960169233,
+            "neighbourhoodCoveredFraction": 0.9987420103031364,
+            "zoneCoveredFraction": 0.45127971042052645,
+            "symmetricDifferenceSquareMetres": 7126283.0678143315,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M1",
+              "intersectionOverUnion": 0.45102333960169233,
+              "neighbourhoodCoveredFraction": 0.9987420103031364,
+              "zoneCoveredFraction": 0.45127971042052645,
+              "symmetricDifferenceSquareMetres": 7126283.0678143315,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M5",
+              "intersectionOverUnion": 0.0005012212238797363,
+              "neighbourhoodCoveredFraction": 0.0012579896968397902,
+              "zoneCoveredFraction": 0.0008324953321414702,
+              "symmetricDifferenceSquareMetres": 14705668.98268075,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "39",
+          "name": "Clarkson - Lorne Park NHD",
+          "bestZone": {
+            "zoneId": "M19",
+            "intersectionOverUnion": 0.4234756904076751,
+            "neighbourhoodCoveredFraction": 0.6549746576802483,
+            "zoneCoveredFraction": 0.5450678421354701,
+            "symmetricDifferenceSquareMetres": 14447190.363120364,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M19",
+              "intersectionOverUnion": 0.4234756904076751,
+              "neighbourhoodCoveredFraction": 0.6549746576802483,
+              "zoneCoveredFraction": 0.5450678421354701,
+              "symmetricDifferenceSquareMetres": 14447190.363120364,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M18",
+              "intersectionOverUnion": 0.1832161086252858,
+              "neighbourhoodCoveredFraction": 0.34448879384347014,
+              "zoneCoveredFraction": 0.2812794477043942,
+              "symmetricDifferenceSquareMetres": 24882176.547999986,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "21",
+          "name": "Cooksville NHD (West)",
+          "bestZone": {
+            "zoneId": "M17",
+            "intersectionOverUnion": 0.4137960655205033,
+            "neighbourhoodCoveredFraction": 0.9997820420247392,
+            "zoneCoveredFraction": 0.4138333973545384,
+            "symmetricDifferenceSquareMetres": 5641525.568587883,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.4137960655205033,
+              "neighbourhoodCoveredFraction": 0.9997820420247392,
+              "zoneCoveredFraction": 0.4138333973545384,
+              "symmetricDifferenceSquareMetres": 5641525.568587883,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 3.51238835524849e-05,
+              "neighbourhoodCoveredFraction": 0.0001455402909991754,
+              "zoneCoveredFraction": 4.629478258977056e-05,
+              "symmetricDifferenceSquareMetres": 16504193.733057842,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M13",
+              "intersectionOverUnion": 3.0659874771054956e-05,
+              "neighbourhoodCoveredFraction": 7.241768427040959e-05,
+              "zoneCoveredFraction": 5.316847570985429e-05,
+              "symmetricDifferenceSquareMetres": 9407837.294797657,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "38",
+          "name": "Hurontario NHD",
+          "bestZone": {
+            "zoneId": "M9",
+            "intersectionOverUnion": 0.406841671098755,
+            "neighbourhoodCoveredFraction": 0.5422126758541089,
+            "zoneCoveredFraction": 0.6197077451220347,
+            "symmetricDifferenceSquareMetres": 8424495.234007131,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M9",
+              "intersectionOverUnion": 0.406841671098755,
+              "neighbourhoodCoveredFraction": 0.5422126758541089,
+              "zoneCoveredFraction": 0.6197077451220347,
+              "symmetricDifferenceSquareMetres": 8424495.234007131,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M10",
+              "intersectionOverUnion": 0.15988618774905086,
+              "neighbourhoodCoveredFraction": 0.41338984829430325,
+              "zoneCoveredFraction": 0.20680705976793273,
+              "symmetricDifferenceSquareMetres": 23148134.864151604,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M13",
+              "intersectionOverUnion": 0.01706994242834234,
+              "neighbourhoodCoveredFraction": 0.025327651719930535,
+              "zoneCoveredFraction": 0.049751326459645875,
+              "symmetricDifferenceSquareMetres": 15542271.965633363,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M14",
+              "intersectionOverUnion": 0.010603025995524335,
+              "neighbourhoodCoveredFraction": 0.018503781103269244,
+              "zoneCoveredFraction": 0.024230857726171718,
+              "symmetricDifferenceSquareMetres": 18400526.63244193,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M7",
+              "intersectionOverUnion": 0.00018605192808418916,
+              "neighbourhoodCoveredFraction": 0.00035507659084647544,
+              "zoneCoveredFraction": 0.00039069371883083324,
+              "symmetricDifferenceSquareMetres": 20334620.737672947,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M8",
+              "intersectionOverUnion": 0.00010046053189909864,
+              "neighbourhoodCoveredFraction": 0.00016482282237514166,
+              "zoneCoveredFraction": 0.0002571992004892976,
+              "symmetricDifferenceSquareMetres": 17482649.907670334,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 2.121555800697995e-05,
+              "neighbourhoodCoveredFraction": 4.614361516539305e-05,
+              "zoneCoveredFraction": 3.9269971748733875e-05,
+              "symmetricDifferenceSquareMetres": 23178053.608995527,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "27",
+          "name": "Fairview NHD",
+          "bestZone": {
+            "zoneId": "M13",
+            "intersectionOverUnion": 0.398966844804058,
+            "neighbourhoodCoveredFraction": 0.9989971364274222,
+            "zoneCoveredFraction": 0.39912669942686885,
+            "symmetricDifferenceSquareMetres": 3262058.0474130795,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M13",
+              "intersectionOverUnion": 0.398966844804058,
+              "neighbourhoodCoveredFraction": 0.9989971364274222,
+              "zoneCoveredFraction": 0.39912669942686885,
+              "symmetricDifferenceSquareMetres": 3262058.0474130795,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.00018439782314445195,
+              "neighbourhoodCoveredFraction": 0.0010028635725764497,
+              "zoneCoveredFraction": 0.0002258910488629046,
+              "symmetricDifferenceSquareMetres": 11786145.392491318,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "52",
+          "name": "Meadowvale Village NHD",
+          "bestZone": {
+            "zoneId": "M3",
+            "intersectionOverUnion": 0.36615954822481656,
+            "neighbourhoodCoveredFraction": 0.9956334071717597,
+            "zoneCoveredFraction": 0.3667485030038347,
+            "symmetricDifferenceSquareMetres": 16281045.452044787,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M3",
+              "intersectionOverUnion": 0.36615954822481656,
+              "neighbourhoodCoveredFraction": 0.9956334071717597,
+              "zoneCoveredFraction": 0.3667485030038347,
+              "symmetricDifferenceSquareMetres": 16281045.452044787,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M7",
+              "intersectionOverUnion": 0.0020080359919915007,
+              "neighbourhoodCoveredFraction": 0.00405867997360898,
+              "zoneCoveredFraction": 0.003958616372919271,
+              "symmetricDifferenceSquareMetres": 19055203.86709129,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M2",
+              "intersectionOverUnion": 0.00010688324086395805,
+              "neighbourhoodCoveredFraction": 0.00029589407908159966,
+              "zoneCoveredFraction": 0.00016729637034632017,
+              "symmetricDifferenceSquareMetres": 26148903.31586701,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "33",
+          "name": "Airport SPA",
+          "bestZone": {
+            "zoneId": "M4",
+            "intersectionOverUnion": 0.36596279524152886,
+            "neighbourhoodCoveredFraction": 0.9985313063253047,
+            "zoneCoveredFraction": 0.36615989098493634,
+            "symmetricDifferenceSquareMetres": 31961001.54440464,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M4",
+              "intersectionOverUnion": 0.36596279524152886,
+              "neighbourhoodCoveredFraction": 0.9985313063253047,
+              "zoneCoveredFraction": 0.36615989098493634,
+              "symmetricDifferenceSquareMetres": 31961001.54440464,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M10",
+              "intersectionOverUnion": 0.000672560141288961,
+              "neighbourhoodCoveredFraction": 0.00144707243771375,
+              "zoneCoveredFraction": 0.0012550114649215118,
+              "symmetricDifferenceSquareMetres": 39723531.074188925,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "41",
+          "name": "Southdown EA",
+          "bestZone": {
+            "zoneId": "M18",
+            "intersectionOverUnion": 0.36495378690640445,
+            "neighbourhoodCoveredFraction": 0.998687531386869,
+            "zoneCoveredFraction": 0.365128909989156,
+            "symmetricDifferenceSquareMetres": 12607254.914426979,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M18",
+              "intersectionOverUnion": 0.36495378690640445,
+              "neighbourhoodCoveredFraction": 0.998687531386869,
+              "zoneCoveredFraction": 0.365128909989156,
+              "symmetricDifferenceSquareMetres": 12607254.914426979,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "36",
+          "name": "DT Core",
+          "bestZone": {
+            "zoneId": "M13",
+            "intersectionOverUnion": 0.3587957551741201,
+            "neighbourhoodCoveredFraction": 0.8265277149902519,
+            "zoneCoveredFraction": 0.38801496378823647,
+            "symmetricDifferenceSquareMetres": 3761983.161176541,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M13",
+              "intersectionOverUnion": 0.3587957551741201,
+              "neighbourhoodCoveredFraction": 0.8265277149902519,
+              "zoneCoveredFraction": 0.38801496378823647,
+              "symmetricDifferenceSquareMetres": 3761983.161176541,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M14",
+              "intersectionOverUnion": 0.043064118480578416,
+              "neighbourhoodCoveredFraction": 0.1732074701026762,
+              "zoneCoveredFraction": 0.05420710810484525,
+              "symmetricDifferenceSquareMetres": 9802666.555719368,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M15",
+              "intersectionOverUnion": 0.00010995059507408996,
+              "neighbourhoodCoveredFraction": 0.0002648149070715658,
+              "zoneCoveredFraction": 0.00018797799809073284,
+              "symmetricDifferenceSquareMetres": 6133486.662984665,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "25",
+          "name": "Cooksville NHD (East)",
+          "bestZone": {
+            "zoneId": "M17",
+            "intersectionOverUnion": 0.312452097183002,
+            "neighbourhoodCoveredFraction": 0.9988686754101667,
+            "zoneCoveredFraction": 0.31256270846822215,
+            "symmetricDifferenceSquareMetres": 6618587.757525977,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.312452097183002,
+              "neighbourhoodCoveredFraction": 0.9988686754101667,
+              "zoneCoveredFraction": 0.31256270846822215,
+              "symmetricDifferenceSquareMetres": 6618587.757525977,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M15",
+              "intersectionOverUnion": 0.0005054498177650052,
+              "neighbourhoodCoveredFraction": 0.0011071534622516459,
+              "zoneCoveredFraction": 0.0009291792436030067,
+              "symmetricDifferenceSquareMetres": 6592461.903073981,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M20",
+              "intersectionOverUnion": 3.4679002788285056e-06,
+              "neighbourhoodCoveredFraction": 2.417112758766533e-05,
+              "zoneCoveredFraction": 4.048775558983916e-06,
+              "symmetricDifferenceSquareMetres": 20987766.51874694,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "60",
+          "name": "Northeast EA (West)",
+          "bestZone": {
+            "zoneId": "M4",
+            "intersectionOverUnion": 0.31050504956551556,
+            "neighbourhoodCoveredFraction": 0.6655300445823209,
+            "zoneCoveredFraction": 0.36791788778402323,
+            "symmetricDifferenceSquareMetres": 41160925.32222768,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M4",
+              "intersectionOverUnion": 0.31050504956551556,
+              "neighbourhoodCoveredFraction": 0.6655300445823209,
+              "zoneCoveredFraction": 0.36791788778402323,
+              "symmetricDifferenceSquareMetres": 41160925.32222768,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M10",
+              "intersectionOverUnion": 0.22509117853670266,
+              "neighbourhoodCoveredFraction": 0.3242608088120014,
+              "zoneCoveredFraction": 0.42396112513605294,
+              "symmetricDifferenceSquareMetres": 31091496.938513648,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M14",
+              "intersectionOverUnion": 0.006919048863124142,
+              "neighbourhoodCoveredFraction": 0.008879291012824643,
+              "zoneCoveredFraction": 0.030388734650245174,
+              "symmetricDifferenceSquareMetres": 35495359.94408964,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M3",
+              "intersectionOverUnion": 0.0006230693341757476,
+              "neighbourhoodCoveredFraction": 0.0011960252323553646,
+              "zoneCoveredFraction": 0.0012989458080416914,
+              "symmetricDifferenceSquareMetres": 53430387.744173884,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "63",
+          "name": "Meadowvale Business Park CC",
+          "bestZone": {
+            "zoneId": "M2",
+            "intersectionOverUnion": 0.27568110998917167,
+            "neighbourhoodCoveredFraction": 0.48858500356924756,
+            "zoneCoveredFraction": 0.38749886536568356,
+            "symmetricDifferenceSquareMetres": 17010466.884686723,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M2",
+              "intersectionOverUnion": 0.27568110998917167,
+              "neighbourhoodCoveredFraction": 0.48858500356924756,
+              "zoneCoveredFraction": 0.38749886536568356,
+              "symmetricDifferenceSquareMetres": 17010466.884686723,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M3",
+              "intersectionOverUnion": 0.13449046651703123,
+              "neighbourhoodCoveredFraction": 0.34797252977908844,
+              "zoneCoveredFraction": 0.17980174762025972,
+              "symmetricDifferenceSquareMetres": 29674172.33392949,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M1",
+              "intersectionOverUnion": 0.08996919474546122,
+              "neighbourhoodCoveredFraction": 0.16335727009878379,
+              "zoneCoveredFraction": 0.1668512131485166,
+              "symmetricDifferenceSquareMetres": 21895457.581946142,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "32",
+          "name": "Mineola NHD",
+          "bestZone": {
+            "zoneId": "M19",
+            "intersectionOverUnion": 0.27146964070348595,
+            "neighbourhoodCoveredFraction": 0.99467813655768,
+            "zoneCoveredFraction": 0.2718645114329372,
+            "symmetricDifferenceSquareMetres": 14204390.430761795,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M19",
+              "intersectionOverUnion": 0.27146964070348595,
+              "neighbourhoodCoveredFraction": 0.99467813655768,
+              "zoneCoveredFraction": 0.2718645114329372,
+              "symmetricDifferenceSquareMetres": 14204390.430761795,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.0017345134936380417,
+              "neighbourhoodCoveredFraction": 0.004862776836224296,
+              "zoneCoveredFraction": 0.0026889908822377243,
+              "symmetricDifferenceSquareMetres": 14892457.025745267,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M20",
+              "intersectionOverUnion": 7.452085387961808e-05,
+              "neighbourhoodCoveredFraction": 0.0003262496304832827,
+              "zoneCoveredFraction": 9.657240408704549e-05,
+              "symmetricDifferenceSquareMetres": 23294504.850796193,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 3.961607249627351e-05,
+              "neighbourhoodCoveredFraction": 0.00013283697562332087,
+              "zoneCoveredFraction": 5.644852196005512e-05,
+              "symmetricDifferenceSquareMetres": 17842019.053853527,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "13",
+          "name": "Streetsville NHD",
+          "bestZone": {
+            "zoneId": "M2",
+            "intersectionOverUnion": 0.25829676590769846,
+            "neighbourhoodCoveredFraction": 0.9860825093228264,
+            "zoneCoveredFraction": 0.25924185286296697,
+            "symmetricDifferenceSquareMetres": 12437678.218307046,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M2",
+              "intersectionOverUnion": 0.25829676590769846,
+              "neighbourhoodCoveredFraction": 0.9860825093228264,
+              "zoneCoveredFraction": 0.25924185286296697,
+              "symmetricDifferenceSquareMetres": 12437678.218307046,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M7",
+              "intersectionOverUnion": 0.002274267281243048,
+              "neighbourhoodCoveredFraction": 0.007272385453560209,
+              "zoneCoveredFraction": 0.0032982009689876755,
+              "symmetricDifferenceSquareMetres": 14013977.517822787,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M8",
+              "intersectionOverUnion": 0.0013076403507783073,
+              "neighbourhoodCoveredFraction": 0.0033363376779758157,
+              "zoneCoveredFraction": 0.0021458932098873717,
+              "symmetricDifferenceSquareMetres": 11192530.10000259,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M6",
+              "intersectionOverUnion": 0.001069726334719154,
+              "neighbourhoodCoveredFraction": 0.0033087675456279896,
+              "zoneCoveredFraction": 0.0015783047629157505,
+              "symmetricDifferenceSquareMetres": 13571992.215792231,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "45",
+          "name": "Meadowvale NHD",
+          "bestZone": {
+            "zoneId": "M2",
+            "intersectionOverUnion": 0.2506812278674849,
+            "neighbourhoodCoveredFraction": 0.6374291747089795,
+            "zoneCoveredFraction": 0.2923696009040343,
+            "symmetricDifferenceSquareMetres": 14601585.310816592,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M2",
+              "intersectionOverUnion": 0.2506812278674849,
+              "neighbourhoodCoveredFraction": 0.6374291747089795,
+              "zoneCoveredFraction": 0.2923696009040343,
+              "symmetricDifferenceSquareMetres": 14601585.310816592,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M1",
+              "intersectionOverUnion": 0.1553004463849643,
+              "neighbourhoodCoveredFraction": 0.3619952767963489,
+              "zoneCoveredFraction": 0.21382760964686004,
+              "symmetricDifferenceSquareMetres": 15088836.004646078,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M6",
+              "intersectionOverUnion": 0.00013562337420414063,
+              "neighbourhoodCoveredFraction": 0.0002985505771079299,
+              "zoneCoveredFraction": 0.0002484568309707208,
+              "symmetricDifferenceSquareMetres": 16867384.273485504,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M5",
+              "intersectionOverUnion": 0.00012849911650611768,
+              "neighbourhoodCoveredFraction": 0.00027699791755237345,
+              "zoneCoveredFraction": 0.00023963464941155433,
+              "symmetricDifferenceSquareMetres": 16517481.385470375,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "29",
+          "name": "Western Business Park EA",
+          "bestZone": {
+            "zoneId": "M11",
+            "intersectionOverUnion": 0.2305284556495976,
+            "neighbourhoodCoveredFraction": 0.993794385495616,
+            "zoneCoveredFraction": 0.23086078060515466,
+            "symmetricDifferenceSquareMetres": 14058571.995228404,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M11",
+              "intersectionOverUnion": 0.2305284556495976,
+              "neighbourhoodCoveredFraction": 0.993794385495616,
+              "zoneCoveredFraction": 0.23086078060515466,
+              "symmetricDifferenceSquareMetres": 14058571.995228404,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M18",
+              "intersectionOverUnion": 0.00011262767996330913,
+              "neighbourhoodCoveredFraction": 0.0006398769534094721,
+              "zoneCoveredFraction": 0.00013666781728658334,
+              "symmetricDifferenceSquareMetres": 24075707.664978966,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "51",
+          "name": "Gateway EA (East)",
+          "bestZone": {
+            "zoneId": "M3",
+            "intersectionOverUnion": 0.2269503272742441,
+            "neighbourhoodCoveredFraction": 0.6813772598658404,
+            "zoneCoveredFraction": 0.2538950820062029,
+            "symmetricDifferenceSquareMetres": 22178656.052170128,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M3",
+              "intersectionOverUnion": 0.2269503272742441,
+              "neighbourhoodCoveredFraction": 0.6813772598658404,
+              "zoneCoveredFraction": 0.2538950820062029,
+              "symmetricDifferenceSquareMetres": 22178656.052170128,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M10",
+              "intersectionOverUnion": 0.10915722970286222,
+              "neighbourhoodCoveredFraction": 0.31780205532903033,
+              "zoneCoveredFraction": 0.14256215067685907,
+              "symmetricDifferenceSquareMetres": 24784277.2904978,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M4",
+              "intersectionOverUnion": 0.00013085967024785658,
+              "neighbourhoodCoveredFraction": 0.000820684805082096,
+              "zoneCoveredFraction": 0.00015565948610570915,
+              "symmetricDifferenceSquareMetres": 59921784.56001644,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "58",
+          "name": "DT Fairview",
+          "bestZone": {
+            "zoneId": "M15",
+            "intersectionOverUnion": 0.20636732282492068,
+            "neighbourhoodCoveredFraction": 0.7933413726275487,
+            "zoneCoveredFraction": 0.21809123564883068,
+            "symmetricDifferenceSquareMetres": 3009279.7797933044,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M15",
+              "intersectionOverUnion": 0.20636732282492068,
+              "neighbourhoodCoveredFraction": 0.7933413726275487,
+              "zoneCoveredFraction": 0.21809123564883068,
+              "symmetricDifferenceSquareMetres": 3009279.7797933044,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M13",
+              "intersectionOverUnion": 0.03261534626265542,
+              "neighbourhoodCoveredFraction": 0.2053167953212298,
+              "zoneCoveredFraction": 0.03732751246804158,
+              "symmetricDifferenceSquareMetres": 6006555.989248419,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.0001245457060082096,
+              "neighbourhoodCoveredFraction": 0.0013394831815172316,
+              "zoneCoveredFraction": 0.00013729428675414063,
+              "symmetricDifferenceSquareMetres": 10606650.677744377,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "49",
+          "name": "Gateway EA (West)",
+          "bestZone": {
+            "zoneId": "M9",
+            "intersectionOverUnion": 0.19791682839067845,
+            "neighbourhoodCoveredFraction": 0.45842664236737696,
+            "zoneCoveredFraction": 0.2583142737071099,
+            "symmetricDifferenceSquareMetres": 9761056.979325777,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M9",
+              "intersectionOverUnion": 0.19791682839067845,
+              "neighbourhoodCoveredFraction": 0.45842664236737696,
+              "zoneCoveredFraction": 0.2583142737071099,
+              "symmetricDifferenceSquareMetres": 9761056.979325777,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M3",
+              "intersectionOverUnion": 0.0685643739545286,
+              "neighbourhoodCoveredFraction": 0.3773578083004683,
+              "zoneCoveredFraction": 0.07731064692750675,
+              "symmetricDifferenceSquareMetres": 26933822.119741738,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M7",
+              "intersectionOverUnion": 0.06129265129949755,
+              "neighbourhoodCoveredFraction": 0.1642155493321618,
+              "zoneCoveredFraction": 0.08908200074183464,
+              "symmetricDifferenceSquareMetres": 13213759.681189835,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "59",
+          "name": "Dixie EA",
+          "bestZone": {
+            "zoneId": "M20",
+            "intersectionOverUnion": 0.188185601170401,
+            "neighbourhoodCoveredFraction": 0.681254807671866,
+            "zoneCoveredFraction": 0.2063547656614087,
+            "symmetricDifferenceSquareMetres": 16002782.058233375,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M20",
+              "intersectionOverUnion": 0.188185601170401,
+              "neighbourhoodCoveredFraction": 0.681254807671866,
+              "zoneCoveredFraction": 0.2063547656614087,
+              "symmetricDifferenceSquareMetres": 16002782.058233375,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M16",
+              "intersectionOverUnion": 0.09207320019112158,
+              "neighbourhoodCoveredFraction": 0.21193367338373306,
+              "zoneCoveredFraction": 0.14000766050683572,
+              "symmetricDifferenceSquareMetres": 11379760.302184563,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.03720403711319074,
+              "neighbourhoodCoveredFraction": 0.09925928537889682,
+              "zoneCoveredFraction": 0.05616658810585431,
+              "symmetricDifferenceSquareMetres": 13987203.293072842,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M15",
+              "intersectionOverUnion": 0.00029339422652603804,
+              "neighbourhoodCoveredFraction": 0.00048657368029909437,
+              "zoneCoveredFraction": 0.0007384454550642957,
+              "symmetricDifferenceSquareMetres": 9027867.222319815,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "17",
+          "name": "Airport CC",
+          "bestZone": {
+            "zoneId": "M10",
+            "intersectionOverUnion": 0.1736629835312491,
+            "neighbourhoodCoveredFraction": 0.9786144397462018,
+            "zoneCoveredFraction": 0.17432455204649294,
+            "symmetricDifferenceSquareMetres": 17669813.841996208,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M10",
+              "intersectionOverUnion": 0.1736629835312491,
+              "neighbourhoodCoveredFraction": 0.9786144397462018,
+              "zoneCoveredFraction": 0.17432455204649294,
+              "symmetricDifferenceSquareMetres": 17669813.841996208,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M14",
+              "intersectionOverUnion": 0.0033327817685665033,
+              "neighbourhoodCoveredFraction": 0.010445518868132903,
+              "zoneCoveredFraction": 0.004870569095772525,
+              "symmetricDifferenceSquareMetres": 11853421.272650406,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M4",
+              "intersectionOverUnion": 0.0006309115267693705,
+              "neighbourhoodCoveredFraction": 0.009001872325840736,
+              "zoneCoveredFraction": 0.0006780027419191351,
+              "symmetricDifferenceSquareMetres": 54107903.1155188,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "55",
+          "name": "Sheridan NHD",
+          "bestZone": {
+            "zoneId": "M18",
+            "intersectionOverUnion": 0.170758573871257,
+            "neighbourhoodCoveredFraction": 0.5377543811829965,
+            "zoneCoveredFraction": 0.2001346394017818,
+            "symmetricDifferenceSquareMetres": 19285352.93959398,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M18",
+              "intersectionOverUnion": 0.170758573871257,
+              "neighbourhoodCoveredFraction": 0.5377543811829965,
+              "zoneCoveredFraction": 0.2001346394017818,
+              "symmetricDifferenceSquareMetres": 19285352.93959398,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M19",
+              "intersectionOverUnion": 0.14309841141238203,
+              "neighbourhoodCoveredFraction": 0.4552118737238282,
+              "zoneCoveredFraction": 0.17266926859464019,
+              "symmetricDifferenceSquareMetres": 20130514.747877818,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 0.00240177546908864,
+              "neighbourhoodCoveredFraction": 0.00645882093122698,
+              "zoneCoveredFraction": 0.003809064792121751,
+              "symmetricDifferenceSquareMetres": 19811696.66318177,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M11",
+              "intersectionOverUnion": 5.765546197399475e-05,
+              "neighbourhoodCoveredFraction": 0.00020007945098534172,
+              "zoneCoveredFraction": 8.098873650806606e-05,
+              "symmetricDifferenceSquareMetres": 25626078.58355584,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "16",
+          "name": "Mavis-Erindale EA",
+          "bestZone": {
+            "zoneId": "M12",
+            "intersectionOverUnion": 0.15853561798394097,
+            "neighbourhoodCoveredFraction": 0.9882021456225708,
+            "zoneCoveredFraction": 0.1588362489489788,
+            "symmetricDifferenceSquareMetres": 10556952.247419167,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 0.15853561798394097,
+              "neighbourhoodCoveredFraction": 0.9882021456225708,
+              "zoneCoveredFraction": 0.1588362489489788,
+              "symmetricDifferenceSquareMetres": 10556952.247419167,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M13",
+              "intersectionOverUnion": 0.002686471557701637,
+              "neighbourhoodCoveredFraction": 0.009901190803199966,
+              "zoneCoveredFraction": 0.0036732630159134116,
+              "symmetricDifferenceSquareMetres": 7398109.752461903,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.00032818962923959635,
+              "neighbourhoodCoveredFraction": 0.0018966635742009913,
+              "zoneCoveredFraction": 0.00039670303948980285,
+              "symmetricDifferenceSquareMetres": 11628046.847056028,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "62",
+          "name": "Creditview NHD",
+          "bestZone": {
+            "zoneId": "M12",
+            "intersectionOverUnion": 0.15032980355885675,
+            "neighbourhoodCoveredFraction": 0.7576860048382428,
+            "zoneCoveredFraction": 0.15792217486027135,
+            "symmetricDifferenceSquareMetres": 11177082.547326932,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 0.15032980355885675,
+              "neighbourhoodCoveredFraction": 0.7576860048382428,
+              "zoneCoveredFraction": 0.15792217486027135,
+              "symmetricDifferenceSquareMetres": 11177082.547326932,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M13",
+              "intersectionOverUnion": 0.08543146999229792,
+              "neighbourhoodCoveredFraction": 0.2423139951617673,
+              "zoneCoveredFraction": 0.11657169613799119,
+              "symmetricDifferenceSquareMetres": 6770344.538087322,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "47",
+          "name": "Ninth Line NHD",
+          "bestZone": {
+            "zoneId": "M1",
+            "intersectionOverUnion": 0.14915767820965095,
+            "neighbourhoodCoveredFraction": 0.6107691028141289,
+            "zoneCoveredFraction": 0.16482516677948936,
+            "symmetricDifferenceSquareMetres": 12198021.375047982,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M1",
+              "intersectionOverUnion": 0.14915767820965095,
+              "neighbourhoodCoveredFraction": 0.6107691028141289,
+              "zoneCoveredFraction": 0.16482516677948936,
+              "symmetricDifferenceSquareMetres": 12198021.375047982,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M5",
+              "intersectionOverUnion": 0.1095095963864066,
+              "neighbourhoodCoveredFraction": 0.3484261282785158,
+              "zoneCoveredFraction": 0.13771124756916509,
+              "symmetricDifferenceSquareMetres": 9919656.687503824,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "65",
+          "name": "Central Erin Mills MN",
+          "bestZone": {
+            "zoneId": "M6",
+            "intersectionOverUnion": 0.132787506881237,
+            "neighbourhoodCoveredFraction": 0.9974675050759796,
+            "zoneCoveredFraction": 0.13283228962543672,
+            "symmetricDifferenceSquareMetres": 7988444.357384198,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M6",
+              "intersectionOverUnion": 0.132787506881237,
+              "neighbourhoodCoveredFraction": 0.9974675050759796,
+              "zoneCoveredFraction": 0.13283228962543672,
+              "symmetricDifferenceSquareMetres": 7988444.357384198,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M5",
+              "intersectionOverUnion": 0.0003080485756171924,
+              "neighbourhoodCoveredFraction": 0.0025324949240295505,
+              "zoneCoveredFraction": 0.0003505851926370629,
+              "symmetricDifferenceSquareMetres": 10078379.869420443,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "48",
+          "name": "Malton NHD",
+          "bestZone": {
+            "zoneId": "M4",
+            "intersectionOverUnion": 0.12598740286086157,
+            "neighbourhoodCoveredFraction": 1.0000000000000002,
+            "zoneCoveredFraction": 0.1259874028608615,
+            "symmetricDifferenceSquareMetres": 44034137.64053826,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M4",
+              "intersectionOverUnion": 0.12598740286086157,
+              "neighbourhoodCoveredFraction": 1.0000000000000002,
+              "zoneCoveredFraction": 0.1259874028608615,
+              "symmetricDifferenceSquareMetres": 44034137.64053826,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "35",
+          "name": "Northeast EA (East)",
+          "bestZone": {
+            "zoneId": "M4",
+            "intersectionOverUnion": 0.11789483625780738,
+            "neighbourhoodCoveredFraction": 0.9999999999999996,
+            "zoneCoveredFraction": 0.1178948362578073,
+            "symmetricDifferenceSquareMetres": 44441853.951299146,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M4",
+              "intersectionOverUnion": 0.11789483625780738,
+              "neighbourhoodCoveredFraction": 0.9999999999999996,
+              "zoneCoveredFraction": 0.1178948362578073,
+              "symmetricDifferenceSquareMetres": 44441853.951299146,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "30",
+          "name": "DT Hospital",
+          "bestZone": {
+            "zoneId": "M17",
+            "intersectionOverUnion": 0.11715715435535255,
+            "neighbourhoodCoveredFraction": 1.0000000000000018,
+            "zoneCoveredFraction": 0.11715715435535251,
+            "symmetricDifferenceSquareMetres": 8495560.83912848,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.11715715435535255,
+              "neighbourhoodCoveredFraction": 1.0000000000000018,
+              "zoneCoveredFraction": 0.11715715435535251,
+              "symmetricDifferenceSquareMetres": 8495560.83912848,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "22",
+          "name": "DT Cooksville",
+          "bestZone": {
+            "zoneId": "M17",
+            "intersectionOverUnion": 0.09608715411224665,
+            "neighbourhoodCoveredFraction": 0.999759088729475,
+            "zoneCoveredFraction": 0.09608937897115176,
+            "symmetricDifferenceSquareMetres": 8698518.001499387,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M17",
+              "intersectionOverUnion": 0.09608715411224665,
+              "neighbourhoodCoveredFraction": 0.999759088729475,
+              "zoneCoveredFraction": 0.09608937897115176,
+              "symmetricDifferenceSquareMetres": 8698518.001499387,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M15",
+              "intersectionOverUnion": 4.937624959189537e-05,
+              "neighbourhoodCoveredFraction": 0.00024091127053279694,
+              "zoneCoveredFraction": 6.210120871210902e-05,
+              "symmetricDifferenceSquareMetres": 4512386.091633001,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "43",
+          "name": "Sheridan Park CC",
+          "bestZone": {
+            "zoneId": "M18",
+            "intersectionOverUnion": 0.08185100036074999,
+            "neighbourhoodCoveredFraction": 0.9984289152352821,
+            "zoneCoveredFraction": 0.0818615438992908,
+            "symmetricDifferenceSquareMetres": 18221157.50806027,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M18",
+              "intersectionOverUnion": 0.08185100036074999,
+              "neighbourhoodCoveredFraction": 0.9984289152352821,
+              "zoneCoveredFraction": 0.0818615438992908,
+              "symmetricDifferenceSquareMetres": 18221157.50806027,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "57",
+          "name": "Gateway CC",
+          "bestZone": {
+            "zoneId": "M3",
+            "intersectionOverUnion": 0.07995655490945164,
+            "neighbourhoodCoveredFraction": 0.6271895974344126,
+            "zoneCoveredFraction": 0.0839462967100537,
+            "symmetricDifferenceSquareMetres": 24771947.684261218,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M3",
+              "intersectionOverUnion": 0.07995655490945164,
+              "neighbourhoodCoveredFraction": 0.6271895974344126,
+              "zoneCoveredFraction": 0.0839462967100537,
+              "symmetricDifferenceSquareMetres": 24771947.684261218,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M9",
+              "intersectionOverUnion": 0.06712248580262213,
+              "neighbourhoodCoveredFraction": 0.23376756214471286,
+              "zoneCoveredFraction": 0.08605567824920682,
+              "symmetricDifferenceSquareMetres": 11151874.842525542,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M10",
+              "intersectionOverUnion": 0.019674879872283123,
+              "neighbourhoodCoveredFraction": 0.1390428404208355,
+              "zoneCoveredFraction": 0.022404342865870452,
+              "symmetricDifferenceSquareMetres": 23780102.29535375,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "46",
+          "name": "Port Credit NHD (West)",
+          "bestZone": {
+            "zoneId": "M20",
+            "intersectionOverUnion": 0.06364390726296108,
+            "neighbourhoodCoveredFraction": 0.9193689087318111,
+            "zoneCoveredFraction": 0.06400114497790904,
+            "symmetricDifferenceSquareMetres": 16927100.718671028,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M20",
+              "intersectionOverUnion": 0.06364390726296108,
+              "neighbourhoodCoveredFraction": 0.9193689087318111,
+              "zoneCoveredFraction": 0.06400114497790904,
+              "symmetricDifferenceSquareMetres": 16927100.718671028,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M19",
+              "intersectionOverUnion": 0.0047525658965813355,
+              "neighbourhoodCoveredFraction": 0.07831760460399363,
+              "zoneCoveredFraction": 0.005034128066443697,
+              "symmetricDifferenceSquareMetres": 20524419.10525668,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "42",
+          "name": "Lakeview Waterfront MN",
+          "bestZone": {
+            "zoneId": "M20",
+            "intersectionOverUnion": 0.058758559740186254,
+            "neighbourhoodCoveredFraction": 0.9986646843476735,
+            "zoneCoveredFraction": 0.05876317653585371,
+            "symmetricDifferenceSquareMetres": 16921770.09086389,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M20",
+              "intersectionOverUnion": 0.058758559740186254,
+              "neighbourhoodCoveredFraction": 0.9986646843476735,
+              "zoneCoveredFraction": 0.05876317653585371,
+              "symmetricDifferenceSquareMetres": 16921770.09086389,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "18",
+          "name": "Churchill Meadows EA",
+          "bestZone": {
+            "zoneId": "M5",
+            "intersectionOverUnion": 0.055732707906375155,
+            "neighbourhoodCoveredFraction": 0.7277399099923713,
+            "zoneCoveredFraction": 0.05691951219029136,
+            "symmetricDifferenceSquareMetres": 8542719.274111986,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M5",
+              "intersectionOverUnion": 0.055732707906375155,
+              "neighbourhoodCoveredFraction": 0.7277399099923713,
+              "zoneCoveredFraction": 0.05691951219029136,
+              "symmetricDifferenceSquareMetres": 8542719.274111986,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M11",
+              "intersectionOverUnion": 0.010061354122967995,
+              "neighbourhoodCoveredFraction": 0.2722600900075529,
+              "zoneCoveredFraction": 0.010339418107415078,
+              "symmetricDifferenceSquareMetres": 18559700.694191784,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "23",
+          "name": "UTM SPA",
+          "bestZone": {
+            "zoneId": "M11",
+            "intersectionOverUnion": 0.04977421943637509,
+            "neighbourhoodCoveredFraction": 0.9983826170464791,
+            "zoneCoveredFraction": 0.0497782332738868,
+            "symmetricDifferenceSquareMetres": 17337435.40517055,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M11",
+              "intersectionOverUnion": 0.04977421943637509,
+              "neighbourhoodCoveredFraction": 0.9983826170464791,
+              "zoneCoveredFraction": 0.0497782332738868,
+              "symmetricDifferenceSquareMetres": 17337435.40517055,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M12",
+              "intersectionOverUnion": 0.00010954466750707642,
+              "neighbourhoodCoveredFraction": 0.0016173829535218141,
+              "zoneCoveredFraction": 0.00011748929793882644,
+              "symmetricDifferenceSquareMetres": 13428872.082686892,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "44",
+          "name": "Port Credit CN",
+          "bestZone": {
+            "zoneId": "M20",
+            "intersectionOverUnion": 0.04431228389553923,
+            "neighbourhoodCoveredFraction": 0.9882246072993379,
+            "zoneCoveredFraction": 0.04433569367800113,
+            "symmetricDifferenceSquareMetres": 17189213.485494483,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M20",
+              "intersectionOverUnion": 0.04431228389553923,
+              "neighbourhoodCoveredFraction": 0.9882246072993379,
+              "zoneCoveredFraction": 0.04433569367800113,
+              "symmetricDifferenceSquareMetres": 17189213.485494483,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M19",
+              "intersectionOverUnion": 0.0001520914982581266,
+              "neighbourhoodCoveredFraction": 0.003822981554419715,
+              "zoneCoveredFraction": 0.00015836783495632519,
+              "symmetricDifferenceSquareMetres": 20269343.338864584,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "40",
+          "name": "Port Credit NHD (East)",
+          "bestZone": {
+            "zoneId": "M20",
+            "intersectionOverUnion": 0.041139169063643274,
+            "neighbourhoodCoveredFraction": 0.99777988797004,
+            "zoneCoveredFraction": 0.04114293515569628,
+            "symmetricDifferenceSquareMetres": 17238757.573097456,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M20",
+              "intersectionOverUnion": 0.041139169063643274,
+              "neighbourhoodCoveredFraction": 0.99777988797004,
+              "zoneCoveredFraction": 0.04114293515569628,
+              "symmetricDifferenceSquareMetres": 17238757.573097456,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M19",
+              "intersectionOverUnion": 6.885427535106625e-05,
+              "neighbourhoodCoveredFraction": 0.0018771623142662583,
+              "zoneCoveredFraction": 7.147090563264561e-05,
+              "symmetricDifferenceSquareMetres": 20207480.32147023,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "26",
+          "name": "South Common CN",
+          "bestZone": {
+            "zoneId": "M11",
+            "intersectionOverUnion": 0.037864120787181696,
+            "neighbourhoodCoveredFraction": 1.0,
+            "zoneCoveredFraction": 0.03786412078718172,
+            "symmetricDifferenceSquareMetres": 17553326.73379087,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M11",
+              "intersectionOverUnion": 0.037864120787181696,
+              "neighbourhoodCoveredFraction": 1.0,
+              "zoneCoveredFraction": 0.03786412078718172,
+              "symmetricDifferenceSquareMetres": 17553326.73379087,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "28",
+          "name": "Rathwood-Applewood CN",
+          "bestZone": {
+            "zoneId": "M14",
+            "intersectionOverUnion": 0.033537814622860485,
+            "neighbourhoodCoveredFraction": 0.5662206062057599,
+            "zoneCoveredFraction": 0.03442223151353801,
+            "symmetricDifferenceSquareMetres": 8072533.224961916,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M14",
+              "intersectionOverUnion": 0.033537814622860485,
+              "neighbourhoodCoveredFraction": 0.5662206062057599,
+              "zoneCoveredFraction": 0.03442223151353801,
+              "symmetricDifferenceSquareMetres": 8072533.224961916,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M16",
+              "intersectionOverUnion": 0.025180522520804473,
+              "neighbourhoodCoveredFraction": 0.43377939379427105,
+              "zoneCoveredFraction": 0.026036299805400114,
+              "symmetricDifferenceSquareMetres": 8308113.906015246,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "14",
+          "name": "Uptown MN",
+          "bestZone": {
+            "zoneId": "M9",
+            "intersectionOverUnion": 0.0331874944527261,
+            "neighbourhoodCoveredFraction": 0.3376275664228957,
+            "zoneCoveredFraction": 0.035498772265822244,
+            "symmetricDifferenceSquareMetres": 9642571.948130507,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M9",
+              "intersectionOverUnion": 0.0331874944527261,
+              "neighbourhoodCoveredFraction": 0.3376275664228957,
+              "zoneCoveredFraction": 0.035498772265822244,
+              "symmetricDifferenceSquareMetres": 9642571.948130507,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M10",
+              "intersectionOverUnion": 0.026340554547279616,
+              "neighbourhoodCoveredFraction": 0.5833247930495782,
+              "zoneCoveredFraction": 0.026845664939126507,
+              "symmetricDifferenceSquareMetres": 21138774.17216601,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M14",
+              "intersectionOverUnion": 0.0052650676889231885,
+              "neighbourhoodCoveredFraction": 0.04871422323416481,
+              "zoneCoveredFraction": 0.005868434537778766,
+              "symmetricDifferenceSquareMetres": 9022905.078389173,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M13",
+              "intersectionOverUnion": 0.004664113254127364,
+              "neighbourhoodCoveredFraction": 0.030333417293361784,
+              "zoneCoveredFraction": 0.005481371727522873,
+              "symmetricDifferenceSquareMetres": 6346132.146089475,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "20",
+          "name": "Streetsville CN",
+          "bestZone": {
+            "zoneId": "M2",
+            "intersectionOverUnion": 0.032429796376702714,
+            "neighbourhoodCoveredFraction": 0.9999999999999998,
+            "zoneCoveredFraction": 0.03242979637670272,
+            "symmetricDifferenceSquareMetres": 16166108.211433755,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M2",
+              "intersectionOverUnion": 0.032429796376702714,
+              "neighbourhoodCoveredFraction": 0.9999999999999998,
+              "zoneCoveredFraction": 0.03242979637670272,
+              "symmetricDifferenceSquareMetres": 16166108.211433755,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "34",
+          "name": "Clarkson EA",
+          "bestZone": {
+            "zoneId": "M18",
+            "intersectionOverUnion": 0.026475634331066967,
+            "neighbourhoodCoveredFraction": 0.9960613277423592,
+            "zoneCoveredFraction": 0.02647840638696018,
+            "symmetricDifferenceSquareMetres": 19319645.456827577,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M18",
+              "intersectionOverUnion": 0.026475634331066967,
+              "neighbourhoodCoveredFraction": 0.9960613277423592,
+              "zoneCoveredFraction": 0.02647840638696018,
+              "symmetricDifferenceSquareMetres": 19319645.456827577,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "37",
+          "name": "Meadowvale CN",
+          "bestZone": {
+            "zoneId": "M2",
+            "intersectionOverUnion": 0.023842067761931485,
+            "neighbourhoodCoveredFraction": 0.9897472044697179,
+            "zoneCoveredFraction": 0.023847957732489357,
+            "symmetricDifferenceSquareMetres": 16313620.634549217,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M2",
+              "intersectionOverUnion": 0.023842067761931485,
+              "neighbourhoodCoveredFraction": 0.9897472044697179,
+              "zoneCoveredFraction": 0.023847957732489357,
+              "symmetricDifferenceSquareMetres": 16313620.634549217,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M1",
+              "intersectionOverUnion": 0.00030866853637427085,
+              "neighbourhoodCoveredFraction": 0.010252795530342059,
+              "zoneCoveredFraction": 0.00031814844508060034,
+              "symmetricDifferenceSquareMetres": 13367979.32810967,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "68",
+          "name": "Sheridan CN",
+          "bestZone": {
+            "zoneId": "M18",
+            "intersectionOverUnion": 0.023754966238509624,
+            "neighbourhoodCoveredFraction": 0.9999999999999997,
+            "zoneCoveredFraction": 0.023754966238509624,
+            "symmetricDifferenceSquareMetres": 19371609.018055834,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M18",
+              "intersectionOverUnion": 0.023754966238509624,
+              "neighbourhoodCoveredFraction": 0.9999999999999997,
+              "zoneCoveredFraction": 0.023754966238509624,
+              "symmetricDifferenceSquareMetres": 19371609.018055834,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "31",
+          "name": "Clarkson Village CN",
+          "bestZone": {
+            "zoneId": "M18",
+            "intersectionOverUnion": 0.0194173611658652,
+            "neighbourhoodCoveredFraction": 0.872077598159379,
+            "zoneCoveredFraction": 0.019472825096776097,
+            "symmetricDifferenceSquareMetres": 19513259.119440336,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M18",
+              "intersectionOverUnion": 0.0194173611658652,
+              "neighbourhoodCoveredFraction": 0.872077598159379,
+              "zoneCoveredFraction": 0.019472825096776097,
+              "symmetricDifferenceSquareMetres": 19513259.119440336,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "M19",
+              "intersectionOverUnion": 0.0028546221435888927,
+              "neighbourhoodCoveredFraction": 0.12792240184061945,
+              "zoneCoveredFraction": 0.0029112774712322623,
+              "symmetricDifferenceSquareMetres": 19798721.42956683,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "66",
+          "name": "Malton CN",
+          "bestZone": {
+            "zoneId": "M4",
+            "intersectionOverUnion": 0.007638643917453531,
+            "neighbourhoodCoveredFraction": 1.0000000000000002,
+            "zoneCoveredFraction": 0.007638643917453527,
+            "symmetricDifferenceSquareMetres": 49996735.3856498,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "M4",
+              "intersectionOverUnion": 0.007638643917453531,
+              "neighbourhoodCoveredFraction": 1.0000000000000002,
+              "zoneCoveredFraction": 0.007638643917453527,
+              "symmetricDifferenceSquareMetres": 49996735.3856498,
+              "topologicalEquality": false
+            }
+          ]
+        }
+      ],
+      "hdzVsUnionOfContainedNeighbourhoods": [
+        {
+          "zoneId": "M1",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M10",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M11",
+          "fullyContainedNeighbourhoods": [
+            "South Common CN"
+          ],
+          "unionIntersectionOverUnion": 0.037864120787181696
+        },
+        {
+          "zoneId": "M12",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M13",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M14",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M15",
+          "fullyContainedNeighbourhoods": [
+            "Mississauga Valleys NHD"
+          ],
+          "unionIntersectionOverUnion": 0.776696795098913
+        },
+        {
+          "zoneId": "M16",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M17",
+          "fullyContainedNeighbourhoods": [
+            "Cooksville NHD (West)",
+            "DT Cooksville",
+            "DT Hospital"
+          ],
+          "unionIntersectionOverUnion": 0.6270088445561672
+        },
+        {
+          "zoneId": "M18",
+          "fullyContainedNeighbourhoods": [
+            "Sheridan CN"
+          ],
+          "unionIntersectionOverUnion": 0.023754966238509624
+        },
+        {
+          "zoneId": "M19",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M2",
+          "fullyContainedNeighbourhoods": [
+            "Streetsville CN"
+          ],
+          "unionIntersectionOverUnion": 0.032429796376702714
+        },
+        {
+          "zoneId": "M20",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M3",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M4",
+          "fullyContainedNeighbourhoods": [
+            "Northeast EA (East)",
+            "Malton NHD",
+            "Malton CN"
+          ],
+          "unionIntersectionOverUnion": 0.25152088303612247
+        },
+        {
+          "zoneId": "M5",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M6",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M7",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M8",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "M9",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        }
+      ]
+    },
+    "Brampton": {
+      "neighbourhoodCount": 53,
+      "zoneCount": 17,
+      "exactMatches": 0,
+      "matchesAbove99PercentIoU": 0,
+      "matchesAbove95PercentIoU": 0,
+      "bestMatches": [
+        {
+          "municipalId": "47",
+          "name": "EBENEZER EAST",
+          "bestZone": {
+            "zoneId": "B13",
+            "intersectionOverUnion": 0.7320484998254079,
+            "neighbourhoodCoveredFraction": 0.9989161731214324,
+            "zoneCoveredFraction": 0.7326304096218849,
+            "symmetricDifferenceSquareMetres": 1736099.6887608187,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B13",
+              "intersectionOverUnion": 0.7320484998254079,
+              "neighbourhoodCoveredFraction": 0.9989161731214324,
+              "zoneCoveredFraction": 0.7326304096218849,
+              "symmetricDifferenceSquareMetres": 1736099.6887608187,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B12",
+              "intersectionOverUnion": 0.0003091285202193854,
+              "neighbourhoodCoveredFraction": 0.0008522040339490715,
+              "zoneCoveredFraction": 0.0004848549323658872,
+              "symmetricDifferenceSquareMetres": 13085776.960959058,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B5",
+              "intersectionOverUnion": 3.5813442727891514e-06,
+              "neighbourhoodCoveredFraction": 2.719435660916848e-05,
+              "zoneCoveredFraction": 4.124503481890976e-06,
+              "symmetricDifferenceSquareMetres": 36054579.770046905,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "16",
+          "name": "ROYAL ORCHARD",
+          "bestZone": {
+            "zoneId": "B8",
+            "intersectionOverUnion": 0.5019945103547938,
+            "neighbourhoodCoveredFraction": 0.9981556814520298,
+            "zoneCoveredFraction": 0.5024605668905173,
+            "symmetricDifferenceSquareMetres": 3254540.511443204,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B8",
+              "intersectionOverUnion": 0.5019945103547938,
+              "neighbourhoodCoveredFraction": 0.9981556814520298,
+              "zoneCoveredFraction": 0.5024605668905173,
+              "symmetricDifferenceSquareMetres": 3254540.511443204,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B7",
+              "intersectionOverUnion": 0.0003385541334582703,
+              "neighbourhoodCoveredFraction": 0.001211196756255298,
+              "zoneCoveredFraction": 0.0004696803278609751,
+              "symmetricDifferenceSquareMetres": 11754272.586205618,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B14",
+              "intersectionOverUnion": 7.282545476657331e-05,
+              "neighbourhoodCoveredFraction": 0.00025850436056347307,
+              "zoneCoveredFraction": 0.00010137817767436194,
+              "symmetricDifferenceSquareMetres": 11665658.955548873,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B2",
+              "intersectionOverUnion": 5.5724223653087055e-05,
+              "neighbourhoodCoveredFraction": 0.0003744509426762584,
+              "zoneCoveredFraction": 6.54624193499843e-05,
+              "symmetricDifferenceSquareMetres": 22084264.33552681,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "14",
+          "name": "FLETCHERS WEST",
+          "bestZone": {
+            "zoneId": "B7",
+            "intersectionOverUnion": 0.496955451955682,
+            "neighbourhoodCoveredFraction": 0.9992583095744368,
+            "zoneCoveredFraction": 0.4971388269219894,
+            "symmetricDifferenceSquareMetres": 4265159.093170535,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B7",
+              "intersectionOverUnion": 0.496955451955682,
+              "neighbourhoodCoveredFraction": 0.9992583095744368,
+              "zoneCoveredFraction": 0.4971388269219894,
+              "symmetricDifferenceSquareMetres": 4265159.093170535,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B14",
+              "intersectionOverUnion": 7.757028435473932e-05,
+              "neighbourhoodCoveredFraction": 0.0002317246739528132,
+              "zoneCoveredFraction": 0.00011658995374010498,
+              "symmetricDifferenceSquareMetres": 12595391.944169765,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 4.42472963143348e-05,
+              "neighbourhoodCoveredFraction": 0.00045804824282527336,
+              "zoneCoveredFraction": 4.897621399151385e-05,
+              "symmetricDifferenceSquareMetres": 43648944.44852093,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B16",
+              "intersectionOverUnion": 1.79324506193901e-05,
+              "neighbourhoodCoveredFraction": 5.191750882533439e-05,
+              "zoneCoveredFraction": 2.7393881561805807e-05,
+              "symmetricDifferenceSquareMetres": 12207729.387673065,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "44",
+          "name": "VALLEY CREEK",
+          "bestZone": {
+            "zoneId": "B12",
+            "intersectionOverUnion": 0.44733889636366736,
+            "neighbourhoodCoveredFraction": 0.8144582854164018,
+            "zoneCoveredFraction": 0.49809933206448886,
+            "symmetricDifferenceSquareMetres": 5135695.210359403,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B12",
+              "intersectionOverUnion": 0.44733889636366736,
+              "neighbourhoodCoveredFraction": 0.8144582854164018,
+              "zoneCoveredFraction": 0.49809933206448886,
+              "symmetricDifferenceSquareMetres": 5135695.210359403,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B11",
+              "intersectionOverUnion": 0.018769338567130724,
+              "neighbourhoodCoveredFraction": 0.1851300234611939,
+              "zoneCoveredFraction": 0.020459615635286213,
+              "symmetricDifferenceSquareMetres": 49397748.68908278,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B5",
+              "intersectionOverUnion": 5.174972000532006e-05,
+              "neighbourhoodCoveredFraction": 0.00036915204135687493,
+              "zoneCoveredFraction": 6.0183444730156676e-05,
+              "symmetricDifferenceSquareMetres": 36406837.27977267,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B13",
+              "intersectionOverUnion": 9.311751571471044e-06,
+              "neighbourhoodCoveredFraction": 2.1122825037876205e-05,
+              "zoneCoveredFraction": 1.665278133743935e-05,
+              "symmetricDifferenceSquareMetres": 11577765.119988525,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B4",
+              "intersectionOverUnion": 6.449168635899476e-06,
+              "neighbourhoodCoveredFraction": 2.1416256015571e-05,
+              "zoneCoveredFraction": 9.227965906192764e-06,
+              "symmetricDifferenceSquareMetres": 16949042.696902845,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "18",
+          "name": "RIDGEHILL / ARMBRO HEIGHTS",
+          "bestZone": {
+            "zoneId": "B14",
+            "intersectionOverUnion": 0.38259910871495517,
+            "neighbourhoodCoveredFraction": 0.9983243762700131,
+            "zoneCoveredFraction": 0.382844959565045,
+            "symmetricDifferenceSquareMetres": 5177568.595151812,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B14",
+              "intersectionOverUnion": 0.38259910871495517,
+              "neighbourhoodCoveredFraction": 0.9983243762700131,
+              "zoneCoveredFraction": 0.382844959565045,
+              "symmetricDifferenceSquareMetres": 5177568.595151812,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B7",
+              "intersectionOverUnion": 0.00041326080173070953,
+              "neighbourhoodCoveredFraction": 0.0015024777474489407,
+              "zoneCoveredFraction": 0.0005697316828338151,
+              "symmetricDifferenceSquareMetres": 11679794.68282404,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B16",
+              "intersectionOverUnion": 4.966353324866274e-05,
+              "neighbourhoodCoveredFraction": 0.00017314598251831932,
+              "zoneCoveredFraction": 6.963291167486735e-05,
+              "symmetricDifferenceSquareMetres": 11204284.401441474,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "22",
+          "name": "CENTRE",
+          "bestZone": {
+            "zoneId": "B8",
+            "intersectionOverUnion": 0.3671152200935791,
+            "neighbourhoodCoveredFraction": 0.7338473532241008,
+            "zoneCoveredFraction": 0.4235028416125937,
+            "symmetricDifferenceSquareMetres": 4766846.045093839,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B8",
+              "intersectionOverUnion": 0.3671152200935791,
+              "neighbourhoodCoveredFraction": 0.7338473532241008,
+              "zoneCoveredFraction": 0.4235028416125937,
+              "symmetricDifferenceSquareMetres": 4766846.045093839,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 0.05485797871149221,
+              "neighbourhoodCoveredFraction": 0.2657244326322371,
+              "zoneCoveredFraction": 0.06465966613057442,
+              "symmetricDifferenceSquareMetres": 17250110.89648678,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B14",
+              "intersectionOverUnion": 7.997523820347706e-05,
+              "neighbourhoodCoveredFraction": 0.0002578366324044669,
+              "zoneCoveredFraction": 0.00011592260253768914,
+              "symmetricDifferenceSquareMetres": 12146676.7993977,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B2",
+              "intersectionOverUnion": 2.3415708235848943e-05,
+              "neighbourhoodCoveredFraction": 0.00014024481911094575,
+              "zoneCoveredFraction": 2.810805831139588e-05,
+              "symmetricDifferenceSquareMetres": 22566930.49198697,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 1.0646625272815506e-05,
+              "neighbourhoodCoveredFraction": 3.013269215725224e-05,
+              "zoneCoveredFraction": 1.6463363393234972e-05,
+              "symmetricDifferenceSquareMetres": 10664106.521815406,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "33",
+          "name": "SANDALWOOD WEST (SUNNY MEADOW)",
+          "bestZone": {
+            "zoneId": "B4",
+            "intersectionOverUnion": 0.35608576944178477,
+            "neighbourhoodCoveredFraction": 0.9986080442681969,
+            "zoneCoveredFraction": 0.3562625991431382,
+            "symmetricDifferenceSquareMetres": 7631138.990970527,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B4",
+              "intersectionOverUnion": 0.35608576944178477,
+              "neighbourhoodCoveredFraction": 0.9986080442681969,
+              "zoneCoveredFraction": 0.3562625991431382,
+              "symmetricDifferenceSquareMetres": 7631138.990970527,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B3",
+              "intersectionOverUnion": 0.0003226457285033666,
+              "neighbourhoodCoveredFraction": 0.0012207717296211658,
+              "zoneCoveredFraction": 0.00043836179223957734,
+              "symmetricDifferenceSquareMetres": 15984140.782969292,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B10",
+              "intersectionOverUnion": 6.36882820704844e-05,
+              "neighbourhoodCoveredFraction": 0.0001711840021859747,
+              "zoneCoveredFraction": 0.00010141156666028625,
+              "symmetricDifferenceSquareMetres": 11357869.628827654,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "36",
+          "name": "SANDALWOOD EAST (MOUNTAINASH)",
+          "bestZone": {
+            "zoneId": "B4",
+            "intersectionOverUnion": 0.3552042867909282,
+            "neighbourhoodCoveredFraction": 0.9998676526073065,
+            "zoneCoveredFraction": 0.35522098806826496,
+            "symmetricDifferenceSquareMetres": 7638151.8398146,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B4",
+              "intersectionOverUnion": 0.3552042867909282,
+              "neighbourhoodCoveredFraction": 0.9998676526073065,
+              "zoneCoveredFraction": 0.35522098806826496,
+              "symmetricDifferenceSquareMetres": 7638151.8398146,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B5",
+              "intersectionOverUnion": 1.5682437981103655e-05,
+              "neighbourhoodCoveredFraction": 0.00013234739270413725,
+              "zoneCoveredFraction": 1.7790199798056376e-05,
+              "symmetricDifferenceSquareMetres": 35513773.979845464,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "20",
+          "name": "COUNTY COURT",
+          "bestZone": {
+            "zoneId": "B16",
+            "intersectionOverUnion": 0.33207454406956183,
+            "neighbourhoodCoveredFraction": 0.9982453437481666,
+            "zoneCoveredFraction": 0.33226848947567783,
+            "symmetricDifferenceSquareMetres": 5340849.241570369,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B16",
+              "intersectionOverUnion": 0.33207454406956183,
+              "neighbourhoodCoveredFraction": 0.9982453437481666,
+              "zoneCoveredFraction": 0.33226848947567783,
+              "symmetricDifferenceSquareMetres": 5340849.241570369,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B14",
+              "intersectionOverUnion": 0.0003143688231153981,
+              "neighbourhoodCoveredFraction": 0.0013044222706942057,
+              "zoneCoveredFraction": 0.00041401796929655906,
+              "symmetricDifferenceSquareMetres": 11033741.40043619,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 6.600841473930972e-05,
+              "neighbourhoodCoveredFraction": 0.0004502339811137769,
+              "zoneCoveredFraction": 7.734241393253155e-05,
+              "symmetricDifferenceSquareMetres": 18142240.281019308,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "21",
+          "name": "PEEL VILLAGE",
+          "bestZone": {
+            "zoneId": "B14",
+            "intersectionOverUnion": 0.3073158587612879,
+            "neighbourhoodCoveredFraction": 0.8958877376871326,
+            "zoneCoveredFraction": 0.3186976910111796,
+            "symmetricDifferenceSquareMetres": 6020170.885444601,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B14",
+              "intersectionOverUnion": 0.3073158587612879,
+              "neighbourhoodCoveredFraction": 0.8958877376871326,
+              "zoneCoveredFraction": 0.3186976910111796,
+              "symmetricDifferenceSquareMetres": 6020170.885444601,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 0.017096117327595053,
+              "neighbourhoodCoveredFraction": 0.10411226231288236,
+              "zoneCoveredFraction": 0.020044982209595167,
+              "symmetricDifferenceSquareMetres": 17845158.054476656,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "19",
+          "name": "SHERIDAN",
+          "bestZone": {
+            "zoneId": "B16",
+            "intersectionOverUnion": 0.30243472290242773,
+            "neighbourhoodCoveredFraction": 0.9990020629865028,
+            "zoneCoveredFraction": 0.3025261197622245,
+            "symmetricDifferenceSquareMetres": 5576283.321988333,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B16",
+              "intersectionOverUnion": 0.30243472290242773,
+              "neighbourhoodCoveredFraction": 0.9990020629865028,
+              "zoneCoveredFraction": 0.3025261197622245,
+              "symmetricDifferenceSquareMetres": 5576283.321988333,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B14",
+              "intersectionOverUnion": 0.00022365154045180568,
+              "neighbourhoodCoveredFraction": 0.000997937013542113,
+              "zoneCoveredFraction": 0.00028816998562509186,
+              "symmetricDifferenceSquareMetres": 10795912.080870688,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "4",
+          "name": "BRAMALEA WOODS",
+          "bestZone": {
+            "zoneId": "B9",
+            "intersectionOverUnion": 0.2996957750398233,
+            "neighbourhoodCoveredFraction": 0.9941931354761993,
+            "zoneCoveredFraction": 0.30022129964539157,
+            "symmetricDifferenceSquareMetres": 4838047.512490876,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 0.2996957750398233,
+              "neighbourhoodCoveredFraction": 0.9941931354761993,
+              "zoneCoveredFraction": 0.30022129964539157,
+              "symmetricDifferenceSquareMetres": 4838047.512490876,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 0.0006888615117013081,
+              "neighbourhoodCoveredFraction": 0.005806864523854063,
+              "zoneCoveredFraction": 0.000780968962076847,
+              "symmetricDifferenceSquareMetres": 17542995.20362319,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "8",
+          "name": "MOUNT PLEASANT VILLAGE",
+          "bestZone": {
+            "zoneId": "B1-B",
+            "intersectionOverUnion": 0.2957830633838196,
+            "neighbourhoodCoveredFraction": 0.8951558057128864,
+            "zoneCoveredFraction": 0.30639768547433716,
+            "symmetricDifferenceSquareMetres": 7051769.512368534,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B1-B",
+              "intersectionOverUnion": 0.2957830633838196,
+              "neighbourhoodCoveredFraction": 0.8951558057128864,
+              "zoneCoveredFraction": 0.30639768547433716,
+              "symmetricDifferenceSquareMetres": 7051769.512368534,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-A",
+              "intersectionOverUnion": 0.013151010288732055,
+              "neighbourhoodCoveredFraction": 0.10484346753498065,
+              "zoneCoveredFraction": 0.01481442926409378,
+              "symmetricDifferenceSquareMetres": 26031504.702751435,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "29",
+          "name": "M-SECTION (BRAMALEA)",
+          "bestZone": {
+            "zoneId": "B10",
+            "intersectionOverUnion": 0.2946051963396548,
+            "neighbourhoodCoveredFraction": 0.9989527451732084,
+            "zoneCoveredFraction": 0.2946962133118986,
+            "symmetricDifferenceSquareMetres": 5033417.918053174,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B10",
+              "intersectionOverUnion": 0.2946051963396548,
+              "neighbourhoodCoveredFraction": 0.9989527451732084,
+              "zoneCoveredFraction": 0.2946962133118986,
+              "symmetricDifferenceSquareMetres": 5033417.918053174,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 0.00024247028731959482,
+              "neighbourhoodCoveredFraction": 0.00103683036964878,
+              "zoneCoveredFraction": 0.00031638173251295797,
+              "symmetricDifferenceSquareMetres": 8996426.973686706,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B3",
+              "intersectionOverUnion": 1.5812919874640786e-06,
+              "neighbourhoodCoveredFraction": 1.0424457139942158e-05,
+              "zoneCoveredFraction": 1.8640474917817285e-06,
+              "symmetricDifferenceSquareMetres": 13872888.118819732,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "35",
+          "name": "G-SECTION (BRAMALEA)",
+          "bestZone": {
+            "zoneId": "B10",
+            "intersectionOverUnion": 0.28640976157922743,
+            "neighbourhoodCoveredFraction": 0.9981039065673567,
+            "zoneCoveredFraction": 0.28656567947687617,
+            "symmetricDifferenceSquareMetres": 5093095.770254241,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B10",
+              "intersectionOverUnion": 0.28640976157922743,
+              "neighbourhoodCoveredFraction": 0.9981039065673567,
+              "zoneCoveredFraction": 0.28656567947687617,
+              "symmetricDifferenceSquareMetres": 5093095.770254241,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 0.00017893567873843567,
+              "neighbourhoodCoveredFraction": 0.0015315224103347562,
+              "zoneCoveredFraction": 0.0002025663001983153,
+              "symmetricDifferenceSquareMetres": 17526439.41527471,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B11",
+              "intersectionOverUnion": 1.5481099184344192e-05,
+              "neighbourhoodCoveredFraction": 0.00036457102229116837,
+              "zoneCoveredFraction": 1.6167378472452647e-05,
+              "symmetricDifferenceSquareMetres": 48230152.16759235,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "39",
+          "name": "CASTLEMORE ESTATES",
+          "bestZone": {
+            "zoneId": "B5",
+            "intersectionOverUnion": 0.28639184525895794,
+            "neighbourhoodCoveredFraction": 0.9995245969700315,
+            "zoneCoveredFraction": 0.28643086181363575,
+            "symmetricDifferenceSquareMetres": 22343713.63628854,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B5",
+              "intersectionOverUnion": 0.28639184525895794,
+              "neighbourhoodCoveredFraction": 0.9995245969700315,
+              "zoneCoveredFraction": 0.28643086181363575,
+              "symmetricDifferenceSquareMetres": 22343713.63628854,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B12",
+              "intersectionOverUnion": 0.00024635195338560306,
+              "neighbourhoodCoveredFraction": 0.00047540302997889475,
+              "zoneCoveredFraction": 0.0005110502618960978,
+              "symmetricDifferenceSquareMetres": 17308588.250376992,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "3",
+          "name": "N-SECTION (BRAMALEA)",
+          "bestZone": {
+            "zoneId": "B9",
+            "intersectionOverUnion": 0.28533801630849953,
+            "neighbourhoodCoveredFraction": 0.9959994828787514,
+            "zoneCoveredFraction": 0.28566541302496556,
+            "symmetricDifferenceSquareMetres": 4934250.645524024,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 0.28533801630849953,
+              "neighbourhoodCoveredFraction": 0.9959994828787514,
+              "zoneCoveredFraction": 0.28566541302496556,
+              "symmetricDifferenceSquareMetres": 4934250.645524024,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B3",
+              "intersectionOverUnion": 0.0005737952585483033,
+              "neighbourhoodCoveredFraction": 0.003985469546295399,
+              "zoneCoveredFraction": 0.0006698504876938424,
+              "symmetricDifferenceSquareMetres": 13730751.993524075,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B10",
+              "intersectionOverUnion": 3.266668046812952e-06,
+              "neighbourhoodCoveredFraction": 1.5047574938237215e-05,
+              "zoneCoveredFraction": 4.172448486969687e-06,
+              "symmetricDifferenceSquareMetres": 9111316.699397184,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "34",
+          "name": "PROFESSORS LAKE",
+          "bestZone": {
+            "zoneId": "B10",
+            "intersectionOverUnion": 0.2801198991866441,
+            "neighbourhoodCoveredFraction": 0.7526468746870992,
+            "zoneCoveredFraction": 0.3085224159169446,
+            "symmetricDifferenceSquareMetres": 5655871.228529821,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B10",
+              "intersectionOverUnion": 0.2801198991866441,
+              "neighbourhoodCoveredFraction": 0.7526468746870992,
+              "zoneCoveredFraction": 0.3085224159169446,
+              "symmetricDifferenceSquareMetres": 5655871.228529821,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B11",
+              "intersectionOverUnion": 0.014652447239293867,
+              "neighbourhoodCoveredFraction": 0.24252146013720705,
+              "zoneCoveredFraction": 0.015355171583733675,
+              "symmetricDifferenceSquareMetres": 47689359.90883972,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B4",
+              "intersectionOverUnion": 0.00095745639765866,
+              "neighbourhoodCoveredFraction": 0.004831409955305674,
+              "zoneCoveredFraction": 0.001192669755621982,
+              "symmetricDifferenceSquareMetres": 14741134.54784362,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "45",
+          "name": "RIVERS EDGE / CASTLEMORE CROSSING",
+          "bestZone": {
+            "zoneId": "B12",
+            "intersectionOverUnion": 0.2794866352460323,
+            "neighbourhoodCoveredFraction": 0.9982202461676299,
+            "zoneCoveredFraction": 0.27962597406266304,
+            "symmetricDifferenceSquareMetres": 6016162.384194596,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B12",
+              "intersectionOverUnion": 0.2794866352460323,
+              "neighbourhoodCoveredFraction": 0.9982202461676299,
+              "zoneCoveredFraction": 0.27962597406266304,
+              "symmetricDifferenceSquareMetres": 6016162.384194596,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B13",
+              "intersectionOverUnion": 0.000220000582230811,
+              "neighbourhoodCoveredFraction": 0.0008290534495555624,
+              "zoneCoveredFraction": 0.00029937899807787056,
+              "symmetricDifferenceSquareMetres": 8807959.8250647,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B5",
+              "intersectionOverUnion": 6.606492774687402e-05,
+              "neighbourhoodCoveredFraction": 0.0009507003828231013,
+              "zoneCoveredFraction": 7.099364238055762e-05,
+              "symmetricDifferenceSquareMetres": 33640015.86785312,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "23",
+          "name": "HEART LAKE SOUTH",
+          "bestZone": {
+            "zoneId": "B2",
+            "intersectionOverUnion": 0.2652868520886652,
+            "neighbourhoodCoveredFraction": 0.9426383560442434,
+            "zoneCoveredFraction": 0.26963972598518116,
+            "symmetricDifferenceSquareMetres": 14039287.7478343,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B2",
+              "intersectionOverUnion": 0.2652868520886652,
+              "neighbourhoodCoveredFraction": 0.9426383560442434,
+              "zoneCoveredFraction": 0.26963972598518116,
+              "symmetricDifferenceSquareMetres": 14039287.7478343,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B3",
+              "intersectionOverUnion": 0.017876056396118726,
+              "neighbourhoodCoveredFraction": 0.05599487758685169,
+              "zoneCoveredFraction": 0.02558724422711152,
+              "symmetricDifferenceSquareMetres": 16544009.287458647,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B8",
+              "intersectionOverUnion": 0.0004103279948628701,
+              "neighbourhoodCoveredFraction": 0.0009081348025204662,
+              "zoneCoveredFraction": 0.0007479897845490399,
+              "symmetricDifferenceSquareMetres": 11897037.06284858,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 0.00020098277447431963,
+              "neighbourhoodCoveredFraction": 0.0004586315663716867,
+              "zoneCoveredFraction": 0.00035763443060390015,
+              "symmetricDifferenceSquareMetres": 12269184.403202027,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "51",
+          "name": "NORTHWOOD PARK",
+          "bestZone": {
+            "zoneId": "B7",
+            "intersectionOverUnion": 0.2600400866299268,
+            "neighbourhoodCoveredFraction": 0.9973277495754477,
+            "zoneCoveredFraction": 0.2602213969638709,
+            "symmetricDifferenceSquareMetres": 6275949.782117881,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B7",
+              "intersectionOverUnion": 0.2600400866299268,
+              "neighbourhoodCoveredFraction": 0.9973277495754477,
+              "zoneCoveredFraction": 0.2602213969638709,
+              "symmetricDifferenceSquareMetres": 6275949.782117881,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 0.00014191315977286879,
+              "neighbourhoodCoveredFraction": 0.002672250424617735,
+              "zoneCoveredFraction": 0.00014984985580518247,
+              "symmetricDifferenceSquareMetres": 41635761.71485555,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "17",
+          "name": "DOWNTOWN",
+          "bestZone": {
+            "zoneId": "B14",
+            "intersectionOverUnion": 0.26002176215087586,
+            "neighbourhoodCoveredFraction": 0.6744654877987037,
+            "zoneCoveredFraction": 0.2973379574145198,
+            "symmetricDifferenceSquareMetres": 7091518.395441586,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B14",
+              "intersectionOverUnion": 0.26002176215087586,
+              "neighbourhoodCoveredFraction": 0.6744654877987037,
+              "zoneCoveredFraction": 0.2973379574145198,
+              "symmetricDifferenceSquareMetres": 7091518.395441586,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B8",
+              "intersectionOverUnion": 0.04851192439134798,
+              "neighbourhoodCoveredFraction": 0.12803051563541215,
+              "zoneCoveredFraction": 0.07244880232328405,
+              "symmetricDifferenceSquareMetres": 9277662.998735871,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 0.03955123604277467,
+              "neighbourhoodCoveredFraction": 0.197503996565901,
+              "zoneCoveredFraction": 0.047124307023251044,
+              "symmetricDifferenceSquareMetres": 17719859.78558057,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "1",
+          "name": "LAKELANDS VILLAGE",
+          "bestZone": {
+            "zoneId": "B9",
+            "intersectionOverUnion": 0.2544191150424083,
+            "neighbourhoodCoveredFraction": 0.9988419919042185,
+            "zoneCoveredFraction": 0.25449418089085535,
+            "symmetricDifferenceSquareMetres": 5143341.8019350795,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 0.2544191150424083,
+              "neighbourhoodCoveredFraction": 0.9988419919042185,
+              "zoneCoveredFraction": 0.25449418089085535,
+              "symmetricDifferenceSquareMetres": 5143341.8019350795,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B8",
+              "intersectionOverUnion": 0.00021262994122895357,
+              "neighbourhoodCoveredFraction": 0.0010025009994452984,
+              "zoneCoveredFraction": 0.00026979621059749543,
+              "symmetricDifferenceSquareMetres": 8282693.834116153,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B2",
+              "intersectionOverUnion": 1.3292171673472353e-05,
+              "neighbourhoodCoveredFraction": 0.00015550709632623417,
+              "zoneCoveredFraction": 1.453431827235981e-05,
+              "symmetricDifferenceSquareMetres": 20556636.887645096,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "13",
+          "name": "HICKORY WOODS",
+          "bestZone": {
+            "zoneId": "B16",
+            "intersectionOverUnion": 0.2374359456293729,
+            "neighbourhoodCoveredFraction": 0.9976010256587896,
+            "zoneCoveredFraction": 0.23757159247297782,
+            "symmetricDifferenceSquareMetres": 6097518.437545712,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B16",
+              "intersectionOverUnion": 0.2374359456293729,
+              "neighbourhoodCoveredFraction": 0.9976010256587896,
+              "zoneCoveredFraction": 0.23757159247297782,
+              "symmetricDifferenceSquareMetres": 6097518.437545712,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 0.00010034379666392423,
+              "neighbourhoodCoveredFraction": 0.0021794322559205138,
+              "zoneCoveredFraction": 0.00010517566245342147,
+              "symmetricDifferenceSquareMetres": 41330973.75853685,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B7",
+              "intersectionOverUnion": 4.0238962145001146e-05,
+              "neighbourhoodCoveredFraction": 0.0002194346535538707,
+              "zoneCoveredFraction": 4.92723211276838e-05,
+              "symmetricDifferenceSquareMetres": 10377848.823921897,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "15",
+          "name": "FLETCHERS MEADOW SOUTH",
+          "bestZone": {
+            "zoneId": "B1-B",
+            "intersectionOverUnion": 0.23584758128807223,
+            "neighbourhoodCoveredFraction": 0.9955974779322173,
+            "zoneCoveredFraction": 0.23609380721220563,
+            "symmetricDifferenceSquareMetres": 7394564.923112624,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B1-B",
+              "intersectionOverUnion": 0.23584758128807223,
+              "neighbourhoodCoveredFraction": 0.9955974779322173,
+              "zoneCoveredFraction": 0.23609380721220563,
+              "symmetricDifferenceSquareMetres": 7394564.923112624,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B7",
+              "intersectionOverUnion": 0.00044315798184016154,
+              "neighbourhoodCoveredFraction": 0.0020807374786305046,
+              "zoneCoveredFraction": 0.0005627674859468196,
+              "symmetricDifferenceSquareMetres": 10758370.174104957,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B2",
+              "intersectionOverUnion": 0.00025239792147559203,
+              "neighbourhoodCoveredFraction": 0.002321784589098935,
+              "zoneCoveredFraction": 0.0002831020958474949,
+              "symmetricDifferenceSquareMetres": 21081756.579956546,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "25",
+          "name": "SNELGROVE",
+          "bestZone": {
+            "zoneId": "B2",
+            "intersectionOverUnion": 0.22409907915619423,
+            "neighbourhoodCoveredFraction": 0.9946242590120454,
+            "zoneCoveredFraction": 0.22437083930552296,
+            "symmetricDifferenceSquareMetres": 14604669.072613148,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B2",
+              "intersectionOverUnion": 0.22409907915619423,
+              "neighbourhoodCoveredFraction": 0.9946242590120454,
+              "zoneCoveredFraction": 0.22437083930552296,
+              "symmetricDifferenceSquareMetres": 14604669.072613148,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "48",
+          "name": "FLETCHERS CREEK VILLAGE / LUNDY VILLAGE",
+          "bestZone": {
+            "zoneId": "B7",
+            "intersectionOverUnion": 0.2214719619441878,
+            "neighbourhoodCoveredFraction": 0.7356363370534585,
+            "zoneCoveredFraction": 0.2406231034008622,
+            "symmetricDifferenceSquareMetres": 7169046.44185347,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B7",
+              "intersectionOverUnion": 0.2214719619441878,
+              "neighbourhoodCoveredFraction": 0.7356363370534585,
+              "zoneCoveredFraction": 0.2406231034008622,
+              "symmetricDifferenceSquareMetres": 7169046.44185347,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-B",
+              "intersectionOverUnion": 0.06187236257982258,
+              "neighbourhoodCoveredFraction": 0.2614379571195758,
+              "zoneCoveredFraction": 0.07497766158207868,
+              "symmetricDifferenceSquareMetres": 10989465.94714515,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-A",
+              "intersectionOverUnion": 0.00020455758989076,
+              "neighbourhoodCoveredFraction": 0.0019319710532403112,
+              "zoneCoveredFraction": 0.00022872864971855653,
+              "symmetricDifferenceSquareMetres": 26178145.977595862,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 6.527426643014608e-05,
+              "neighbourhoodCoveredFraction": 0.0009937347738296948,
+              "zoneCoveredFraction": 6.985841237562393e-05,
+              "symmetricDifferenceSquareMetres": 42202954.33325839,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "41",
+          "name": "NEW SPRINGBROOK",
+          "bestZone": {
+            "zoneId": "B6",
+            "intersectionOverUnion": 0.21070085087999402,
+            "neighbourhoodCoveredFraction": 0.9999999999999996,
+            "zoneCoveredFraction": 0.21070085087999404,
+            "symmetricDifferenceSquareMetres": 31126918.319978327,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 0.21070085087999402,
+              "neighbourhoodCoveredFraction": 0.9999999999999996,
+              "zoneCoveredFraction": 0.21070085087999404,
+              "symmetricDifferenceSquareMetres": 31126918.319978327,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "46",
+          "name": "EBENEZER WEST",
+          "bestZone": {
+            "zoneId": "B12",
+            "intersectionOverUnion": 0.18754713789389435,
+            "neighbourhoodCoveredFraction": 0.5520112057422895,
+            "zoneCoveredFraction": 0.2212176271943503,
+            "symmetricDifferenceSquareMetres": 7997762.551361105,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B12",
+              "intersectionOverUnion": 0.18754713789389435,
+              "neighbourhoodCoveredFraction": 0.5520112057422895,
+              "zoneCoveredFraction": 0.2212176271943503,
+              "symmetricDifferenceSquareMetres": 7997762.551361105,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B13",
+              "intersectionOverUnion": 0.17904704262256244,
+              "neighbourhoodCoveredFraction": 0.4458094878820836,
+              "zoneCoveredFraction": 0.23030788493513035,
+              "symmetricDifferenceSquareMetres": 6836491.950523948,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B11",
+              "intersectionOverUnion": 0.00014618099197194595,
+              "neighbourhoodCoveredFraction": 0.0021644427423249523,
+              "zoneCoveredFraction": 0.00015674418502128687,
+              "symmetricDifferenceSquareMetres": 49513609.45098636,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "49",
+          "name": "FLETCHERS MEADOW NORTH",
+          "bestZone": {
+            "zoneId": "B1-B",
+            "intersectionOverUnion": 0.1864924159177025,
+            "neighbourhoodCoveredFraction": 0.6878158292876952,
+            "zoneCoveredFraction": 0.20373774048491178,
+            "symmetricDifferenceSquareMetres": 8591151.58236018,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B1-B",
+              "intersectionOverUnion": 0.1864924159177025,
+              "neighbourhoodCoveredFraction": 0.6878158292876952,
+              "zoneCoveredFraction": 0.20373774048491178,
+              "symmetricDifferenceSquareMetres": 8591151.58236018,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-A",
+              "intersectionOverUnion": 0.03508100732149215,
+              "neighbourhoodCoveredFraction": 0.3110591517152744,
+              "zoneCoveredFraction": 0.03803636473343243,
+              "symmetricDifferenceSquareMetres": 24498560.534234043,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B2",
+              "intersectionOverUnion": 6.248591399506423e-05,
+              "neighbourhoodCoveredFraction": 0.000472719473764893,
+              "zoneCoveredFraction": 7.199845299231396e-05,
+              "symmetricDifferenceSquareMetres": 21660726.214842137,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "30",
+          "name": "DEERFIELD",
+          "bestZone": {
+            "zoneId": "B3",
+            "intersectionOverUnion": 0.1847018433671998,
+            "neighbourhoodCoveredFraction": 0.9992112234520858,
+            "zoneCoveredFraction": 0.18472877746743052,
+            "symmetricDifferenceSquareMetres": 9596269.907242738,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B3",
+              "intersectionOverUnion": 0.1847018433671998,
+              "neighbourhoodCoveredFraction": 0.9992112234520858,
+              "zoneCoveredFraction": 0.18472877746743052,
+              "symmetricDifferenceSquareMetres": 9596269.907242738,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B10",
+              "intersectionOverUnion": 0.00016565061210269594,
+              "neighbourhoodCoveredFraction": 0.0007086456097420045,
+              "zoneCoveredFraction": 0.00021613865235362205,
+              "symmetricDifferenceSquareMetres": 9306021.021568071,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B4",
+              "intersectionOverUnion": 1.2410545895014982e-05,
+              "neighbourhoodCoveredFraction": 7.997687297620521e-05,
+              "zoneCoveredFraction": 1.4689892361144834e-05,
+              "symmetricDifferenceSquareMetres": 14020647.325501299,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "7",
+          "name": "MOUNT PLEASANT NORTH",
+          "bestZone": {
+            "zoneId": "B1-B",
+            "intersectionOverUnion": 0.1784863196762415,
+            "neighbourhoodCoveredFraction": 0.9990700790369392,
+            "zoneCoveredFraction": 0.17851597701044772,
+            "symmetricDifferenceSquareMetres": 7942668.223516016,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B1-B",
+              "intersectionOverUnion": 0.1784863196762415,
+              "neighbourhoodCoveredFraction": 0.9990700790369392,
+              "zoneCoveredFraction": 0.17851597701044772,
+              "symmetricDifferenceSquareMetres": 7942668.223516016,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-A",
+              "intersectionOverUnion": 6.388563814457123e-05,
+              "neighbourhoodCoveredFraction": 0.0009299209630337443,
+              "zoneCoveredFraction": 6.859364437939867e-05,
+              "symmetricDifferenceSquareMetres": 25140601.182295565,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "31",
+          "name": "SPRINGDALE",
+          "bestZone": {
+            "zoneId": "B3",
+            "intersectionOverUnion": 0.17126084099531744,
+            "neighbourhoodCoveredFraction": 0.9999118813993937,
+            "zoneCoveredFraction": 0.17126342580494142,
+            "symmetricDifferenceSquareMetres": 9753198.941921493,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B3",
+              "intersectionOverUnion": 0.17126084099531744,
+              "neighbourhoodCoveredFraction": 0.9999118813993937,
+              "zoneCoveredFraction": 0.17126342580494142,
+              "symmetricDifferenceSquareMetres": 9753198.941921493,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B4",
+              "intersectionOverUnion": 1.2814583519829745e-05,
+              "neighbourhoodCoveredFraction": 8.811860059401626e-05,
+              "zoneCoveredFraction": 1.4995033178789836e-05,
+              "symmetricDifferenceSquareMetres": 13860634.013463628,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "50",
+          "name": "CREDITVIEW",
+          "bestZone": {
+            "zoneId": "B1-A",
+            "intersectionOverUnion": 0.16180448958781626,
+            "neighbourhoodCoveredFraction": 0.9999132242108953,
+            "zoneCoveredFraction": 0.16180676166716024,
+            "symmetricDifferenceSquareMetres": 19627916.11099524,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B1-A",
+              "intersectionOverUnion": 0.16180448958781626,
+              "neighbourhoodCoveredFraction": 0.9999132242108953,
+              "zoneCoveredFraction": 0.16180676166716024,
+              "symmetricDifferenceSquareMetres": 19627916.11099524,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-B",
+              "intersectionOverUnion": 2.4437117198755136e-05,
+              "neighbourhoodCoveredFraction": 8.677578909714807e-05,
+              "zoneCoveredFraction": 3.4015450315819185e-05,
+              "symmetricDifferenceSquareMetres": 13455353.294816347,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "27",
+          "name": "TRINITY COMMONS",
+          "bestZone": {
+            "zoneId": "B3",
+            "intersectionOverUnion": 0.15681002286653475,
+            "neighbourhoodCoveredFraction": 0.9996563875752817,
+            "zoneCoveredFraction": 0.15681847544399521,
+            "symmetricDifferenceSquareMetres": 9923651.692103008,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B3",
+              "intersectionOverUnion": 0.15681002286653475,
+              "neighbourhoodCoveredFraction": 0.9996563875752817,
+              "zoneCoveredFraction": 0.15681847544399521,
+              "symmetricDifferenceSquareMetres": 9923651.692103008,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 7.25656172953986e-05,
+              "neighbourhoodCoveredFraction": 0.0003436124247585361,
+              "zoneCoveredFraction": 9.198468101913963e-05,
+              "symmetricDifferenceSquareMetres": 8741291.419456355,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "32",
+          "name": "COUNTRYSIDE",
+          "bestZone": {
+            "zoneId": "B3",
+            "intersectionOverUnion": 0.14447054495663847,
+            "neighbourhoodCoveredFraction": 0.9986515586029693,
+            "zoneCoveredFraction": 0.14449873277356312,
+            "symmetricDifferenceSquareMetres": 10070298.91402634,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B3",
+              "intersectionOverUnion": 0.14447054495663847,
+              "neighbourhoodCoveredFraction": 0.9986515586029693,
+              "zoneCoveredFraction": 0.14449873277356312,
+              "symmetricDifferenceSquareMetres": 10070298.91402634,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B4",
+              "intersectionOverUnion": 7.668929323639605e-05,
+              "neighbourhoodCoveredFraction": 0.0006101097258816938,
+              "zoneCoveredFraction": 8.770713885741037e-05,
+              "symmetricDifferenceSquareMetres": 13546048.55627367,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "24",
+          "name": "HEART LAKE NORTH",
+          "bestZone": {
+            "zoneId": "B2",
+            "intersectionOverUnion": 0.1396834390696465,
+            "neighbourhoodCoveredFraction": 0.9999999999999994,
+            "zoneCoveredFraction": 0.13968343906964648,
+            "symmetricDifferenceSquareMetres": 16173998.406268312,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B2",
+              "intersectionOverUnion": 0.1396834390696465,
+              "neighbourhoodCoveredFraction": 0.9999999999999994,
+              "zoneCoveredFraction": 0.13968343906964648,
+              "symmetricDifferenceSquareMetres": 16173998.406268312,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "37",
+          "name": "VALES OF CASTLEMORE",
+          "bestZone": {
+            "zoneId": "B5",
+            "intersectionOverUnion": 0.13610193412301155,
+            "neighbourhoodCoveredFraction": 0.9987298420709302,
+            "zoneCoveredFraction": 0.13612549619451675,
+            "symmetricDifferenceSquareMetres": 27050423.634951245,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B5",
+              "intersectionOverUnion": 0.13610193412301155,
+              "neighbourhoodCoveredFraction": 0.9987298420709302,
+              "zoneCoveredFraction": 0.13612549619451675,
+              "symmetricDifferenceSquareMetres": 27050423.634951245,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B4",
+              "intersectionOverUnion": 0.00011688584674086875,
+              "neighbourhoodCoveredFraction": 0.0004413081981245233,
+              "zoneCoveredFraction": 0.0001589732702564917,
+              "symmetricDifferenceSquareMetres": 16108575.672949705,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B11",
+              "intersectionOverUnion": 7.010799238668098e-05,
+              "neighbourhoodCoveredFraction": 0.0008288497309251425,
+              "zoneCoveredFraction": 7.658012954882006e-05,
+              "symmetricDifferenceSquareMetres": 50443552.09727091,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "10",
+          "name": "CREDIT VALLEY",
+          "bestZone": {
+            "zoneId": "B6",
+            "intersectionOverUnion": 0.1310528450640241,
+            "neighbourhoodCoveredFraction": 0.999419157327546,
+            "zoneCoveredFraction": 0.13106282750685452,
+            "symmetricDifferenceSquareMetres": 34270539.11812226,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 0.1310528450640241,
+              "neighbourhoodCoveredFraction": 0.999419157327546,
+              "zoneCoveredFraction": 0.13106282750685452,
+              "symmetricDifferenceSquareMetres": 34270539.11812226,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-A",
+              "intersectionOverUnion": 0.00010061876840767917,
+              "neighbourhoodCoveredFraction": 0.0005561540930714514,
+              "zoneCoveredFraction": 0.0001228283811169741,
+              "symmetricDifferenceSquareMetres": 28582406.71697508,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B7",
+              "intersectionOverUnion": 9.355857388282024e-06,
+              "neighbourhoodCoveredFraction": 2.4688579380649853e-05,
+              "zoneCoveredFraction": 1.506447115427177e-05,
+              "symmetricDifferenceSquareMetres": 13646924.810777793,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "2",
+          "name": "MADOC",
+          "bestZone": {
+            "zoneId": "B9",
+            "intersectionOverUnion": 0.12831236177161817,
+            "neighbourhoodCoveredFraction": 0.4105220530244734,
+            "zoneCoveredFraction": 0.15729308336920794,
+            "symmetricDifferenceSquareMetres": 7369270.81126382,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 0.12831236177161817,
+              "neighbourhoodCoveredFraction": 0.4105220530244734,
+              "zoneCoveredFraction": 0.15729308336920794,
+              "symmetricDifferenceSquareMetres": 7369270.81126382,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 0.09393316662653177,
+              "neighbourhoodCoveredFraction": 0.5890593402447472,
+              "zoneCoveredFraction": 0.10052024075070838,
+              "symmetricDifferenceSquareMetres": 15013984.14280378,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B8",
+              "intersectionOverUnion": 0.00012061886984928752,
+              "neighbourhoodCoveredFraction": 0.0004186067307467354,
+              "zoneCoveredFraction": 0.00016941400428837735,
+              "symmetricDifferenceSquareMetres": 9169258.17110195,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "26",
+          "name": "ROSEDALE VILLAGE",
+          "bestZone": {
+            "zoneId": "B3",
+            "intersectionOverUnion": 0.11777460179348327,
+            "neighbourhoodCoveredFraction": 1.000000000000001,
+            "zoneCoveredFraction": 0.11777460179348322,
+            "symmetricDifferenceSquareMetres": 10382506.802405847,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B3",
+              "intersectionOverUnion": 0.11777460179348327,
+              "neighbourhoodCoveredFraction": 1.000000000000001,
+              "zoneCoveredFraction": 0.11777460179348322,
+              "symmetricDifferenceSquareMetres": 10382506.802405847,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "43",
+          "name": "A-B-C-D-SECTION (BRAMALEA)",
+          "bestZone": {
+            "zoneId": "B11",
+            "intersectionOverUnion": 0.11507957410374473,
+            "neighbourhoodCoveredFraction": 0.9999769238872155,
+            "zoneCoveredFraction": 0.11507987971568658,
+            "symmetricDifferenceSquareMetres": 40868896.97470624,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B11",
+              "intersectionOverUnion": 0.11507957410374473,
+              "neighbourhoodCoveredFraction": 0.9999769238872155,
+              "zoneCoveredFraction": 0.11507987971568658,
+              "symmetricDifferenceSquareMetres": 40868896.97470624,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 5.896685079627602e-06,
+              "neighbourhoodCoveredFraction": 2.3076112794668046e-05,
+              "zoneCoveredFraction": 7.920606814839862e-06,
+              "symmetricDifferenceSquareMetres": 20799319.3285691,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "12",
+          "name": "CHURCHVILLE",
+          "bestZone": {
+            "zoneId": "B6",
+            "intersectionOverUnion": 0.11084442426920839,
+            "neighbourhoodCoveredFraction": 0.9999282382693564,
+            "zoneCoveredFraction": 0.11084530603902672,
+            "symmetricDifferenceSquareMetres": 35065150.11313691,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 0.11084442426920839,
+              "neighbourhoodCoveredFraction": 0.9999282382693564,
+              "zoneCoveredFraction": 0.11084530603902672,
+              "symmetricDifferenceSquareMetres": 35065150.11313691,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B16",
+              "intersectionOverUnion": 2.537571669062634e-05,
+              "neighbourhoodCoveredFraction": 7.176173064604663e-05,
+              "zoneCoveredFraction": 3.925609694100342e-05,
+              "symmetricDifferenceSquareMetres": 12362506.452694263,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "52",
+          "name": "ALLOA",
+          "bestZone": {
+            "zoneId": "B1-A",
+            "intersectionOverUnion": 0.10835065277945619,
+            "neighbourhoodCoveredFraction": 0.99968335104206,
+            "zoneCoveredFraction": 0.10835437150025996,
+            "symmetricDifferenceSquareMetres": 20880061.123169918,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B1-A",
+              "intersectionOverUnion": 0.10835065277945619,
+              "neighbourhoodCoveredFraction": 0.99968335104206,
+              "zoneCoveredFraction": 0.10835437150025996,
+              "symmetricDifferenceSquareMetres": 20880061.123169918,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-B",
+              "intersectionOverUnion": 6.585400326849762e-05,
+              "neighbourhoodCoveredFraction": 0.0003166489579353906,
+              "zoneCoveredFraction": 8.313910410171486e-05,
+              "symmetricDifferenceSquareMetres": 12203208.282641672,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "11",
+          "name": "SPRINGBROOK",
+          "bestZone": {
+            "zoneId": "B6",
+            "intersectionOverUnion": 0.10338439228527845,
+            "neighbourhoodCoveredFraction": 0.9993219549319394,
+            "zoneCoveredFraction": 0.10339164488245126,
+            "symmetricDifferenceSquareMetres": 35361546.599923305,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 0.10338439228527845,
+              "neighbourhoodCoveredFraction": 0.9993219549319394,
+              "zoneCoveredFraction": 0.10339164488245126,
+              "symmetricDifferenceSquareMetres": 35361546.599923305,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B7",
+              "intersectionOverUnion": 0.00022038798422553061,
+              "neighbourhoodCoveredFraction": 0.0006780450680364601,
+              "zoneCoveredFraction": 0.0003264107876930489,
+              "symmetricDifferenceSquareMetres": 12550164.897050086,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "9",
+          "name": "SPRING VALLEY",
+          "bestZone": {
+            "zoneId": "B1-A",
+            "intersectionOverUnion": 0.10266072540892893,
+            "neighbourhoodCoveredFraction": 0.9983707921288172,
+            "zoneCoveredFraction": 0.10267792689835542,
+            "symmetricDifferenceSquareMetres": 21016103.742249098,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B1-A",
+              "intersectionOverUnion": 0.10266072540892893,
+              "neighbourhoodCoveredFraction": 0.9983707921288172,
+              "zoneCoveredFraction": 0.10267792689835542,
+              "symmetricDifferenceSquareMetres": 21016103.742249098,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 9.377509560548921e-05,
+              "neighbourhoodCoveredFraction": 0.0016292078711073364,
+              "zoneCoveredFraction": 9.94924206040369e-05,
+              "symmetricDifferenceSquareMetres": 41836586.733094454,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "5",
+          "name": "NORTON PARK",
+          "bestZone": {
+            "zoneId": "B15",
+            "intersectionOverUnion": 0.09300441449510914,
+            "neighbourhoodCoveredFraction": 0.8717220015638468,
+            "zoneCoveredFraction": 0.09429493857502136,
+            "symmetricDifferenceSquareMetres": 14239382.457297038,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 0.09300441449510914,
+              "neighbourhoodCoveredFraction": 0.8717220015638468,
+              "zoneCoveredFraction": 0.09429493857502136,
+              "symmetricDifferenceSquareMetres": 14239382.457297038,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B11",
+              "intersectionOverUnion": 0.004388095576427448,
+              "neighbourhoodCoveredFraction": 0.12483105149597379,
+              "zoneCoveredFraction": 0.004527376607249922,
+              "symmetricDifferenceSquareMetres": 47440381.031175606,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 0.0006740429947472926,
+              "neighbourhoodCoveredFraction": 0.0034469469401323845,
+              "zoneCoveredFraction": 0.0008371892306878488,
+              "symmetricDifferenceSquareMetres": 8559841.12873644,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "28",
+          "name": "H-SECTION (BRAMALEA)",
+          "bestZone": {
+            "zoneId": "B10",
+            "intersectionOverUnion": 0.09261317363645089,
+            "neighbourhoodCoveredFraction": 0.3743427283462415,
+            "zoneCoveredFraction": 0.10957401708012135,
+            "symmetricDifferenceSquareMetres": 7658150.001864815,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B10",
+              "intersectionOverUnion": 0.09261317363645089,
+              "neighbourhoodCoveredFraction": 0.3743427283462415,
+              "zoneCoveredFraction": 0.10957401708012135,
+              "symmetricDifferenceSquareMetres": 7658150.001864815,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 0.08006203591626108,
+              "neighbourhoodCoveredFraction": 0.6238507875367655,
+              "zoneCoveredFraction": 0.08412291808525695,
+              "symmetricDifferenceSquareMetres": 14967435.800851049,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B9",
+              "intersectionOverUnion": 0.0004200114840566516,
+              "neighbourhoodCoveredFraction": 0.0018064841169674157,
+              "zoneCoveredFraction": 0.0005469484669103638,
+              "symmetricDifferenceSquareMetres": 8976877.518824896,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "53",
+          "name": "VAN KIRK",
+          "bestZone": {
+            "zoneId": "B2",
+            "intersectionOverUnion": 0.09080162477698536,
+            "neighbourhoodCoveredFraction": 0.6813060586283685,
+            "zoneCoveredFraction": 0.09482942859919154,
+            "symmetricDifferenceSquareMetres": 17851194.331833396,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B2",
+              "intersectionOverUnion": 0.09080162477698536,
+              "neighbourhoodCoveredFraction": 0.6813060586283685,
+              "zoneCoveredFraction": 0.09482942859919154,
+              "symmetricDifferenceSquareMetres": 17851194.331833396,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-A",
+              "intersectionOverUnion": 0.03299304120114682,
+              "neighbourhoodCoveredFraction": 0.3177560477350069,
+              "zoneCoveredFraction": 0.03550839613177364,
+              "symmetricDifferenceSquareMetres": 24370310.958122283,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B1-B",
+              "intersectionOverUnion": 6.511829847349479e-05,
+              "neighbourhoodCoveredFraction": 0.00030565789530632385,
+              "zoneCoveredFraction": 8.274012040629482e-05,
+              "symmetricDifferenceSquareMetres": 12281864.126387931,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "40",
+          "name": "WILDFIELD",
+          "bestZone": {
+            "zoneId": "B5",
+            "intersectionOverUnion": 0.08553148711574583,
+            "neighbourhoodCoveredFraction": 0.9999999999999997,
+            "zoneCoveredFraction": 0.08553148711574586,
+            "symmetricDifferenceSquareMetres": 28628931.98337704,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B5",
+              "intersectionOverUnion": 0.08553148711574583,
+              "neighbourhoodCoveredFraction": 0.9999999999999997,
+              "zoneCoveredFraction": 0.08553148711574586,
+              "symmetricDifferenceSquareMetres": 28628931.98337704,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "42",
+          "name": "E-F-K-SECTION (BRAMALEA)",
+          "bestZone": {
+            "zoneId": "B15",
+            "intersectionOverUnion": 0.07793335498821902,
+            "neighbourhoodCoveredFraction": 0.5995907266999482,
+            "zoneCoveredFraction": 0.08221201611154169,
+            "symmetricDifferenceSquareMetres": 15061748.818988618,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B15",
+              "intersectionOverUnion": 0.07793335498821902,
+              "neighbourhoodCoveredFraction": 0.5995907266999482,
+              "zoneCoveredFraction": 0.08221201611154169,
+              "symmetricDifferenceSquareMetres": 15061748.818988618,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B11",
+              "intersectionOverUnion": 0.01789871571377166,
+              "neighbourhoodCoveredFraction": 0.4000768103411971,
+              "zoneCoveredFraction": 0.01839235706259667,
+              "symmetricDifferenceSquareMetres": 46607879.22459665,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B10",
+              "intersectionOverUnion": 7.626206888641896e-05,
+              "neighbourhoodCoveredFraction": 0.00033246295894729,
+              "zoneCoveredFraction": 9.895283420077046e-05,
+              "symmetricDifferenceSquareMetres": 9255142.618194714,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "38",
+          "name": "MOUNT ROYAL",
+          "bestZone": {
+            "zoneId": "B5",
+            "intersectionOverUnion": 0.05458726416436805,
+            "neighbourhoodCoveredFraction": 0.8649114111754139,
+            "zoneCoveredFraction": 0.05505666980651268,
+            "symmetricDifferenceSquareMetres": 29852207.317411393,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B5",
+              "intersectionOverUnion": 0.05458726416436805,
+              "neighbourhoodCoveredFraction": 0.8649114111754139,
+              "zoneCoveredFraction": 0.05505666980651268,
+              "symmetricDifferenceSquareMetres": 29852207.317411393,
+              "topologicalEquality": false
+            },
+            {
+              "zoneId": "B4",
+              "intersectionOverUnion": 0.019838444101807465,
+              "neighbourhoodCoveredFraction": 0.1350763399762607,
+              "zoneCoveredFraction": 0.022725228578279428,
+              "symmetricDifferenceSquareMetres": 13299767.322493764,
+              "topologicalEquality": false
+            }
+          ]
+        },
+        {
+          "municipalId": "6",
+          "name": "HUTTONVILLE",
+          "bestZone": {
+            "zoneId": "B6",
+            "intersectionOverUnion": 0.04637761277027182,
+            "neighbourhoodCoveredFraction": 0.9999999999999997,
+            "zoneCoveredFraction": 0.04637761277027183,
+            "symmetricDifferenceSquareMetres": 37607193.911835074,
+            "topologicalEquality": false
+          },
+          "allOverlappingZones": [
+            {
+              "zoneId": "B6",
+              "intersectionOverUnion": 0.04637761277027182,
+              "neighbourhoodCoveredFraction": 0.9999999999999997,
+              "zoneCoveredFraction": 0.04637761277027183,
+              "symmetricDifferenceSquareMetres": 37607193.911835074,
+              "topologicalEquality": false
+            }
+          ]
+        }
+      ],
+      "hdzVsUnionOfContainedNeighbourhoods": [
+        {
+          "zoneId": "B1-A",
+          "fullyContainedNeighbourhoods": [
+            "CREDITVIEW",
+            "ALLOA"
+          ],
+          "unionIntersectionOverUnion": 0.2699962426527603
+        },
+        {
+          "zoneId": "B1-B",
+          "fullyContainedNeighbourhoods": [
+            "MOUNT PLEASANT NORTH"
+          ],
+          "unionIntersectionOverUnion": 0.1784863196762415
+        },
+        {
+          "zoneId": "B10",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "B11",
+          "fullyContainedNeighbourhoods": [
+            "A-B-C-D-SECTION (BRAMALEA)"
+          ],
+          "unionIntersectionOverUnion": 0.11507957410374473
+        },
+        {
+          "zoneId": "B12",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "B13",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "B14",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "B15",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "B16",
+          "fullyContainedNeighbourhoods": [
+            "SHERIDAN"
+          ],
+          "unionIntersectionOverUnion": 0.30243472290242773
+        },
+        {
+          "zoneId": "B2",
+          "fullyContainedNeighbourhoods": [
+            "HEART LAKE NORTH"
+          ],
+          "unionIntersectionOverUnion": 0.1396834390696465
+        },
+        {
+          "zoneId": "B3",
+          "fullyContainedNeighbourhoods": [
+            "ROSEDALE VILLAGE",
+            "TRINITY COMMONS",
+            "DEERFIELD",
+            "SPRINGDALE"
+          ],
+          "unionIntersectionOverUnion": 0.6304461056020767
+        },
+        {
+          "zoneId": "B4",
+          "fullyContainedNeighbourhoods": [
+            "SANDALWOOD EAST (MOUNTAINASH)"
+          ],
+          "unionIntersectionOverUnion": 0.3552042867909282
+        },
+        {
+          "zoneId": "B5",
+          "fullyContainedNeighbourhoods": [
+            "CASTLEMORE ESTATES",
+            "WILDFIELD"
+          ],
+          "unionIntersectionOverUnion": 0.3719116815912563
+        },
+        {
+          "zoneId": "B6",
+          "fullyContainedNeighbourhoods": [
+            "HUTTONVILLE",
+            "CREDIT VALLEY",
+            "SPRINGBROOK",
+            "CHURCHVILLE",
+            "NEW SPRINGBROOK"
+          ],
+          "unionIntersectionOverUnion": 0.6022853227313638
+        },
+        {
+          "zoneId": "B7",
+          "fullyContainedNeighbourhoods": [
+            "FLETCHERS WEST"
+          ],
+          "unionIntersectionOverUnion": 0.496955451955682
+        },
+        {
+          "zoneId": "B8",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        },
+        {
+          "zoneId": "B9",
+          "fullyContainedNeighbourhoods": [],
+          "unionIntersectionOverUnion": 0.0
+        }
+      ]
+    }
+  }
+}

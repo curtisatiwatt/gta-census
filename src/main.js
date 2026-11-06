@@ -18,6 +18,7 @@ import { createMapTooltip } from './map-tooltip.js';
 import { createCommunityHighlight } from './community-highlight.js';
 import { createContextLayers } from './context-layers.js';
 import { parseScopeHash, scopeHash, hasPopulationRecord } from './geography-utils.js';
+import { relatedStatistics, statisticPopulation, statisticAvailable } from './statistics-utils.js';
 import { INCOME_BINS, isNumber, colorFor, money, number, percent, searchFeatures, summarize, escapeHtml as esc, safeUrl, hashCode } from './map-utils.js';
 import { POPULATION_BINS, populationShare, populationColor, donutSvg } from './population-utils.js';
 
@@ -28,6 +29,7 @@ const dialog = $('method-dialog');
 const PALETTE = ['#518a7b', '#c29b4d', '#7e85af', '#5c8eac', '#b67768', '#8d9963', '#947cac', '#bb8c67', '#688b92', '#a18696', '#7f8990', '#b7a268', '#c2c9bd'];
 const state = {
   boundaryMode: 'neighbourhoods', geographies: {},
+  statistics: { features: [], records: {}, relationships: {}, display: { type: 'FeatureCollection', features: [] } }, statisticsByCode: new Map(), selectedStatistic: null,
   allFeatures: [], features: [], byCode: new Map(), scopes: [], scope: null, metadata: {}, counts: {}, data: null, basemap: null,
   operatingTransit: null, greenTransit: null, transitLines: [], geographicContext: null, orientationLandmarks: null,
   roads: true, labels: true, transit: false, landmarks: false,
@@ -118,6 +120,7 @@ function setScope(id, rebuild = true) {
   state.counts = summarize(state.features);
   state.data.city = state.data.scopes[scope.id];
   state.selectionActive = false;
+  state.selectedStatistic = null;
   state.selected = state.features[0]?.properties.code || null;
   state.view = null; state.wholeCity = true;
   renderScopes(); renderMetadata(); renderGroupList(); renderDetail();
@@ -196,8 +199,14 @@ function renderMetadata() {
   $('latest-census-note').textContent = metadataText('latestCensusNote');
   $('population-groups-definition').textContent = metadataText('populationGroupsDefinition');
   $('coverage-definition').textContent = currentLanguage() === 'en'
-    ? `${scopeName()}: ${state.counts.total} areas, ${state.features.filter(feature => hasPopulationRecord(populationRecord(feature.properties.code))).length} with population categories and ${state.counts.income} with income data.`
-    : `${scopeName()}：${state.counts.total} 个区域，${state.features.filter(feature => hasPopulationRecord(populationRecord(feature.properties.code))).length} 个有人口分类，${state.counts.income} 个有收入数据。`;
+    ? `${scopeName()}: ${state.counts.total} areas, ${state.features.filter(feature => hasPopulationRecord(populationRecord(feature.properties.code))).length} with matching population categories and ${state.counts.income} with matching income data.`
+    : `${scopeName()}：${state.counts.total} 个区域，${state.features.filter(feature => hasPopulationRecord(populationRecord(feature.properties.code))).length} 个有匹配的人口分类，${state.counts.income} 个有匹配的社区收入。`;
+  if (state.boundaryMode === 'neighbourhoods') {
+    const linked = new Set(state.features.flatMap(f => (state.statistics.relationships[f.properties.code] || []).map(r => r.code)));
+    if (linked.size) $('coverage-definition').textContent += currentLanguage() === 'en'
+      ? ` An additional ${linked.size} overlapping statistical areas are available directly in community details and fill gaps in the map shading.`
+      : ` 另已关联 ${linked.size} 个相交统计区，可在社区详情直接查看，并用于补充底色。`;
+  }
   $('boundary-note').textContent = metadataText('boundaryNote');
   $('scope-note').textContent = metadataText('scopeNote');
   $('prepared-note').textContent = m.preparedDate ? `原始数据整理于 ${m.preparedDate}；本图为官方资料快照。` : '';
@@ -259,24 +268,48 @@ function renderDonutKey() {
 function renderDetail() {
   const feature = state.byCode.get(state.selected);
   if (!feature) return;
-  const p = feature.properties;
-  const record = populationRecord(p.code);
-  $('community-name').textContent = p.name;
-  $('community-meta').innerHTML = [p.municipality, p.typeLabel].filter(Boolean).map(tag => `<span>${esc(tag)}</span>`).join('');
-  $('census-detail-button').hidden = state.boundaryMode === 'census' || (!p.municipalSource && p.geographyType !== 'census_remainder');
-  const boundaryUrl = safeUrl(p.boundarySourceUrl);
+  const community = feature.properties;
+  const related = state.boundaryMode === 'neighbourhoods' ? relatedStatistics(community.code, state.statistics.relationships, state.statisticsByCode) : [];
+  const statistic = related.find(item => item.code === state.selectedStatistic)?.feature;
+  if (!statistic) state.selectedStatistic = null;
+  const p = statistic?.properties || community;
+  const record = statistic ? state.statistics.records[p.code] : populationRecord(p.code);
+  $('community-name').textContent = community.name;
+  $('community-meta').innerHTML = [community.municipality, community.typeLabel].filter(Boolean).map(tag => `<span>${esc(tag)}</span>`).join('');
+  $('related-statistics').hidden = !related.length;
+  $('statistics-rows').innerHTML = related.map(({ feature: item }) => {
+    const s = item.properties;
+    return `<button type="button" class="statistics-row" data-statistic="${esc(s.code)}" aria-pressed="${state.selectedStatistic === s.code}"><span>${esc(s.name)}<small>${esc(s.publisher || 'Statistics Canada')} · 2021</small></span><strong>${money(s.income)}</strong><span>${number(statisticPopulation(s))}</span></button>`;
+  }).join('');
+  $('statistics-selection').hidden = !statistic;
+  $('statistics-selection-name').textContent = statistic ? p.name : '';
+  const hasOriginalValues = [community.population, community.totalPopulation, community.populationEstimate, community.income].some(isNumber);
+  $('community-profile-heading').hidden = Boolean(statistic) || !related.length || !hasOriginalValues;
+  $('census-detail-button').hidden = Boolean(related.length) || state.boundaryMode === 'census' || (!community.municipalSource && community.geographyType !== 'census_remainder');
+  const boundaryUrl = safeUrl(community.boundarySourceUrl);
   $('boundary-source-link').hidden = !boundaryUrl;
   if (boundaryUrl) $('boundary-source-link').href = boundaryUrl;
   const population = record?.population ?? p.population;
-  $('population-label').textContent = t(isNumber(population) ? '私人住户人口 · 2021' : '总人口 · 2021');
-  $('population').textContent = number(population ?? p.totalPopulation);
-  $('collapsed-summary').textContent = `人口 ${number(population ?? p.totalPopulation)} · 家庭收入 ${money(p.income)}`;
+  const estimated = !isNumber(population) && !isNumber(p.totalPopulation) && isNumber(p.populationEstimate);
+  $('population-label').textContent = estimated ? t(`市府发布人口估算 · ${p.populationEstimateYear}`) : t(isNumber(population) ? '私人住户人口 · 2021' : '总人口 · 2021');
+  $('population').textContent = number(population ?? p.totalPopulation ?? p.populationEstimate);
+  $('collapsed-summary').textContent = `${statistic ? `${p.name} · ` : ''}${estimated ? t('人口估算') : t('人口')} ${number(population ?? p.totalPopulation ?? p.populationEstimate)} · ${t('家庭收入')} ${money(p.income)}`;
+  if (!statistic && related.length && !isNumber(p.income)) {
+    const pop = population ?? p.totalPopulation ?? p.populationEstimate;
+    const prefix = isNumber(pop) ? `${estimated ? t(`人口估算 · ${p.populationEstimateYear}`) : t('社区人口')} ${number(pop)} · ` : '';
+    $('collapsed-summary').textContent = prefix + t(`${related.length} 个统计范围可查看`);
+  }
+  $('population-summary-note').textContent = t(statistic ? '统计区基数' : estimated ? '人口估算' : '社区统计基数');
+  document.querySelector('.population-summary').hidden = !statistic && related.length > 0 && !isNumber(population ?? p.totalPopulation ?? p.populationEstimate);
+  document.querySelector('.composition-detail').hidden = related.length > 0 && !hasPopulationRecord(record);
+  document.querySelector('.income-summary').hidden = related.length > 0 && !isNumber(p.income);
+  document.querySelector('.secondary-metrics').hidden = related.length > 0 && !isNumber(p.children) && !isNumber(p.householdSize);
   $('income-value').textContent = money(p.income);
   $('income-value').classList.toggle('missing', !isNumber(p.income));
   const median = state.scope?.incomeMedian;
   $('income-context').textContent = isNumber(p.income) && isNumber(median) && median > 0
     ? `${scopeName()} ${t('中位数')} ${money(median)} · ${(p.income / median).toFixed(2)}×`
-    : isNumber(p.income) ? '' : t('官方资料暂无同口径收入数值');
+    : isNumber(p.income) ? '' : t('此边界的同口径收入尚未取得');
   $('children').textContent = percent(p.children);
   $('household').textContent = isNumber(p.householdSize) ? `${p.householdSize.toFixed(1)} 人` : '暂无数据';
   $('data-caveat').textContent = currentLanguage() === 'en' ? p.caveatEn || p.caveat || '' : p.caveat || '';
@@ -285,6 +318,9 @@ function renderDetail() {
   $('source-link').hidden = !sourceUrl;
   if (sourceUrl) $('source-link').href = sourceUrl;
   else $('source-link').removeAttribute('href');
+  const incomeUrl = safeUrl(p.incomeSourceUrl || p.sourceUrl);
+  $('income-source-link').hidden = !isNumber(p.income) || !incomeUrl;
+  if (incomeUrl) $('income-source-link').href = incomeUrl;
   const groups = selectedGroups();
   if (!record || !isNumber(record.population) || record.population <= 0 || !Object.values(record.counts).some(isNumber)) {
     $('composition-bars').innerHTML = '<p class="detail-empty">这个区域暂无可用的人口分类资料，不能当作 0 人。</p>';
@@ -323,7 +359,7 @@ function styleFor(context, feature) {
     color: missing ? (dark ? '#5a7075' : '#a7b3ac') : (dark ? '#5a7075' : '#fafbf5'),
     weight: 0.75, opacity: 1,
     fillColor: missing ? (dark ? '#263b42' : '#d6dcd9') : context.groupId ? populationColor(value) : state.income ? colorFor(value) : (dark ? '#263b42' : '#e0e8dc'),
-    fillOpacity: missing ? 0.35 : context.groupId ? (dark ? 0.72 : 0.64) : state.income ? (dark ? 0.62 : 0.67) : 0.72,
+    fillOpacity: missing && state.boundaryMode === 'neighbourhoods' ? 0 : missing ? 0.35 : context.groupId ? (dark ? 0.72 : 0.64) : state.income ? (dark ? 0.62 : 0.67) : 0.72,
     dashArray: missing ? '3 3' : null,
   };
 }
@@ -333,13 +369,50 @@ function refreshStyles() {
     for (const layer of context.layers.values()) layer.setStyle(styleFor(context, layer.feature));
     context.highlights?.setSelected(state.selectionActive ? state.selected : null);
     context.highlights?.refresh();
+    refreshStatisticsLayer(context);
     updateLabels(context);
+  }
+}
+
+function refreshStatisticsLayer(context) {
+  context.statisticsLayer?.setStyle(fragment => {
+    const source = state.statisticsByCode.get(fragment.properties.statisticCode);
+    const active = state.boundaryMode === 'neighbourhoods' && (context.groupId ? fragment.properties.population : state.income && fragment.properties.income);
+    const available = active && statisticAvailable(source, state.statistics.records, context.groupId);
+    const value = context.groupId ? populationShare(state.statistics.records[source?.properties.code], context.groupId) : source?.properties.income;
+    return { color: isDarkTheme() ? '#839497' : '#657d79', weight: .5, dashArray: '2 3', opacity: active ? .45 : 0,
+      fillColor: available ? (context.groupId ? populationColor(value) : colorFor(value)) : (isDarkTheme() ? '#263b42' : '#d6dcd9'),
+      fillOpacity: active ? (available ? .67 : .35) : 0 };
+  });
+  context.statisticsHighlight?.clearLayers();
+  const selected = state.statisticsByCode.get(state.selectedStatistic);
+  if (selected && state.boundaryMode === 'neighbourhoods') L.geoJSON(selected, {
+    pane: 'statisticsHighlight', interactive: false, fill: false, color: isDarkTheme() ? '#ffd18b' : '#a85d0e', weight: 3, dashArray: '7 5', noClip: true, smoothFactor: 0,
+  }).addTo(context.statisticsHighlight);
+}
+
+function selectStatistic(code) {
+  const related = relatedStatistics(state.selected, state.statistics.relationships, state.statisticsByCode);
+  state.selectedStatistic = related.some(item => item.code === code) ? code : null;
+  renderDetail();
+  state.contexts.forEach(refreshStatisticsLayer);
+  if (state.selectedStatistic) {
+    const context = activeContexts()[0];
+    const feature = state.statisticsByCode.get(state.selectedStatistic);
+    if (context) {
+      const bounds = L.geoJSON(feature).getBounds().extend(L.geoJSON(state.byCode.get(state.selected)).getBounds());
+      context.map.fitBounds(bounds, { ...fitPadding(context.map, true), maxZoom: 14, animate: false });
+    }
   }
 }
 
 function tooltipContent(feature, context) {
   const p = feature.properties;
   const record = populationRecord(p.code);
+  const linked = state.boundaryMode === 'neighbourhoods' && state.statistics.relationships[p.code]?.length;
+  if (linked && (context.groupId ? populationShare(record, context.groupId) === null : !isNumber(p.income))) {
+    return localizeHtml(`<strong>${esc(p.name)}</strong>${t('已收录相交统计区的收入与人口')}<span class="tip-note">${t('点击社区查看统计范围与原始数值')}</span>`);
+  }
   if (context.groupId) {
     const group = state.groupById.get(context.groupId);
     return localizeHtml(`<strong>${esc(p.name)}</strong>${esc(group.label)} ${percent(populationShare(record, group.id))}<br>${number(record?.counts[group.id])} 人 · ${esc(scopeName())} ${percent(populationShare(state.data.city, group.id))}<span class="tip-note">点击固定社区，查看完整构成</span>`);
@@ -351,7 +424,7 @@ function createMap(element, groupId = null) {
   const map = L.map(element, { zoomControl: false, zoomSnap: 0.25, zoomDelta: 0.5, minZoom: 7, maxZoom: 17, attributionControl: false });
   const context = { map, groupId, layers: new Map(), donuts: L.layerGroup(), labels: L.layerGroup(), donutCount: 0 };
   context.tooltip = createMapTooltip({ map, tooltip: L.tooltip({ className: 'community-tooltip', direction: 'top', opacity: 0.98 }), enabled: () => !mobile(), hoverEnabled: () => window.matchMedia('(any-hover: hover)').matches });
-  for (const [name, zIndex] of [['water', 410], ['roads', 420], ['donuts', 450], ['labels', 470]]) {
+  for (const [name, zIndex] of [['statisticsFill', 395], ['water', 410], ['roads', 420], ['statisticsHighlight', 448], ['donuts', 450], ['labels', 470]]) {
     map.createPane(name);
     map.getPane(name).style.zIndex = zIndex;
     if (name !== 'donuts') map.getPane(name).style.pointerEvents = 'none';
@@ -360,6 +433,15 @@ function createMap(element, groupId = null) {
   context.highlights.setSelected(state.selectionActive ? state.selected : null);
   context.donuts.addTo(map);
   context.labels.addTo(map);
+  context.statisticsHighlight = L.layerGroup().addTo(map);
+  if (state.boundaryMode === 'neighbourhoods') {
+    const visibleCodes = new Set(state.features.map(f => f.properties.code));
+    context.statisticsLayer = L.geoJSON(state.statistics.display, {
+      filter: f => f.properties.communityCodes.some(code => visibleCodes.has(code)),
+      pane: 'statisticsFill', interactive: false,
+    }).addTo(map);
+    refreshStatisticsLayer(context);
+  }
   context.boundaries = L.geoJSON({ type: 'FeatureCollection', features: state.features }, {
     style: feature => styleFor(context, feature),
     onEachFeature(feature, layer) {
@@ -480,6 +562,7 @@ function selectCommunity(code, zoom = true, expand = true) {
   if (!state.byCode.has(code)) return;
   closeTooltips();
   state.selected = code;
+  state.selectedStatistic = null;
   if (expand) state.selectionActive = true;
   renderDetail();
   if (expand) {
@@ -610,11 +693,12 @@ function updateLabels(context) {
 
 function comparisonPageSize() { return 1; }
 function renderMobileSummary() {
-  const p = state.byCode.get(state.selected)?.properties;
+  const statistic = state.statisticsByCode.get(state.selectedStatistic);
+  const p = statistic?.properties || state.byCode.get(state.selected)?.properties;
   if (!p) return;
   if (state.mode === 'distribution') {
     const group = selectedGroups()[state.compareStart];
-    $('collapsed-summary').textContent = group ? `${t(group.label)} ${percent(populationShare(populationRecord(p.code), group.id))} · ${scopeName()} ${percent(populationShare(state.data.city, group.id))}` : t('选择人口群体');
+    $('collapsed-summary').textContent = group ? `${statistic ? `${p.name} · ` : ''}${t(group.label)} ${percent(populationShare(statistic ? state.statistics.records[p.code] : populationRecord(p.code), group.id))} · ${scopeName()} ${percent(populationShare(state.data.city, group.id))}` : t('选择人口群体');
   }
   mobileUI?.refresh();
 }
@@ -718,7 +802,8 @@ function renderSearch() {
     const p = match.feature?.properties;
     const name = match.scope?.name || p.name;
     const sublabel = match.scope ? t(match.scope.type === 'gta' ? '整个 GTA' : match.scope.type === 'region' ? '地区' : '城市或市镇') : `${p.municipality || p.region || ''} · ${t(p.typeLabel)}`;
-    return `<button class="search-result" id="search-option-${i}" role="option" aria-selected="false" data-result="${i}"><span><strong>${esc(name)}</strong><small>${esc(sublabel)}</small></span><span>${match.scope ? '↗' : money(p.income)}</span></button>`;
+    const value = match.scope ? '↗' : !isNumber(p.income) && state.boundaryMode === 'neighbourhoods' && state.statistics.relationships[p.code]?.length ? t('查看统计') : money(p.income);
+    return `<button class="search-result" id="search-option-${i}" role="option" aria-selected="false" data-result="${i}"><span><strong>${esc(name)}</strong><small>${esc(sublabel)}</small></span><span>${value}</span></button>`;
   }).join('') : '<p class="no-results">没有找到结果，可输入城市或社区名；普查编号请切换至普查统计区。</p>';
   localize($('search-results'));
 }
@@ -762,6 +847,11 @@ function initializeControls() {
   $('layers-button').addEventListener('click', () => toggleLayers($('layers-panel').hidden));
   $('boundary-mode').addEventListener('change', event => setBoundaryMode(event.target.value));
   $('census-detail-button').addEventListener('click', () => setBoundaryMode('census'));
+  $('statistics-rows').addEventListener('click', event => {
+    const button = event.target.closest('[data-statistic]');
+    if (button) selectStatistic(button.dataset.statistic);
+  });
+  $('statistics-reset').addEventListener('click', () => selectStatistic(null));
   $('close-layers').addEventListener('click', () => { toggleLayers(false); (mobile() ? $('mobile-more') : $('layers-button')).focus(); });
   for (const layer of ['roads', 'labels', 'transit', 'landmarks']) $(`${layer}-toggle`).addEventListener('change', event => { state[layer] = event.target.checked; updateLayerVisibility(); });
   $('groups-button').addEventListener('click', () => toggleGroups($('groups-panel').hidden));
@@ -876,6 +966,7 @@ async function init() {
   try {
     const data = await loadData();
     state.metadata = data.metadata; state.geographies = data.geographies; state.scopes = data.metadata.scopes; state.data = data.populationData; state.basemap = data.basemap;
+    state.statistics = data.statistics; state.statisticsByCode = new Map(data.statistics.features.map(f => [f.properties.code, f]));
     setBoundaryMode('neighbourhoods', false);
     const scopeLink = parseScopeHash(location.hash);
     if (scopeLink) setBoundaryMode(scopeLink.mode, false);

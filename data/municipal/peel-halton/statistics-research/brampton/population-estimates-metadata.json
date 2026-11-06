@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "description": "Supplemental municipal-published Environics 2022 estimates. These values are not 2021 Census counts and must not be used as denominators for 2021 visible-minority counts. No income median is present.",
+    "publisher": "City of Brampton",
+    "provider": "Environics Analytics",
+    "sourceItemId": "e2f6f6d69c364d4d8451d41877c0598a",
+    "sourceUrl": "https://www.arcgis.com/home/item.html?id=e2f6f6d69c364d4d8451d41877c0598a",
+    "license": "No separate licence statement in ArcGIS item or layer metadata; the public City of Brampton service contains third-party Environics estimates. Do not assume Statistics Canada Open Licence covers these estimates.",
+    "idField": "OBJECTID of current brampton-neighbourhoods.geojson, joined to source by NEIGHBOURHOOD_NAME",
+    "recordCount": 53,
+    "boundaryMatch": {
+      "method": "Each source/current polygon repaired using Shapely make_valid, projected to EPSG:26917; symmetric difference divided by union area.",
+      "namesMatching": 53,
+      "maxSymmetricDifferenceFraction": 5.991413258134486e-08,
+      "matchInterpretation": "Identical named coverage to numerical export precision; 0 strict-coordinate-identical geometries, all area differences below 0.000006%."
+    },
+    "sourcePath": "data/municipal/peel-halton/statistics-research/brampton/NNP_ENVIRONICS_2022_PRD-0.geojson"
+  },
+  "recordDefaults": {
+    "municipalityCode": "3521010",
+    "populationEstimateYear": 2022,
+    "sourceMethod": "Environics Analytics estimate; BlockApportionment:CAN.DA;PointsLayer:CAN.BlockPoints",
+    "sourceUrl": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/NNP_ENVIRONICS_2022_PRD/FeatureServer/0",
+    "sourceName": "City of Brampton GeoHub neighbourhood profiles — Environics Analytics 2022 population",
+    "income": null,
+    "population": null,
+    "counts": null,
+    "totalPopulation": null,
+    "censusYear": null,
+    "statisticsMethod": "municipal_published_population_estimate",
+    "caveat": "人口为Brampton市政府发布的Environics Analytics 2022年估算，不是2021年普查人数，也不用于2021年族裔比例分母。收入和族裔分类请查看上方相交统计区的原始普查资料。",
+    "caveatEn": "Population is an Environics Analytics 2022 estimate published by the City of Brampton, not a 2021 Census count or a denominator for 2021 population groups. See the overlapping census areas above for income and population categories."
+  },
+  "joinNameField": "NEIGHBOURHOOD_NAME",
+  "populationField": "populationtotals_ecyptapop",
+  "rawSnapshot": "NNP_ENVIRONICS_2022_PRD-0.geojson"
+}

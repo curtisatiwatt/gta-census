@@ -5,7 +5,7 @@ async function readJson(path) {
 }
 
 export async function loadData() {
-  const [metadata, communities, populationData, basemap, operatingTransit, greenTransit, geographicContext, orientationLandmarks, transitLines, neighbourhoods, neighbourhoodData] = await Promise.all([
+  const [metadata, communities, populationData, basemap, operatingTransit, greenTransit, geographicContext, orientationLandmarks, transitLines, neighbourhoods, neighbourhoodData, statisticalAreas, statisticalData, statisticalDisplay] = await Promise.all([
     readJson('metadata.json'),
     readJson('communities.geojson'),
     readJson('population-groups.json'),
@@ -17,6 +17,9 @@ export async function loadData() {
     readJson('transit-lines.json').catch(() => []),
     readJson('neighbourhoods.geojson'),
     readJson('neighbourhood-data.json'),
+    readJson('statistics-areas.geojson'),
+    readJson('statistics-data.json'),
+    readJson('statistics-display.geojson'),
   ]);
   if (communities.type !== 'FeatureCollection' || !communities.features?.length) {
     throw new Error('社区边界数据格式不完整');
@@ -43,5 +46,12 @@ export async function loadData() {
     english: { ...metadata.english, ...neighbourhoodData.metadata.english },
     sources: [...neighbourhoodData.metadata.sources, ...metadata.sources],
   };
-  return { metadata: combinedMetadata, geographies, populationData, basemap, operatingTransit, greenTransit, geographicContext, orientationLandmarks, transitLines };
+  const statistics = {
+    features: [...geographies.census.features, ...prepare(statisticalAreas)],
+    records: { ...populationData.communities, ...statisticalData.records },
+    relationships: statisticalData.relationships,
+    display: statisticalDisplay,
+  };
+  combinedMetadata.sources.push(...statisticalData.sources);
+  return { metadata: combinedMetadata, geographies, statistics, populationData, basemap, operatingTransit, greenTransit, geographicContext, orientationLandmarks, transitLines };
 }

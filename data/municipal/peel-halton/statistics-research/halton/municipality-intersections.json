@@ -1,0 +1,332 @@
+[
+  {
+    "code": "okn-2023-20",
+    "sourceName": "Acton",
+    "municipalAreaFractions": {
+      "Halton Hills": 0.9999999999999993,
+      "Oakville": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-14",
+    "sourceName": "Aldershot",
+    "municipalAreaFractions": {
+      "Burlington": 0.9964194493612448,
+      "Halton Hills": 0.0,
+      "Oakville": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-203",
+    "sourceName": "Central Burlington",
+    "municipalAreaFractions": {
+      "Burlington": 1.0000000000000004,
+      "Halton Hills": 0.0,
+      "Oakville": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-204",
+    "sourceName": "Central East Burlington",
+    "municipalAreaFractions": {
+      "Burlington": 0.9999057262090241,
+      "Oakville": 9.427379097380284e-05,
+      "Halton Hills": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-15",
+    "sourceName": "Central West Burlington",
+    "municipalAreaFractions": {
+      "Burlington": 1.0000000000000004,
+      "Halton Hills": 0.0,
+      "Oakville": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-17",
+    "sourceName": "East Milton",
+    "municipalAreaFractions": {
+      "Milton": 0.9999999999999998,
+      "Halton Hills": 0.0,
+      "Oakville": 0.0,
+      "Burlington": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-205",
+    "sourceName": "Escarpment",
+    "municipalAreaFractions": {
+      "Milton": 0.9998106585506178,
+      "Burlington": 0.00015080758107934996,
+      "Halton Hills": 0.0,
+      "Oakville": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-7",
+    "sourceName": "Glen Abbey",
+    "municipalAreaFractions": {
+      "Oakville": 0.9999999999999998,
+      "Halton Hills": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-208",
+    "sourceName": "Lower East Milton",
+    "municipalAreaFractions": {
+      "Milton": 1.0,
+      "Halton Hills": 0.0,
+      "Oakville": 0.0,
+      "Burlington": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-301",
+    "sourceName": "Lower West Milton",
+    "municipalAreaFractions": {
+      "Milton": 0.9997308867148124,
+      "Burlington": 0.0001554171014527704,
+      "Oakville": 0.0001375784966020713,
+      "Halton Hills": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-201",
+    "sourceName": "North Bronte Oakville",
+    "municipalAreaFractions": {
+      "Oakville": 0.9997645214041891,
+      "Burlington": 0.00023547859578037473,
+      "Halton Hills": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-209",
+    "sourceName": "North Burlington",
+    "municipalAreaFractions": {
+      "Burlington": 0.9990230549533868,
+      "Milton": 0.0007403332061820916,
+      "Oakville": 2.9422634629568888e-05,
+      "Halton Hills": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-4",
+    "sourceName": "North Central Oakville",
+    "municipalAreaFractions": {
+      "Oakville": 1.0000000000000002,
+      "Halton Hills": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-2",
+    "sourceName": "North East Oakville",
+    "municipalAreaFractions": {
+      "Oakville": 0.9981734504510816,
+      "Halton Hills": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-21",
+    "sourceName": "North Georgetown",
+    "municipalAreaFractions": {
+      "Halton Hills": 0.9999999999999991,
+      "Oakville": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-303",
+    "sourceName": "North Oakville",
+    "municipalAreaFractions": {
+      "Oakville": 0.9899056193740062,
+      "Milton": 0.00994874997864456,
+      "Burlington": 4.2832200916838395e-07,
+      "Halton Hills": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-3",
+    "sourceName": "River Oaks",
+    "municipalAreaFractions": {
+      "Oakville": 1.0000000000000004,
+      "Halton Hills": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-19",
+    "sourceName": "Rural North Halton",
+    "municipalAreaFractions": {
+      "Halton Hills": 0.5568537969526773,
+      "Milton": 0.44288375367581995,
+      "Oakville": 0.0,
+      "Burlington": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-13",
+    "sourceName": "South Central Burlington",
+    "municipalAreaFractions": {
+      "Burlington": 0.9990915621391778,
+      "Halton Hills": 0.0,
+      "Oakville": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-206",
+    "sourceName": "South Central Milton",
+    "municipalAreaFractions": {
+      "Milton": 0.9975966772647208,
+      "Halton Hills": 0.0006286479120450694,
+      "Oakville": 6.458648508809482e-05,
+      "Burlington": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-5",
+    "sourceName": "South Central Oakville",
+    "municipalAreaFractions": {
+      "Oakville": 0.9959851313520065,
+      "Halton Hills": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-10",
+    "sourceName": "South East Burlington",
+    "municipalAreaFractions": {
+      "Burlington": 0.999247802327349,
+      "Oakville": 0.00020705710058358418,
+      "Halton Hills": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-1",
+    "sourceName": "South East Oakville",
+    "municipalAreaFractions": {
+      "Oakville": 0.9979683924524779,
+      "Halton Hills": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-22",
+    "sourceName": "South Georgetown",
+    "municipalAreaFractions": {
+      "Halton Hills": 1.000000000000002,
+      "Oakville": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-302",
+    "sourceName": "Central Milton",
+    "municipalAreaFractions": {
+      "Milton": 0.9999999999999991,
+      "Halton Hills": 0.0,
+      "Oakville": 0.0,
+      "Burlington": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-9",
+    "sourceName": "South West Oakville",
+    "municipalAreaFractions": {
+      "Oakville": 0.997422260077912,
+      "Burlington": 4.8246517801650636e-05,
+      "Halton Hills": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-210",
+    "sourceName": "The Orchard",
+    "municipalAreaFractions": {
+      "Burlington": 0.9994000021590396,
+      "Oakville": 0.0005999978410045858,
+      "Halton Hills": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-207",
+    "sourceName": "Upper East Milton",
+    "municipalAreaFractions": {
+      "Milton": 0.9998408799623613,
+      "Halton Hills": 0.0001582740122169073,
+      "Oakville": 0.0,
+      "Burlington": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-202",
+    "sourceName": "Upper Glen Abbey",
+    "municipalAreaFractions": {
+      "Oakville": 1.0000000000000004,
+      "Halton Hills": 0.0,
+      "Burlington": 0.0,
+      "Milton": 0.0
+    },
+    "sourceGeometryValid": true
+  },
+  {
+    "code": "okn-2023-18",
+    "sourceName": "West Milton",
+    "municipalAreaFractions": {
+      "Milton": 0.9999880894502148,
+      "Halton Hills": 1.1900538233013181e-05,
+      "Oakville": 0.0,
+      "Burlington": 0.0
+    },
+    "sourceGeometryValid": true
+  }
+]

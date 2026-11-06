@@ -1,0 +1,68 @@
+{
+  "id": "894d333ee68a4d3ab7895a19307d613d",
+  "owner": "mcarrozza_hl",
+  "ownerId": "b2ba93abb3874c9dabcda0c5c1b92f5c",
+  "created": 1692716088000,
+  "modified": 1704290896000,
+  "guid": null,
+  "name": "Halton_20230822",
+  "title": "Halton_20230822",
+  "type": "Feature Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Feature Access",
+    "Feature Service",
+    "Metadata",
+    "Multilayer",
+    "Service",
+    "Hosted Service"
+  ],
+  "description": "New Optional Layers Halton",
+  "tags": [
+    "New Optional Layers Halton"
+  ],
+  "snippet": "New Optional Layers Halton",
+  "thumbnail": "thumbnail/thumbnail.png",
+  "documentation": null,
+  "extent": [
+    [
+      -80.21842930797989,
+      43.259268119658486
+    ],
+    [
+      -79.5719311141537,
+      43.75379061561454
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "102100",
+  "accessInformation": "New Optional Layers Halton",
+  "classification": null,
+  "licenseInfo": "",
+  "culture": "en-us",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://services5.arcgis.com/f65GOlAcHzjG3q3P/arcgis/rest/services/Halton_20230822/FeatureServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 4521984,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 3311,
+  "scoreCompleteness": 45,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "lastViewed": 1793995200000
+}

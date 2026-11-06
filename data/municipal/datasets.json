@@ -417,7 +417,7 @@
       "id": "brampton",
       "title": "Official named neighbourhoods and planning areas",
       "reference": "Nurturing Neighbourhoods Program boundaries; major roads, natural features and historic settlement areas.",
-      "profilePath": null,
+      "profilePath": "data/municipal/peel-halton/statistics-research/brampton/population-estimates-selected.json",
       "type": "Municipal neighbourhood",
       "typeLabel": "市政社区"
     },

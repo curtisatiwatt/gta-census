@@ -103,7 +103,7 @@ const translations = {
   '覆盖范围': 'Coverage',
   '原始来源': 'Original sources',
   '暂无数据': 'No data', '没有找到这个类别。': 'No matching group.', '其余类别': 'Other groups', '原表统计差额': 'Source-table discrepancy',
-  '未选择人口群体 · 点击“人群”添加': 'No groups selected · choose Groups', '官方资料暂无同口径收入数值': 'No comparable income value is published',
+  '未选择人口群体 · 点击“人群”添加': 'No groups selected · choose Groups', '官方资料暂无同口径收入数值': 'A comparable income value has not been obtained',
   '这个区域暂无可用的人口分类资料，不能当作 0 人。': 'Population categories are unavailable for this area; this does not mean zero residents.',
   '点击“人群”选择想了解的类别。': 'Choose the categories you want to explore under Groups.',
   '占比按人数 ÷ 同表私人住户人口计算。灰色为未勾选类别，留白为原表统计差额。': 'Shares are counts divided by private-household population in the same table. Grey shows unselected groups; the unfilled segment shows the source-table discrepancy.',
@@ -212,10 +212,29 @@ addTranslationPatterns([
 ]);
 
 addTranslations({
+
+  '覆盖此社区的统计区域': 'Statistical areas overlapping this community',
+  '规划社区与统计区边界不同。以下收入和人口属于各统计区的完整范围，不是整个社区的汇总。': 'Planning and statistical boundaries differ. Each row describes the complete statistical area, not a total for this community.',
+  '统计范围': 'Statistical area', '总人口': 'Total population',
+  '查看收入统计来源 ↗': 'Income data source ↗', '统计区基数': 'Statistical-area base', '社区统计基数': 'Community population base',
+  '拖动与缩放同步 · 颜色表示所示统计范围的占比': 'Synchronized maps · colour shows the share in each statistical area',
+  '占所示统计范围人口比例': 'Share of statistical-area population',
+  '人口估算': 'Estimated population', '市府发布人口估算 · 2022': 'City-published population estimate · 2022', '普查传播区': 'Census dissemination area',
+  '区域统计社区': 'Regional statistical neighbourhood',
+  '查看统计': 'View statistics', '已收录相交统计区的收入与人口': 'Income and population are available for overlapping statistical areas',
+  '社区人口': 'Community population', '人口估算 · 2022': 'Estimated population · 2022',
+  '家庭收入中位数 · 2020': 'Median household income · 2020',
+  '点击社区查看统计范围与原始数值': 'Select to see the statistical boundaries and published figures',
+  '以下数值的统计范围': 'The figures below describe',
+  '地图虚线显示完整统计范围，实线仍是所选社区。': 'The dashed outline shows the full statistical area; the solid outline shows your community.',
+  '返回社区原表': 'Return to community profile', '社区原表': 'Community profile',
+  '此边界的同口径收入尚未取得': 'A matching household income value has not been obtained for this boundary',
+  '社区原表缺失处，底色采用相交统计区的完整区域数值。点击社区查看对应范围。': 'Where community figures are missing, shading uses complete overlapping statistical areas. Select a community to inspect those boundaries.',
   '多个可见少数族裔': 'Multiple visible minorities', '非可见少数族裔（普查分类）': 'Not a visible minority (Census category)',
   '社区边界数据格式不完整': 'Community boundary data is incomplete', '社区人口分类数据格式不完整': 'Population category data is incomplete', '社区身份或显示坐标缺失': 'A community identifier or display coordinate is missing',
 });
 addTranslationPatterns([
+  [/^(\d+) 个统计范围可查看$/, '$1 statistical areas available'],
   [/^无法载入 (.+)（(\d+)）$/, 'Could not load $1 ($2)'],
   [/^(.+) ([\d.]+%|暂无数据)$/, (_, group, value) => `${translate(group, 'en')} ${translate(value, 'en')}`],
   [/^(.+) 人 · 全市 (.+)$/, (_, count, share) => `${translate(count, 'en')} people · City ${translate(share, 'en')}`],

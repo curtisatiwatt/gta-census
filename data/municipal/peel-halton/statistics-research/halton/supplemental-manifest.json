@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-11-06",
+  "publisher": "Our Kids Network",
+  "provider": "HealthLandscape",
+  "regionCode": "3524",
+  "featureCount": 30,
+  "geometrySourceUrl": "https://services5.arcgis.com/f65GOlAcHzjG3q3P/ArcGIS/rest/services/Halton_20230822/FeatureServer/18",
+  "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+  "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8",
+  "boundaryDescriptionUrl": "https://ourkidsnetwork.ca/wp-content/uploads/2024/01/About-OKN-Neighbourhoods-Halton-Municipalities-Census.pdf",
+  "portalDocumentationUrl": "https://ourkidsnetwork.ca/data-portal-2-0/",
+  "license": "No separate licence stated in public ArcGIS metadata; OKN portal disclaimer provides data AS IS for community-status information. Census facts credited to Statistics Canada; compiled data and boundaries credited to Our Kids Network.",
+  "licenseUrl": "https://ourkidsnetwork.ca/data-portal-2-0/",
+  "fields": {
+    "sourceGeometryId": "HaltonID",
+    "sourceName": "NbrhdTxt",
+    "populationTableJoin": "API geoKey HaltonID2; column 0 HaltonID",
+    "totalPopulation": "77416F9F09, column 6: Total Population (2021)",
+    "racializedPopulationPercent": "7573BC59E8, column 3: Racialized Population (%) - 2021",
+    "income": "Not published in this dataset; null",
+    "population": "Visible-minority private-household sample denominator not published; null",
+    "counts13": "13 categories not published; null. No back-calculation from rounded percentage."
+  },
+  "exclusions": [
+    {
+      "id": "23",
+      "name": "Bronte Park",
+      "reason": "No published neighbourhood population profile; Bronte Park is separate cartographic polygon."
+    }
+  ],
+  "limitations": [
+    "Independent OKN statistical geography, not interchangeable with municipal planning communities.",
+    "30 neighbourhood population values total 596490, versus published regional benchmark 596635. Preserve published values; do not force balance.",
+    "Rural North Halton crosses Milton and Halton Hills; municipalityCode null with both municipalityCodes.",
+    "North Oakville source polygon overlaps Milton by approximately 1%; original published geometry is retained.",
+    "Only aggregate racialized share is published; it does not provide the 13 groups or the sample-population denominator.",
+    "The public portal's demographics and the official data dictionary have no household-income median indicator. Low-income measures and government-transfer shares are distinct metrics."
+  ],
+  "rawSnapshots": {
+    "halton-2023-item.json": {
+      "sha256": "b5f1729d3c5b557dbab75e1236bfec570fef685ba27c279f4dfcbd79b423fc19",
+      "bytes": 1623
+    },
+    "halton-2023-service.json": {
+      "sha256": "11fcc6d324df1bb26a2bb6974c329ce4ee51513116e7809c0e95fbd2ae55d0c0",
+      "bytes": 9558
+    },
+    "layer-18.json": {
+      "sha256": "4f306b284765d1ac3daab0c09044498afc74372a85fc41948ff08121dd3c782a",
+      "bytes": 12227
+    },
+    "layer-18.geojson": {
+      "sha256": "01cd5c29f5dc5974eebb8ce5722576fffd9f077c8549927df6dd30fadb08f63c",
+      "bytes": 628473
+    },
+    "layer-12.json": {
+      "sha256": "44b0c6f6ef870e6540dd9b4846758a03a73c81b15323ab50beac723827031ab9",
+      "bytes": 14510
+    },
+    "layer-12.geojson": {
+      "sha256": "306f02612bc715824caf897199a47534ed168c0e98c28a2036d149acf90678d1",
+      "bytes": 529888
+    },
+    "77416F9F09.json": {
+      "sha256": "295c63c58d3fc14dc31e50e984c053b78e8dafcb8f7b16c86953298107ac2506",
+      "bytes": 12896
+    },
+    "7573BC59E8.json": {
+      "sha256": "428c0eb948514e0ddcd48bad8fa42aa1a90a40d145920d2ab595e16f42711e2e",
+      "bytes": 11631
+    },
+    "portal-data-config-excerpt.txt": {
+      "sha256": "ec8304983480a56a76bb1a7db984025aff9c95a5a2ca608426d868ec6f1291df",
+      "bytes": 18000
+    },
+    "portal-bundle-hash.json": {
+      "sha256": "3d1be0d307e1c59e595c671f251b8e7fcb5ff8fd58fec10081119eed14cbf7c3",
+      "bytes": 219
+    },
+    "portal-geography-config.json": {
+      "sha256": "bef6152e8739291144df99a1be1d6b4514d3ed4631796ce1f492c9390b483981",
+      "bytes": 1547
+    },
+    "municipal-community-geometry-comparison.json": {
+      "sha256": "db674892148a5871caf6aeafc937c9132d8f3ee070aebe70f6075412699a7537",
+      "bytes": 45229
+    }
+  },
+  "municipalGeometryComparison": {
+    "directPopulationMatches": 0,
+    "path": "municipal-community-geometry-comparison.json",
+    "nearestMatch": "Milton Beaty vs OKN Lower East Milton; IoU 0.9930444345053591; symmetric difference 21976.509208079307 m2; Hausdorff 10.220200710995512 m; not treated as numerical precision match."
+  }
+}

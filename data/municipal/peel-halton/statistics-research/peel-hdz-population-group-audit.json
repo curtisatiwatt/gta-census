@@ -1,0 +1,245 @@
+{
+  "status": "Not suitable for computing population-group percentages from the published denominator",
+  "records": [
+    {
+      "code": "PHDZ-B1-A",
+      "publishedDenominator": 45680,
+      "categorySum": 47660,
+      "difference": 1980
+    },
+    {
+      "code": "PHDZ-B1-B",
+      "publishedDenominator": 51775,
+      "categorySum": 54915,
+      "difference": 3140
+    },
+    {
+      "code": "PHDZ-B10",
+      "publishedDenominator": 27155,
+      "categorySum": 28735,
+      "difference": 1580
+    },
+    {
+      "code": "PHDZ-B11",
+      "publishedDenominator": 26225,
+      "categorySum": 27615,
+      "difference": 1390
+    },
+    {
+      "code": "PHDZ-B12",
+      "publishedDenominator": 25160,
+      "categorySum": 26750,
+      "difference": 1590
+    },
+    {
+      "code": "PHDZ-B13",
+      "publishedDenominator": 28115,
+      "categorySum": 29905,
+      "difference": 1790
+    },
+    {
+      "code": "PHDZ-B14",
+      "publishedDenominator": 29300,
+      "categorySum": 30360,
+      "difference": 1060
+    },
+    {
+      "code": "PHDZ-B15",
+      "publishedDenominator": 41135,
+      "categorySum": 43345,
+      "difference": 2210
+    },
+    {
+      "code": "PHDZ-B16",
+      "publishedDenominator": 28980,
+      "categorySum": 30145,
+      "difference": 1165
+    },
+    {
+      "code": "PHDZ-B2",
+      "publishedDenominator": 47025,
+      "categorySum": 49685,
+      "difference": 2660
+    },
+    {
+      "code": "PHDZ-B3",
+      "publishedDenominator": 43640,
+      "categorySum": 45860,
+      "difference": 2220
+    },
+    {
+      "code": "PHDZ-B4",
+      "publishedDenominator": 45935,
+      "categorySum": 48675,
+      "difference": 2740
+    },
+    {
+      "code": "PHDZ-B5",
+      "publishedDenominator": 30975,
+      "categorySum": 32350,
+      "difference": 1375
+    },
+    {
+      "code": "PHDZ-B6",
+      "publishedDenominator": 52770,
+      "categorySum": 54930,
+      "difference": 2160
+    },
+    {
+      "code": "PHDZ-B7",
+      "publishedDenominator": 36060,
+      "categorySum": 38265,
+      "difference": 2205
+    },
+    {
+      "code": "PHDZ-B8",
+      "publishedDenominator": 27920,
+      "categorySum": 29690,
+      "difference": 1770
+    },
+    {
+      "code": "PHDZ-B9",
+      "publishedDenominator": 28800,
+      "categorySum": 30190,
+      "difference": 1390
+    },
+    {
+      "code": "PHDZ-C1",
+      "publishedDenominator": 23140,
+      "categorySum": 23465,
+      "difference": 325
+    },
+    {
+      "code": "PHDZ-C2",
+      "publishedDenominator": 29000,
+      "categorySum": 29905,
+      "difference": 905
+    },
+    {
+      "code": "PHDZ-C3",
+      "publishedDenominator": 22305,
+      "categorySum": 22545,
+      "difference": 240
+    },
+    {
+      "code": "PHDZ-M1",
+      "publishedDenominator": 41320,
+      "categorySum": 42960,
+      "difference": 1640
+    },
+    {
+      "code": "PHDZ-M10",
+      "publishedDenominator": 22590,
+      "categorySum": 23520,
+      "difference": 930
+    },
+    {
+      "code": "PHDZ-M11",
+      "publishedDenominator": 41695,
+      "categorySum": 43255,
+      "difference": 1560
+    },
+    {
+      "code": "PHDZ-M12",
+      "publishedDenominator": 28535,
+      "categorySum": 29375,
+      "difference": 840
+    },
+    {
+      "code": "PHDZ-M13",
+      "publishedDenominator": 40870,
+      "categorySum": 42665,
+      "difference": 1795
+    },
+    {
+      "code": "PHDZ-M14",
+      "publishedDenominator": 31630,
+      "categorySum": 32530,
+      "difference": 900
+    },
+    {
+      "code": "PHDZ-M15",
+      "publishedDenominator": 24580,
+      "categorySum": 25500,
+      "difference": 920
+    },
+    {
+      "code": "PHDZ-M16",
+      "publishedDenominator": 35795,
+      "categorySum": 37010,
+      "difference": 1215
+    },
+    {
+      "code": "PHDZ-M17",
+      "publishedDenominator": 43130,
+      "categorySum": 44895,
+      "difference": 1765
+    },
+    {
+      "code": "PHDZ-M18",
+      "publishedDenominator": 34075,
+      "categorySum": 34995,
+      "difference": 920
+    },
+    {
+      "code": "PHDZ-M19",
+      "publishedDenominator": 28845,
+      "categorySum": 29380,
+      "difference": 535
+    },
+    {
+      "code": "PHDZ-M2",
+      "publishedDenominator": 38075,
+      "categorySum": 39390,
+      "difference": 1315
+    },
+    {
+      "code": "PHDZ-M20",
+      "publishedDenominator": 31610,
+      "categorySum": 32530,
+      "difference": 920
+    },
+    {
+      "code": "PHDZ-M3",
+      "publishedDenominator": 29850,
+      "categorySum": 31210,
+      "difference": 1360
+    },
+    {
+      "code": "PHDZ-M4",
+      "publishedDenominator": 35055,
+      "categorySum": 37855,
+      "difference": 2800
+    },
+    {
+      "code": "PHDZ-M5",
+      "publishedDenominator": 46230,
+      "categorySum": 48715,
+      "difference": 2485
+    },
+    {
+      "code": "PHDZ-M6",
+      "publishedDenominator": 35115,
+      "categorySum": 36110,
+      "difference": 995
+    },
+    {
+      "code": "PHDZ-M7",
+      "publishedDenominator": 31350,
+      "categorySum": 32820,
+      "difference": 1470
+    },
+    {
+      "code": "PHDZ-M8",
+      "publishedDenominator": 29115,
+      "categorySum": 30400,
+      "difference": 1285
+    },
+    {
+      "code": "PHDZ-M9",
+      "publishedDenominator": 35345,
+      "categorySum": 36990,
+      "difference": 1645
+    }
+  ]
+}

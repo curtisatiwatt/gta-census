@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "researched": "2026-11-06",
+  "question": "Do Markham, Richmond Hill and Vaughan have official 2021 population-group and household-income statistics usable while displaying named municipal neighbourhoods?",
+  "answer": "Yes. York Region publishes complete DA geometry and downloadable 2021 Census DA profiles covering all nine municipalities. The household median and 13 population-group counts have been downloaded and normalized without changing the DA geography. Current EDI names can remain the navigation geography and show the linked complete statistics areas. A directly matching public 2021 EDI full-population household-income profile has not been verified; this is not a claim that municipal statistics do not exist.",
+  "deliverables": {
+    "geography": "supplemental-areas.geojson",
+    "populationRecords": "supplemental-data.json",
+    "sourceHashesAndFields": "supplemental-manifest.json",
+    "geometryAlignmentAudit": "edi-alignment-audit.json",
+    "rawIntersectionDiagnostics": "da-edi-intersections.json",
+    "downloadScript": "download-sources.py",
+    "normalizationScript": "prepare-supplemental.py"
+  },
+  "officialSourcesChecked": [
+    {
+      "name": "York Region Profile of Total Income by Census Dissemination Area, 2021 Census",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=3da230acb6884c77848d2fdbe5527043",
+      "geography": "2021 Dissemination Area",
+      "result": "Downloaded 1184 areas. MED_TOT_HH is the total household-income median; 1142 areas have a published value. Also downloaded household counts and the household total-income distribution. Do not substitute MED_TOT_INC (individual) or MED_TOT_INC_ECF (economic family).",
+      "downloadable": true,
+      "rawFile": "da-income-2021.geojson"
+    },
+    {
+      "name": "York Region Profile of Immigration Citizenship by Dissemination Area, 2021 Census",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=eb45943c2f1b4aa699ecddf04822eea8",
+      "geography": "2021 Dissemination Area",
+      "result": "The visible-minority variables are in this service's layer 14, despite the service title. Downloaded 1184 areas; 1180 have all 13 categories plus the same-table TOT_VISIBLE_MINORITY_PVT_HH denominator. The separate Ethnocultural and Religious Diversity service, layer 12, contains religion fields and is not the population-group source.",
+      "downloadable": true,
+      "rawFile": "da-visible-minority-2021.geojson"
+    },
+    {
+      "name": "York Region Population and Dwelling Count by Dissemination Area (Centroids), 2021 Census",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=7a6e958187334501a40ced3cc4f83619",
+      "geography": "2021 Dissemination Area",
+      "result": "DAPOP2021 provides the total population count for all 1184 areas, totaling 1173334. Join by DAUID to the polygon services; this value is not the private-household denominator for visible-minority percentages.",
+      "downloadable": true,
+      "rawFile": "da-population-2021.json"
+    },
+    {
+      "name": "York Region 2021 Census Explorer",
+      "sourceUrl": "https://www.york.ca/census-and-demographic-item/2021-census-census-explorer-1",
+      "dashboardUrl": "https://public.tableau.com/app/profile/regional.municipality.of.york/viz/YorkRegion2021CensusProfile/Intro",
+      "metadataUrl": "https://public.tableau.com/profile/api/single_workbook/YorkRegion2021CensusProfile",
+      "result": "Official publisher metadata describes municipal and regional coverage, not named EDI neighbourhoods. The published workbook metadata sets allowDataAccess=false; no workbook/data download was obtained. The ArcGIS 2021 Story Map separately links DA dashboards and municipal tables, whose services were inspected.",
+      "geography": "Municipality and region; companion ArcGIS dashboards also publish DA data",
+      "evidenceFile": "tableau-workbook-metadata.json"
+    },
+    {
+      "name": "York Region Custom Demographic Tables (2021 Census)",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=4dfcf246d9074a55b71aa0bd27ab507b",
+      "serviceUrl": "https://services1.arcgis.com/GzvOwaQBbX7KLiuG/arcgis/rest/services/Census_2021_Tables/FeatureServer",
+      "result": "The public service exposes tables 3 AgeandSex_Ontario, 4 LabourForceRates_YorkRegion and 5 PopulationDwelling_Ontario. It does not expose an EDI household-income or visible-minority profile.",
+      "downloadable": true
+    },
+    {
+      "name": "Community Data Program: 2021 Census custom geographies",
+      "sourceUrl": "https://communitydata.ca/content/2021-census-custom-geographies",
+      "profileUrl": "https://communitydata.ca/data/census-profile-2021",
+      "result": "The 2021 custom-geographies catalog explicitly includes York Region. The Census Profile product includes a Custom geos choice and explains that the semi-custom profile uses the 25% sample. Public pages do not list York's specific constituent areas or give a direct anonymous file download, so it was not possible to verify whether the custom package matches these 64 EDI boundaries. Do not claim that no such custom table exists. A validated copy from York's consortium or a legitimately accessible CDP download would be the preferred future replacement for the separate DA cards.",
+      "verifiedEdiMatch": false,
+      "fileObtained": false
+    },
+    {
+      "name": "Community Data Program: 2021 Census Profile Income Dashboard",
+      "sourceUrl": "https://communitydata.ca/data/2021-census-profile-income-dashboard",
+      "result": "Its catalog lists PT, CSD, CT, CMA, CD, CA and ADA geographies. It does not list custom neighbourhoods; this dashboard should not be confused with the separate custom-geography Census Profile product.",
+      "verifiedEdiMatch": false
+    },
+    {
+      "name": "Richmond Hill Demographics and Census",
+      "sourceUrl": "https://www.richmondhill.ca/en/learn-more/Demographics-and-Census.aspx",
+      "cityIncomeReportUrl": "https://www.richmondhill.ca/en/shared-content/resources/documents/2021-Census-Release-3--4-for-Website---Families-maritial-status-income.-linguistics.pdf",
+      "wardExampleUrl": "https://www.richmondhill.ca/en/shared-content/resources/documents/WARD-1--Profile-2021-AODA.pdf",
+      "result": "The city publishes citywide reports and six downloadable 2021 ward profiles. The citywide income release, PDF page 5, reports 2020 median household income of 102000. Ward 1's profile contains population and median total household income but ethnic-origin responses, which are a different variable from the requested 13 visible-minority categories. These ward boundaries are not the nine EDI neighbourhood boundaries; no ward-to-EDI transfer is made.",
+      "cityMedianHouseholdIncome2020": 102000,
+      "verifiedEdiMatch": false
+    },
+    {
+      "name": "Markham Housing Needs Assessment, April 2025",
+      "sourceUrl": "https://www.markham.ca/sites/default/files/2025-05/CCBF%20Template%20-%20Markham%20Housing%20Needs%20Assessment%20-%20April%202025_0.pdf",
+      "result": "Citywide 2021 Census household profiles on PDF page 34 report a median household income of 104000. PDF page 42 identifies it as the area median household income for the city. No table in this source was identified with household medians for the named EDI neighbourhoods.",
+      "cityMedianHouseholdIncome2020": 104000,
+      "verifiedEdiMatch": false
+    },
+    {
+      "name": "Vaughan Housing Needs Assessment",
+      "sourceUrl": "https://www.vaughan.ca/media/325211/download?inline=",
+      "result": "Citywide household profiles on PDF page 37 report median household income of 124000; PDF page 46 gives the city area median in 2020 dollars. No table in this source was identified with household medians for the named EDI neighbourhoods.",
+      "cityMedianHouseholdIncome2020": 124000,
+      "verifiedEdiMatch": false
+    }
+  ],
+  "alignmentConclusion": {
+    "geometry": "All 1184 DA polygons have at least 96.055% of their WGS84 area in one EDI boundary, but 119 intersect a second EDI by more than 0.1%. This diagnostic does not establish an exact nesting relationship.",
+    "population": "Assigning each whole DA to its maximum-overlap EDI gives 53 of 64 EDI total populations within 5 people of the published EDI values. Other areas differ by up to 153 people, so this is not accepted as a verified exact crosswalk.",
+    "decision": "No EDI population groups or household medians are derived. Keep each official DA intact and explicitly associate it with neighbourhoods as a separate statistics area. Keep existing official EDI total-population figures only where the original complete EDI boundary is used."
+  }
+}

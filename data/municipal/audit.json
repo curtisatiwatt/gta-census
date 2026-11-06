@@ -300,7 +300,7 @@
     }
   ],
   "sourceHashes": {
-    "data/municipal/datasets.json": "55ad90b269b591e6ce42956288e4048e6317763e8afcb962d2c01d3debc31598",
+    "data/municipal/datasets.json": "893860583c3c5f817fc2dcbc0b2dd46a5eed6d3b37d443eb101846c4ae5f2eda",
     "data/municipal/peel-halton/display-names.json": "c335c2f3e83d4b9332bc605b7bd6c3169c534bdc77e8dee4ba9f6b204c8f29f4",
     "data/municipal/toronto/neighbourhoods.geojson": "b0cb58077f5b3a47e0e56a68913c6980cfaf39d37d7d020fd91b60650c480233",
     "data/municipal/toronto/profiles-selected.json": "23ba5aafdc5fd17a0b1edaec76512674ec67fb801ed5811f9cca5b1d68fc8f97",
@@ -322,6 +322,8 @@
     "data/municipal/peel-halton/profiles-selected.json": "45df99198d65295264ffb6e272c5ac34b32ea1d6e84cc0759dfad6631cb8b9d6",
     "data/municipal/peel-halton/mississauga-2021-neighbourhoods.csv": "cc2dd1251ddb79f52222eb9ca7274ee3986764eae9cf605d538b5c3d46af33a2",
     "data/municipal/peel-halton/brampton-neighbourhoods.geojson": "22bfaf774fca8885a5dd24e5b32d7d268fd082110add53826547ad58ef36d46a",
+    "data/municipal/peel-halton/statistics-research/brampton/population-estimates-selected.json": "afa79a2d2c8fdd385e622f6a51f09348395e8f42331817b2eab44a09fd53150b",
+    "data/municipal/peel-halton/statistics-research/brampton/NNP_ENVIRONICS_2022_PRD-0.geojson": "3e77e208f9037b4e4985e6f9dd85d7050125749ab08b185434a9a6ba1f062a6f",
     "data/municipal/peel-halton/caledon-settlements.geojson": "68eea36260d8927eac8c03840b2d99502779124b74b22670619ee5d1206d124a",
     "data/municipal/peel-halton/oakville-planning-communities.geojson": "88c4ebead8f8a69e70a8097c898009cf0b50ca1b8ce02400e0dbfe9214918e63",
     "data/municipal/peel-halton/burlington-planning-communities.geojson": "289e7c5875ea36e4be10a4d6454eab87fa94c2ff88a6ff2984a4816d3d9dfc2c",
@@ -329,8 +331,8 @@
     "data/municipal/peel-halton/halton-hills-settlements.geojson": "ed46f96b4fa4830315d356dfc6ac063d7f33c496304f6c8d82c63ef84ca50642"
   },
   "hashes": {
-    "neighbourhoods.geojson": "b076fc561e4dbdc88f6d5ff3c57558d19c6d3939dc819567ff3da431379da4c7",
-    "neighbourhood-data.json": "77b29732ecbc662e85ac2410220aa8b6b23671bbdf05168d3694a072f068b396"
+    "neighbourhoods.geojson": "ee74a9ce83e40403b52bed81865b38cf805ef029f6e66d37c9c1193805856458",
+    "neighbourhood-data.json": "9b451ab51e9141fd92a224a2427ef17380fea5f0eabe0e0419ba0006691e090b"
   },
   "provenance": {
     "NB3518001-pickering-neighbourhoods-1": {

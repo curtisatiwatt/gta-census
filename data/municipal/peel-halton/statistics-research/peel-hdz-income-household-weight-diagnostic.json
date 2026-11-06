@@ -1,0 +1,555 @@
+{
+  "warning": "Diagnostic only. Weighted means of medians are not zone medians. Do not display calculated values as zone household-income statistics.",
+  "results": [
+    {
+      "zone": "B1-A",
+      "publishedIncome": 121927,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 121926.60926609267,
+      "difference": 0.39073390733392444,
+      "tractIds": [
+        "5350576.98",
+        "5350576.99",
+        "5350577.00",
+        "5350577.01"
+      ]
+    },
+    {
+      "zone": "B1-A",
+      "publishedIncome": 121927,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 121952.89256198348,
+      "difference": -25.892561983477208,
+      "tractIds": [
+        "5350576.98",
+        "5350576.99",
+        "5350577.00",
+        "5350577.01"
+      ]
+    },
+    {
+      "zone": "B1-B",
+      "publishedIncome": 124006,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 124005.62390158173,
+      "difference": 0.3760984182736138,
+      "tractIds": [
+        "5350576.29",
+        "5350576.43",
+        "5350576.44",
+        "5350576.52",
+        "5350576.53",
+        "5350576.49",
+        "5350576.50",
+        "5350576.80",
+        "5350576.81",
+        "5350577.07",
+        "5350577.08",
+        "5350577.09"
+      ]
+    },
+    {
+      "zone": "B1-B",
+      "publishedIncome": 124006,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 124001.40597539544,
+      "difference": 4.5940246045647655,
+      "tractIds": [
+        "5350576.29",
+        "5350576.43",
+        "5350576.44",
+        "5350576.52",
+        "5350576.53",
+        "5350576.49",
+        "5350576.50",
+        "5350576.80",
+        "5350576.81",
+        "5350577.07",
+        "5350577.08",
+        "5350577.09"
+      ]
+    },
+    {
+      "zone": "B10",
+      "publishedIncome": 105706,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 105705.52486187845,
+      "difference": 0.47513812154647894,
+      "tractIds": [
+        "5350562.03",
+        "5350562.04",
+        "5350562.06",
+        "5350562.07",
+        "5350562.08",
+        "5350562.09",
+        "5350562.11"
+      ]
+    },
+    {
+      "zone": "B10",
+      "publishedIncome": 105706,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 105734.40088348978,
+      "difference": -28.400883489783155,
+      "tractIds": [
+        "5350562.03",
+        "5350562.04",
+        "5350562.06",
+        "5350562.07",
+        "5350562.08",
+        "5350562.09",
+        "5350562.11"
+      ]
+    },
+    {
+      "zone": "B11",
+      "publishedIncome": 99911,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 99910.8092144123,
+      "difference": 0.19078558770706877,
+      "tractIds": [
+        "5350560.00",
+        "5350561.00",
+        "5350562.13",
+        "5350563.02",
+        "5350564.01",
+        "5350576.78",
+        "5350576.79"
+      ]
+    },
+    {
+      "zone": "B11",
+      "publishedIncome": 99911,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 99815.33923303835,
+      "difference": 95.66076696164964,
+      "tractIds": [
+        "5350560.00",
+        "5350561.00",
+        "5350562.13",
+        "5350563.02",
+        "5350564.01",
+        "5350576.78",
+        "5350576.79"
+      ]
+    },
+    {
+      "zone": "B12",
+      "publishedIncome": 130902,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 130901.6393442623,
+      "difference": 0.3606557377061108,
+      "tractIds": [
+        "5350576.57",
+        "5350576.63",
+        "5350576.82",
+        "5350576.83",
+        "5350576.86",
+        "5350576.87"
+      ]
+    },
+    {
+      "zone": "B12",
+      "publishedIncome": 130902,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 130931.03448275862,
+      "difference": -29.0344827586232,
+      "tractIds": [
+        "5350576.57",
+        "5350576.63",
+        "5350576.82",
+        "5350576.83",
+        "5350576.86",
+        "5350576.87"
+      ]
+    },
+    {
+      "zone": "B13",
+      "publishedIncome": 126721,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 126721.06398274623,
+      "difference": -0.06398274622915778,
+      "tractIds": [
+        "5350576.62",
+        "5350576.65",
+        "5350576.94",
+        "5350576.95",
+        "5350576.96",
+        "5350576.97"
+      ]
+    },
+    {
+      "zone": "B13",
+      "publishedIncome": 126721,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 126750.5376344086,
+      "difference": -29.537634408596205,
+      "tractIds": [
+        "5350576.62",
+        "5350576.65",
+        "5350576.94",
+        "5350576.95",
+        "5350576.96",
+        "5350576.97"
+      ]
+    },
+    {
+      "zone": "B14",
+      "publishedIncome": 88161,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 88161.24322069253,
+      "difference": -0.2432206925295759,
+      "tractIds": [
+        "5350574.00",
+        "5350570.02",
+        "5350571.02",
+        "5350572.01",
+        "5350572.04",
+        "5350572.05"
+      ]
+    },
+    {
+      "zone": "B14",
+      "publishedIncome": 88161,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 88157.23270440252,
+      "difference": 3.7672955974849174,
+      "tractIds": [
+        "5350574.00",
+        "5350570.02",
+        "5350571.02",
+        "5350572.01",
+        "5350572.04",
+        "5350572.05"
+      ]
+    },
+    {
+      "zone": "B15",
+      "publishedIncome": 76265,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 76264.73325062035,
+      "difference": 0.2667493796470808,
+      "tractIds": [
+        "5350562.12",
+        "5350562.05",
+        "5350563.01",
+        "5350570.01",
+        "5350571.01",
+        "5350575.02",
+        "5350575.04",
+        "5350564.02"
+      ]
+    },
+    {
+      "zone": "B15",
+      "publishedIncome": 76265,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 76321.75525339926,
+      "difference": -56.75525339925662,
+      "tractIds": [
+        "5350562.12",
+        "5350562.05",
+        "5350563.01",
+        "5350570.01",
+        "5350571.01",
+        "5350575.02",
+        "5350575.04",
+        "5350564.02"
+      ]
+    },
+    {
+      "zone": "B16",
+      "publishedIncome": 91546,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 91545.53119730185,
+      "difference": 0.46880269814573694,
+      "tractIds": [
+        "5350528.20",
+        "5350528.21",
+        "5350528.22",
+        "5350528.31",
+        "5350528.50",
+        "5350528.51"
+      ]
+    },
+    {
+      "zone": "B16",
+      "publishedIncome": 91546,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 91538.54811480023,
+      "difference": 7.4518851997709135,
+      "tractIds": [
+        "5350528.20",
+        "5350528.21",
+        "5350528.22",
+        "5350528.31",
+        "5350528.50",
+        "5350528.51"
+      ]
+    },
+    {
+      "zone": "B2",
+      "publishedIncome": 122796,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 122796.26426841923,
+      "difference": -0.2642684192251181,
+      "tractIds": [
+        "5350576.31",
+        "5350576.33",
+        "5350576.34",
+        "5350576.04",
+        "5350576.05",
+        "5350576.06",
+        "5350576.07",
+        "5350576.09",
+        "5350576.76",
+        "5350576.77"
+      ]
+    },
+    {
+      "zone": "B2",
+      "publishedIncome": 122796,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 122838.6985115957,
+      "difference": -42.698511595706805,
+      "tractIds": [
+        "5350576.31",
+        "5350576.33",
+        "5350576.34",
+        "5350576.04",
+        "5350576.05",
+        "5350576.06",
+        "5350576.07",
+        "5350576.09",
+        "5350576.76",
+        "5350576.77"
+      ]
+    },
+    {
+      "zone": "B3",
+      "publishedIncome": 112904,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 112903.66972477065,
+      "difference": 0.33027522935299203,
+      "tractIds": [
+        "5350576.16",
+        "5350576.17",
+        "5350576.59",
+        "5350576.84",
+        "5350576.85",
+        "5350576.92",
+        "5350576.93"
+      ]
+    },
+    {
+      "zone": "B3",
+      "publishedIncome": 112904,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 112876.09511889862,
+      "difference": 27.904881101378123,
+      "tractIds": [
+        "5350576.16",
+        "5350576.17",
+        "5350576.59",
+        "5350576.84",
+        "5350576.85",
+        "5350576.92",
+        "5350576.93"
+      ]
+    },
+    {
+      "zone": "B4",
+      "publishedIncome": 119198,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 119197.50966079862,
+      "difference": 0.4903392013802659,
+      "tractIds": [
+        "5350576.20",
+        "5350576.22",
+        "5350576.54",
+        "5350576.55",
+        "5350576.66",
+        "5350576.45",
+        "5350576.46",
+        "5350576.88",
+        "5350576.89"
+      ]
+    },
+    {
+      "zone": "B4",
+      "publishedIncome": 119198,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 119191.84549356223,
+      "difference": 6.154506437771488,
+      "tractIds": [
+        "5350576.20",
+        "5350576.22",
+        "5350576.54",
+        "5350576.55",
+        "5350576.66",
+        "5350576.45",
+        "5350576.46",
+        "5350576.88",
+        "5350576.89"
+      ]
+    },
+    {
+      "zone": "B5",
+      "publishedIncome": 147119,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 147118.57436600412,
+      "difference": 0.4256339958810713,
+      "tractIds": [
+        "5350576.68",
+        "5350576.69",
+        "5350576.47",
+        "5350576.73",
+        "5350576.74",
+        "5350576.75"
+      ]
+    },
+    {
+      "zone": "B5",
+      "publishedIncome": 147119,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 147047.32510288066,
+      "difference": 71.67489711934468,
+      "tractIds": [
+        "5350576.68",
+        "5350576.69",
+        "5350576.47",
+        "5350576.73",
+        "5350576.74",
+        "5350576.75"
+      ]
+    },
+    {
+      "zone": "B6",
+      "publishedIncome": 141710,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 141710.0482017056,
+      "difference": -0.04820170559105463,
+      "tractIds": [
+        "5350528.52",
+        "5350528.53",
+        "5350576.90",
+        "5350576.91",
+        "5350577.02",
+        "5350577.03",
+        "5350577.04",
+        "5350577.05",
+        "5350577.06"
+      ]
+    },
+    {
+      "zone": "B6",
+      "publishedIncome": 141710,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 141745.02579218865,
+      "difference": -35.025792188651394,
+      "tractIds": [
+        "5350528.52",
+        "5350528.53",
+        "5350576.90",
+        "5350576.91",
+        "5350577.02",
+        "5350577.03",
+        "5350577.04",
+        "5350577.05",
+        "5350577.06"
+      ]
+    },
+    {
+      "zone": "B7",
+      "publishedIncome": 112729,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 112728.56466129796,
+      "difference": 0.43533870203827973,
+      "tractIds": [
+        "5350573.09",
+        "5350572.09",
+        "5350572.10",
+        "5350573.10",
+        "5350573.11",
+        "5350573.05",
+        "5350572.07",
+        "5350572.08"
+      ]
+    },
+    {
+      "zone": "B7",
+      "publishedIncome": 112729,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 112751.30270014211,
+      "difference": -22.30270014211419,
+      "tractIds": [
+        "5350573.09",
+        "5350572.09",
+        "5350572.10",
+        "5350573.10",
+        "5350573.11",
+        "5350573.05",
+        "5350572.07",
+        "5350572.08"
+      ]
+    },
+    {
+      "zone": "B8",
+      "publishedIncome": 95980,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 95979.55010224949,
+      "difference": 0.4498977505136281,
+      "tractIds": [
+        "5350573.06",
+        "5350573.07",
+        "5350575.01",
+        "5350575.05",
+        "5350573.03"
+      ]
+    },
+    {
+      "zone": "B8",
+      "publishedIncome": 95980,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 95987.22534491569,
+      "difference": -7.2253449156851275,
+      "tractIds": [
+        "5350573.06",
+        "5350573.07",
+        "5350575.01",
+        "5350575.05",
+        "5350573.03"
+      ]
+    },
+    {
+      "zone": "B9",
+      "publishedIncome": 111294,
+      "weightField": "TOTAL_PRIV_HH_2020_100",
+      "diagnosticWeightedMeanOfTractMedians": 111293.88888888889,
+      "difference": 0.11111111110949423,
+      "tractIds": [
+        "5350562.14",
+        "5350562.15",
+        "5350575.07",
+        "5350575.08",
+        "5350562.02",
+        "5350575.03"
+      ]
+    },
+    {
+      "zone": "B9",
+      "publishedIncome": 111294,
+      "weightField": "TOTAL_PRIV_HH_2020_25",
+      "diagnosticWeightedMeanOfTractMedians": 111356.11111111111,
+      "difference": -62.111111111109494,
+      "tractIds": [
+        "5350562.14",
+        "5350562.15",
+        "5350575.07",
+        "5350575.08",
+        "5350562.02",
+        "5350575.03"
+      ]
+    }
+  ]
+}

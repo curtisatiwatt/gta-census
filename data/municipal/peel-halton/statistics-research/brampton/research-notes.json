@@ -1,0 +1,68 @@
+{
+  "retrievedAt": "2026-11-06",
+  "scope": "Official City of Brampton public ArcGIS NNP and Census services, ArcGIS Hub neighbourhood pages, and city program publications. No third-party real-estate profile used.",
+  "conclusions": {
+    "nnp2021Population": "No published 2021 Census population field found for the 53 current NNP boundaries. Official city Census_2021 layers are 122 Census Tracts. NNP_CENSUS_LAYERS is one Madoc feature with 2011/2016 data.",
+    "nnp2022Population": "53 current named NNP neighbourhoods have municipal-published Environics 2022 estimates in NNP_ENVIRONICS_2022_PRD layer 0; all 53 names match current geometries, maximal symmetric-difference/union 5.991413258134486e-08, consistent with output numerical precision. IDs do not always match; selected output maps by name back to current IDs.",
+    "nnpIncome": "NNP_ENVIRONICS_INCOME_HSHLD is 52 older polygons with 2016 Environics block-apportioned household income distribution, aggregate and average. It has no median household income. Old dashboard labels confirm Total Household Income in 2016 and Source: Environics 2016. 49 current names match; at least 6 matching names have materially changed polygons. Do not use as 2021 medians or transfer by name.",
+    "nnpVisibleMinority": "NNP_ENVIRONICS_2022_PRD has 4 layers only: Population, Mother Tongue, Work Commute, Language at Home. No visible-minority or household-income fields. NNP_ENVIRONICS_2022 (UAT) contains language-at-home and commute, likewise no ethnicity/income. Mother tongue is not ethnicity.",
+    "cityCensusStatistics": "City Census_2021 has exact 2021 population, 2020 household median, 13 visible-minority group counts on 122 Census Tracts. None exactly matches a current NNP polygon; highest single-tract IoU is 0.9945076549082266. No neighbourhood equals a union of wholly contained CTs at 0.999999 coverage tolerance. Medians cannot be averaged to obtain neighbourhood median.",
+    "license": "2022 PRD source item and layers provide no separate licence. Public city publisher is confirmed as BramptonMaps, but estimates are Environics third-party product; do not call them Statistics Canada Open Licence data."
+  },
+  "sources": [
+    {
+      "url": "https://www.brampton.ca/EN/residents/Community-Safety/Pages/Nurturing-Neighbourhoods-Program.aspx",
+      "purpose": "Official program and profiles launch context"
+    },
+    {
+      "url": "https://www.brampton.ca/EN/residents/Community-Safety/Documents/Interfaith%20Work/Faith%20Leaders%20Workshop%202024%20Final%20Mar%207.pdf",
+      "purpose": "Official 53 NNP profiles launch and city 2021 population context; do not interpret city total as neighbourhood 2021 counts"
+    },
+    {
+      "url": "https://www.arcgis.com/sharing/rest/content/items/4b10878c272b4eed817b672612dbca0e/data?f=json",
+      "purpose": "Official Madoc Hub page: As of 2022, approximate population 15,011"
+    },
+    {
+      "url": "https://www.arcgis.com/sharing/rest/content/items/54366702486c4af291367261e5e1c25e/data?f=json",
+      "purpose": "Official old Madoc household-income dashboard; 2016 Environics attribution"
+    },
+    {
+      "url": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/NNP_ENVIRONICS_2022_PRD/FeatureServer",
+      "purpose": "53 current neighbourhood population estimates; no ethnicity/household-income layers"
+    },
+    {
+      "url": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/NNP_ENVIRONICS_INCOME_HSHLD/FeatureServer/0",
+      "purpose": "2016 block-apportioned distribution and mean; no median"
+    },
+    {
+      "url": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/NNP_CENSUS_LAYERS/FeatureServer",
+      "purpose": "Only one Madoc profile, 2011/2016 population; not 2021"
+    },
+    {
+      "url": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Census_2021/FeatureServer",
+      "purpose": "Official City 2021 data by CT; download layers 0,1,8,32 and audit against NNP"
+    }
+  ],
+  "census2021Fields": {
+    "id": "CTUID",
+    "totalPopulation": "layer1.POPULATION_2021",
+    "income": "layer8.TOTAL_MED_HH_INC_2020",
+    "incomeDefinition": "Median total household income in 2020 ($), 100% data",
+    "population": "layer32.TOTAL_POP_PRIV_HH_25",
+    "counts": {
+      "south_asian": "TOTAL_SOUTH_ASIAN",
+      "chinese": "TOTAL_CHINESE",
+      "black": "TOTAL_BLACK",
+      "filipino": "TOTAL_FILIPINO",
+      "arab": "TOTAL_ARAB",
+      "latin_american": "TOTAL_LATIN_AMERICAN",
+      "southeast_asian": "TOTAL_SOUTHEAST_ASIAN",
+      "west_asian": "TOTAL_WEST_ASIAN",
+      "korean": "TOTAL_KOREAN",
+      "japanese": "TOTAL_JAPANESE",
+      "visible_minority_nie": "TOTAL_NIE",
+      "multiple_visible_minorities": "TOTAL_MULTIPLE",
+      "not_visible_minority": "TOTAL_NOT_A_VSBL_MNRTY"
+    }
+  }
+}

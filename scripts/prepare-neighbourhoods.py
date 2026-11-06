@@ -117,8 +117,8 @@ def main():
                 point = geometry.representative_point()
                 profile_id = str(int(source_id)) if source.get('numericProfileId') else source_id
                 profile = profiles[source['id']].get(profile_id) if not modified_boundary else None
-                caveat = (profile or {}).get('caveat') or '采用官方命名分区。没有与此边界及统计口径匹配的数值会留空，可切换普查统计区查看原始统计。'
-                caveat_en = (profile or {}).get('caveatEn') or 'Official named boundaries are used. Values without a matching boundary and statistical definition remain unavailable. Switch to census areas for the original statistics.'
+                caveat = (profile or {}).get('caveat') or '采用官方命名分区。尚未取得与此规划边界匹配的完整社区统计；可直接选择上方相交统计区，查看其人口、收入及完整范围。'
+                caveat_en = (profile or {}).get('caveatEn') or 'Official named boundaries are used. A complete matching community profile has not been obtained. Select an overlapping statistical area above to see its population, income and complete boundary.'
                 if substantial_clip:
                     caveat += ' 此区域跨越市界，当前只显示本市部分；不沿用原完整区域的统计值。'
                     caveat_en += ' This neighbourhood crosses municipal borders. Only the part in this municipality is shown; statistics for the complete neighbourhood are not reused.'
@@ -141,6 +141,7 @@ def main():
                     'sourceUrl': profile.get('sourceUrl'), 'statisticsMethod': profile.get('statisticsMethod', 'municipal_profile' if profile else 'unavailable'),
                     'income': profile.get('income'), 'incomeRank': None, 'children': profile.get('children'),
                     'householdSize': profile.get('householdSize'), 'totalPopulation': profile.get('totalPopulation'),
+                    'populationEstimate': profile.get('populationEstimate'), 'populationEstimateYear': profile.get('populationEstimateYear'),
                     'population': population, 'chineseCount': chinese,
                     'chinesePct': chinese / population if chinese is not None and population else None,
                     'status': 'reported' if profile.get('income') is not None else 'missing',
@@ -199,13 +200,13 @@ def main():
     metadata={
         'preparedDate':'2026-11-06',
         'boundaryNote':'默认优先使用各市政府正式命名社区、规划区；缺少可用市级分区时采用区域政府的命名社区，仍无覆盖处才补充联邦普查区。各分区的来源可在详情查看。普查统计区图层独立保留原始2021年普查边界。',
-        'missingDataNote':'统计必须匹配边界。只有匹配官方社区统计表的数值才在社区图层显示；没有对应数据保持为空，不以普查区中位数平均或面积加权代替。',
+        'missingDataNote':'社区原表仅展示对应边界的资料；缺项由独立的相交统计区资料补充，可直接选择并查看其完整范围。底色使用对应统计区完整数值，不将人口分摊或平均中位数当作社区统计。Brampton另明确标注2022年市府发布人口估算。',
         'scopeNote':'同名社区在不同城市分别标识。跨市区域只显示本市部分时，不沿用整个区域的人口与收入。地图名称是所引政府数据的正式名称，不代表所有民间街区或地产片区。',
         'childrenDefinition':'Toronto社区使用市政府2021年社区定制表的0–14岁比例（25%抽样）；其他区域仅使用对应官方表的同年龄指标。',
         'license':'包含Toronto、Mississauga、Brampton、Caledon、Oakville、Burlington、Milton、Halton Hills、Pickering、Ajax、Oshawa、York及Durham政府资料。许可和署名要求见各项官方来源与仓库来源清单。Contains public sector information made available under The Regional Municipality of York’s Open Data Licence. Contains information licensed under the Open Government Licence – Town of Oakville. 加拿大统计局数据按其开放许可使用；Leaflet使用BSD 2-Clause许可。',
         'english':{
             'boundaryNote':'The default layer prioritizes official municipal neighbourhoods and planning areas, then named regional-government neighbourhoods. Federal census areas fill remaining gaps. Each area links to its boundary source. The separate census layer preserves the original 2021 boundaries.',
-            'missingDataNote':'Statistics must match the boundaries. Only matching official neighbourhood profiles populate the municipal layer. Unavailable values stay missing; tract medians are never averaged or area-weighted.',
+            'missingDataNote':'Community profiles contain only matching statistics. Linked overlapping statistical areas supply additional figures with their full boundaries. Shading retains complete statistical-area values; population is never apportioned and medians are never averaged into community statistics. Brampton population estimates are explicitly labelled 2022.',
             'scopeNote':'Neighbourhoods with the same name in different municipalities remain separate. Where a cross-border neighbourhood is clipped to a municipality, full-area statistics are not reused. Names follow the cited government datasets and do not enumerate every informal or real-estate neighbourhood.',
             'childrenDefinition':'Toronto neighbourhoods use the published age 0–14 percentage in the City custom 2021 profile (25% sample). Elsewhere only corresponding official age indicators are used.',
             'license':'Contains municipal and regional government information from the credited sources; source-specific licences and attribution are recorded in the repository manifests. Contains public sector information made available under The Regional Municipality of York’s Open Data Licence. Contains information licensed under the Open Government Licence – Town of Oakville. Federal census data use the Statistics Canada Open Licence. Leaflet uses the BSD 2-Clause licence.',

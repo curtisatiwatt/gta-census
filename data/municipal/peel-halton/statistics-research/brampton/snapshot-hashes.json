@@ -1,0 +1,46 @@
+{
+  "NNP_ENVIRONICS_2022_PRD-item.json": {
+    "bytes": 1832,
+    "sha256": "950955b31f0c95276b6e53a87a5982d7799cd6704b7fd73c130697c3685d3db6"
+  },
+  "4b10878c272b4eed817b672612dbca0e-data.json": {
+    "bytes": 15612,
+    "sha256": "33200c682dfbfd45eb9d3375c58ee455c423626d1368f7b5418e80bc928b46f5"
+  },
+  "NNP_ENVIRONICS_2022_PRD-0-layer.json": {
+    "bytes": 13240,
+    "sha256": "e46403106bac95c8aa2d8b17e806a3d13604b3f2c995dfb69dac6c2b869a8893"
+  },
+  "NNP_ENVIRONICS_2022_PRD-service.json": {
+    "bytes": 4821,
+    "sha256": "50c839848a6a1f70a61eb9356d69aa632e7d0659aae7ac109089780b2efdf7d6"
+  },
+  "population_2022-geometry-match.json": {
+    "bytes": 13369,
+    "sha256": "59c5ce0568963d76068234dd1ec806a337a2cbe8783d73553df92731a28816f1"
+  },
+  "research-notes.json": {
+    "bytes": 4829,
+    "sha256": "73529c107d4bc2228133ab4586c6576736798a7ad6f0b892c2dc5fcdc7fb8793"
+  },
+  "population-estimates-metadata.json": {
+    "bytes": 2664,
+    "sha256": "0f250b1127f69aa8e6531f231620d7e5cefbf08047efc4ec97312236ac343053"
+  },
+  "population-estimates-selected.json": {
+    "bytes": 58801,
+    "sha256": "afa79a2d2c8fdd385e622f6a51f09348395e8f42331817b2eab44a09fd53150b"
+  },
+  "4b10878c272b4eed817b672612dbca0e-item.json": {
+    "bytes": 2264,
+    "sha256": "8ae0d60e5d4878c02d080dcf1164594e40c3fdd81ed6265daf661c45dd21d912"
+  },
+  "NNP_ENVIRONICS_2022_PRD-0.geojson": {
+    "bytes": 266390,
+    "sha256": "3e77e208f9037b4e4985e6f9dd85d7050125749ab08b185434a9a6ba1f062a6f"
+  },
+  "prepare-population.py": {
+    "bytes": 1791,
+    "sha256": "266de99355e6c6baa64e8828f12cb83543c2dd09039eb5e1ec5891f68ea92392"
+  }
+}

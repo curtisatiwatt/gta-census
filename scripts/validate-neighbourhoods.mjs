@@ -14,7 +14,7 @@ async function json(path) {
   return JSON.parse(path.endsWith('.gz') ? gunzipSync(data) : data);
 }
 const hash = data => createHash('sha256').update(data).digest('hex');
-const scalarStatistics = ['income', 'children', 'householdSize', 'totalPopulation', 'population'];
+const scalarStatistics = ['income', 'children', 'householdSize', 'totalPopulation', 'population', 'populationEstimate', 'populationEstimateYear'];
 const allStatistics = [...scalarStatistics, 'incomeRank', 'incomeRankTotal', 'chineseCount', 'chinesePct'];
 const displayNamesPath = 'data/municipal/peel-halton/display-names.json';
 const [geo, data, audit, config, census, censusData, censusMetadata, displayNames] = await Promise.all([
@@ -119,7 +119,7 @@ function verifyRecord(record, expected, p) {
     `Chinese share uses the same denominator: ${p.code}`);
 }
 function noStatistics(p) {
-  for (const key of allStatistics) assert.ok(p[key] === null || (key === 'incomeRankTotal' && p[key] === undefined), `Modified boundary carries ${key}: ${p.code}`);
+  for (const key of allStatistics) assert.ok(p[key] == null, `Modified boundary carries ${key}: ${p.code}`);
   assert.equal(data.communities[p.code], undefined, `Modified boundary carries a population chart: ${p.code}`);
   assert.equal(p.statisticsMethod, 'unavailable', `Modified boundary statistics method: ${p.code}`);
   assert.equal(p.status, 'missing', `Modified boundary income status: ${p.code}`);
@@ -150,7 +150,7 @@ for (const feature of geo.features) {
   assert.equal(p.regionCode, scope.regionCode, `Wrong region: ${p.code}`);
   representedScopes.add(p.municipalityCode);
   validateGeometry(feature);
-  for (const key of scalarStatistics) validValue(p[key], `Invalid ${key}: ${p.code}`);
+  for (const key of scalarStatistics) validValue(p[key] ?? null, `Invalid ${key}: ${p.code}`);
   if (p.children !== null) assert.ok(p.children <= 1, `Children proportion outside 0–1: ${p.code}`);
 
   if (p.sourceDataset) {

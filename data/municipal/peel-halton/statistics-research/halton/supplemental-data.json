@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "records": {
+    "okn-2023-20": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 10430,
+      "racializedPopulationPercent": 6.3,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-14": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 36160,
+      "racializedPopulationPercent": 17.3,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-203": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 18310,
+      "racializedPopulationPercent": 17.6,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-204": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 22035,
+      "racializedPopulationPercent": 25.7,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-15": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 19580,
+      "racializedPopulationPercent": 17.3,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-17": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 11340,
+      "racializedPopulationPercent": 16.7,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-205": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 13475,
+      "racializedPopulationPercent": 64.1,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-7": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 19935,
+      "racializedPopulationPercent": 38.1,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-208": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 18045,
+      "racializedPopulationPercent": 57.0,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-301": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 14975,
+      "racializedPopulationPercent": 69.6,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-201": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 21650,
+      "racializedPopulationPercent": 49.5,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-209": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 15440,
+      "racializedPopulationPercent": 43.6,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-4": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 16470,
+      "racializedPopulationPercent": 33.6,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-2": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 17320,
+      "racializedPopulationPercent": 50.4,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-21": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 20900,
+      "racializedPopulationPercent": 11.2,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-303": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 21320,
+      "racializedPopulationPercent": 75.6,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-3": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 29285,
+      "racializedPopulationPercent": 43.0,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-19": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 16580,
+      "racializedPopulationPercent": 16.0,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-13": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 32075,
+      "racializedPopulationPercent": 14.5,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-206": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 13920,
+      "racializedPopulationPercent": 69.2,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-5": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 13725,
+      "racializedPopulationPercent": 30.1,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-10": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 29650,
+      "racializedPopulationPercent": 17.2,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-1": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 24410,
+      "racializedPopulationPercent": 35.0,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-22": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 20930,
+      "racializedPopulationPercent": 17.8,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-302": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 19615,
+      "racializedPopulationPercent": 73.1,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-9": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 30390,
+      "racializedPopulationPercent": 27.6,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-210": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 13725,
+      "racializedPopulationPercent": 29.1,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-207": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 24420,
+      "racializedPopulationPercent": 60.6,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-202": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 19155,
+      "racializedPopulationPercent": 44.1,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    },
+    "okn-2023-18": {
+      "population": null,
+      "counts13": null,
+      "income": null,
+      "totalPopulation": 11225,
+      "racializedPopulationPercent": 18.7,
+      "sourceUrl": "https://okndataportal.ca/",
+      "populationSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=77416F9F09",
+      "racializedPercentSourceUrl": "https://maps.healthlandscape.org/hlcdp_api/restore.aspx?metadataID=7573BC59E8"
+    }
+  }
+}

@@ -1,3 +1,6 @@
 # Preserve official CSV extracts byte for byte so source checksums also work on Windows.
 data/census/*.csv -text whitespace=cr-at-eol
 data/municipal/**/*.csv -text whitespace=cr-at-eol
+# ArcGIS metadata snapshots retain server-provided CRLF and trailing spaces for their audits.
+data/municipal/peel-halton/statistics-research/mississauga-census-esri-layer.json -text -whitespace
+data/municipal/peel-halton/statistics-research/peel-hdz-layer.json -text -whitespace

@@ -1,0 +1,44 @@
+{
+  "retrieved": "2026-11-06",
+  "mississauga": {
+    "populationFinding": "The 2021 Census Population dashboard directly uses the AG field from 2021_Census_ESRI. The official downloadable legend defines AG as Total - Age groups of the population - 25% sample data. It can be displayed with that basis; it must not be confused with VM (population in private households) or asserted to be a 100% exact count.",
+    "populationArtifact": "mississauga-population-selected.json",
+    "newSourceInvestigated": "https://services6.arcgis.com/hM5ymMLbxIyWTjn2/arcgis/rest/services/2021_Census_ESRI/FeatureServer/0",
+    "populationDashboard": "https://www.arcgis.com/apps/dashboards/791f128b7aa54f6fb9c02e6710d95af7",
+    "incomeDashboard": "https://www.arcgis.com/apps/dashboards/025790ec9dba4362a97d78d1be52f0fa",
+    "incomeFinding": "The 2021 dashboard explicitly labels median/average income for people aged 15 years and over, not households. The 711-field backend was inspected and does not provide household-income median omitted from the earlier custom CSV.",
+    "excludedOlderSources": [
+      {
+        "id": "84d2770282d74f36b56f7901dcd1e274",
+        "title": "Neighbourhoods (Income)",
+        "reason": "Created/modified 2019; directly uses CharacterArea2016Census, so not a 2021 profile."
+      },
+      {
+        "id": "58d663417bce44c4a54045c7b9fe7561",
+        "title": "HH_Avg_Med_Income",
+        "reason": "Modified 2019; cannot be a 2021 Census source."
+      }
+    ],
+    "join": "56 unique exact Geog names match existing municipal geometry. Backend has extra All Neighbourhoods aggregate, excluded.",
+    "example": {
+      "name": "Central Erin Mills NHD",
+      "AG": 29995,
+      "VM": 30250,
+      "note": "Different census universes; do not use AG as the 13-group denominator."
+    }
+  },
+  "peelHealthDataZones": {
+    "geographyFinding": "0/56 Mississauga and 0/53 Brampton municipal neighbourhoods exactly match an HDZ; none has IoU >=95%.",
+    "incomeFinding": "All 17 Brampton HDZ Income_MedHH values are exactly reproduced by rounding the household-count-weighted arithmetic mean of constituent 2021 census tract medians. This is a numerical inference from official snapshots, not an explicit methodology statement in the source metadata. It is not a valid median of all zone households.",
+    "incomeEvidence": "peel-hdz-income-household-weight-diagnostic.json",
+    "visibleMinorityFinding": "All 40 zones have source VM_Total below the sum of the 13 group counts by 240 to 3140 people. No correction is invented; rates withheld.",
+    "populationFinding": "All 40 have published total population counts; preserved with census rounding caveat.",
+    "delivery": "Audit-only evidence. The HDZ derived supplemental display artifacts were rejected and archived; no HDZ income or population-group rates are supplied to the application.",
+    "reproductionCommand": "python3 data/municipal/peel-halton/statistics-research/verify-peel-indicators.py"
+  },
+  "brampton": {
+    "researchFolder": "brampton",
+    "populationArtifact": "brampton/population-estimates-selected.json",
+    "finding": "Official NNP current 53-community population uses Environics 2022 estimates. Existing NNP boundaries match at export precision; keyed by source name then mapped to current IDs. It is not 2021 Census. Old 2016 NNP income data contain averages, not medians, and multiple boundaries have changed."
+  }
+}

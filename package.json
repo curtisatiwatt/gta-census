@@ -12,7 +12,7 @@
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "test": "node --test tests/*.test.js",
-    "check": "npm run test && node scripts/validate-census.mjs && node scripts/validate-geography.mjs && node scripts/validate-neighbourhoods.mjs"
+    "check": "npm run test && node scripts/validate-census.mjs && node scripts/validate-geography.mjs && node scripts/validate-neighbourhoods.mjs && node scripts/validate-statistics.mjs"
   },
   "dependencies": {
     "leaflet": "1.9.4"

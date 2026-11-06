@@ -68,7 +68,19 @@
         <div class="community-meta" id="community-meta">正在加载官方社区数据…</div>
         <div class="collapsed-summary" id="collapsed-summary"></div>
         <div id="detail-body">
-          <div class="population-summary"><div><span class="metric-label" id="population-label">私人住户人口 · 2021</span><strong id="population">—</strong></div><span class="population-summary-note">社区<br>统计基数</span></div>
+          <section id="related-statistics" class="related-statistics" hidden aria-labelledby="related-statistics-title">
+            <h2 id="related-statistics-title">覆盖此社区的统计区域</h2>
+            <p class="metric-basis">规划社区与统计区边界不同。以下收入和人口属于各统计区的完整范围，不是整个社区的汇总。</p>
+            <div class="statistics-table-heading"><span>统计范围</span><span>家庭收入中位数 · 2020</span><span>总人口 · 2021</span></div>
+            <div id="statistics-rows" class="statistics-rows"></div>
+          </section>
+          <div id="statistics-selection" class="statistics-selection" hidden>
+            <span class="metric-label">以下数值的统计范围</span><strong id="statistics-selection-name"></strong>
+            <p class="metric-basis">地图虚线显示完整统计范围，实线仍是所选社区。</p>
+            <button id="statistics-reset" type="button" class="text-button">返回社区原表</button>
+          </div>
+          <h2 id="community-profile-heading" class="community-profile-heading">社区原表</h2>
+          <div class="population-summary"><div><span class="metric-label" id="population-label">私人住户人口 · 2021</span><strong id="population">—</strong></div><span class="population-summary-note" id="population-summary-note">社区统计基数</span></div>
           <section class="composition-detail" aria-label="选中社区的人口构成">
             <div class="section-title"><h2>人口构成</h2><span><i class="city-reference-symbol"></i> <span id="scope-reference-label">所选范围占比</span></span></div>
             <div id="composition-bars"></div>
@@ -80,6 +92,7 @@
           <button id="census-detail-button" class="census-detail-button" type="button" hidden>查看此处普查统计区</button>
           <a id="boundary-source-link" class="source-link" target="_blank" rel="noopener" hidden>查看官方分区来源 ↗</a>
           <a id="source-link" class="source-link" target="_blank" rel="noopener">查看官方统计资料 ↗</a>
+          <a id="income-source-link" class="source-link" target="_blank" rel="noopener" hidden>查看收入统计来源 ↗</a>
         </div>
       </section>
     </aside>
@@ -89,14 +102,14 @@
         <div id="composition-map" class="map-canvas" role="region" aria-label="社区构成地图，可拖动缩放，也可以搜索选择社区"></div>
         <div class="map-status"><span class="status-dot"></span><span id="coverage-text">正在加载社区边界…</span></div>
         <div class="map-key composition-key" id="composition-key"><strong>每个圆代表一个社区</strong><p>扇区为占比 · 灰色为未选类别</p><div id="donut-key" class="donut-key"></div><p class="declutter-note" id="donut-status">放大地图可查看更多社区</p></div>
-        <div id="income-legend" class="income-legend map-legend" hidden><div class="legend-title"><strong>家庭年收入中位数</strong><span id="city-income">全市 $98,000</span></div><div class="income-ramp" id="income-ramp"></div><div class="ramp-ticks"><span>低于 6 万</span><span>10 万</span><span>20 万以上</span></div><p><span class="missing-swatch"></span> 无数据 · 税前 CAD · 2020</p></div>
+        <div id="income-legend" class="income-legend map-legend" hidden><div class="legend-title"><strong>家庭年收入中位数</strong><span id="city-income">全市 $98,000</span></div><div class="income-ramp" id="income-ramp"></div><div class="ramp-ticks"><span>低于 6 万</span><span>10 万</span><span>20 万以上</span></div><p><span class="missing-swatch"></span> 无数据 · 税前 CAD · 2020</p><p id="statistics-legend-note">社区原表缺失处，底色采用相交统计区的完整区域数值。点击社区查看对应范围。</p></div>
       </section>
 
       <section id="distribution-view" class="map-view" role="tabpanel" aria-labelledby="distribution-tab" hidden>
-        <div class="comparison-toolbar"><div><strong>同一色阶，比较集中程度</strong><span>拖动与缩放同步 · 颜色表示社区内占比</span></div><div class="comparison-pager"><button id="previous-groups" aria-label="上一组人口地图">‹</button><label class="sr-only" for="comparison-select">当前比较的人口群体</label><select id="comparison-select"></select><span id="comparison-page"></span><button id="next-groups" aria-label="下一组人口地图">›</button></div></div>
+        <div class="comparison-toolbar"><div><strong>同一色阶，比较集中程度</strong><span>拖动与缩放同步 · 颜色表示所示统计范围的占比</span></div><div class="comparison-pager"><button id="previous-groups" aria-label="上一组人口地图">‹</button><label class="sr-only" for="comparison-select">当前比较的人口群体</label><select id="comparison-select"></select><span id="comparison-page"></span><button id="next-groups" aria-label="下一组人口地图">›</button></div></div>
         <div id="comparison-maps" class="comparison-maps"></div>
         <div id="comparison-empty" class="empty-map" hidden><span aria-hidden="true">▥</span><h2>选择想比较的人口群体</h2><p>可以选一种，也可以同时比较多种。</p><button id="empty-choose-groups" class="filter-button">选择人口群体</button></div>
-        <div class="population-legend map-legend" id="population-legend"><div class="legend-title"><strong>占社区人口比例</strong><span>所有地图使用相同色阶</span></div><div class="population-ramp" id="population-ramp"></div><div class="population-bin-labels"><span>&lt;5%</span><span>5–10%</span><span>10–20%</span><span>20–30%</span><span>30–40%</span><span>40%+</span></div><p><span class="missing-swatch"></span> 暂无数据，不是 0%</p></div>
+        <div class="population-legend map-legend" id="population-legend"><div class="legend-title"><strong>占所示统计范围人口比例</strong><span>所有地图使用相同色阶</span></div><div class="population-ramp" id="population-ramp"></div><div class="population-bin-labels"><span>&lt;5%</span><span>5–10%</span><span>10–20%</span><span>20–30%</span><span>30–40%</span><span>40%+</span></div><p><span class="missing-swatch"></span> 暂无数据，不是 0%</p><p class="statistics-legend-note">社区原表缺失处，底色采用相交统计区的完整区域数值。点击社区查看对应范围。</p></div>
       </section>
       <div id="transit-legend" class="transit-legend" hidden aria-label="轨道交通线路图例"><strong>轨道交通</strong><div id="transit-line-list"></div></div>
       <button id="mobile-legend-button" class="legend-trigger" hidden type="button" aria-haspopup="dialog" aria-controls="mobile-legend-dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h5v5H4zM4 14h5v5H4zM13 7h7M13 16h7"/></svg><span data-mobile-text="图例">图例</span></button>
