@@ -1,0 +1,425 @@
+[
+  {
+    "id": "3518001",
+    "name": "Pickering",
+    "kind": "municipality",
+    "regionId": "3518",
+    "bounds": [
+      -79.220046,
+      43.794394,
+      -79.008546,
+      44.010778
+    ],
+    "dguid": "2021A00053518001"
+  },
+  {
+    "id": "3518005",
+    "name": "Ajax",
+    "kind": "municipality",
+    "regionId": "3518",
+    "bounds": [
+      -79.088512,
+      43.815763,
+      -78.97051,
+      43.922511
+    ],
+    "dguid": "2021A00053518005"
+  },
+  {
+    "id": "3518009",
+    "name": "Whitby",
+    "kind": "municipality",
+    "regionId": "3518",
+    "bounds": [
+      -79.047315,
+      43.833513,
+      -78.882198,
+      44.028696
+    ],
+    "dguid": "2021A00053518009"
+  },
+  {
+    "id": "3518013",
+    "name": "Oshawa",
+    "kind": "municipality",
+    "regionId": "3518",
+    "bounds": [
+      -78.959391,
+      43.850237,
+      -78.7962,
+      44.0474
+    ],
+    "dguid": "2021A00053518013"
+  },
+  {
+    "id": "3518017",
+    "name": "Clarington",
+    "kind": "municipality",
+    "regionId": "3518",
+    "bounds": [
+      -78.87188,
+      43.866898,
+      -78.436959,
+      44.098766
+    ],
+    "dguid": "2021A00053518017"
+  },
+  {
+    "id": "3518020",
+    "name": "Scugog",
+    "kind": "municipality",
+    "regionId": "3518",
+    "bounds": [
+      -79.122497,
+      44.009249,
+      -78.703246,
+      44.227437
+    ],
+    "dguid": "2021A00053518020"
+  },
+  {
+    "id": "3518022",
+    "name": "Mississaugas of Scugog Island",
+    "kind": "municipality",
+    "regionId": "3518",
+    "bounds": [
+      -78.89645,
+      44.170909,
+      -78.874847,
+      44.200214
+    ],
+    "dguid": "2021A00053518022"
+  },
+  {
+    "id": "3518029",
+    "name": "Uxbridge",
+    "kind": "municipality",
+    "regionId": "3518",
+    "bounds": [
+      -79.328017,
+      43.970937,
+      -79.048019,
+      44.26313
+    ],
+    "dguid": "2021A00053518029"
+  },
+  {
+    "id": "3518039",
+    "name": "Brock",
+    "kind": "municipality",
+    "regionId": "3518",
+    "bounds": [
+      -79.25207,
+      44.18331,
+      -78.952312,
+      44.516753
+    ],
+    "dguid": "2021A00053518039"
+  },
+  {
+    "id": "3519028",
+    "name": "Vaughan",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.711516,
+      43.749854,
+      -79.420077,
+      43.92428
+    ],
+    "dguid": "2021A00053519028"
+  },
+  {
+    "id": "3519036",
+    "name": "Markham",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.428715,
+      43.798002,
+      -79.170249,
+      43.962523
+    ],
+    "dguid": "2021A00053519036"
+  },
+  {
+    "id": "3519038",
+    "name": "Richmond Hill",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.485552,
+      43.829379,
+      -79.370669,
+      43.977812
+    ],
+    "dguid": "2021A00053519038"
+  },
+  {
+    "id": "3519044",
+    "name": "Whitchurch-Stouffville",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.420246,
+      43.923796,
+      -79.217418,
+      44.101275
+    ],
+    "dguid": "2021A00053519044"
+  },
+  {
+    "id": "3519046",
+    "name": "Aurora",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.499495,
+      43.957488,
+      -79.392672,
+      44.035519
+    ],
+    "dguid": "2021A00053519046"
+  },
+  {
+    "id": "3519048",
+    "name": "Newmarket",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.50941,
+      44.016479,
+      -79.411428,
+      44.083934
+    ],
+    "dguid": "2021A00053519048"
+  },
+  {
+    "id": "3519049",
+    "name": "King",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.775508,
+      43.875769,
+      -79.477748,
+      44.150838
+    ],
+    "dguid": "2021A00053519049"
+  },
+  {
+    "id": "3519054",
+    "name": "East Gwillimbury",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.531841,
+      44.063649,
+      -79.276173,
+      44.223311
+    ],
+    "dguid": "2021A00053519054"
+  },
+  {
+    "id": "3519070",
+    "name": "Georgina",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.519862,
+      44.181584,
+      -79.156126,
+      44.459793
+    ],
+    "dguid": "2021A00053519070"
+  },
+  {
+    "id": "3519076",
+    "name": "Chippewas of Georgina Island First Nation",
+    "kind": "municipality",
+    "regionId": "3519",
+    "bounds": [
+      -79.494191,
+      44.304714,
+      -79.260849,
+      44.394862
+    ],
+    "dguid": "2021A00053519076"
+  },
+  {
+    "id": "3520005",
+    "name": "Toronto",
+    "kind": "municipality",
+    "regionId": "3520",
+    "bounds": [
+      -79.639306,
+      43.57921,
+      -79.115336,
+      43.855474
+    ],
+    "dguid": "2021A00053520005"
+  },
+  {
+    "id": "3521005",
+    "name": "Mississauga",
+    "kind": "municipality",
+    "regionId": "3521",
+    "bounds": [
+      -79.810256,
+      43.481134,
+      -79.540842,
+      43.737334
+    ],
+    "dguid": "2021A00053521005"
+  },
+  {
+    "id": "3521010",
+    "name": "Brampton",
+    "kind": "municipality",
+    "regionId": "3521",
+    "bounds": [
+      -79.888874,
+      43.60224,
+      -79.630274,
+      43.847727
+    ],
+    "dguid": "2021A00053521010"
+  },
+  {
+    "id": "3521024",
+    "name": "Caledon",
+    "kind": "municipality",
+    "regionId": "3521",
+    "bounds": [
+      -80.144122,
+      43.674899,
+      -79.694822,
+      43.989766
+    ],
+    "dguid": "2021A00053521024"
+  },
+  {
+    "id": "3524001",
+    "name": "Oakville",
+    "kind": "municipality",
+    "regionId": "3524",
+    "bounds": [
+      -79.810956,
+      43.371738,
+      -79.625094,
+      43.526536
+    ],
+    "dguid": "2021A00053524001"
+  },
+  {
+    "id": "3524002",
+    "name": "Burlington",
+    "kind": "municipality",
+    "regionId": "3524",
+    "bounds": [
+      -79.959309,
+      43.286116,
+      -79.724492,
+      43.476551
+    ],
+    "dguid": "2021A00053524002"
+  },
+  {
+    "id": "3524009",
+    "name": "Milton",
+    "kind": "municipality",
+    "regionId": "3524",
+    "bounds": [
+      -80.16036,
+      43.41726,
+      -79.726922,
+      43.628986
+    ],
+    "dguid": "2021A00053524009"
+  },
+  {
+    "id": "3524015",
+    "name": "Halton Hills",
+    "kind": "municipality",
+    "regionId": "3524",
+    "bounds": [
+      -80.085758,
+      43.524656,
+      -79.788226,
+      43.73446
+    ],
+    "dguid": "2021A00053524015"
+  },
+  {
+    "id": "3518",
+    "name": "Durham",
+    "kind": "region",
+    "bounds": [
+      -79.328017,
+      43.794394,
+      -78.436959,
+      44.516753
+    ],
+    "dguid": "2021A00033518"
+  },
+  {
+    "id": "3519",
+    "name": "York",
+    "kind": "region",
+    "bounds": [
+      -79.775508,
+      43.749854,
+      -79.156126,
+      44.459793
+    ],
+    "dguid": "2021A00033519"
+  },
+  {
+    "id": "3520",
+    "name": "Toronto",
+    "kind": "region",
+    "bounds": [
+      -79.639306,
+      43.57921,
+      -79.115336,
+      43.855474
+    ],
+    "dguid": "2021A00033520"
+  },
+  {
+    "id": "3521",
+    "name": "Peel",
+    "kind": "region",
+    "bounds": [
+      -80.144122,
+      43.481134,
+      -79.540842,
+      43.989766
+    ],
+    "dguid": "2021A00033521"
+  },
+  {
+    "id": "3524",
+    "name": "Halton",
+    "kind": "region",
+    "bounds": [
+      -80.16036,
+      43.286116,
+      -79.625094,
+      43.73446
+    ],
+    "dguid": "2021A00033524"
+  },
+  {
+    "id": "gta",
+    "name": "Greater Toronto Area",
+    "kind": "gta",
+    "bounds": [
+      -80.16036,
+      43.286116,
+      -78.436959,
+      44.516753
+    ],
+    "dguid": null
+  }
+]

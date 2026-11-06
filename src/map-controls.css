@@ -1,0 +1,10 @@
+/* Touch devices use pinch zoom, leaving the map free of accidental targets. */
+@media (max-width: 760px), (any-pointer: coarse) {
+  #zoom-in, #zoom-out { display: none !important; }
+}
+@media (max-width: 760px) {
+  .sidebar:not([data-sheet-snap="closed"]) ~ .map-workspace #fit-city { display: none !important; }
+  .sidebar[data-sheet-snap="closed"] ~ .map-workspace .map-tools {
+    bottom: calc(16px + env(safe-area-inset-bottom));
+  }
+}

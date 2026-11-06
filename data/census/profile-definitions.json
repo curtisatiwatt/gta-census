@@ -1,0 +1,197 @@
+{
+  "municipalities": [
+    {
+      "dguid": "2021A00053518001",
+      "code": "3518001",
+      "name": "Pickering",
+      "regionCode": "3518"
+    },
+    {
+      "dguid": "2021A00053518005",
+      "code": "3518005",
+      "name": "Ajax",
+      "regionCode": "3518"
+    },
+    {
+      "dguid": "2021A00053518009",
+      "code": "3518009",
+      "name": "Whitby",
+      "regionCode": "3518"
+    },
+    {
+      "dguid": "2021A00053518013",
+      "code": "3518013",
+      "name": "Oshawa",
+      "regionCode": "3518"
+    },
+    {
+      "dguid": "2021A00053518017",
+      "code": "3518017",
+      "name": "Clarington",
+      "regionCode": "3518"
+    },
+    {
+      "dguid": "2021A00053518020",
+      "code": "3518020",
+      "name": "Scugog",
+      "regionCode": "3518"
+    },
+    {
+      "dguid": "2021A00053518022",
+      "code": "3518022",
+      "name": "Mississaugas of Scugog Island",
+      "regionCode": "3518"
+    },
+    {
+      "dguid": "2021A00053518029",
+      "code": "3518029",
+      "name": "Uxbridge",
+      "regionCode": "3518"
+    },
+    {
+      "dguid": "2021A00053518039",
+      "code": "3518039",
+      "name": "Brock",
+      "regionCode": "3518"
+    },
+    {
+      "dguid": "2021A00053519028",
+      "code": "3519028",
+      "name": "Vaughan",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053519036",
+      "code": "3519036",
+      "name": "Markham",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053519038",
+      "code": "3519038",
+      "name": "Richmond Hill",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053519044",
+      "code": "3519044",
+      "name": "Whitchurch-Stouffville",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053519046",
+      "code": "3519046",
+      "name": "Aurora",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053519048",
+      "code": "3519048",
+      "name": "Newmarket",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053519049",
+      "code": "3519049",
+      "name": "King",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053519054",
+      "code": "3519054",
+      "name": "East Gwillimbury",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053519070",
+      "code": "3519070",
+      "name": "Georgina",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053519076",
+      "code": "3519076",
+      "name": "Chippewas of Georgina Island First Nation",
+      "regionCode": "3519"
+    },
+    {
+      "dguid": "2021A00053520005",
+      "code": "3520005",
+      "name": "Toronto",
+      "regionCode": "3520"
+    },
+    {
+      "dguid": "2021A00053521005",
+      "code": "3521005",
+      "name": "Mississauga",
+      "regionCode": "3521"
+    },
+    {
+      "dguid": "2021A00053521010",
+      "code": "3521010",
+      "name": "Brampton",
+      "regionCode": "3521"
+    },
+    {
+      "dguid": "2021A00053521024",
+      "code": "3521024",
+      "name": "Caledon",
+      "regionCode": "3521"
+    },
+    {
+      "dguid": "2021A00053524001",
+      "code": "3524001",
+      "name": "Oakville",
+      "regionCode": "3524"
+    },
+    {
+      "dguid": "2021A00053524002",
+      "code": "3524002",
+      "name": "Burlington",
+      "regionCode": "3524"
+    },
+    {
+      "dguid": "2021A00053524009",
+      "code": "3524009",
+      "name": "Milton",
+      "regionCode": "3524"
+    },
+    {
+      "dguid": "2021A00053524015",
+      "code": "3524015",
+      "name": "Halton Hills",
+      "regionCode": "3524"
+    }
+  ],
+  "characteristics": {
+    "1": "Population, 2021",
+    "35": "0 to 14 years",
+    "56": "Average household size",
+    "229": "Median total income of household in 2020 ($)",
+    "1669": "Total - Visible minority for the population in private households - 25% sample data",
+    "1670": "Total visible minority population",
+    "1671": "South Asian",
+    "1672": "Chinese",
+    "1673": "Black",
+    "1674": "Filipino",
+    "1675": "Arab",
+    "1676": "Latin American",
+    "1677": "Southeast Asian",
+    "1678": "West Asian",
+    "1679": "Korean",
+    "1680": "Japanese",
+    "1681": "Visible minority, n.i.e.",
+    "1682": "Multiple visible minorities",
+    "1683": "Not a visible minority"
+  },
+  "flags": {
+    "1": "(..) not available for a specific reference period",
+    "2": "(...) not applicable",
+    "3": "(E) use with caution",
+    "4": "(F) too unreliable to be published",
+    "5": "(r) \trevised",
+    "6": "(x) suppressed to meet the confidentiality requirements of the Statistics Act",
+    "7": "(rE) Revised. Use with caution.",
+    "O": "Missing value"
+  }
+}

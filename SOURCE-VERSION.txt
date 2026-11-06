@@ -1,0 +1,3 @@
+Original local source commit: ca0df772d07b8a753cc81dce7db831b843d40058
+Packaged: 2026-11-06
+Added: README-ZH.md, SOURCE-VERSION.txt, VERIFICATION.txt, rebuilt dist/, dist/.nojekyll

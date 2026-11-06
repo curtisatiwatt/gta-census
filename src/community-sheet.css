@@ -1,0 +1,79 @@
+/* Imported after mobile-ui.css. Desktop retains the original detail layout. */
+.community-sheet-header{display:contents}
+.community-sheet-close{display:none}
+
+@media(max-width:760px){
+  .sidebar[data-sheet-snap]:not([data-sheet-snap="closed"]){
+    display:block;height:var(--community-sheet-height,160px);max-height:none;
+    z-index:2300;border-radius:22px 22px 0 0;
+    transition:height 240ms cubic-bezier(.2,.8,.2,1),transform 200ms ease,visibility 200ms;
+    transform:translateY(0);visibility:visible;
+  }
+  /* Closed is absent, not an invisible sheet with a live map behind it.
+     Include the collapsed variant so the open rule can never win specificity. */
+  .sidebar[data-sheet-snap="closed"],.sidebar[data-sheet-snap="closed"].collapsed{
+    display:none;height:0;min-height:0;max-height:0;border:0;box-shadow:none;
+    transform:translateY(100%);visibility:hidden;pointer-events:none;
+  }
+  .sidebar[data-sheet-snap] .detail-panel,.sidebar[data-sheet-snap].collapsed .detail-panel{
+    display:flex;flex-direction:column;gap:0;height:100%;max-height:none;
+    padding:0 16px max(12px,env(safe-area-inset-bottom));overflow:hidden;
+  }
+  .sidebar .community-sheet-header{
+    display:grid;flex:none;grid-template-columns:minmax(0,1fr) 44px;
+    grid-template-rows:36px auto auto auto;column-gap:8px;row-gap:0;
+    position:relative;padding-bottom:12px;touch-action:none;user-select:none;
+  }
+  .sidebar .community-sheet-header .mobile-detail-handle{
+    display:flex;grid-column:1/-1;grid-row:1;position:relative;
+    width:100%;min-width:0;height:44px;min-height:44px;margin:-4px 0 0;padding:0;
+    align-items:center;justify-content:center;touch-action:none;cursor:ns-resize;
+    color:var(--mobile-ink);border-radius:12px;background:none;
+  }
+  .sidebar .mobile-detail-handle .handle-bar{
+    display:block;position:static;width:36px;height:5px;border-radius:4px;
+    background:#b9bdc3;pointer-events:none;
+  }
+  html[data-theme=dark] .sidebar .mobile-detail-handle .handle-bar{background:#747b83}
+  .sidebar .community-sheet-header h1{
+    grid-column:1;grid-row:2;min-width:0;margin:0;padding:0;
+    font-size:1.1875rem;font-weight:650;line-height:1.3;letter-spacing:0;
+    align-self:center;overflow-wrap:anywhere;color:var(--mobile-ink);
+  }
+  .sidebar .community-sheet-close{
+    display:flex;grid-column:2;grid-row:2;align-self:start;align-items:center;justify-content:center;
+    width:44px;height:44px;min-height:44px;padding:9px;border:0;border-radius:50%;
+    background:#f0f1f3;color:var(--mobile-ink);touch-action:manipulation;
+  }
+  html[data-theme=dark] .sidebar .community-sheet-close{background:#304047}
+  .community-sheet-close svg{width:24px;height:24px;pointer-events:none}
+  .sidebar .community-sheet-header .collapsed-summary,
+  .sidebar.collapsed .community-sheet-header .collapsed-summary,
+  .mobile-extra-large .sidebar.collapsed .community-sheet-header .collapsed-summary{
+    display:block;grid-column:1/-1;grid-row:3;margin:4px 0 0;
+    font-size:.875rem;line-height:1.4;color:var(--mobile-muted);overflow-wrap:anywhere;
+  }
+  .sidebar .community-sheet-header .community-meta{
+    display:flex;grid-column:1/-1;grid-row:4;flex-wrap:wrap;gap:4px 8px;
+    margin:4px 0 0;font-size:.8125rem;line-height:1.4;color:var(--mobile-muted);
+  }
+  .sidebar[data-sheet-snap="peek"] .community-meta,
+  .sidebar[data-sheet-snap="closed"] .community-meta{display:none}
+  .sidebar[data-sheet-snap] #detail-body{
+    display:block;flex:1;min-height:0;overflow:auto;overscroll-behavior-y:contain;
+    margin:0;padding:0 2px 12px;border-top:1px solid var(--line);
+    touch-action:pan-y;-webkit-overflow-scrolling:touch;
+  }
+  .sidebar[data-sheet-snap="half"] #detail-body{touch-action:none}
+  .sidebar[data-sheet-snap="peek"]:not(.sheet-dragging) #detail-body,
+  .sidebar[data-sheet-snap="closed"] #detail-body{display:none}
+  .sidebar.sheet-dragging{transition:none;user-select:none;will-change:height}
+  .sidebar.sheet-dragging #detail-body{pointer-events:none}
+  .sidebar .mobile-detail-handle:focus-visible,.sidebar .community-sheet-close:focus-visible{
+    outline:3px solid var(--accent);outline-offset:-3px;
+  }
+  body.map-focus .sidebar[data-sheet-snap]{display:none}
+}
+@media(max-width:760px) and (prefers-reduced-motion:reduce){
+  .sidebar[data-sheet-snap]:not([data-sheet-snap="closed"]){transition:none}
+}

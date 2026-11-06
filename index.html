@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <script>try{const saved=localStorage.getItem('census-atlas-theme');document.documentElement.dataset.theme=saved==='light'||saved==='dark'?saved:matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}catch{document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}</script>
+  <meta name="theme-color" content="#f7f8f3">
+  <meta name="description" content="探索 GTA 社区的人口构成、不同人口群体的分布和家庭收入。基于官方 2021 年人口普查社区资料。">
+  <title>GTA 社区观察 · 人口构成与分布</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect rx='16' width='64' height='64' fill='%23253d42'/%3E%3Cpath d='M14 45 25 18 34 34 50 14 42 48Z' fill='%23f1d66f'/%3E%3C/svg%3E">
+  <script type="module" src="./src/main.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <a class="brand" href="./" aria-label="GTA 社区观察首页"><span class="brand-mark" aria-hidden="true">G<span>↗</span></span><span><strong>GTA <span class="brand-zh">社区观察</span></strong><small>COMMUNITY ATLAS</small></span></a>
+    <div class="search-wrap">
+      <span class="search-icon" aria-hidden="true">⌕</span>
+      <input id="search" type="search" placeholder="搜索城市或普查区" autocomplete="off" role="combobox" aria-label="搜索城市或普查区" aria-autocomplete="list" aria-expanded="false" aria-controls="search-results">
+      <kbd aria-hidden="true">/</kbd><div id="search-results" class="search-results" role="listbox" hidden></div>
+    </div>
+    <button id="mobile-more" class="settings-trigger" type="button" aria-label="菜单" aria-haspopup="dialog" aria-controls="mobile-more-dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span data-mobile-text="菜单">菜单</span></button>
+    <div class="header-actions"><span class="data-edition" id="data-edition">2021 年人口普查</span></div>
+  </header>
+
+  <nav class="viewbar" aria-label="地图视图与人口群体">
+    <div class="view-tabs" role="tablist" aria-label="地图视图">
+      <button id="composition-tab" role="tab" aria-selected="true" aria-controls="composition-view" tabindex="0" class="active"><span aria-hidden="true">◉</span> 社区构成</button>
+      <button id="distribution-tab" role="tab" aria-selected="false" aria-controls="distribution-view" tabindex="-1"><span aria-hidden="true">▥</span> 分布对比</button>
+    </div>
+    <div class="view-controls">
+      <button id="scope-button" class="scope-button" type="button" aria-haspopup="dialog" aria-controls="scope-dialog" aria-label="选择地区"><span class="scope-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" transform="translate(0 -2)"/><circle cx="12" cy="8" r="2.5"/></svg></span><span id="scope-button-label">Toronto</span></button>
+      <button id="groups-button" class="filter-button" aria-expanded="false" aria-controls="groups-panel"><span id="group-selection-label">人群</span><span id="group-count" hidden>0</span><span aria-hidden="true">⌄</span></button>
+      <label id="income-control" class="plain-toggle"><input id="income-toggle" type="checkbox"><span>收入底色</span></label>
+      <button id="layers-button" class="filter-button settings-link" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="layers-panel"><span class="settings-row-icon"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5"/></svg></span><span class="settings-row-copy"><span data-mobile-text="地图图层">地图图层</span><small class="settings-row-subtitle" data-mobile-text="道路、轻轨与地标">道路、轻轨与地标</small></span><span class="settings-row-chevron"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></span><span class="toolbar-chevron" aria-hidden="true">⌄</span></button>
+      <span id="mode-description" class="mode-description">一个社区，一张构成图</span>
+    </div>
+    <section id="layers-panel" class="layers-panel" aria-label="选择地图图层" hidden>
+      <div class="filter-heading dialog-nav"><button id="back-layers" class="dialog-back" type="button" aria-label="返回菜单"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5-7 7 7 7"/></svg></button><div class="dialog-nav-title"><h2 id="layers-heading">地图图层</h2><p>社区构成的地理参照</p></div><button id="close-layers" class="icon-button dialog-close" type="button" aria-label="关闭地图图层">×</button></div>
+      <div class="dialog-scroll">
+      <label class="layer-option"><input type="checkbox" id="roads-toggle" checked><span>道路与铁路底图<small>主要道路、道路名称及铁路轨道</small></span></label>
+      <label class="layer-option"><input type="checkbox" id="labels-toggle" checked><span>普查区标注<small>放大显示编号；自动避开重叠</small></span></label>
+      <label class="layer-option"><input type="checkbox" id="transit-toggle"><span>地铁与区域铁路<small>TTC · GO · UP Express</small></span></label>
+      <label class="layer-option"><input type="checkbox" id="landmarks-toggle"><span>地理地标<small>机场、公园绿地及原住民保留区</small></span></label>
+      <div class="context-legend"><span><i class="landmark-swatch airport-swatch"></i>机场</span><span><i class="landmark-swatch park-swatch"></i>公园</span><span><i class="landmark-swatch reserve-swatch"></i>保留区</span><span><i class="railway-swatch"></i>铁路</span></div>
+      <p class="filter-note">地理底色不代表收入或人口占比。点击车站可查看线路与建设状态。</p>
+      </div>
+    </section>
+    <section id="groups-panel" class="groups-panel" aria-label="选择人口群体" hidden>
+      <div class="filter-heading dialog-nav"><button id="back-groups" class="dialog-back" type="button" aria-label="返回菜单"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5-7 7 7 7"/></svg></button><div class="dialog-nav-title"><h2 id="groups-heading">选择人口群体</h2><p>两个视图共用这份选择</p></div><button id="close-groups" class="icon-button dialog-close" type="button" aria-label="关闭人口群体选择">×</button></div>
+      <div class="dialog-scroll">
+      <p id="group-scope-label"></p>
+      <input type="search" id="group-search" placeholder="搜索名称 / Search groups" aria-label="搜索人口群体">
+      <div class="filter-actions"><button id="default-groups" class="text-button">常用五类</button><button id="all-groups" class="text-button">全选</button><button id="clear-groups" class="text-button">清空</button><span id="filter-count"></span></div>
+      <div id="group-list" class="group-list"></div>
+      <p class="filter-note">按普查原始分类展示；这些类别不等于国籍。“非可见少数族裔”包括原住民等，不能等同于白人。</p>
+      </div>
+    </section>
+  </nav>
+
+  <main class="workspace">
+    <aside class="sidebar" aria-label="社区详情">
+      <section class="detail-panel" id="detail-panel">
+        <button id="mobile-detail-handle" class="mobile-detail-handle" aria-label="展开或收起社区详情" aria-expanded="false" aria-controls="detail-body"><span class="handle-bar"></span><span id="mobile-detail-label">查看详情</span><span id="mobile-chevron">⌃</span></button>
+        <div class="detail-topline"><span class="eyebrow">已选普查区</span><button id="focus-community" class="text-button">定位 ↗</button></div>
+        <h1 id="community-name">正在载入社区</h1>
+        <div class="community-meta" id="community-meta">正在加载官方社区数据…</div>
+        <div class="collapsed-summary" id="collapsed-summary"></div>
+        <div id="detail-body">
+          <div class="population-summary"><div><span class="metric-label">私人住户人口 · 2021</span><strong id="population">—</strong></div><span class="population-summary-note">社区<br>统计基数</span></div>
+          <section class="composition-detail" aria-label="选中社区的人口构成">
+            <div class="section-title"><h2>人口构成</h2><span><i class="city-reference-symbol"></i> <span id="scope-reference-label">所选范围占比</span></span></div>
+            <div id="composition-bars"></div>
+            <p id="composition-basis" class="metric-basis"></p>
+          </section>
+          <div class="income-summary"><div><span class="metric-label" id="income-detail-label">家庭税前年收入中位数 · 2020</span><div id="income-context" class="metric-context"></div></div><strong class="income-value" id="income-value">—</strong></div>
+          <div class="secondary-metrics"><div><span>0–14 岁</span><strong id="children">—</strong></div><div><span>平均每户</span><strong id="household">—</strong></div></div>
+          <p class="data-caveat" id="data-caveat" hidden></p>
+          <a id="source-link" class="source-link" target="_blank" rel="noopener">查看官方普查档案 ↗</a>
+        </div>
+      </section>
+    </aside>
+
+    <section class="map-workspace" aria-label="大多伦多地区互动社区地图">
+      <section id="composition-view" class="map-view" role="tabpanel" aria-labelledby="composition-tab">
+        <div id="composition-map" class="map-canvas" role="region" aria-label="社区构成地图，可拖动缩放，也可以搜索选择社区"></div>
+        <div class="map-status"><span class="status-dot"></span><span id="coverage-text">正在加载社区边界…</span></div>
+        <div class="map-key composition-key" id="composition-key"><strong>每个圆代表一个社区</strong><p>扇区为占比 · 灰色为未选类别</p><div id="donut-key" class="donut-key"></div><p class="declutter-note" id="donut-status">放大地图可查看更多社区</p></div>
+        <div id="income-legend" class="income-legend map-legend" hidden><div class="legend-title"><strong>家庭年收入中位数</strong><span id="city-income">全市 $98,000</span></div><div class="income-ramp" id="income-ramp"></div><div class="ramp-ticks"><span>低于 6 万</span><span>10 万</span><span>20 万以上</span></div><p><span class="missing-swatch"></span> 无数据 · 税前 CAD · 2020</p></div>
+      </section>
+
+      <section id="distribution-view" class="map-view" role="tabpanel" aria-labelledby="distribution-tab" hidden>
+        <div class="comparison-toolbar"><div><strong>同一色阶，比较集中程度</strong><span>拖动与缩放同步 · 颜色表示社区内占比</span></div><div class="comparison-pager"><button id="previous-groups" aria-label="上一组人口地图">‹</button><label class="sr-only" for="comparison-select">当前比较的人口群体</label><select id="comparison-select"></select><span id="comparison-page"></span><button id="next-groups" aria-label="下一组人口地图">›</button></div></div>
+        <div id="comparison-maps" class="comparison-maps"></div>
+        <div id="comparison-empty" class="empty-map" hidden><span aria-hidden="true">▥</span><h2>选择想比较的人口群体</h2><p>可以选一种，也可以同时比较多种。</p><button id="empty-choose-groups" class="filter-button">选择人口群体</button></div>
+        <div class="population-legend map-legend" id="population-legend"><div class="legend-title"><strong>占社区人口比例</strong><span>所有地图使用相同色阶</span></div><div class="population-ramp" id="population-ramp"></div><div class="population-bin-labels"><span>&lt;5%</span><span>5–10%</span><span>10–20%</span><span>20–30%</span><span>30–40%</span><span>40%+</span></div><p><span class="missing-swatch"></span> 暂无数据，不是 0%</p></div>
+      </section>
+      <div id="transit-legend" class="transit-legend" hidden aria-label="轨道交通线路图例"><strong>轨道交通</strong><div id="transit-line-list"></div></div>
+      <button id="mobile-legend-button" class="legend-trigger" hidden type="button" aria-haspopup="dialog" aria-controls="mobile-legend-dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h5v5H4zM4 14h5v5H4zM13 7h7M13 16h7"/></svg><span data-mobile-text="图例">图例</span></button>
+      <div class="map-tools"><button id="fit-city" class="map-button" aria-label="查看所选范围">所选范围 ⤢</button><button id="zoom-in" class="map-button square" aria-label="放大地图">+</button><button id="zoom-out" class="map-button square" aria-label="缩小地图">−</button></div>
+      <div id="mobile-map-switcher" hidden></div>
+      <div id="map-warning" class="map-warning" hidden role="status"></div>
+      <div id="loading-overlay" class="loading-overlay"><div class="loader"></div><strong>正在展开 GTA</strong><span>读取官方社区边界与人口资料</span></div>
+    </section>
+  </main>
+  <div id="announcer" class="sr-only" aria-live="polite"></div>
+
+
+  <dialog id="scope-dialog" class="mobile-sheet" aria-labelledby="scope-heading">
+    <div class="mobile-sheet-heading dialog-nav"><h2 id="scope-heading">选择地区</h2><button id="close-scope" class="dialog-close" type="button" aria-label="关闭地区选择">×</button></div>
+    <div class="dialog-scroll scope-content"><label for="scope-select">城市或地区</label><select id="scope-select"></select><button id="apply-scope" class="scope-apply" type="button">查看地图</button></div>
+  </dialog>
+  <dialog id="mobile-more-dialog" class="mobile-sheet" aria-labelledby="mobile-more-heading">
+    <div class="mobile-sheet-heading dialog-nav"><h2 id="mobile-more-heading" data-mobile-text="菜单">菜单</h2><button id="close-mobile-more" class="dialog-close" type="button" aria-label="关闭菜单">×</button></div>
+    <div id="mobile-settings-content" class="dialog-scroll">
+      <section class="settings-section"><h3 data-mobile-text="地图视图">地图视图</h3><div id="mobile-view-slot"></div></section>
+      <section class="settings-section"><h3 data-mobile-text="数据与图层">数据与图层</h3><div id="mobile-controls-slot"></div></section>
+      <section class="settings-section" aria-labelledby="map-settings-heading">
+        <h3 id="map-settings-heading" data-mobile-text="地图与资料">地图与资料</h3>
+        <div class="settings-group">
+
+          <button id="method-button" class="text-button settings-link" type="button" aria-haspopup="dialog"><span class="settings-row-icon"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6Z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></span><span class="settings-row-copy"><span data-mobile-text="数据说明">数据说明</span><small data-mobile-text="统计口径与官方来源">统计口径与官方来源</small></span><span class="settings-row-chevron"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></span></button>
+        </div>
+      </section>
+      <section class="settings-section" aria-labelledby="display-settings-heading">
+        <h3 id="display-settings-heading" data-mobile-text="显示偏好">显示偏好</h3>
+        <div class="settings-group">
+          <label id="mobile-language-slot" class="mobile-settings-row" for="language-preference"><span class="settings-row-icon"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a17 17 0 0 1 0 18 17 17 0 0 1 0-18Z"/></svg></span><span class="settings-row-copy" data-mobile-text="语言">语言</span><select id="language-preference"><option value="system">跟随系统</option><option value="zh" lang="zh-CN">中文</option><option value="en" lang="en">English</option></select></label>
+          <label id="mobile-theme-slot" class="mobile-settings-row" for="theme-preference"><span class="settings-row-icon"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"/></svg></span><span class="settings-row-copy" data-mobile-text="外观">外观</span><select id="theme-preference"><option value="system">跟随系统</option><option value="light">白天</option><option value="dark">夜间</option></select></label>
+        </div>
+      </section>
+    </div>
+  </dialog>
+  <dialog id="mobile-legend-dialog" class="mobile-sheet" aria-labelledby="mobile-legend-heading">
+    <div class="mobile-sheet-heading dialog-nav"><h2 id="mobile-legend-heading" data-mobile-text="图例">图例</h2><button id="close-mobile-legend" class="dialog-close" type="button" aria-label="关闭图例">×</button></div>
+    <div class="dialog-scroll">
+      <div id="mobile-composition-legend" class="mobile-legend-stack"></div>
+      <div id="mobile-distribution-legend" class="mobile-legend-stack" hidden></div>
+    </div>
+  </dialog>
+  <dialog id="mobile-filter-dialog" class="mobile-sheet"></dialog>
+
+  <dialog id="method-dialog" aria-labelledby="method-heading">
+    <div class="dialog-heading dialog-nav"><button id="back-method" class="dialog-back" type="button" aria-label="返回菜单"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5-7 7 7 7"/></svg></button><h2 id="method-heading" data-mobile-text="数据说明">数据说明</h2><button id="close-method" class="icon-button dialog-close" type="button" aria-label="关闭数据说明">×</button></div>
+    <div class="dialog-scroll">
+    <h2>这张地图怎样读？</h2><p>先选择城市或地区，再打开人口群体或收入图层。搜索也支持城市名和普查区编号。</p>
+    <div class="method-grid">
+      <section><h3>社区构成 / 分布对比</h3><p>“社区构成”用一个等大的圆展示一个社区，彩色扇区对应勾选类别，灰色是其余类别。圆的大小不代表人口多少；全市视角会避开重叠，放大可看到更多社区，未显示圆的社区仍可点击。“分布对比”用底色表示各类别在社区人口中的占比，所有地图共用固定色阶和地图位置。</p><p>地图中的圆心只是社区内的显示位置，不是居民地址。</p></section>
+      <section><h3>道路、轨道与地理地标</h3><p>地图图层可切换道路与铁路、普查区编号、轨道交通和地理地标。放大可看到更多道路、河流与车站名称。</p><p>轨道交通按资料整理日期标明状态。虚线表示未运营线路；站点位置与未来线路可能调整。点击车站查看官方来源。</p></section>
+      <section><h3>人口类别不等于国籍</h3><p id="population-groups-definition">采用 2021 年普查 Visible minority（Racialized population）分类。Chinese 不等于中国国籍、中国出生或普通话使用者；“非可见少数族裔”包括原住民等，不能改称白人或欧洲裔。初始不选人口群体，可自行选择一个或多个人口群体。</p></section>
+      <section><h3>人数、占比与取整</h3><p>详情与热度图的占比由公布人数除以同表的私人住户人口计算，保留一位小数；官方人数通常按 5 人取整，各类别人数之和可能略偏离总人口。分类合计少于人口总数时，差额在圆环中单独留白；超过人口总数时，圆环按分类合计缩放。详情数值仍使用表中人口基数。</p><p>“其余类别”只包含未勾选的人口类别，不包含缺失数据。带点线的留白表示原表统计差额，不是一个人口类别。公布的 0 不代表可以确认绝对没有居民；灰色虚线边界和“暂无数据”表示资料缺失，不当作 0。</p></section>
+      <section><h3>年份与收入</h3><p id="year-definition"></p><p id="income-definition"></p><p>收入底色蓝色较低、黄色居中、红色较高，使用固定区间；收入不是财富、房价或个人工资。“住户”也包括单人和合住者。</p><p id="latest-census-note"></p></section>
+      <section><h3>覆盖范围</h3><p id="coverage-definition"></p><p id="boundary-note"></p><p id="scope-note"></p><p>覆盖 Toronto、Peel、York、Durham 和 Halton。普查区是加拿大统计局的统计单元，边界与日常社区名称可能不同。</p></section>
+    </div>
+    <div class="method-sources"><h3>原始来源</h3><div id="source-list"></div><p id="prepared-note"></p><p id="license-note"></p><p id="transit-attribution"></p></div>
+    </div>
+  </dialog>
+  <noscript>请启用 JavaScript 以查看互动地图。官方数据可从 https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E 查阅。</noscript>
+</body>
+</html>

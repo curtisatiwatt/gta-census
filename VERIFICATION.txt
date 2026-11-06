@@ -1,0 +1,82 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> gta-census@1.0.0 check
+> npm run test && node scripts/validate-census.mjs && node scripts/validate-geography.mjs
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> gta-census@1.0.0 test
+> node --test tests/*.test.js
+
+✔ selection uses the complete multipart boundary above roads and transit, without covering hit targets (1.844863ms)
+✔ hovering another community preserves selection; a late mouseout cannot erase the new hover (1.608256ms)
+✔ dragging, zooming and resizing clear hover but keep the selected boundary (0.436278ms)
+✔ touch and pressed-pointer movement never create hover, while keyboard focus can reveal a boundary (0.442217ms)
+✔ theme refresh, unbinding and disposal do not leave old paths or handlers behind (0.536038ms)
+✔ sheet has a natural summary, half-screen stop and near-full stop (1.780886ms)
+✔ large type and short landscape screens never put a stop outside the viewport (0.506243ms)
+✔ deliberate short swipes move one stop; small taps do not resize (0.253632ms)
+✔ long drags can cross both stops, while velocity makes a flick responsive (0.337339ms)
+✔ keyboard stepping clamps to visible stops (0.121944ms)
+✔ close fully removes the mobile sheet inset and survives layout refreshes until a new selection (2.364457ms)
+✔ closing during a captured gesture releases it and ignores its late pointer-up (2.123683ms)
+✔ desktop visibility belongs to the desktop shell after one mobile cleanup (0.703381ms)
+✔ a road crossing the viewport has visible anchors even when its original midpoint is off screen (2.049712ms)
+✔ clipping cannot bridge disjoint road pieces or create an off-road label (0.359553ms)
+✔ opposite travel directions share a road label without losing address quadrants (9.502383ms)
+✔ river label anchors stay inside the visible polygon instead of a concave bounding box centre (0.566374ms)
+✔ water holes and fully offscreen water do not receive label anchors (0.395306ms)
+✔ new visitors follow the browser language without creating a manual preference (3.080086ms)
+✔ manual language selection persists and System immediately restores browser following (3.671297ms)
+✔ changing the preference without changing the visible language emits no redraw event (1.091847ms)
+✔ language preferences synchronize from other tabs and storage clearing resumes automatic mode (8.631588ms)
+✔ invalid saved preferences and unavailable storage retain useful automatic and manual modes (7.569863ms)
+✔ dragging across many communities cannot reopen departed tooltips at moveend (3.564696ms)
+✔ rapid community changes reuse one overlay; an old mouseout cannot close the current card (0.226652ms)
+✔ zoom and movement remain blocked until both finish, including programmatic card selection (0.286632ms)
+✔ touch/mobile input does not create hover cards; keyboard focus retains an accessible description (0.568948ms)
+✔ leaving, Escape, backgrounding, removal and destruction clean up the overlay and ARIA (0.534556ms)
+✔ income boundaries stay separate from unavailable values (1.604991ms)
+✔ circle areas preserve population ratios in desktop and mobile modes (0.316928ms)
+✔ search supports names, diacritics, renamed neighbourhoods and exact codes (1.197035ms)
+✔ coverage counts published zero as data; invalid deep links do not crash the app (0.356287ms)
+✔ source links cannot execute script or use insecure protocols (0.200092ms)
+✔ exact shares use the table denominator, preserve zero and distinguish missing data (1.240631ms)
+✔ rounding affects only the ring: selected and unselected counts remain intact (1.007389ms)
+✔ under-reported categories leave an explicit gap instead of inflating known group shares (1.363486ms)
+✔ missing categories cannot be quietly included as zero or as the remainder (0.323398ms)
+✔ selection does not redefine percentages and empty selection draws no rings (0.449789ms)
+✔ all heat maps use the same absolute bins, including boundaries and unavailable data (0.423829ms)
+✔ donut SVG permits only safe colors and numeric dimensions; no source labels are inserted (0.428506ms)
+✔ first visit follows system changes without saving an unsolicited override (3.509734ms)
+✔ a manual toggle persists and stays in control when the system theme changes (1.699013ms)
+✔ saved light mode overrides a dark system and invalid saved values fall back safely (1.702178ms)
+✔ blocked storage still allows system defaults and an in-session manual choice (1.059228ms)
+✔ other-tab changes synchronize and removing the preference resumes system following (0.936072ms)
+✔ settings can return a manual theme to the device setting without duplicate repaint events (1.041471ms)
+✔ returning to automatic theme still works when preference storage is blocked (2.14159ms)
+ℹ tests 47
+ℹ suites 0
+ℹ pass 47
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 206.10081
+PASS: 1,342 official areas; 33 scope baselines; 13 population categories; 8 suppressed incomes and 45 published Chinese zeros; every published value, geographic join, anchor and source checksum verified.
+PASS: official GTA geography, 13 operating rail lines and 177 stations, verified sources and output checksums.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> gta-census@1.0.0 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 27 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  22.15 kB │ gzip:  6.82 kB
+dist/assets/index-CrIui31P.css  123.13 kB │ gzip: 25.82 kB
+dist/assets/index-BB_CxuXY.js   254.22 kB │ gzip: 81.09 kB
+
+✓ built in 131ms

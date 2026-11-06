@@ -1,0 +1,87 @@
+/* Quiet, readable map type. Import after the base and responsive UI styles. */
+html .community-label,
+html .community-label.hierarchy-community-label,
+html .community-label.all-community-label,
+html .community-label.focus-label {
+  color: #171a1d;
+  font-weight: 550;
+  letter-spacing: 0;
+  text-shadow: none;
+  filter: none;
+  line-height: 1.25;
+}
+html .community-label.focus-label { font-weight: 650; }
+html .community-label > span,
+html .community-label.focus-label > span {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+html .road-label,
+html .water-label,
+html .station-label,
+html .landmark-label,
+html .orientation-label {
+  font-family: inherit;
+  font-size: .75rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-shadow: none;
+  filter: none;
+  white-space: nowrap;
+  pointer-events: none !important;
+}
+html .road-label { color: #23272c; }
+html .water-label { color: #235b78; font-style: normal; }
+html .station-label,
+html .landmark-label,
+html .landmark-label.reserve-label { font-size: .6875rem; }
+html .station-label { color: #293740; }
+html .station-label.future-station-label { color: #275f45; font-style: normal; }
+html .landmark-label { color: #355d3b; }
+html .landmark-label.airport-label { color: #544465; }
+html .landmark-label.reserve-label { color: #665236; }
+html .orientation-label { color: #51415f; }
+html .road-label > span,
+html .water-label > span,
+html .station-label > span,
+html .landmark-label > span,
+html .orientation-label > span {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+}
+html .population-donut { filter: none; display: flex; align-items: center; justify-content: center; }
+html .population-donut.selected-donut { outline: none; box-shadow: none; }
+html .population-donut.selected-donut svg { outline: 1.5px solid #222a30; outline-offset: 2px; border-radius: 50%; }
+html[data-theme=dark] .population-donut.selected-donut svg { outline-color: #f5f7fa; }
+html .orientation-label:before { box-shadow: none; background: #69527a; }
+html[data-theme=dark] .community-label,
+html[data-theme=dark] .community-label.hierarchy-community-label,
+html[data-theme=dark] .community-label.all-community-label,
+html[data-theme=dark] .community-label.focus-label {
+  color: #f5f7fa;
+  text-shadow: none;
+}
+html[data-theme=dark] .road-label { color: #f3f5f8; text-shadow: none; }
+html[data-theme=dark] .water-label { color: #b4def3; text-shadow: none; }
+html[data-theme=dark] .station-label { color: #e7eef4; text-shadow: none; }
+html[data-theme=dark] .station-label.future-station-label { color: #a9d6ba; }
+html[data-theme=dark] .landmark-label { color: #c7dec9; text-shadow: none; }
+html[data-theme=dark] .landmark-label.airport-label { color: #d8cce8; }
+html[data-theme=dark] .landmark-label.reserve-label { color: #e0cfac; }
+html[data-theme=dark] .orientation-label { color: #ddd0ec; text-shadow: none; }
+html[data-theme=dark] .orientation-label:before { box-shadow: none; }
+html[data-theme=dark] .road-label > span,
+html[data-theme=dark] .water-label > span,
+html[data-theme=dark] .station-label > span,
+html[data-theme=dark] .landmark-label > span,
+html[data-theme=dark] .orientation-label > span { background: transparent; }
+
+/* City names orient the regional map before tract labels appear. */
+.place-label { width: max-content; pointer-events: none; color: #202a2e; font-size: .8rem; font-weight: 600; white-space: nowrap; text-shadow: 0 0 3px #fff, 0 0 3px #fff; }
+[data-theme="dark"] .place-label { color: #f0f3f5; text-shadow: 0 0 3px #172931, 0 0 3px #172931; }

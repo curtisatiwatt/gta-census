@@ -1,0 +1,2 @@
+# Preserve official CSV extracts byte for byte so source checksums also work on Windows.
+data/census/*.csv -text whitespace=cr-at-eol

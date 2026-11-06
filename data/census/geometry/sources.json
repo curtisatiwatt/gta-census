@@ -1,0 +1,42 @@
+{
+  "publisher": "Statistics Canada",
+  "catalogue": "2021 Census Cartographic Boundary Files",
+  "referenceDate": "2021",
+  "retrieved": "2026-11-06",
+  "sourceOverview": "https://open.canada.ca/data/en/dataset/ef70dc3b-1069-4037-9bce-61f47e628a1d",
+  "license": "https://www.statcan.gc.ca/en/reference/licence",
+  "queryParameters": {
+    "censusSubdivisions": {
+      "layer": 9,
+      "where": "CSDUID LIKE '3518%' OR CSDUID LIKE '3519%' OR CSDUID LIKE '3520%' OR CSDUID LIKE '3521%' OR CSDUID LIKE '3524%'"
+    },
+    "censusTracts": {
+      "layer": 11,
+      "where": "1=1",
+      "geometry": "-80.15,43.2,-78.2,44.6",
+      "geometryType": "esriGeometryEnvelope",
+      "inSR": 4326,
+      "spatialRel": "esriSpatialRelIntersects",
+      "resultRecordCount": 500,
+      "resultOffsets": [
+        0,
+        500,
+        1000,
+        1500
+      ],
+      "orderByFields": "CTUID"
+    },
+    "shared": {
+      "f": "geojson",
+      "returnGeometry": "true",
+      "outFields": "*",
+      "outSR": 4326,
+      "geometryPrecision": 6
+    }
+  },
+  "selection": "CT polygons assigned by greatest polygon overlap to a GTA CSD. All 1,339 selected CTs lie entirely within their assigned CSD. Scugog, Brock and Mississaugas of Scugog Island have no census tracts and retain complete CSD boundaries.",
+  "sourceFiles": {
+    "municipalities-raw.geojson.gz": "1110b9aacdb715906881487b1ee34bbaa13afb5c4595a3753703f37f21b389c6",
+    "areas-raw.geojson.gz": "c25c82935e6ea96556f8a904512f0f18b56307025769410d7110eaad27164c8e"
+  }
+}

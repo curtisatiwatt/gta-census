@@ -1,0 +1,27 @@
+{
+  "preparedDate": "2026-11-06",
+  "featureCount": 1342,
+  "tractCount": 1339,
+  "municipalityFallbacks": [
+    "3518039",
+    "3518022",
+    "3518020"
+  ],
+  "regions": {
+    "Durham": 146,
+    "York": 198,
+    "Peel": 282,
+    "Halton": 131,
+    "Toronto": 585
+  },
+  "incomeStatusCounts": {
+    "reported": 1334,
+    "6": 8
+  },
+  "sourceProfileCount": 1371,
+  "hashes": {
+    "communities.geojson": "ff10d61ec46021f297f8ee5602706c437f36e0f9718174dadd4f14f3ee6e53d2",
+    "population-groups.json": "08c09302fc3d2b674092578e97feb7c5bfde55cb4e6543efccf18a744c81f2fa",
+    "metadata.json": "d52f61539e770c3e76a4c38c29f9a6806deb27a0c6c6172f33f844e9648a2c18"
+  }
+}

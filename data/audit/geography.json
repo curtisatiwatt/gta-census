@@ -1,0 +1,105 @@
+{
+  "snapshotDate": "2026-11-06",
+  "bounds": [
+    -80.1,
+    43.25,
+    -78.35,
+    44.6
+  ],
+  "displaySimplificationMeters": 7,
+  "sources": [
+    {
+      "id": "airports",
+      "url": "https://data.ontario.ca/dataset/2582c87b-03b4-406c-af6b-3cfea418dc7b",
+      "service": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/0",
+      "license": "Open Government Licence \u2013 Ontario",
+      "rawFeatures": 52,
+      "sha256": "1e57f356f1d22877c994abdfe86ad5812751e4b1c62652f6c4ce4803096f3c96"
+    },
+    {
+      "id": "roads",
+      "url": "https://data.ontario.ca/dataset/f61ce160-e432-4f4d-a06c-508b3da384f9",
+      "service": "https://services1.arcgis.com/TJH5KDher0W13Kgo/arcgis/rest/services/Ontario_Road_Network_Composite_Service_GeoHub_View_EN/FeatureServer/5",
+      "license": "Open Government Licence \u2013 Ontario",
+      "rawFeatures": 31811,
+      "sha256": "dd4c7f706d828416fc10efed006de5af32c1dfc56d1eba6575ed975366a341b2"
+    },
+    {
+      "id": "water",
+      "url": "https://data.ontario.ca/dataset/423655e0-2bb8-4dc2-a1ec-6d7b25915d18",
+      "service": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/25",
+      "license": "Open Government Licence \u2013 Ontario",
+      "rawFeatures": 180,
+      "sha256": "8df5b459a2f015ee83e5b79d97210273360ea107be522e55a1bec804c51be86e"
+    },
+    {
+      "id": "rails",
+      "url": "https://data.ontario.ca/dataset/5ff2a676-d1a4-4aa1-88ce-0a7d7ac28d75",
+      "service": "https://ws.lioservices.lrc.gov.on.ca/arcgis1071a/rest/services/LIO_OPEN_DATA/LIO_Open04/MapServer/18",
+      "license": "Open Government Licence \u2013 Ontario",
+      "rawFeatures": 6127,
+      "sha256": "06b7859e20ed8d97bc524e32c5905e61e59f20ce877a526dffca172d462a2ecd"
+    },
+    {
+      "id": "protected",
+      "url": "https://open.canada.ca/data/en/dataset/6c343726-1e92-451a-876a-76e17d398a1c",
+      "service": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CPCAD/MapServer/0",
+      "license": "Open Government Licence \u2013 Canada",
+      "rawFeatures": 524,
+      "sha256": "5f82fa5fa49e51f343caf2dadf00c58963094ff4b5d6b21cb54da504e07a6f24"
+    },
+    {
+      "id": "reserves",
+      "url": "https://open.canada.ca/data/en/dataset/522b07b9-78e2-4819-b736-ad9208eb1067",
+      "service": "https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer/0",
+      "license": "Open Government Licence \u2013 Canada",
+      "rawFeatures": 10,
+      "sha256": "8cfc91115edec5297e0f54c7a5cff02018163e10e79135dc51e5b79ebaef9cec"
+    },
+    {
+      "id": "names",
+      "url": "https://www.ontario.ca/page/geographic-names",
+      "service": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/36",
+      "license": "Open Government Licence \u2013 Ontario",
+      "rawFeatures": 2069,
+      "sha256": "aba49bbe60c2499d627e66949accf67bf9b0415886d04b45b74662c95d862c59"
+    },
+    {
+      "id": "toronto-parks",
+      "url": "https://open.toronto.ca/dataset/parks/",
+      "download": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/2aac8903-23ff-4072-ab72-b76cac44ad89/resource/9f53c253-a47e-497f-8a07-528f7d7aad90/download/parks-wgs84.zip",
+      "license": "Open Government Licence \u2013 Toronto"
+    },
+    {
+      "id": "attractions",
+      "url": "https://open.toronto.ca/dataset/places-of-interest-and-toronto-attractions/",
+      "download": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/965247c0-c72e-49b4-bb1a-879cf98e1a32/resource/d3e9668a-1c2b-4250-8aba-32a80bb2266d/download/places-of-interest-and-attractions-4326.geojson",
+      "license": "Open Government Licence \u2013 Toronto"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "basemap.geojson",
+      "features": 1373,
+      "bytes": 4012806,
+      "sha256": "24591657b22690335213c1cde1677e817991347708568da09eb275016e169109"
+    },
+    {
+      "file": "geographic-context.geojson",
+      "features": 750,
+      "bytes": 1531374,
+      "sha256": "c0242a9d5193293f99d8be14955005f7536ad58b20e22978dbc9bdce839dc08b"
+    },
+    {
+      "file": "orientation-landmarks.geojson",
+      "features": 50,
+      "bytes": 17312,
+      "sha256": "05b0f9a67051690f1b1c30248e4e5c917675f195f14fa9f7e2ca9d554db4ac98"
+    }
+  ],
+  "notes": [
+    "Display geometry is clipped to the GTA context window; census geometry and values are processed separately.",
+    "The park layer combines protected and conserved areas with Toronto parks of at least five hectares. It is not an exhaustive municipal parks inventory.",
+    "Place labels use official geographic name coordinates; they do not redefine census tract boundaries."
+  ]
+}

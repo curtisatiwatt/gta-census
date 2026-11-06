@@ -1,0 +1,203 @@
+{
+  "countsByRegion": {
+    "Durham": 143,
+    "Toronto": 585,
+    "York": 198,
+    "Peel": 282,
+    "Halton": 131
+  },
+  "crossing": [],
+  "coverage": [
+    {
+      "CSDUID": "3518001",
+      "name": "Pickering",
+      "count": 19,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3518005",
+      "name": "Ajax",
+      "count": 28,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3518009",
+      "name": "Whitby",
+      "count": 30,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3518013",
+      "name": "Oshawa",
+      "count": 38,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3518017",
+      "name": "Clarington",
+      "count": 24,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3518020",
+      "name": "Scugog",
+      "count": 0,
+      "landCovered": 0.0
+    },
+    {
+      "CSDUID": "3518022",
+      "name": "Mississaugas of Scugog Island",
+      "count": 0,
+      "landCovered": 0.0
+    },
+    {
+      "CSDUID": "3518029",
+      "name": "Uxbridge",
+      "count": 4,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3518039",
+      "name": "Brock",
+      "count": 0,
+      "landCovered": 0.0
+    },
+    {
+      "CSDUID": "3519028",
+      "name": "Vaughan",
+      "count": 54,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3519036",
+      "name": "Markham",
+      "count": 61,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3519038",
+      "name": "Richmond Hill",
+      "count": 33,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3519044",
+      "name": "Whitchurch-Stouffville",
+      "count": 7,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3519046",
+      "name": "Aurora",
+      "count": 9,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3519048",
+      "name": "Newmarket",
+      "count": 16,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3519049",
+      "name": "King",
+      "count": 4,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3519054",
+      "name": "East Gwillimbury",
+      "count": 4,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3519070",
+      "name": "Georgina",
+      "count": 9,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3519076",
+      "name": "Chippewas of Georgina Island First Nation",
+      "count": 1,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3520005",
+      "name": "Toronto",
+      "count": 585,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3521005",
+      "name": "Mississauga",
+      "count": 147,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3521010",
+      "name": "Brampton",
+      "count": 122,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3521024",
+      "name": "Caledon",
+      "count": 13,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3524001",
+      "name": "Oakville",
+      "count": 43,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3524002",
+      "name": "Burlington",
+      "count": 48,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3524009",
+      "name": "Milton",
+      "count": 27,
+      "landCovered": 1.0
+    },
+    {
+      "CSDUID": "3524015",
+      "name": "Halton Hills",
+      "count": 13,
+      "landCovered": 1.0
+    }
+  ],
+  "areaCount": 1342,
+  "fallbackCSDs": [
+    "3518020",
+    "3518022",
+    "3518039"
+  ],
+  "rawCoverageTopologyValid": true,
+  "sourceGeometryIssues": [
+    {
+      "dguid": "2021A00053518020",
+      "reason": "Ring Self-intersection[-78.889121 44.184826]"
+    }
+  ],
+  "displayGeometriesValid": true,
+  "displayCoverageTopologyValid": true,
+  "simplification": {
+    "method": "Shapely coverage_simplify",
+    "toleranceMetres": 8,
+    "crs": "EPSG:26917",
+    "simplifyBoundary": false,
+    "coordinatePrecisionDegrees": 1e-07,
+    "maxIndividualRelativeAreaChange": 0.004408673951457542,
+    "note": "Shared interior edges are simplified together. Outer GTA boundaries are not simplified. Coordinates use a common precision grid. Statistical values are never reassigned."
+  },
+  "rawSha256": "2281078098277d740c0c7cb913c58f8bd5e31d4c63fb97680455d5ee9a3948f1",
+  "displaySha256": "fbd9c4e554ba8831dbdef2bc773ace82b9d418e9f689b5209022538fcda8c79e",
+  "source": "https://geo.statcan.gc.ca/geo_wa/rest/services/2021/Cartographic_boundary_files/MapServer",
+  "boundaryReferenceYear": 2021,
+  "preparedDate": "2026-11-06"
+}

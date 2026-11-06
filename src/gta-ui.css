@@ -1,0 +1,34 @@
+.scope-icon{display:flex;align-items:center;justify-content:center;width:24px;height:24px;flex:none}
+.scope-icon svg{width:24px;height:24px}
+.scope-button{display:flex;align-items:center;gap:12px;min-height:52px;padding:12px 14px;color:var(--ink);background:transparent;border:0;text-align:left;font:inherit}
+.scope-button:hover{background:var(--surface-soft)}
+.scope-button:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+#scope-button-label{overflow-wrap:anywhere}
+#scope-dialog[open]{display:flex;flex-direction:column;padding:0;overflow:hidden;background:var(--paper);color:var(--ink);width:min(440px,calc(100vw - 24px));max-height:85dvh;border:1px solid var(--line);border-radius:18px}
+#scope-dialog>.dialog-nav{display:flex;align-items:center;gap:12px;flex:none;padding:12px 18px;min-height:68px;border-bottom:1px solid var(--line)}
+#scope-dialog h2{margin:0;font-size:1.125rem;line-height:1.35}
+#scope-dialog .dialog-close{display:grid;place-items:center;width:44px;height:44px;margin-left:auto;border-radius:50%;background:var(--surface-soft);color:var(--ink);font-size:1.5rem}
+#scope-dialog .scope-content{overflow-y:auto;padding:20px;display:flex;flex-direction:column;gap:14px}
+.scope-content label{font-size:.875rem;font-weight:600}
+#scope-select{width:100%;min-height:48px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);font:inherit}
+.scope-apply{min-height:48px;border-radius:10px;border:0;background:var(--accent);color:white;font:inherit;font-weight:600}
+#group-scope-label{font-size:.8125rem;line-height:1.45;color:var(--muted);margin:0 0 12px}
+#transit-line-list{display:flex;flex-direction:column;gap:9px;margin-top:14px}
+#transit-line-list>span{display:flex;gap:10px;align-items:center;font-size:.875rem;line-height:1.4}
+#transit-line-list i{display:inline-block;width:24px;height:4px;flex:none;border-radius:2px}
+@media(min-width:761px){
+  .viewbar .view-controls>#scope-button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;width:100%;min-width:0;min-height:64px;margin:0;padding:8px 2px;border-radius:12px;font-size:11px;font-weight:500;line-height:1.25;color:var(--desktop-text);text-align:center}
+  .viewbar #scope-button:hover{background:var(--desktop-hover)}
+  .desktop-menu-expanded .viewbar .view-controls>#scope-button{flex-direction:row;justify-content:flex-start;gap:14px;min-height:48px;padding:10px 12px;font-size:14px;text-align:left}
+}
+@media(min-width:761px) and (max-height:800px){
+  .viewbar{gap:5px;padding-top:5px;padding-bottom:5px}
+  .viewbar .view-controls>#scope-button{min-height:49px;gap:3px;padding-top:5px;padding-bottom:5px;font-size:10px}
+}
+@media(max-width:760px){
+  #mobile-more-dialog #scope-button{display:flex;flex-direction:row;align-items:center;gap:14px;width:100%;min-height:56px;padding:12px 14px;border-radius:10px;color:var(--mobile-ink);font-size:1rem;background:transparent}
+  #scope-dialog[open]{inset:auto 0 0;margin:0;width:100%;max-width:100%;max-height:85dvh;border-radius:22px 22px 0 0;background:var(--mobile-surface);color:var(--mobile-ink)}
+  #scope-dialog>.dialog-nav{background:var(--mobile-surface);color:var(--mobile-ink)}
+  #scope-dialog .scope-content{padding-bottom:max(24px,env(safe-area-inset-bottom))}
+  #scope-select{background:var(--mobile-surface);color:var(--mobile-ink);font-size:1rem}
+}
