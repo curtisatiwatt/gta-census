@@ -105,7 +105,7 @@ export function initMobileUI({ onLayoutChange = () => {} } = {}) {
       move($('groups-panel'), filters);
       move($('layers-panel'), filters);
     } else if (!mobile && moved) { closeTransient(); restore(); moved = false; }
-    $('search').placeholder = t('搜索城市或普查区');
+    $('search').placeholder = t('搜索城市或社区');
     $('mobile-map-switcher').hidden = !mobile || !comparing || !groups;
     pager.hidden = mobile && (!comparing || !groups);
     $('mobile-composition-legend').hidden = comparing;

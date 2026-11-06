@@ -1,0 +1,70 @@
+{
+  "id": "6c26ff98c86c48e38a01860c264b4eab",
+  "owner": "Milton_Maps",
+  "ownerId": "cff6226e45a3339533bb7275c7b60976",
+  "orgId": "FAgEZRLybpkpIX4O",
+  "created": 1604063518000,
+  "modified": 1654786782000,
+  "guid": null,
+  "name": null,
+  "title": "Neighbourhoods",
+  "type": "Feature Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Feature Access",
+    "Feature Service",
+    "Service"
+  ],
+  "description": "Polygon feature class containing all the neighbourhood boundaries within the Town of Milton.  Updated on a daily schedule.",
+  "tags": [
+    "Town of Milton",
+    "Milton",
+    "local government",
+    "open data",
+    "boundaries"
+  ],
+  "snippet": "Polygon feature class containing all the neighbourhood boundaries within the Town of Milton.  Updated on a daily schedule.",
+  "thumbnail": "thumbnail/thumbnail1604063617655.png",
+  "documentation": null,
+  "extent": [
+    [
+      -79.95968927001705,
+      43.46263928571307
+    ],
+    [
+      -79.80519403075945,
+      43.57715873202388
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "26917",
+  "accessInformation": null,
+  "classification": null,
+  "licenseInfo": "<a href='https://discover-milton.hub.arcgis.com/pages/disclaimer-and-terms-of-use' rel='nofollow ugc' target='_blank'>Town of Milton disclaimer and terms of use</a>",
+  "culture": "en-us",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://api.milton.ca/arcgis/rest/services/Datasets/Neighbourhoods/MapServer/0",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 78,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 7171,
+  "scoreCompleteness": 76,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "lastViewed": 1793991600000
+}

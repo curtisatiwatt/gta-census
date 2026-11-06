@@ -2,7 +2,17 @@
 
 此压缩包包含完整前端源码、已准备好的地图及人口数据、数据处理脚本、测试、GitHub Pages 工作流，以及本次重新构建的 dist/。
 
-覆盖 Toronto、Peel、York、Durham、Halton，包括 Markham、Richmond Hill、Vaughan。共 1,342 个统计区域。
+覆盖 Toronto、Peel、York、Durham、Halton，包括 Markham、Richmond Hill、Vaughan。默认采用551个官方命名的市政/区域政府分区，另有57个联邦普查补充区域。独立的“普查统计区”图层仍保留全部1,342个原统计区域。
+
+## 分区与统计
+
+默认优先市政府的社区、规划区和村落边界；没有合适完整市级分区时，采用York和Durham区域政府的命名社区。市政数据确无覆盖的部分才使用联邦普查区。
+
+Toronto的158个社区使用市政府匹配的2021人口及家庭收入资料；Mississauga的56个市府统计区域有人口构成资料，家庭收入中位数留空。其他城市仅显示能与边界、年份和统计口径对应的官方指标。不会把普查区收入中位数求平均，也不会把儿童人群占比当作全体人口占比。
+
+在“选择地区”或“地图图层”里可以切换“市政社区与规划区 / 普查统计区”。详情也可直接切换到同一位置的普查区。旧普查区详情链接仍可使用，新城市链接会保留分区模式。
+
+来源、许可、覆盖和缺失原因见`data/municipal/`各地区的`sources.json`；所采用清单为`datasets.json`，几何与统计关联审计为`audit.json`。
 
 ## 本地运行
 
@@ -45,6 +55,6 @@ npm run preview
 - .github/workflows/pages.yml：GitHub Pages 自动发布配置。
 - dist/：已编译的静态站点。
 
-2026-11-06 重新验证：47 项测试通过，人口及地理数据校验通过，生产构建通过。详细输出在 VERIFICATION.txt。
+原压缩包的验证记录保留在 VERIFICATION.txt；当前版本的应用、联邦数据及市政社区校验统一运行 npm run check。
 
 地图统计口径与来源限制见原项目 README.md 及应用内数据说明。

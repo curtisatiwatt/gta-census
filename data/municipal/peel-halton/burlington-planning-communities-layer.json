@@ -1,0 +1,1872 @@
+{
+  "currentVersion": 11.5,
+  "cimVersion": "3.5.0",
+  "id": 1,
+  "name": "Planning Communities",
+  "type": "Feature Layer",
+  "description": "City of Burlington Planning Communities",
+  "geometryType": "esriGeometryPolygon",
+  "sourceSpatialReference": {
+    "wkid": 26917,
+    "latestWkid": 26917,
+    "xyTolerance": 8.000000000000029e-05,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120899.99996002,
+    "falseY": -9998099.99996006,
+    "xyUnits": 99999.9999999996,
+    "falseZ": 0,
+    "zUnits": 1,
+    "falseM": 0,
+    "mUnits": 1
+  },
+  "spatialReference": {
+    "wkid": 26917,
+    "latestWkid": 26917,
+    "vcsWkid": 115702,
+    "latestVcsWkid": 115702,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 450445547.3910538,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+  },
+  "copyrightText": "City of Burlington",
+  "parentLayer": null,
+  "subLayers": [],
+  "minScale": 0,
+  "maxScale": 0,
+  "referenceScale": 5048.229959,
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "PLANNING_COMMUNITY",
+      "uniqueValueGroups": [
+        {
+          "heading": "PLANNING_COMMUNITY",
+          "classes": [
+            {
+              "label": "ALTON",
+              "description": "ALTON",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  212,
+                  244,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "ALTON"
+                ]
+              ]
+            },
+            {
+              "label": "APPLEBY",
+              "description": "APPLEBY",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  232,
+                  194,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "APPLEBY"
+                ]
+              ]
+            },
+            {
+              "label": "BAYVIEW",
+              "description": "BAYVIEW",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  232,
+                  210,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "BAYVIEW"
+                ]
+              ]
+            },
+            {
+              "label": "BRANT",
+              "description": "BRANT",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  182,
+                  188,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "BRANT"
+                ]
+              ]
+            },
+            {
+              "label": "BRANT HILLS",
+              "description": "BRANT HILLS",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  182,
+                  252,
+                  185,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "BRANT HILLS"
+                ]
+              ]
+            },
+            {
+              "label": "BRONTE",
+              "description": "BRONTE",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  202,
+                  252,
+                  202,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "BRONTE"
+                ]
+              ]
+            },
+            {
+              "label": "EMPLOYMENT",
+              "description": "EMPLOYMENT",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  212,
+                  246,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "EMPLOYMENT"
+                ]
+              ]
+            },
+            {
+              "label": "FREEMAN",
+              "description": "FREEMAN",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  237,
+                  252,
+                  215,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "FREEMAN"
+                ]
+              ]
+            },
+            {
+              "label": "HEADON",
+              "description": "HEADON",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  204,
+                  182,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "HEADON"
+                ]
+              ]
+            },
+            {
+              "label": "LA SALLE",
+              "description": "LA SALLE",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  187,
+                  226,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "LA SALLE"
+                ]
+              ]
+            },
+            {
+              "label": "MOUNTAINVIEW",
+              "description": "MOUNTAINVIEW",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  232,
+                  252,
+                  189,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "MOUNTAINVIEW"
+                ]
+              ]
+            },
+            {
+              "label": "NORTH ALDERSHOT",
+              "description": "NORTH ALDERSHOT",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  184,
+                  252,
+                  241,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "NORTH ALDERSHOT"
+                ]
+              ]
+            },
+            {
+              "label": "ORCHARD",
+              "description": "ORCHARD",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  239,
+                  182,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "ORCHARD"
+                ]
+              ]
+            },
+            {
+              "label": "PALMER",
+              "description": "PALMER",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  179,
+                  239,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "PALMER"
+                ]
+              ]
+            },
+            {
+              "label": "ROSE",
+              "description": "ROSE",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  202,
+                  189,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "ROSE"
+                ]
+              ]
+            },
+            {
+              "label": "ROSELAND",
+              "description": "ROSELAND",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  212,
+                  210,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "ROSELAND"
+                ]
+              ]
+            },
+            {
+              "label": "RURAL",
+              "description": "RURAL",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  179,
+                  195,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "RURAL"
+                ]
+              ]
+            },
+            {
+              "label": "SHOREACRES",
+              "description": "SHOREACRES",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  212,
+                  219,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "SHOREACRES"
+                ]
+              ]
+            },
+            {
+              "label": "TANSLEY",
+              "description": "TANSLEY",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  238,
+                  179,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "TANSLEY"
+                ]
+              ]
+            },
+            {
+              "label": "TREMAINE",
+              "description": "TREMAINE",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  194,
+                  239,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "TREMAINE"
+                ]
+              ]
+            },
+            {
+              "label": "TYANDAGA",
+              "description": "TYANDAGA",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  215,
+                  230,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "TYANDAGA"
+                ]
+              ]
+            },
+            {
+              "label": "UPTOWN",
+              "description": "UPTOWN",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  210,
+                  252,
+                  226,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "values": [
+                [
+                  "UPTOWN"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              252,
+              212,
+              244,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "ALTON",
+          "label": "ALTON"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              232,
+              194,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "APPLEBY",
+          "label": "APPLEBY"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              252,
+              232,
+              210,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "BAYVIEW",
+          "label": "BAYVIEW"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              182,
+              188,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "BRANT",
+          "label": "BRANT"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              182,
+              252,
+              185,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "BRANT HILLS",
+          "label": "BRANT HILLS"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              202,
+              252,
+              202,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "BRONTE",
+          "label": "BRONTE"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              212,
+              246,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "EMPLOYMENT",
+          "label": "EMPLOYMENT"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              237,
+              252,
+              215,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "FREEMAN",
+          "label": "FREEMAN"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              204,
+              182,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "HEADON",
+          "label": "HEADON"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              187,
+              226,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "LA SALLE",
+          "label": "LA SALLE"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              232,
+              252,
+              189,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "MOUNTAINVIEW",
+          "label": "MOUNTAINVIEW"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              184,
+              252,
+              241,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "NORTH ALDERSHOT",
+          "label": "NORTH ALDERSHOT"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              252,
+              239,
+              182,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "ORCHARD",
+          "label": "ORCHARD"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              179,
+              239,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "PALMER",
+          "label": "PALMER"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              252,
+              202,
+              189,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "ROSE",
+          "label": "ROSE"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              212,
+              210,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "ROSELAND",
+          "label": "ROSELAND"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              252,
+              179,
+              195,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "RURAL",
+          "label": "RURAL"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              252,
+              212,
+              219,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "SHOREACRES",
+          "label": "SHOREACRES"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              238,
+              179,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "TANSLEY",
+          "label": "TANSLEY"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              252,
+              194,
+              239,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "TREMAINE",
+          "label": "TREMAINE"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              215,
+              230,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "TYANDAGA",
+          "label": "TYANDAGA"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              210,
+              252,
+              226,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.4
+            }
+          },
+          "value": "UPTOWN",
+          "label": "UPTOWN"
+        }
+      ],
+      "fieldDelimiter": ",",
+      "authoringInfo": {
+        "colorRamp": {
+          "type": "multipart",
+          "colorRamps": [
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                212,
+                252,
+                210,
+                255
+              ],
+              "toColor": [
+                212,
+                252,
+                210,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                228,
+                182,
+                252,
+                255
+              ],
+              "toColor": [
+                228,
+                182,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                190,
+                182,
+                255
+              ],
+              "toColor": [
+                252,
+                190,
+                182,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                192,
+                226,
+                252,
+                255
+              ],
+              "toColor": [
+                192,
+                226,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                179,
+                252,
+                246,
+                255
+              ],
+              "toColor": [
+                179,
+                252,
+                246,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                202,
+                233,
+                255
+              ],
+              "toColor": [
+                252,
+                202,
+                233,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                240,
+                184,
+                255
+              ],
+              "toColor": [
+                252,
+                240,
+                184,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                228,
+                212,
+                255
+              ],
+              "toColor": [
+                252,
+                228,
+                212,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                217,
+                207,
+                252,
+                255
+              ],
+              "toColor": [
+                217,
+                207,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                232,
+                252,
+                182,
+                255
+              ],
+              "toColor": [
+                232,
+                252,
+                182,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                179,
+                252,
+                184,
+                255
+              ],
+              "toColor": [
+                179,
+                252,
+                184,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                184,
+                179,
+                252,
+                255
+              ],
+              "toColor": [
+                184,
+                179,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                179,
+                233,
+                255
+              ],
+              "toColor": [
+                252,
+                179,
+                233,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                179,
+                205,
+                252,
+                255
+              ],
+              "toColor": [
+                179,
+                205,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                207,
+                246,
+                252,
+                255
+              ],
+              "toColor": [
+                207,
+                246,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                212,
+                216,
+                255
+              ],
+              "toColor": [
+                252,
+                212,
+                216,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                218,
+                179,
+                255
+              ],
+              "toColor": [
+                252,
+                218,
+                179,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                243,
+                252,
+                212,
+                255
+              ],
+              "toColor": [
+                243,
+                252,
+                212,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                202,
+                252,
+                227,
+                255
+              ],
+              "toColor": [
+                202,
+                252,
+                227,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                187,
+                201,
+                255
+              ],
+              "toColor": [
+                252,
+                187,
+                201,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                209,
+                189,
+                252,
+                255
+              ],
+              "toColor": [
+                209,
+                189,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                249,
+                204,
+                252,
+                255
+              ],
+              "toColor": [
+                249,
+                204,
+                252,
+                255
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": [
+      {
+        "labelExpression": "[PLANNING_COMMUNITY]",
+        "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+        "removeDuplicates": "none",
+        "multiPart": "labelPerPart",
+        "deconflictionStrategy": "dynamic",
+        "repeatLabel": false,
+        "allowOverrun": true,
+        "stackLabel": false,
+        "useCodedValues": true,
+        "maxScale": 0,
+        "minScale": 0,
+        "name": "Default",
+        "priority": 2,
+        "symbol": {
+          "type": "esriTS",
+          "color": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "backgroundColor": null,
+          "borderLineColor": null,
+          "borderLineSize": null,
+          "verticalAlignment": "bottom",
+          "horizontalAlignment": "left",
+          "rightToLeft": false,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "kerning": true,
+          "haloColor": null,
+          "haloSize": null,
+          "font": {
+            "family": "Arial",
+            "size": 12,
+            "style": "normal",
+            "weight": "normal",
+            "decoration": "none"
+          }
+        }
+      }
+    ]
+  },
+  "defaultVisibility": true,
+  "extent": {
+    "xmin": 584254.3181200018,
+    "ymin": 4793227.4059999995,
+    "xmax": 603320.634560002,
+    "ymax": 4814330.16068,
+    "spatialReference": {
+      "wkid": 26917,
+      "latestWkid": 26917,
+      "vcsWkid": 115702,
+      "latestVcsWkid": 115702,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -5120900,
+      "falseY": -9998100,
+      "xyUnits": 450445547.3910538,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    }
+  },
+  "heightModelInfo": {
+    "heightModel": "ellipsoidal",
+    "vertCRS": "NAD_1983",
+    "heightUnit": "meter"
+  },
+  "supportsVCSProjection": true,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "displayField": "PLANNING_COMMUNITY",
+  "typeIdField": null,
+  "subtypeFieldName": null,
+  "subtypeField": null,
+  "defaultSubtypeCode": null,
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+    },
+    {
+      "name": "PLANNING_COMMUNITY",
+      "type": "esriFieldTypeString",
+      "alias": "Planning Community",
+      "length": 18,
+      "domain": null
+    },
+    {
+      "name": "SHAPE",
+      "type": "esriFieldTypeGeometry",
+      "alias": "Shape",
+      "domain": null
+    },
+    {
+      "name": "SHAPE.STArea()",
+      "type": "esriFieldTypeDouble",
+      "alias": "Area",
+      "domain": null
+    },
+    {
+      "name": "SHAPE.STLength()",
+      "type": "esriFieldTypeDouble",
+      "alias": "SHAPE.LEN",
+      "domain": null
+    },
+    {
+      "name": "CREATED_USER",
+      "type": "esriFieldTypeString",
+      "alias": "CREATED_USER",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "CREATED_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "CREATED_DATE",
+      "length": 8,
+      "domain": null
+    },
+    {
+      "name": "LAST_EDITED_USER",
+      "type": "esriFieldTypeString",
+      "alias": "LAST_EDITED_USER",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "LAST_EDITED_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "LAST_EDITED_DATE",
+      "length": 8,
+      "domain": null
+    }
+  ],
+  "geometryField": {
+    "name": "SHAPE",
+    "type": "esriFieldTypeGeometry",
+    "alias": "Shape"
+  },
+  "indexes": [
+    {
+      "name": "R1363_pk",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "S1266_idx",
+      "fields": "SHAPE",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    }
+  ],
+  "subtypes": [],
+  "relationships": [],
+  "canModifyLayer": true,
+  "canScaleSymbols": true,
+  "hasLabels": true,
+  "capabilities": "Map,Query,Data",
+  "maxRecordCount": 2000,
+  "maxSelectionCount": 2000,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "isDataVersioned": false,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "useStandardizedQueries": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": true,
+    "supportsCurrentUserQueries": true
+  },
+  "supportsDatumTransformation": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": true
+  },
+  "dateFieldsTimeReference": null,
+  "preferredTimeReference": null,
+  "datesInUnknownTimezone": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "SHAPE.STArea()",
+    "shapeLengthFieldName": "SHAPE.STLength()",
+    "units": "esriMeters",
+    "mapUnits": {
+      "uwkid": 9001
+    }
+  },
+  "hasMetadata": true,
+  "isDataArchived": false,
+  "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+  },
+  "supportsCoordinatesQuantization": true,
+  "supportsDynamicLegends": true
+}

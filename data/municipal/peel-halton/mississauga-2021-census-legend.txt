@@ -1,0 +1,990 @@
+Short Variable Name Variable Name
+ObjectId ObjectID
+Geog Geography
+Geog_Cat Geography_Category
+GEN Gender
+Mapping ID
+AG
+Total - Age groups of the population - 25% sample
+data
+AG_0_14   0 to 14 years
+AG_0_4     0 to 4 years
+AG_5_9     5 to 9 years
+AG_10_14     10 to 14 years
+AG_15_64   15 to 64 years
+AG_15_19     15 to 19 years
+AG_20_24     20 to 24 years
+AG_25_29     25 to 29 years
+AG_30_34     30 to 34 years
+AG_35_39     35 to 39 years
+AG_40_44     40 to 44 years
+AG_45_49     45 to 49 years
+AG_50_54     50 to 54 years
+AG_55_59     55 to 59 years
+AG_60_64     60 to 64 years
+AG_65M   65 years and over
+AG_65_69     65 to 69 years
+AG_70_74     70 to 74 years
+AG_75_79     75 to 79 years
+AG_80_84     80 to 84 years
+AG_85M     85 years and over
+AG_85_89       85 to 89 years
+AG_90_94       90 to 94 years
+AG_95_99       95 to 99 years
+AG_100M       100 years and over
+A_Age Average age of the population
+Med_Ag Median age of the population
+PPH
+Total - Persons in private households - 25% sample
+data
+PPHCF   Total - Persons in census families
+PPHCF_M_CL     Married spouses or common-law partners
+PPHCF_P_1P     Parents in one-parent families
+PPHCF_Ch     Children
+PPHCF_2PF       In a two-parent family
+PPHCF_1PF       In a one-parent family
+PPHNCF
+  Total - Persons not in census families in private
+households - 25% sample data
+PPHNCF_LA     Living alone
+PPHNCF_LR     Living with other relatives
+PPHNCF_LNR     Living with non-relatives only
+Number_PPH Number of persons in private households
+MS
+Total - Marital status for the total population aged 15
+years and over - 25% sample data
+MS_M_CL   Married or living common-law
+MS_M     Married
+MS_CL     Living common-law
+MS_CL_NM       Living common law - Never married
+MS_CL_S       Living common law - Separated
+MS_CL_D       Living common law - Divorced
+MS_CL_W       Living common law - Widowed
+MS_NMNCL   Not married and not living common-law
+MS_NMCL_NM
+    Not married and not living common law - Never
+married
+MS_NMCL_S     Not married and not living common law - Separated
+MS_NMCL_D     Not married and not living common law - Divorced
+MS_NMCL_W     Not married and not living common law - Widowed
+IS
+Total - Income statistics in 2020 for the population
+aged 15 years and over in private households - 25%
+sample data
+IS_TI15M
+  Number of total income recipients aged 15 years and
+over in private households in 2020 - 25% sample data
+IS_MI15M     Median total income in 2020  among recipients ($)
+IS_AI15M     Average total income in 2020 among recipients ($)
+IS_ATI15M
+  Number of after-tax income recipients aged 15 years
+and over in private households in 2020 - 25% sample
+data
+IS_ATMI15M
+    Median after-tax income in 2020 among recipients
+($)
+IS_ATAI15M
+    Average after-tax income in 2020 among recipients
+($)
+TIG_15M
+Total - Total income groups in 2020 for the population
+aged 15 years and over in private households - 25%
+sample data
+TIG_NTI15M   Without total income
+TIG_WTI15M   With total income
+TIG_U_1     Under $10,000 (including loss)
+TIG_2     $10,000 to $19,999
+TIG_3     $20,000 to $29,999
+TIG_4     $30,000 to $39,999
+TIG_5     $40,000 to $49,999
+TIG_6     $50,000 to $59,999
+TIG_7     $60,000 to $69,999
+TIG_8     $70,000 to $79,999
+TIG_9     $80,000 to $89,999
+TIG_10     $90,000 to $99,999
+TIG_11     $100,000 and over
+TIG_11a       $100,000 to $149,999
+TIG_11b       $150,000 and over
+ATIG_15M
+Total - After-tax income groups in 2020 for the
+population aged 15 years and over in private
+households - 25% sample data
+ATIGNTI15M   Without after-tax income
+ATIGWTI15M   With after-tax income
+ATIG_U_1     Under $10,000 (including loss)
+ATIG_2     $10,000 to $19,999
+ATIG_3     $20,000 to $29,999
+ATIG_4     $30,000 to $39,999
+ATIG_5     $40,000 to $49,999
+ATIG_6     $50,000 to $59,999
+ATIG_7     $60,000 to $69,999
+ATIG_8     $70,000 to $79,999
+ATIG_9     $80,000 to $89,999
+ATIG_10     $90,000 to $99,999
+ATIG_11     $100,000 and over
+ATIG_11a       $100,000 to $124,999
+ATIG_11b       $125,000 and over
+ISNEF_15M
+Total - Income statistics for persons aged 15 years and
+over not in economic families in private households -
+25% sample data
+ISNEF_MTI   Median total income in 2020 ($)
+ISNEF_ATI   Average total income in 2020 ($)
+ISNEF_MATI   Median after-tax income in 2020 ($)
+ISNEF_AATI   Average after-tax income in 2020 ($)
+LIM_PPH
+Total - LIM low-income status in 2020 for the
+population in private households - 25% sample data
+LIM_0_17   0 to 17 years
+LIM_0_5     0 to 5 years
+LIM_18_64   18 to 64 years
+LIM_65M   65 years and over
+LIM_PPH_AT
+In low income based on the Low-income measure,
+after tax (LIM-AT)
+LIMAT_0_17   0 to 17 years
+LIMAT_0_5     0 to 5 years
+LIMAT_1864   18 to 64 years
+LIMAT_65M   65 years and over
+LICO_PPH
+Total - LICO low-income status in 2020 for the
+population in private households to whom the low-
+income concept is applicable - 25% sample data
+LICO_0_17   0 to 17 years
+LICO_0_5     0 to 5 years
+LICO_18_64   18 to 64 years
+LICO_65M   65 years and over
+LICO_PPHAT
+In low income based on the Low-income cut-offs, after
+tax (LICO-AT)
+LICOAT_017   0 to 17 years
+LICOAT_05     0 to 5 years
+LICOAT1864   18 to 64 years
+LICOAT_65M   65 years and over
+DGAT
+Total - Adjusted after-tax family income decile group
+for the population in private households - 25% sample
+data
+DGAT_BH   In bottom half of the distribution
+DGAT_1     In bottom decile
+DGAT_2     In second decile
+DGAT_3     In third decile
+DGAT_4     In fourth decile
+DGAT_5     In fifth decile
+DGAT_TH   In top half of the distribution
+DGAT_6     In sixth decile
+DGAT_7     In seventh decile
+DGAT_8     In eighth decile
+DGAT_9     In ninth decile
+DGAT_10     In top decile
+KOL
+Total - Knowledge of official languages for the
+population in private households - 25% sample data
+KOL_ENG   English only
+KOL_FR   French only
+KOL_ENG_FR   English and French
+KOL_NONE   Neither English nor French
+FOLS
+Total - First official language spoken for the
+population in private households - 25% sample data
+FOLS_ENG   English
+FOLS_FR   French
+FOLS_ENGFR   English and French
+FOLS_NONE   Neither English nor French
+SaH
+Total - All languages spoken at home for the total
+population excluding institutional residents - 100%
+data
+SaH_ENG English
+SaH_FR French
+SaH_NoL Non-Official Languages
+SaH_Ind Indigenous
+SaH_N_Ind Non-indigenous
+SaH_ENG_FR English and French
+SaH_ENGNOL English and non-official language(s)
+SaH_FRNOL French and non-official language(s)
+SaH_ENFNOL English, French and non-official language(s)
+SaH_MulOL Multiple non-official languages
+SMH
+Total - Language spoken most often at home for the
+total population excluding institutional residents -
+100%
+SMH_Urdu Urdu
+SMH_Arabic Arabic
+SMH_Mand Mandarin
+SMH_Punj Punjabi (Panjabi)
+SMH_Polish Polish
+SMH_Cant Yue (Cantonese)
+SMH_Taga Tagalog (Pilipino, Filipino)
+SMH_Span Spanish
+SMH_Tamil Tamil
+SMH_Viet Vietnamese
+SMH_Hindi Hindi
+SMH_Port Portuguese
+SMH_SerbCr Serbo-Croatian
+SMH_Guja Gujarati
+SMH_Bengal Bengali
+SMH_Ukra Ukrainian
+SMH_Russ Russian
+SMH_Korean Korean
+SMH_Malaya Malayalam
+SMH_Ital Italian
+II
+Total - Indigenous identity for the population in
+private households - 25% sample data
+I_l   Indigenous identity
+II_SIR     Single Indigenous responses
+II_SIR_FN       First Nations (North American Indian)
+II_SIR_M       Métis
+II_SIR_I       Inuk (Inuit)
+II_MI     Multiple Indigenous responses
+II_OI     Indigenous responses not included elsewhere
+II_NI   Non-Indigenous identity
+R_T_S
+Total - Registered or Treaty Indian status for the
+population in private households - 25% sample data
+R_T_S_RTI   Registered or Treaty Indian
+R_T_S_NRTI   Not a Registered or Treaty Indian
+IndAnc
+Total - Indigenous ancestry for the population in
+private households - 25% sample data
+IA_IAO   Indigenous ancestry (only)
+IA_SIAO     Single Indigenous ancestry (only)
+IA_FN_SA
+      First Nations (North American Indian) single
+ancestry
+IA_M_SA       Métis single ancestry
+IA_I_SA       Inuit single ancestry
+IA_MIAO     Multiple Indigenous ancestries (only)
+IA_FN_M
+      First Nations (North American Indian) and Métis
+ancestry only
+IA_FN_I
+      First Nations (North American Indian) and Inuit
+ancestry only
+IA_M_I       Métis and Inuit ancestry only
+IA_FN_M_I
+      First Nations (North American Indian) and Métis
+and Inuit ancestry only
+IA_I_NI   Indigenous and non-Indigenous ancestries
+IA_SI_NI     Single Indigenous and non-Indigenous ancestries
+IA_FN_NI
+      First Nations (North American Indian) and non-
+Indigenous ancestry only
+IA_M_NI       Métis and non-Indigenous ancestry only
+IA_I_NI_O       Inuit and non-Indigenous ancestry only
+IA_MI_NI     Multiple Indigenous and non-Indigenous ancestries
+IA_FN_M_NI
+      First Nations (North American Indian) and Métis
+and non-Indigenous ancestry only
+IA_FN_I_NI
+      First Nations (North American Indian) and Inuit and
+non-Indigenous ancestry only
+IA_M_I_NI       Métis and Inuit and non-Indigenous ancestry only
+IA_FNMINI
+      First Nations (North American Indian) and Métis
+and Inuit and non-Indigenous ancestry only
+IA_NIO   Non-Indigenous ancestry only
+CZ
+Total - Citizenship for the population in private
+households - 25% sample data
+CZ_Can   Canadian citizens
+CZ_Can_18_     Canadian citizens aged under 18
+CZ_Can_18M     Canadian citizens aged 18 and over
+CZ_NCanCZ   Not Canadian citizens
+IS_PI
+Total - Immigrant status and period of immigration for
+the population in private households - 25% sample
+data
+IS_PI_NImm   Non-immigrants
+IS_PI_Imm   Immigrants
+IS_PI_80     Before 1980
+IS_PI_8090     1980 to 1990
+IS_PI_9100     1991 to 2000
+IS_PI_0110     2001 to 2010
+IS_PI_1121     2011 to 2021
+IS_PI_1115       2011 to 2015
+IS_PI_1621       2016 to 2021
+IS_PI_NPR   Non-permanent residents
+AImmPop
+Total - Age at immigration for the immigrant
+population in private households - 25% sample data
+AI_Under5   Under 5 years
+AI_5_14   5 to 14 years
+AI_15_24   15 to 24 years
+AI_25_44   25 to 44 years
+AI_45M   45 years and over
+PoB_
+Total - Place of birth for the immigrant population in
+private households - 25% sample data
+PoB_India     India
+PoB_Pakis     Pakistan
+PoB_Phili     Philippines
+PoB_China     China
+PoB_Poland     Poland
+PoB_Jamaic     Jamaica
+PoB_VietNa     Viet Nam
+PoB_Portug     Portugal
+PoB_UK     United Kingdom
+PoB_Egypt     Egypt
+PoB_Iraq     Iraq
+PoB_SriLan     Sri Lanka
+PoB_Italy     Italy
+PoB_Syria     Syria
+PoB_HongKo     Hong Kong
+PoB_Guyana     Guyana
+PoB_TriTob     Trinidad and Tobago
+PoB_USA     United States of America
+PoB_Ukrain     Ukraine
+PoB_SouthK     Korea, South
+PoB_RI
+Total - Place of birth for the recent immigrant
+population in private households - 25% sample data
+PoBR_India     India
+PoBR_Syria     Syria
+PoBR_Pakis     Pakistan
+PoBR_Phili     Philippines
+PoBR_China     China
+PoBR_Iraq     Iraq
+PoBR_Egypt     Egypt
+PoBR_Niger     Nigeria
+PoBR_UAE     United Arab Emirates
+PoBR_USA     United States of America
+PoBR_SaudA     Saudi Arabia
+PoBR_VietN     Viet Nam
+PoBR_Jamai     Jamaica
+PoBR_Ukrai     Ukraine
+PoBR_Leban     Lebanon
+PoBR_Bangl     Bangladesh
+PoBR_SriLa     Sri Lanka
+PoBR_Afgha     Afghanistan
+PoBR_Jorda     Jordan
+PoBR_Colom     Colombia
+GS
+Total - Generation status for the population in private
+households - 25% sample data
+GS_1   First generation
+GS_2   Second generation
+GS_3M   Third generation or more
+IACAT_8021
+Total - Admission category and applicant type for the
+immigrant population in private households who were
+admitted between 1980 and 2021 - 25% sample data
+IACAT_EI   Economic immigrants
+IACAT_EIPA     Principal applicants
+IACAT_EISA     Secondary applicants
+IACAT_ISF   Immigrants sponsored by family
+IACAT_Ref   Refugees
+IACAT_OIm   Other immigrants
+VM
+Total - Visible minority for the population in private
+households - 25% sample data
+VM_Tot   Total visible minority population
+VM_SA     South Asian
+VM_Chinese     Chinese
+VM_Black     Black
+VM_Filip     Filipino
+VM_Arab     Arab
+VM_LatAmer     Latin American
+VM_SouthEA     Southeast Asian
+VM_WestA     West Asian
+VM_Korean     Korean
+VM_Japan     Japanese
+VM_VM_NIE     Visible minority, n.i.e.
+VM_MVM     Multiple visible minorities
+VM_NVM   Not a visible minority
+EO
+Total - Ethnic or cultural origin for the population in
+private households - 25% sample data
+EO_Indian   Indian (India)
+EO_Chinese   Chinese
+EO_English   English
+EO_Canada   Canadian
+EO_Pakis   Pakistani
+EO_Irish   Irish
+EO_Italian   Italian
+EO_Filip   Filipino
+EO_Scott   Scottish
+EO_Polish   Polish
+EO_Port   Portuguese
+EO_German   German
+EO_Ukrain   Ukrainian
+EO_Jamaic   Jamaican
+EO_Vietn   Vietnamese
+EO_Hindu   Hindu
+EO_Punjabi   Punjabi
+EO_Muslim   Muslim
+EO_Egypt   Egyptian
+EO_Spanish   Spanish
+Rel
+Total - Religion for the population in private
+households - 25% sample data
+Rel_Bud   Buddhist
+Rel_Chr   Christian
+Rel_ChrNos     Christian, n.o.s.
+Rel_Anabap     Anabaptist
+Rel_Anglic     Anglican
+Rel_Baptis     Baptist
+Rel_Cathol     Catholic
+Rel_ChrOrx     Christian Orthodox
+Rel_Jehova     Jehovah's Witness
+Rel_LDS     Latter Day Saints
+Rel_Luther     Lutheran
+Rel_MetWes     Methodist and Wesleyan (Holiness)
+Rel_PentOC     Pentecostal and other Charismatic
+Rel_Presby     Presbyterian
+Rel_Reform     Reformed
+Rel_UniChu     United Church
+Rel_OthChr     Other Christian and Christian-related traditions
+Rel_Hindu   Hindu
+Rel_Jewish   Jewish
+Rel_Muslim   Muslim
+Rel_Sikh   Sikh
+Rel_TrSpir   Traditional (North American Indigenous) spirituality
+Rel_OthRel   Other religions and spiritual traditions
+Rel_Nrel_S   No religion and secular perspectives
+MS_1ya Total - Mobility status 1 year ago - 25% sample data
+MS1_N_Move   Non-movers
+MS1_Movers   Movers
+MS1_M_NM     Non-migrants
+MS1_M_M     Migrants
+MS1_M_IM       Internal migrants
+MS1_MIntra         Intraprovincial migrants
+MS1_MInter         Interprovincial migrants
+MS1_M_EM       External migrants
+MS_5ya Total - Mobility status 5 years ago - 25% sample data
+MS5_N_Move   Non-movers
+MS5_Movers   Movers
+MS5_M_NM     Non-migrants
+MS5_M_M     Migrants
+MS5_M_IM       Internal migrants
+MS5_MIntra         Intraprovincial migrants
+MS5_MInter         Interprovincial migrants
+MS5_M_EM       External migrants
+LF_15M
+Total - Population aged 15 years and over by labour
+force status - 25% sample data
+LF_ILF   In the labour force
+LF_Emp     Employed
+LF_U_Emp     Unemployed
+LF_NLF   Not in the labour force
+LF_PRate Participation rate
+LF_EmpRate Employment rate
+LF_UE_Rate Unemployment rate
+WA_15M
+Total - Population aged 15 years and over by work
+activity during the reference year - 25% sample data
+WA_DNW   Did not work
+WA_W   Worked
+WA_WFYFT     Worked full year full time
+WA_WPYPT     Worked part year and/or part time
+WA_AWW     Average weeks worked in reference year
+HCDD_15M
+Total - Highest certificate, diploma or degree for the
+population aged 15 years and over in private
+households - 25% sample data
+HCDD_NCDD   No certificate, diploma or degree
+HCDD_SS_E
+  High (secondary) school diploma or equivalency
+certificate
+HCDD_PSCDD   Postsecondary certificate, diploma or degree
+HCDD_PS_BB
+    Postsecondary certificate or diploma below
+bachelor level
+H_AppTC       Apprenticeship or trades certificate or diploma
+H_NonAppTC         Non-apprenticeship trades certificate or diploma
+H_App_C         Apprenticeship certificate
+H_C_CGEP_O
+      College, CEGEP or other non-university certificate
+or diploma
+H_UIDILE
+      University certificate or diploma below bachelor
+level
+H_BRDRHIG     Bachelor’s degree or higher
+H_BDH       Bachelor's degree
+H_BDUIDILE
+      University certificate or diploma above bachelor
+level
+H_DIDIOPTO
+      Degree in medicine, dentistry, veterinary medicine
+or optometry
+H_MDH       Master's degree
+H_E_Doc       Earned doctorate
+LF_CW_15M
+Total - Labour force aged 15 years and over by class of
+worker including job permanency - 25% sample data
+LF_CW_NA   Class of worker - not applicable
+LF_AllCW   All classes of workers
+LF_EmpCW     Employee
+LF_EPermCW       Permanent position
+LF_ETempCW       Temporary position
+LF_TemFTCW         Fixed term (1 year or more)
+LF_TempCW
+        Casual, seasonal or short-term position (less than
+1 year)
+LF_S_EmpCW     Self-employed
+NOC_15M
+Total - Labour force aged 15 years and over by
+occupation - Broad category - National Occupational
+Classification (NOC) 2021 - 25% sample data
+NOC_Occupa   Occupation - not applicable
+NOC_AllOcc   All occupations
+NOC_0     0 Legislative and senior management occupations
+NOC_1     1 Business, finance and administration occupations
+NOC_2
+    2 Natural and applied sciences and related
+occupations
+NOC_3     3 Health occupations
+NOC_4
+    4 Occupations in education, law and social,
+community and government services
+NOC_5     5 Occupations in art, culture, recreation and sport
+NOC_6     6 Sales and service occupations
+NOC_7
+    7 Trades, transport and equipment operators and
+related occupations
+NOC_8
+    8 Natural resources, agriculture and related
+production occupations
+NOC_9     9 Occupations in manufacturing and utilities
+NAICS_15M
+Total - Labour force aged 15 years and over by
+industry - Sectors - North American Industry
+Classification System (NAICS) 2017 - 25% sample data
+NAICS_IND   Industry - not applicable
+NAICS_ALL   All industries
+NAICS_11     11 Agriculture, forestry, fishing and hunting
+NAICS_21     21 Mining, quarrying, and oil and gas extraction
+NAICS_22     22 Utilities
+NAICS_23     23 Construction
+NAICS_3133     31-33 Manufacturing
+NAICS_41     41 Wholesale trade
+NAICS_4445     44-45 Retail trade
+NAICS_4849     48-49 Transportation and warehousing
+NAICS_51     51 Information and cultural industries
+NAICS_52     52 Finance and insurance
+NAICS_53     53 Real estate and rental and leasing
+NAICS_54     54 Professional, scientific and technical services
+NAICS_55     55 Management of companies and enterprises
+NAICS_56
+    56 Administrative and support, waste management
+and remediation services
+NAICS_61     61 Educational services
+NAICS_62     62 Health care and social assistance
+NAICS_71     71 Arts, entertainment and recreation
+NAICS_72     72 Accommodation and food services
+NAICS_81     81 Other services (except public administration)
+NAICS_91     91 Public administration
+ALUW
+Total - All languages used at work for the population
+in private households aged 15 years and over who
+worked since January 1, 2020 - 25% sample data
+ALUW_Eng   English
+ALUW_FR   French
+ALUW_NOL   Non-official language
+ALUW_Ind     Indigenous
+ALUW_Nind     Non-Indigenous
+ALUW_EngFR   English and French
+ALUW_EngNO   English and non-official language(s)
+ALUW_FRNO   French and non-official language(s)
+ALUW_EFNO   English, French and non-official language(s)
+ALUW_MNOL   Multiple non-official languages
+MoW
+Total - Language used most often at work for the
+population aged 15 years and over who worked since
+January 1, 2020, in private households, 2021 Census -
+25% sample data
+MoW_Mand Mandarin
+MoW_Punjab Punjabi (Panjabi)
+MoW_Arabic Arabic
+MoW_Cant Yue (Cantonese)
+MoW_Polish Polish
+MoW_Vietn Vietnamese
+MoW_Urdu Urdu
+MoW_Span Spanish
+MoW_Port Portuguese
+MoW_Ukra Ukrainian
+MoW_Korean Korean
+MoW_Russ Russian
+MoW_Hindi Hindi
+MoW_Tag Tagalog (Pilipino, Filipino)
+MoW_Tamil Tamil
+MoW_SerbCr Serbo-Croatian
+MoW_Guja Gujarati
+MoW_Alban Albanian
+MoW_Serb Serbian
+MoW_Turk Turkish
+PW
+Total - Place of work status for the employed labour
+force aged 15 years and over - 25% sample data
+PW_Home   Worked at home
+PW_OutCan   Worked outside Canada
+PW_NoFixed   No fixed workplace address
+PW_UsualPW   Usual place of work
+C_Des
+Total - Commuting destination for the employed
+labour force aged 15 years and over with a usual place
+of work - 25% sample data
+CD_InCS
+  Commute within census subdivision (CSD) of
+residence
+CD_OCSInCD
+  Commute to a different census subdivision (CSD)
+within census division (CD) of residence
+CD_InCSCD
+  Commute to a different census subdivision (CSD) and
+census division (CD) within province or territory of
+residence
+CD_diff_PT   Commute to a different province or territory
+MMC
+Total - Main mode of commuting for the employed
+labour force aged 15 years and over with a usual place
+of work or no fixed workplace address - 25% sample
+data
+MMC_CTV   Car, truck or van
+MMC_CTV_D     Car, truck or van - as a driver
+MMC_CTV_P     Car, truck or van - as a passenger
+MMC_PubTra   Public transit
+MMC_W   Walked
+MMC_B   Bicycle
+MMC_OthMe   Other method
+C_Dur
+Total - Commuting duration for the employed labour
+force aged 15 years and over with a usual place of
+work or no fixed workplace address - 25% sample data
+CD_15Less   Less than 15 minutes
+CD_15_29   15 to 29 minutes
+CD_30_44   30 to 44 minutes
+CD_45_59   45 to 59 minutes
+CD_60M   60 minutes and over
+TLFW
+Total - Time leaving for work for the employed labour
+force aged 15 years and over with a usual place of
+work or no fixed workplace address - 25% sample data
+TLFW_1   Between 5 a.m. and 5:59 a.m.
+TLFW_2   Between 6 a.m. and 6:59 a.m.
+TLFW_3   Between 7 a.m. and 7:59 a.m.
+TLFW_4   Between 8 a.m. and 8:59 a.m.
+TLFW_5   Between 9 a.m. and 11:59 a.m.
+TLFW_6   Between 12 p.m. and 4:59 a.m.
+STD_PHHS
+Total - Private households by household size - 25%
+sample data
+SD_PHHS
+Single-detached
+house_PrivateHouseholdsByHouseholdSize
+AP5m_PHHS
+Apartment in a building that has five or more
+storeys_PrivateHouseholdsByHouseholdSize
+OAD_PHHS
+Other attached
+dwelling_PrivateHouseholdsByHouseholdSize
+AFD_PHHS
+Apartment or flat in a
+duplex_PrivateHouseholdsByHouseholdSize
+AP5_PHHS
+Apartment in a building that has fewer than five
+storeys_PrivateHouseholdsByHouseholdSize
+OSA_PHHS
+Other single-attached
+house_PrivateHouseholdsByHouseholdSize
+R_PHHS Row house_PrivateHouseholdsByHouseholdSize
+SemiD_PHHS
+Semi-detached
+house_PrivateHouseholdsByHouseholdSize
+MD_PHHS
+Movable
+dwelling_PrivateHouseholdsByHouseholdSize
+STD_1
+Total - Structural type of dwelling_  1 persons in
+household
+SD_1 Single-detached house_  1 persons in household
+AP5m_1
+Apartment in a building that has five or more storeys_
+1 persons in household
+OAD_1 Other attached dwelling_  1 persons in household
+AFD_1 Apartment or flat in a duplex_  1 persons in household
+AP5_1
+Apartment in a building that has fewer than five
+storeys_  1 persons in household
+OSA_1 Other single-attached house_  1 persons in household
+R_1 Row house_  1 persons in household
+SemiD_1 Semi-detached house_  1 persons in household
+MD_1 Movable dwelling_  1 persons in household
+STD_2
+Total - Structural type of dwelling_  2 persons in
+household
+SD_2 Single-detached house_  2 persons in household
+AP5m_2
+Apartment in a building that has five or more storeys_
+2 persons in household
+OAD_2 Other attached dwelling_  2 persons in household
+AFD_2 Apartment or flat in a duplex_  2 persons in household
+AP5_2
+Apartment in a building that has fewer than five
+storeys_  2 persons in household
+OSA_2 Other single-attached house_  2 persons in household
+R_2 Row house_  2 persons in household
+SemiD_2 Semi-detached house_  2 persons in household
+MD_2 Movable dwelling_  2 persons in household
+STD_3
+Total - Structural type of dwelling_  3 persons in
+household
+SD_3 Single-detached house_  3 persons in household
+AP5m_3
+Apartment in a building that has five or more storeys_
+3 persons in household
+OAD_3 Other attached dwelling_  3 persons in household
+AFD_3 Apartment or flat in a duplex_  3 persons in household
+AP5_3
+Apartment in a building that has fewer than five
+storeys_  3 persons in household
+OSA_3 Other single-attached house_  3 persons in household
+R_3 Row house_  3 persons in household
+SemiD_3 Semi-detached house_  3 persons in household
+MD_3 Movable dwelling_  3 persons in household
+STD_4
+Total - Structural type of dwelling_  4 persons in
+household
+SD_4 Single-detached house_  4 persons in household
+AP5m_4
+Apartment in a building that has five or more storeys_
+4 persons in household
+OAD_4 Other attached dwelling_  4 persons in household
+AFD_4 Apartment or flat in a duplex_  4 persons in household
+AP5_4
+Apartment in a building that has fewer than five
+storeys_  4 persons in household
+OSA_4 Other single-attached house_  4 persons in household
+R_4 Row house_  4 persons in household
+SemiD_4 Semi-detached house_  4 persons in household
+MD_4 Movable dwelling_  4 persons in household
+STD_5m
+Total - Structural type of dwelling_5+ persons in
+household
+SD_5m Single-detached house_5+ persons in household
+AP5m_5m
+Apartment in a building that has five or more
+storeys_5+ persons in household
+OAD_5m Other attached dwelling_5+ persons in household
+AFD_5m Apartment or flat in a duplex_5+ persons in household
+AP5_5m
+Apartment in a building that has fewer than five
+storeys_5+ persons in household
+OSA_5m Other single-attached house_5+ persons in household
+R_5m Row house_5+ persons in household
+SemiD_5m Semi-detached house_5+ persons in household
+MD_5m Movable dwelling_5+ persons in household
+STD_NPPH
+Total - Structural type of dwelling_Number of persons
+in private households
+SD_NPPH
+Single-detached house_Number of persons in private
+households
+AP5m_NPPH
+Apartment in a building that has five or more
+storeys_Number of persons in private households
+OAD_NPPH
+Other attached dwelling_Number of persons in
+private households
+AFD_NPPH
+Apartment or flat in a duplex_Number of persons in
+private households
+AP5_NPPH
+Apartment in a building that has fewer than five
+storeys_Number of persons in private households
+OSA_NPPH
+Other single-attached house_Number of persons in
+private households
+R_NPPH Row house_Number of persons in private households
+SemiD_NPPH
+Semi-detached house_Number of persons in private
+households
+MD_NPPH
+Movable dwelling_Number of persons in private
+households
+STD_AHS
+Total - Structural type of dwelling_Average household
+size
+SD_AHS Single-detached house_Average household size
+AP5m_AHS
+Apartment in a building that has five or more
+storeys_Average household size
+OAD_AHS Other attached dwelling_Average household size
+AFD_AHS Apartment or flat in a duplex_Average household size
+AP5_AHS
+Apartment in a building that has fewer than five
+storeys_Average household size
+OSA_AHS Other single-attached house_Average household size
+R_AHS Row house_Average household size
+SemiD_AHS Semi-detached house_Average household size
+MD_AHS Movable dwelling_Average household size
+PH_Tenure
+Total - Private households by tenure - 25% sample
+data
+Tenure_O Owner
+Tenure_R Renter
+PH_T_Prov
+Dwelling provided by the local government, First
+Nation or Indian band
+Condo_Stat
+Total - Occupied private dwellings by condominium
+status - 25% sample data
+CS_Condo Condominium
+CS_NCondo Not condominium
+Num_Bed
+Total - Occupied private dwellings by number of
+bedrooms - 25% sample data
+Bed_None No bedrooms
+Bed_1 1 bedroom
+Bed_2 2 bedrooms
+Bed_3 3 bedrooms
+Bed_4m 4 or more bedrooms
+Num_Room
+Total - Occupied private dwellings by number of
+rooms - 25% sample data
+Room_1_4 1 to 4 rooms
+Room_5 5 rooms
+Room_6 6 rooms
+Room_7 7 rooms
+Room_8m 8 or more rooms
+AvgNumRoom Average number of rooms per dwelling
+Num_PPR
+Total - Private households by number of persons per
+room - 25% sample data
+PPR_1Less One person or fewer per room
+PPR_More1 More than one person per room
+PH_Suitabl
+Total - Private households by housing suitability - 25%
+sample data
+PH_Suit Suitable
+PH_NSuit Not suitable
+PoC
+Total - Occupied private dwellings by period of
+construction - 25% sample data
+PoC_60Less 1960 or before
+PoC_61_80 1961 to 1980
+PoC_81_90 1981 to 1990
+PoC_91_00 1991 to 2000
+PoC_01_05 2001 to 2005
+PoC_06_00 2006 to 2010
+PoC_11_05 2011 to 2015
+PoC_16_01 2016 to 2021
+DC
+Total - Occupied private dwellings by dwelling
+condition - 25% sample data
+DC_RM_MR Only regular maintenance and minor repairs needed
+DC_MajRep Major repairs needed
+Num_HMaint
+Total - Private households by number of household
+maintainers - 25% sample data
+Num_HM_1 One-maintainer household
+Num_HM_2 Two-maintainer household
+Num_HM_3m Three-or-more-maintainer household
+Age_PHM
+Total - Private households by age of primary
+household maintainers - 25% sample data
+APHM_15_24 15 to 24 years
+APHM_25_34 25 to 34 years
+APHM_35_44 35 to 44 years
+APHM_45_54 45 to 54 years
+APHM_55_64 55 to 64 years
+APHM_65_74 65 to 74 years
+APHM_75_84 75 to 84 years
+APHM_85m 85 years and over
+Hous_Indic
+Total - Occupied private dwellings by housing
+indicators - 25% sample data
+HIS30mNSMR
+Total - Households 'spending 30% or more of income
+on shelter costs' or 'not suitable' or 'major repairs
+needed'
+S30m Spending 30% or more of income on shelter costs only
+NS Not suitable only
+MR Major repairs needed only
+S30m_NS
+'Spending 30% or more of income on shelter costs'
+and 'not suitable'
+S30m_MR
+'Spending 30% or more of income on shelter costs'
+and 'major repairs needed'
+NS_MR 'Not suitable' and 'major repairs needed'
+S30m_NS_MR
+'Spending 30% or more of income on shelter costs'
+and 'not suitable' and 'major repairs needed'
+HI_AH Acceptable housing
+SC_IR
+Total - Owner and tenant households with household
+total income greater than zero, in non-farm, non-
+reserve private dwellings by shelter-cost-to-income
+ratio - 25% sample data
+SCIR_30PL Spending less than 30% of income on shelter costs
+SCIR_30Pm Spending 30% or more of income on shelter costs
+SCIR30m100 30% to less than 100%
+CHN
+Total - Owner and tenant households with household
+total income greater than zero and shelter-cost-to-
+income ratio less than 100%, in non-farm, non-reserve
+private dwellings - 25% sample data
+CHN_ICN In core need
+CHN_NICN Not in core need
+OH_NF_NR
+Total - Owner households in non-farm, non-reserve
+private dwellings - 25% sample data
+OH_M % of owner households with a mortgage
+OH_30P_SC
+% of owner households spending 30% or more of its
+income on shelter costs
+OH_CHN % in core housing need
+OH_MedMSC Median monthly shelter costs for owned dwellings ($)
+OH_AvgMSC Average monthly shelter costs for owned dwellings ($)
+OH_MedVDwe Median value of dwellings ($)
+OH_AvgVDwe Average value of dwellings ($)
+TH_NF_NR
+Total - Tenant households in non-farm, non-reserve
+private dwellings - 25% sample data
+TH_SubHous % of tenant households in subsidized housing
+TH_30P_SC
+% of tenant households spending 30% or more of its
+income on shelter costs
+TH_CHN % in core housing need
+TH_MedMSC Median monthly shelter costs for rented dwellings ($)
+TH_AvgMSC Average monthly shelter costs for rented dwellings ($)
+PLG_FN_IB
+Total - Households living in a dwelling provided by the
+local government, First Nation or Indian band in non-
+farm private dwellings - 25% sample data
+PLG_Perc
+% of households living in a dwelling provided by the
+local government, First Nation or Indian band
+spending more than 30% on shelter costs
+PLG_MedMSC
+Median monthly shelter costs for dwellings provided
+by local government, First Nation or Indian band ($)
+PLG_AvgMSC
+Average monthly shelter costs for dwellings provided
+by local government, First Nation or Indian band ($)
+CF_FamSize
+Total - Census families in private households by family
+size - 100% data
+CF_2 2 persons
+CF_3 3 persons
+CF_4 4 persons
+CF_5m 5 or more persons
+CF_AvgSCF Average size of census families
+CF_PH
+Total number of census families in private households -
+100% data
+CF_TCF Total couple families
+CF_MC Married couples
+CF_MC_WC With children
+CF_MC_WOC Without children
+CF_CLC Common-law couples
+CF_CLC_WC With children6
+CF_CLC_WOC Without children
+CF_T1PF Total one-parent families
+CF_T1PF_WP in which the parent is a woman+
+CF_T1PF_MP in which the parent is a man+
+AvgNChi_CF
+Average number of children in census families with
+children

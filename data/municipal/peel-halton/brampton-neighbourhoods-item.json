@@ -1,0 +1,69 @@
+{
+  "id": "404d43d1f5be4e23a3ee421132539379",
+  "owner": "BramptonMaps",
+  "ownerId": "fcfa4d9609ee9742e0316e35c17ad8d6",
+  "orgId": "rl7ACuZkiFsmDA2g",
+  "created": 1618239675000,
+  "modified": 1731437718000,
+  "guid": null,
+  "name": null,
+  "title": "NNP Neighbourhood Boundary Areas",
+  "type": "Feature Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Feature Access",
+    "Feature Service",
+    "Service"
+  ],
+  "description": "Brampton neighbourhood boundaries, often defined by major roadways, natural features like rivers and historic settlement areas. This data is a component of the Nurturing Neighbourhoods Program, a neighbourhood audit public engagement project that is part of Brampton Vision 2040: <a href='https://nurturingneighbourhoods.brampton.ca/' rel='nofollow ugc' target='_blank'>https://nurturingneighbourhoods.brampton.ca/</a>",
+  "tags": [
+    "Community",
+    "NNP",
+    "Land Use and Development",
+    "Nurturing Neighbourhoods"
+  ],
+  "snippet": "Nurturing Neighbourhood Program - Neighbourhood Boundary Areas",
+  "thumbnail": "thumbnail/thumbnail1618254277174.jpeg",
+  "documentation": null,
+  "extent": [
+    [
+      -79.8577,
+      43.6161
+    ],
+    [
+      -79.6473,
+      43.8209
+    ]
+  ],
+  "categories": [],
+  "spatialReference": null,
+  "accessInformation": "City of Brampton",
+  "classification": null,
+  "licenseInfo": "CC BY",
+  "culture": "en-us",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/NNP_Neighbourhood_Layers_OpenData/FeatureServer/2",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 116,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 15002,
+  "scoreCompleteness": 91,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "lastViewed": 1793988000000
+}

@@ -1,0 +1,2084 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Readable display names only. Source identifiers, source names, geometries and statistical joins must remain unchanged.",
+  "typeEvidenceUrl": "https://www.arcgis.com/sharing/rest/content/items/1306fbfeab304abc9b6f988a2a478dce/info/metadata/metadata.xml?format=default&output=html",
+  "typeEvidenceAdditionalUrl": "https://www.mississauga.ca/wp-content/uploads/2020/06/01113310/MOPA90.pdf",
+  "mississaugaTypes": {
+    "NHD": {
+      "type": "Neighbourhood",
+      "typeLabel": "社区"
+    },
+    "CN": {
+      "type": "Community Node",
+      "typeLabel": "社区中心区"
+    },
+    "MN": {
+      "type": "Major Node",
+      "typeLabel": "主要中心区"
+    },
+    "EA": {
+      "type": "Employment Area",
+      "typeLabel": "就业区"
+    },
+    "CC": {
+      "type": "Corporate Centre",
+      "typeLabel": "企业中心区"
+    },
+    "SPA": {
+      "type": "Special Purpose Area",
+      "typeLabel": "特殊用途区"
+    },
+    "DT": {
+      "type": "Downtown",
+      "typeLabel": "市中心区"
+    }
+  },
+  "namingPolicy": {
+    "mississauga": "Remove official city-structure codes from display names and keep their full meaning as the type. Expand DT to Downtown. Where removing codes would create a duplicate, retain the full English type in parentheses on the non-neighbourhood area. No new neighbourhood names are asserted.",
+    "otherCities": "Title-case fully uppercase source names only. Preserve hyphens, slash-separated compound names, Bramalea letter sections, established mixed case and all original spellings. Do not add apostrophes or rename a municipal area based on a real-estate label."
+  },
+  "datasets": {
+    "mississauga": {
+      "municipalityCode": "3521005",
+      "idField": "OBJECTID",
+      "records": {
+        "13": {
+          "name": "Streetsville",
+          "sourceName": "Streetsville NHD",
+          "aliases": [
+            "Streetsville NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "14": {
+          "name": "Uptown",
+          "sourceName": "Uptown MN",
+          "aliases": [
+            "Uptown MN"
+          ],
+          "type": "Major Node",
+          "typeLabel": "主要中心区",
+          "sourceTypeCode": "MN"
+        },
+        "15": {
+          "name": "Erindale",
+          "sourceName": "Erindale NHD",
+          "aliases": [
+            "Erindale NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "16": {
+          "name": "Mavis-Erindale",
+          "sourceName": "Mavis-Erindale EA",
+          "aliases": [
+            "Mavis-Erindale EA"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "17": {
+          "name": "Airport (Corporate Centre)",
+          "sourceName": "Airport CC",
+          "aliases": [
+            "Airport CC"
+          ],
+          "type": "Corporate Centre",
+          "typeLabel": "企业中心区",
+          "sourceTypeCode": "CC"
+        },
+        "18": {
+          "name": "Churchill Meadows (Employment Area)",
+          "sourceName": "Churchill Meadows EA",
+          "aliases": [
+            "Churchill Meadows EA"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "19": {
+          "name": "Erin Mills",
+          "sourceName": "Erin Mills NHD",
+          "aliases": [
+            "Erin Mills NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "20": {
+          "name": "Streetsville (Community Node)",
+          "sourceName": "Streetsville CN",
+          "aliases": [
+            "Streetsville CN"
+          ],
+          "type": "Community Node",
+          "typeLabel": "社区中心区",
+          "sourceTypeCode": "CN"
+        },
+        "21": {
+          "name": "Cooksville (West)",
+          "sourceName": "Cooksville NHD (West)",
+          "aliases": [
+            "Cooksville NHD (West)"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "22": {
+          "name": "Downtown Cooksville",
+          "sourceName": "DT Cooksville",
+          "aliases": [
+            "DT Cooksville"
+          ],
+          "type": "Downtown",
+          "typeLabel": "市中心区",
+          "sourceTypeCode": "DT"
+        },
+        "23": {
+          "name": "UTM",
+          "sourceName": "UTM SPA",
+          "aliases": [
+            "UTM SPA"
+          ],
+          "type": "Special Purpose Area",
+          "typeLabel": "特殊用途区",
+          "sourceTypeCode": "SPA"
+        },
+        "24": {
+          "name": "Applewood",
+          "sourceName": "Applewood NHD",
+          "aliases": [
+            "Applewood NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "25": {
+          "name": "Cooksville (East)",
+          "sourceName": "Cooksville NHD (East)",
+          "aliases": [
+            "Cooksville NHD (East)"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "26": {
+          "name": "South Common",
+          "sourceName": "South Common CN",
+          "aliases": [
+            "South Common CN"
+          ],
+          "type": "Community Node",
+          "typeLabel": "社区中心区",
+          "sourceTypeCode": "CN"
+        },
+        "27": {
+          "name": "Fairview",
+          "sourceName": "Fairview NHD",
+          "aliases": [
+            "Fairview NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "28": {
+          "name": "Rathwood-Applewood",
+          "sourceName": "Rathwood-Applewood CN",
+          "aliases": [
+            "Rathwood-Applewood CN"
+          ],
+          "type": "Community Node",
+          "typeLabel": "社区中心区",
+          "sourceTypeCode": "CN"
+        },
+        "29": {
+          "name": "Western Business Park",
+          "sourceName": "Western Business Park EA",
+          "aliases": [
+            "Western Business Park EA"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "30": {
+          "name": "Downtown Hospital",
+          "sourceName": "DT Hospital",
+          "aliases": [
+            "DT Hospital"
+          ],
+          "type": "Downtown",
+          "typeLabel": "市中心区",
+          "sourceTypeCode": "DT"
+        },
+        "31": {
+          "name": "Clarkson Village",
+          "sourceName": "Clarkson Village CN",
+          "aliases": [
+            "Clarkson Village CN"
+          ],
+          "type": "Community Node",
+          "typeLabel": "社区中心区",
+          "sourceTypeCode": "CN"
+        },
+        "32": {
+          "name": "Mineola",
+          "sourceName": "Mineola NHD",
+          "aliases": [
+            "Mineola NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "33": {
+          "name": "Airport (Special Purpose Area)",
+          "sourceName": "Airport SPA",
+          "aliases": [
+            "Airport SPA"
+          ],
+          "type": "Special Purpose Area",
+          "typeLabel": "特殊用途区",
+          "sourceTypeCode": "SPA"
+        },
+        "34": {
+          "name": "Clarkson",
+          "sourceName": "Clarkson EA",
+          "aliases": [
+            "Clarkson EA"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "35": {
+          "name": "Northeast (East)",
+          "sourceName": "Northeast EA (East)",
+          "aliases": [
+            "Northeast EA (East)"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "36": {
+          "name": "Downtown Core",
+          "sourceName": "DT Core",
+          "aliases": [
+            "DT Core"
+          ],
+          "type": "Downtown",
+          "typeLabel": "市中心区",
+          "sourceTypeCode": "DT"
+        },
+        "37": {
+          "name": "Meadowvale (Community Node)",
+          "sourceName": "Meadowvale CN",
+          "aliases": [
+            "Meadowvale CN"
+          ],
+          "type": "Community Node",
+          "typeLabel": "社区中心区",
+          "sourceTypeCode": "CN"
+        },
+        "38": {
+          "name": "Hurontario",
+          "sourceName": "Hurontario NHD",
+          "aliases": [
+            "Hurontario NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "39": {
+          "name": "Clarkson - Lorne Park",
+          "sourceName": "Clarkson - Lorne Park NHD",
+          "aliases": [
+            "Clarkson - Lorne Park NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "40": {
+          "name": "Port Credit (East)",
+          "sourceName": "Port Credit NHD (East)",
+          "aliases": [
+            "Port Credit NHD (East)"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "41": {
+          "name": "Southdown",
+          "sourceName": "Southdown EA",
+          "aliases": [
+            "Southdown EA"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "42": {
+          "name": "Lakeview Waterfront",
+          "sourceName": "Lakeview Waterfront MN",
+          "aliases": [
+            "Lakeview Waterfront MN"
+          ],
+          "type": "Major Node",
+          "typeLabel": "主要中心区",
+          "sourceTypeCode": "MN"
+        },
+        "43": {
+          "name": "Sheridan Park",
+          "sourceName": "Sheridan Park CC",
+          "aliases": [
+            "Sheridan Park CC"
+          ],
+          "type": "Corporate Centre",
+          "typeLabel": "企业中心区",
+          "sourceTypeCode": "CC"
+        },
+        "44": {
+          "name": "Port Credit",
+          "sourceName": "Port Credit CN",
+          "aliases": [
+            "Port Credit CN"
+          ],
+          "type": "Community Node",
+          "typeLabel": "社区中心区",
+          "sourceTypeCode": "CN"
+        },
+        "45": {
+          "name": "Meadowvale",
+          "sourceName": "Meadowvale NHD",
+          "aliases": [
+            "Meadowvale NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "46": {
+          "name": "Port Credit (West)",
+          "sourceName": "Port Credit NHD (West)",
+          "aliases": [
+            "Port Credit NHD (West)"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "47": {
+          "name": "Ninth Line",
+          "sourceName": "Ninth Line NHD",
+          "aliases": [
+            "Ninth Line NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "48": {
+          "name": "Malton",
+          "sourceName": "Malton NHD",
+          "aliases": [
+            "Malton NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "49": {
+          "name": "Gateway (West)",
+          "sourceName": "Gateway EA (West)",
+          "aliases": [
+            "Gateway EA (West)"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "50": {
+          "name": "East Credit",
+          "sourceName": "East Credit NHD",
+          "aliases": [
+            "East Credit NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "51": {
+          "name": "Gateway (East)",
+          "sourceName": "Gateway EA (East)",
+          "aliases": [
+            "Gateway EA (East)"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "52": {
+          "name": "Meadowvale Village",
+          "sourceName": "Meadowvale Village NHD",
+          "aliases": [
+            "Meadowvale Village NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "53": {
+          "name": "Lakeview",
+          "sourceName": "Lakeview NHD",
+          "aliases": [
+            "Lakeview NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "54": {
+          "name": "Central Erin Mills",
+          "sourceName": "Central Erin Mills NHD",
+          "aliases": [
+            "Central Erin Mills NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "55": {
+          "name": "Sheridan",
+          "sourceName": "Sheridan NHD",
+          "aliases": [
+            "Sheridan NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "56": {
+          "name": "Rathwood",
+          "sourceName": "Rathwood NHD",
+          "aliases": [
+            "Rathwood NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "57": {
+          "name": "Gateway",
+          "sourceName": "Gateway CC",
+          "aliases": [
+            "Gateway CC"
+          ],
+          "type": "Corporate Centre",
+          "typeLabel": "企业中心区",
+          "sourceTypeCode": "CC"
+        },
+        "58": {
+          "name": "Downtown Fairview",
+          "sourceName": "DT Fairview",
+          "aliases": [
+            "DT Fairview"
+          ],
+          "type": "Downtown",
+          "typeLabel": "市中心区",
+          "sourceTypeCode": "DT"
+        },
+        "59": {
+          "name": "Dixie",
+          "sourceName": "Dixie EA",
+          "aliases": [
+            "Dixie EA"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "60": {
+          "name": "Northeast (West)",
+          "sourceName": "Northeast EA (West)",
+          "aliases": [
+            "Northeast EA (West)"
+          ],
+          "type": "Employment Area",
+          "typeLabel": "就业区",
+          "sourceTypeCode": "EA"
+        },
+        "61": {
+          "name": "Lisgar",
+          "sourceName": "Lisgar NHD",
+          "aliases": [
+            "Lisgar NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "62": {
+          "name": "Creditview",
+          "sourceName": "Creditview NHD",
+          "aliases": [
+            "Creditview NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "63": {
+          "name": "Meadowvale Business Park",
+          "sourceName": "Meadowvale Business Park CC",
+          "aliases": [
+            "Meadowvale Business Park CC"
+          ],
+          "type": "Corporate Centre",
+          "typeLabel": "企业中心区",
+          "sourceTypeCode": "CC"
+        },
+        "64": {
+          "name": "Churchill Meadows",
+          "sourceName": "Churchill Meadows NHD",
+          "aliases": [
+            "Churchill Meadows NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "65": {
+          "name": "Central Erin Mills (Major Node)",
+          "sourceName": "Central Erin Mills MN",
+          "aliases": [
+            "Central Erin Mills MN"
+          ],
+          "type": "Major Node",
+          "typeLabel": "主要中心区",
+          "sourceTypeCode": "MN"
+        },
+        "66": {
+          "name": "Malton (Community Node)",
+          "sourceName": "Malton CN",
+          "aliases": [
+            "Malton CN"
+          ],
+          "type": "Community Node",
+          "typeLabel": "社区中心区",
+          "sourceTypeCode": "CN"
+        },
+        "67": {
+          "name": "Mississauga Valleys",
+          "sourceName": "Mississauga Valleys NHD",
+          "aliases": [
+            "Mississauga Valleys NHD"
+          ],
+          "type": "Neighbourhood",
+          "typeLabel": "社区",
+          "sourceTypeCode": "NHD"
+        },
+        "68": {
+          "name": "Sheridan (Community Node)",
+          "sourceName": "Sheridan CN",
+          "aliases": [
+            "Sheridan CN"
+          ],
+          "type": "Community Node",
+          "typeLabel": "社区中心区",
+          "sourceTypeCode": "CN"
+        }
+      }
+    },
+    "brampton": {
+      "municipalityCode": "3521010",
+      "idField": "OBJECTID",
+      "records": {
+        "1": {
+          "name": "Lakelands Village",
+          "sourceName": "LAKELANDS VILLAGE",
+          "aliases": [
+            "LAKELANDS VILLAGE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "2": {
+          "name": "Madoc",
+          "sourceName": "MADOC",
+          "aliases": [
+            "MADOC"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "3": {
+          "name": "N-Section (Bramalea)",
+          "sourceName": "N-SECTION (BRAMALEA)",
+          "aliases": [
+            "N-SECTION (BRAMALEA)"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "4": {
+          "name": "Bramalea Woods",
+          "sourceName": "BRAMALEA WOODS",
+          "aliases": [
+            "BRAMALEA WOODS"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "5": {
+          "name": "Norton Park",
+          "sourceName": "NORTON PARK",
+          "aliases": [
+            "NORTON PARK"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "6": {
+          "name": "Huttonville",
+          "sourceName": "HUTTONVILLE",
+          "aliases": [
+            "HUTTONVILLE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "7": {
+          "name": "Mount Pleasant North",
+          "sourceName": "MOUNT PLEASANT NORTH",
+          "aliases": [
+            "MOUNT PLEASANT NORTH"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "8": {
+          "name": "Mount Pleasant Village",
+          "sourceName": "MOUNT PLEASANT VILLAGE",
+          "aliases": [
+            "MOUNT PLEASANT VILLAGE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "9": {
+          "name": "Spring Valley",
+          "sourceName": "SPRING VALLEY",
+          "aliases": [
+            "SPRING VALLEY"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "10": {
+          "name": "Credit Valley",
+          "sourceName": "CREDIT VALLEY",
+          "aliases": [
+            "CREDIT VALLEY"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "11": {
+          "name": "Springbrook",
+          "sourceName": "SPRINGBROOK",
+          "aliases": [
+            "SPRINGBROOK"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "12": {
+          "name": "Churchville",
+          "sourceName": "CHURCHVILLE",
+          "aliases": [
+            "CHURCHVILLE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "13": {
+          "name": "Hickory Woods",
+          "sourceName": "HICKORY WOODS",
+          "aliases": [
+            "HICKORY WOODS"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "14": {
+          "name": "Fletchers West",
+          "sourceName": "FLETCHERS WEST",
+          "aliases": [
+            "FLETCHERS WEST"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "15": {
+          "name": "Fletchers Meadow South",
+          "sourceName": "FLETCHERS MEADOW SOUTH",
+          "aliases": [
+            "FLETCHERS MEADOW SOUTH"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "16": {
+          "name": "Royal Orchard",
+          "sourceName": "ROYAL ORCHARD",
+          "aliases": [
+            "ROYAL ORCHARD"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "17": {
+          "name": "Downtown",
+          "sourceName": "DOWNTOWN",
+          "aliases": [
+            "DOWNTOWN"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "18": {
+          "name": "Ridgehill / Armbro Heights",
+          "sourceName": "RIDGEHILL / ARMBRO HEIGHTS",
+          "aliases": [
+            "RIDGEHILL / ARMBRO HEIGHTS"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "19": {
+          "name": "Sheridan",
+          "sourceName": "SHERIDAN",
+          "aliases": [
+            "SHERIDAN"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "20": {
+          "name": "County Court",
+          "sourceName": "COUNTY COURT",
+          "aliases": [
+            "COUNTY COURT"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "21": {
+          "name": "Peel Village",
+          "sourceName": "PEEL VILLAGE",
+          "aliases": [
+            "PEEL VILLAGE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "22": {
+          "name": "Centre",
+          "sourceName": "CENTRE",
+          "aliases": [
+            "CENTRE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "23": {
+          "name": "Heart Lake South",
+          "sourceName": "HEART LAKE SOUTH",
+          "aliases": [
+            "HEART LAKE SOUTH"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "24": {
+          "name": "Heart Lake North",
+          "sourceName": "HEART LAKE NORTH",
+          "aliases": [
+            "HEART LAKE NORTH"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "25": {
+          "name": "Snelgrove",
+          "sourceName": "SNELGROVE",
+          "aliases": [
+            "SNELGROVE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "26": {
+          "name": "Rosedale Village",
+          "sourceName": "ROSEDALE VILLAGE",
+          "aliases": [
+            "ROSEDALE VILLAGE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "27": {
+          "name": "Trinity Commons",
+          "sourceName": "TRINITY COMMONS",
+          "aliases": [
+            "TRINITY COMMONS"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "28": {
+          "name": "H-Section (Bramalea)",
+          "sourceName": "H-SECTION (BRAMALEA)",
+          "aliases": [
+            "H-SECTION (BRAMALEA)"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "29": {
+          "name": "M-Section (Bramalea)",
+          "sourceName": "M-SECTION (BRAMALEA)",
+          "aliases": [
+            "M-SECTION (BRAMALEA)"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "30": {
+          "name": "Deerfield",
+          "sourceName": "DEERFIELD",
+          "aliases": [
+            "DEERFIELD"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "31": {
+          "name": "Springdale",
+          "sourceName": "SPRINGDALE",
+          "aliases": [
+            "SPRINGDALE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "32": {
+          "name": "Countryside",
+          "sourceName": "COUNTRYSIDE",
+          "aliases": [
+            "COUNTRYSIDE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "33": {
+          "name": "Sandalwood West (Sunny Meadow)",
+          "sourceName": "SANDALWOOD WEST (SUNNY MEADOW)",
+          "aliases": [
+            "SANDALWOOD WEST (SUNNY MEADOW)"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "34": {
+          "name": "Professors Lake",
+          "sourceName": "PROFESSORS LAKE",
+          "aliases": [
+            "PROFESSORS LAKE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "35": {
+          "name": "G-Section (Bramalea)",
+          "sourceName": "G-SECTION (BRAMALEA)",
+          "aliases": [
+            "G-SECTION (BRAMALEA)"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "36": {
+          "name": "Sandalwood East (Mountainash)",
+          "sourceName": "SANDALWOOD EAST (MOUNTAINASH)",
+          "aliases": [
+            "SANDALWOOD EAST (MOUNTAINASH)"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "37": {
+          "name": "Vales of Castlemore",
+          "sourceName": "VALES OF CASTLEMORE",
+          "aliases": [
+            "VALES OF CASTLEMORE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "38": {
+          "name": "Mount Royal",
+          "sourceName": "MOUNT ROYAL",
+          "aliases": [
+            "MOUNT ROYAL"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "39": {
+          "name": "Castlemore Estates",
+          "sourceName": "CASTLEMORE ESTATES",
+          "aliases": [
+            "CASTLEMORE ESTATES"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "40": {
+          "name": "Wildfield",
+          "sourceName": "WILDFIELD",
+          "aliases": [
+            "WILDFIELD"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "41": {
+          "name": "New Springbrook",
+          "sourceName": "NEW SPRINGBROOK",
+          "aliases": [
+            "NEW SPRINGBROOK"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "42": {
+          "name": "E-F-K-Section (Bramalea)",
+          "sourceName": "E-F-K-SECTION (BRAMALEA)",
+          "aliases": [
+            "E-F-K-SECTION (BRAMALEA)"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "43": {
+          "name": "A-B-C-D-Section (Bramalea)",
+          "sourceName": "A-B-C-D-SECTION (BRAMALEA)",
+          "aliases": [
+            "A-B-C-D-SECTION (BRAMALEA)"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "44": {
+          "name": "Valley Creek",
+          "sourceName": "VALLEY CREEK",
+          "aliases": [
+            "VALLEY CREEK"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "45": {
+          "name": "Rivers Edge / Castlemore Crossing",
+          "sourceName": "RIVERS EDGE / CASTLEMORE CROSSING",
+          "aliases": [
+            "RIVERS EDGE / CASTLEMORE CROSSING"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "46": {
+          "name": "Ebenezer West",
+          "sourceName": "EBENEZER WEST",
+          "aliases": [
+            "EBENEZER WEST"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "47": {
+          "name": "Ebenezer East",
+          "sourceName": "EBENEZER EAST",
+          "aliases": [
+            "EBENEZER EAST"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "48": {
+          "name": "Fletchers Creek Village / Lundy Village",
+          "sourceName": "FLETCHERS CREEK VILLAGE / LUNDY VILLAGE",
+          "aliases": [
+            "FLETCHERS CREEK VILLAGE / LUNDY VILLAGE"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "49": {
+          "name": "Fletchers Meadow North",
+          "sourceName": "FLETCHERS MEADOW NORTH",
+          "aliases": [
+            "FLETCHERS MEADOW NORTH"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "50": {
+          "name": "Creditview",
+          "sourceName": "CREDITVIEW",
+          "aliases": [
+            "CREDITVIEW"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "51": {
+          "name": "Northwood Park",
+          "sourceName": "NORTHWOOD PARK",
+          "aliases": [
+            "NORTHWOOD PARK"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "52": {
+          "name": "Alloa",
+          "sourceName": "ALLOA",
+          "aliases": [
+            "ALLOA"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "53": {
+          "name": "Van Kirk",
+          "sourceName": "VAN KIRK",
+          "aliases": [
+            "VAN KIRK"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        }
+      }
+    },
+    "caledon": {
+      "municipalityCode": "3521024",
+      "idField": "SettlementCode",
+      "records": {
+        "1": {
+          "name": "Albion",
+          "sourceName": "ALBION",
+          "aliases": [
+            "ALBION"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "17": {
+          "name": "Mono Road",
+          "sourceName": "MONO ROAD",
+          "aliases": [
+            "MONO ROAD"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "10": {
+          "name": "Cheltenham",
+          "sourceName": "CHELTENHAM",
+          "aliases": [
+            "CHELTENHAM"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "3": {
+          "name": "Belfountain",
+          "sourceName": "BELFOUNTAIN",
+          "aliases": [
+            "BELFOUNTAIN"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "23": {
+          "name": "Victoria",
+          "sourceName": "VICTORIA",
+          "aliases": [
+            "VICTORIA"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "11": {
+          "name": "Claude",
+          "sourceName": "CLAUDE",
+          "aliases": [
+            "CLAUDE"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "21": {
+          "name": "Terra Cotta",
+          "sourceName": "TERRA COTTA",
+          "aliases": [
+            "TERRA COTTA"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "16": {
+          "name": "Mono Mills",
+          "sourceName": "MONO MILLS",
+          "aliases": [
+            "MONO MILLS"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "9": {
+          "name": "Cataract",
+          "sourceName": "CATARACT",
+          "aliases": [
+            "CATARACT"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "15": {
+          "name": "Melville",
+          "sourceName": "MELVILLE",
+          "aliases": [
+            "MELVILLE"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "24": {
+          "name": "Wildfield",
+          "sourceName": "WILDFIELD",
+          "aliases": [
+            "WILDFIELD"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "7": {
+          "name": "Caledon Village",
+          "sourceName": "CALEDON VILLAGE",
+          "aliases": [
+            "CALEDON VILLAGE"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "18": {
+          "name": "Palgrave",
+          "sourceName": "PALGRAVE",
+          "aliases": [
+            "PALGRAVE"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "2": {
+          "name": "Alton",
+          "sourceName": "ALTON",
+          "aliases": [
+            "ALTON"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "13": {
+          "name": "Mayfield West",
+          "sourceName": "MAYFIELD WEST",
+          "aliases": [
+            "MAYFIELD WEST"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "5": {
+          "name": "Caledon East",
+          "sourceName": "CALEDON EAST",
+          "aliases": [
+            "CALEDON EAST"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "12": {
+          "name": "Inglewood",
+          "sourceName": "INGLEWOOD",
+          "aliases": [
+            "INGLEWOOD"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "22": {
+          "name": "Tullamore",
+          "sourceName": "TULLAMORE",
+          "aliases": [
+            "TULLAMORE"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "20": {
+          "name": "Sandhill",
+          "sourceName": "SANDHILL",
+          "aliases": [
+            "SANDHILL"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "8": {
+          "name": "Campbells Cross",
+          "sourceName": "CAMPBELLS CROSS",
+          "aliases": [
+            "CAMPBELLS CROSS"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "4": {
+          "name": "Bolton",
+          "sourceName": "BOLTON",
+          "aliases": [
+            "BOLTON"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        }
+      }
+    },
+    "oakville": {
+      "municipalityCode": "3524001",
+      "idField": "GISID",
+      "records": {
+        "400057": {
+          "name": "Iroquois Ridge (South)",
+          "sourceName": "Iroquois Ridge (South)",
+          "aliases": [
+            "Iroquois Ridge (South)"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400058": {
+          "name": "QEW West Industrial District",
+          "sourceName": "QEW West Industrial District",
+          "aliases": [
+            "QEW West Industrial District"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400059": {
+          "name": "Glen Abbey",
+          "sourceName": "Glen Abbey",
+          "aliases": [
+            "Glen Abbey"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400060": {
+          "name": "Palermo West",
+          "sourceName": "Palermo West",
+          "aliases": [
+            "Palermo West"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400061": {
+          "name": "Burloak Industrial District",
+          "sourceName": "Burloak Industrial District",
+          "aliases": [
+            "Burloak Industrial District"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400062": {
+          "name": "Winston Park Industrial District",
+          "sourceName": "Winston Park Industrial District",
+          "aliases": [
+            "Winston Park Industrial District"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400063": {
+          "name": "Uptown Core",
+          "sourceName": "Uptown Core",
+          "aliases": [
+            "Uptown Core"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400064": {
+          "name": "River Oaks",
+          "sourceName": "River Oaks",
+          "aliases": [
+            "River Oaks"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400065": {
+          "name": "Palermo Village",
+          "sourceName": "Palermo Village",
+          "aliases": [
+            "Palermo Village"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400066": {
+          "name": "Iroquois Ridge (North)",
+          "sourceName": "Iroquois Ridge (North)",
+          "aliases": [
+            "Iroquois Ridge (North)"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400067": {
+          "name": "Clearview",
+          "sourceName": "Clearview",
+          "aliases": [
+            "Clearview"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400068": {
+          "name": "West Oak Trails",
+          "sourceName": "West Oak Trails",
+          "aliases": [
+            "West Oak Trails"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400069": {
+          "name": "Winston West Industrial District",
+          "sourceName": "Winston West Industrial District",
+          "aliases": [
+            "Winston West Industrial District"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400070": {
+          "name": "QEW East Industrial District",
+          "sourceName": "QEW East Industrial District",
+          "aliases": [
+            "QEW East Industrial District"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400071": {
+          "name": "College Park",
+          "sourceName": "College Park",
+          "aliases": [
+            "College Park"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400072": {
+          "name": "Joshua's Meadows",
+          "sourceName": "Joshua's Meadows",
+          "aliases": [
+            "Joshua's Meadows"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400073": {
+          "name": "Sixteen Hollow",
+          "sourceName": "Sixteen Hollow",
+          "aliases": [
+            "Sixteen Hollow"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400074": {
+          "name": "Glenorchy",
+          "sourceName": "Glenorchy",
+          "aliases": [
+            "Glenorchy"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400075": {
+          "name": "407 West",
+          "sourceName": "407 West",
+          "aliases": [
+            "407 West"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400076": {
+          "name": "Midtown Core",
+          "sourceName": "Midtown Core",
+          "aliases": [
+            "Midtown Core"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400077": {
+          "name": "Eastlake",
+          "sourceName": "Eastlake",
+          "aliases": [
+            "Eastlake"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400078": {
+          "name": "Old Oakville",
+          "sourceName": "Old Oakville",
+          "aliases": [
+            "Old Oakville"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "400079": {
+          "name": "Bronte",
+          "sourceName": "Bronte",
+          "aliases": [
+            "Bronte"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        }
+      }
+    },
+    "burlington": {
+      "municipalityCode": "3524002",
+      "idField": "OBJECTID",
+      "records": {
+        "1": {
+          "name": "Shoreacres",
+          "sourceName": "SHOREACRES",
+          "aliases": [
+            "SHOREACRES"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "2": {
+          "name": "Roseland",
+          "sourceName": "ROSELAND",
+          "aliases": [
+            "ROSELAND"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "3": {
+          "name": "Mountainview",
+          "sourceName": "MOUNTAINVIEW",
+          "aliases": [
+            "MOUNTAINVIEW"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "4": {
+          "name": "Bayview",
+          "sourceName": "BAYVIEW",
+          "aliases": [
+            "BAYVIEW"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "5": {
+          "name": "Rural",
+          "sourceName": "RURAL",
+          "aliases": [
+            "RURAL"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "6": {
+          "name": "Alton",
+          "sourceName": "ALTON",
+          "aliases": [
+            "ALTON"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "7": {
+          "name": "Brant",
+          "sourceName": "BRANT",
+          "aliases": [
+            "BRANT"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "8": {
+          "name": "North Aldershot",
+          "sourceName": "NORTH ALDERSHOT",
+          "aliases": [
+            "NORTH ALDERSHOT"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "9": {
+          "name": "La Salle",
+          "sourceName": "LA SALLE",
+          "aliases": [
+            "LA SALLE"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "10": {
+          "name": "Orchard",
+          "sourceName": "ORCHARD",
+          "aliases": [
+            "ORCHARD"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "11": {
+          "name": "Uptown",
+          "sourceName": "UPTOWN",
+          "aliases": [
+            "UPTOWN"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "12": {
+          "name": "Headon",
+          "sourceName": "HEADON",
+          "aliases": [
+            "HEADON"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "13": {
+          "name": "Tansley",
+          "sourceName": "TANSLEY",
+          "aliases": [
+            "TANSLEY"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "14": {
+          "name": "Brant Hills",
+          "sourceName": "BRANT HILLS",
+          "aliases": [
+            "BRANT HILLS"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "15": {
+          "name": "Rose",
+          "sourceName": "ROSE",
+          "aliases": [
+            "ROSE"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "16": {
+          "name": "Tremaine",
+          "sourceName": "TREMAINE",
+          "aliases": [
+            "TREMAINE"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "17": {
+          "name": "Employment",
+          "sourceName": "EMPLOYMENT",
+          "aliases": [
+            "EMPLOYMENT"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "18": {
+          "name": "Palmer",
+          "sourceName": "PALMER",
+          "aliases": [
+            "PALMER"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "19": {
+          "name": "Freeman",
+          "sourceName": "FREEMAN",
+          "aliases": [
+            "FREEMAN"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "20": {
+          "name": "Appleby",
+          "sourceName": "APPLEBY",
+          "aliases": [
+            "APPLEBY"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "21": {
+          "name": "Tyandaga",
+          "sourceName": "TYANDAGA",
+          "aliases": [
+            "TYANDAGA"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "22": {
+          "name": "Bronte",
+          "sourceName": "BRONTE",
+          "aliases": [
+            "BRONTE"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        }
+      }
+    },
+    "milton": {
+      "municipalityCode": "3524009",
+      "idField": "OBJECTID",
+      "records": {
+        "1": {
+          "name": "Esquesing",
+          "sourceName": "Esquesing",
+          "aliases": [
+            "Esquesing"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "2": {
+          "name": "Dorset Park",
+          "sourceName": "Dorset Park",
+          "aliases": [
+            "Dorset Park"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "3": {
+          "name": "Milton Heights",
+          "sourceName": "Milton Heights",
+          "aliases": [
+            "Milton Heights"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "4": {
+          "name": "Nassagaweya",
+          "sourceName": "Nassagaweya",
+          "aliases": [
+            "Nassagaweya"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "5": {
+          "name": "Coates",
+          "sourceName": "Coates",
+          "aliases": [
+            "Coates"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "6": {
+          "name": "Cobban",
+          "sourceName": "Cobban",
+          "aliases": [
+            "Cobban"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "7": {
+          "name": "Ford",
+          "sourceName": "Ford",
+          "aliases": [
+            "Ford"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "8": {
+          "name": "Willmott",
+          "sourceName": "Willmott",
+          "aliases": [
+            "Willmott"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "9": {
+          "name": "Clarke",
+          "sourceName": "Clarke",
+          "aliases": [
+            "Clarke"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "10": {
+          "name": "Walker",
+          "sourceName": "Walker",
+          "aliases": [
+            "Walker"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "11": {
+          "name": "Harrison",
+          "sourceName": "Harrison",
+          "aliases": [
+            "Harrison"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "12": {
+          "name": "Nelson",
+          "sourceName": "Nelson",
+          "aliases": [
+            "Nelson"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "13": {
+          "name": "Bowes",
+          "sourceName": "Bowes",
+          "aliases": [
+            "Bowes"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "14": {
+          "name": "Beaty",
+          "sourceName": "Beaty",
+          "aliases": [
+            "Beaty"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "15": {
+          "name": "Dempsey",
+          "sourceName": "Dempsey",
+          "aliases": [
+            "Dempsey"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "16": {
+          "name": "Forest Grove",
+          "sourceName": "Forest Grove",
+          "aliases": [
+            "Forest Grove"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "17": {
+          "name": "Bronte Meadows",
+          "sourceName": "Bronte Meadows",
+          "aliases": [
+            "Bronte Meadows"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "18": {
+          "name": "Timberlea",
+          "sourceName": "Timberlea",
+          "aliases": [
+            "Timberlea"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "19": {
+          "name": "Valley View",
+          "sourceName": "Valley View",
+          "aliases": [
+            "Valley View"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "20": {
+          "name": "Fallingbrook",
+          "sourceName": "Fallingbrook",
+          "aliases": [
+            "Fallingbrook"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "21": {
+          "name": "Scott",
+          "sourceName": "Scott",
+          "aliases": [
+            "Scott"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "22": {
+          "name": "401 Industrial Area",
+          "sourceName": "401 Industrial Area",
+          "aliases": [
+            "401 Industrial Area"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "23": {
+          "name": "Mountain View",
+          "sourceName": "Mountain View",
+          "aliases": [
+            "Mountain View"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "24": {
+          "name": "Old Milton",
+          "sourceName": "Old Milton",
+          "aliases": [
+            "Old Milton"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "25": {
+          "name": "Derry Green Industrial",
+          "sourceName": "Derry Green Industrial",
+          "aliases": [
+            "Derry Green Industrial"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        },
+        "26": {
+          "name": "Trafalgar",
+          "sourceName": "Trafalgar",
+          "aliases": [
+            "Trafalgar"
+          ],
+          "type": "Municipal neighbourhood",
+          "typeLabel": "市政社区"
+        }
+      }
+    },
+    "halton-hills": {
+      "municipalityCode": "3524015",
+      "idField": "OBJECTID",
+      "records": {
+        "8": {
+          "name": "General Employment Area",
+          "sourceName": "General Employment Area",
+          "aliases": [
+            "General Employment Area"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "9": {
+          "name": "Acton",
+          "sourceName": "Acton",
+          "aliases": [
+            "Acton"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "10": {
+          "name": "Ballinafad",
+          "sourceName": "Ballinafad",
+          "aliases": [
+            "Ballinafad"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "11": {
+          "name": "Bannockburn",
+          "sourceName": "Bannockburn",
+          "aliases": [
+            "Bannockburn"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "12": {
+          "name": "Crewsons Corners",
+          "sourceName": "Crewsons Corners",
+          "aliases": [
+            "Crewsons Corners"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "13": {
+          "name": "Henderson's Corners",
+          "sourceName": "Henderson's Corners",
+          "aliases": [
+            "Henderson's Corners"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "14": {
+          "name": "Limehouse",
+          "sourceName": "Limehouse",
+          "aliases": [
+            "Limehouse"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "15": {
+          "name": "Silvercreek",
+          "sourceName": "Silvercreek",
+          "aliases": [
+            "Silvercreek"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "16": {
+          "name": "Terra Cotta",
+          "sourceName": "Terra Cotta",
+          "aliases": [
+            "Terra Cotta"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "17": {
+          "name": "Norval",
+          "sourceName": "Norval",
+          "aliases": [
+            "Norval"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "18": {
+          "name": "Ashgrove",
+          "sourceName": "Ashgrove",
+          "aliases": [
+            "Ashgrove"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "21": {
+          "name": "Glen Williams",
+          "sourceName": "Glen Williams",
+          "aliases": [
+            "Glen Williams"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "947": {
+          "name": "Georgetown",
+          "sourceName": "Georgetown",
+          "aliases": [
+            "Georgetown"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "948": {
+          "name": "Premier Gateway",
+          "sourceName": "Premier Gateway",
+          "aliases": [
+            "Premier Gateway"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        },
+        "960": {
+          "name": "Mansewood",
+          "sourceName": "Mansewood",
+          "aliases": [
+            "Mansewood"
+          ],
+          "type": "Municipal planning area",
+          "typeLabel": "市政规划区"
+        }
+      }
+    }
+  }
+}

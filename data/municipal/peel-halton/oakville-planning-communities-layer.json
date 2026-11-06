@@ -1,0 +1,342 @@
+{
+  "currentVersion": 11.1,
+  "cimVersion": "3.1.0",
+  "id": 5,
+  "name": "Admin_OP_Community_Boundary",
+  "type": "Feature Layer",
+  "parentLayer": null,
+  "defaultVisibility": false,
+  "minScale": 0,
+  "maxScale": 0,
+  "canScaleSymbols": false,
+  "geometryType": "esriGeometryPolygon",
+  "description": "",
+  "copyrightText": "",
+  "editFieldsInfo": null,
+  "ownershipBasedAccessControlForFeatures": null,
+  "syncCanReturnChanges": false,
+  "relationships": [],
+  "isDataVersioned": false,
+  "isDataArchived": false,
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "isDataBranchVersioned": false,
+  "isDataReplicaTracked": false,
+  "isCoGoEnabled": false,
+  "supportsRollbackOnFailureParameter": true,
+  "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+  },
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSQL": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsQuantizationEditMode": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsDatumTransformation": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsReturningGeometryCentroid": true,
+    "supportsSqlExpression": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsQueryAnalytic": true
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": true
+  },
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON"
+  },
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "hasMetadata": true,
+  "extent": {
+    "xmin": 596807.275,
+    "ymin": 4802889.956,
+    "xmax": 611193.833,
+    "ymax": 4820244.6899999995,
+    "spatialReference": {
+      "wkid": 26917,
+      "latestWkid": 26917,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -5120900,
+      "falseY": -9998100,
+      "xyUnits": 10000,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    }
+  },
+  "sourceSpatialReference": {
+    "wkid": 26917,
+    "latestWkid": 26917,
+    "xyTolerance": 0.002,
+    "zTolerance": 2,
+    "mTolerance": 2,
+    "falseX": 0,
+    "falseY": 4000000,
+    "xyUnits": 1000,
+    "falseZ": 0,
+    "zUnits": 1,
+    "falseM": 0,
+    "mUnits": 1
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+          196,
+          252,
+          217,
+          255
+        ],
+        "outline": {
+          "type": "esriSLS",
+          "style": "esriSLSSolid",
+          "color": [
+            110,
+            110,
+            110,
+            255
+          ],
+          "width": 0.7
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "hasM": false,
+  "hasZ": false,
+  "allowGeometryUpdates": true,
+  "allowTrueCurvesUpdates": false,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+  "hasAttachments": false,
+  "supportsApplyEditsWithGlobalIds": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "objectIdField": "OBJECTID",
+  "globalIdField": "GLOBALID",
+  "displayField": "COMMUNITY",
+  "typeIdField": "",
+  "subtypeField": "",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null,
+      "editable": false,
+      "nullable": false,
+      "defaultValue": null,
+      "modelName": "OBJECTID"
+    },
+    {
+      "name": "COMMUNITY",
+      "type": "esriFieldTypeString",
+      "alias": "COMMUNITY",
+      "domain": null,
+      "editable": true,
+      "nullable": false,
+      "length": 32,
+      "defaultValue": null,
+      "modelName": "COMMUNITY"
+    },
+    {
+      "name": "PLANNING_COMMUNITY",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "PLANNING_COMMUNITY",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "PLANNING_COMMUNITY"
+    },
+    {
+      "name": "ENTRY_UID",
+      "type": "esriFieldTypeString",
+      "alias": "ENTRY_UID",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 30,
+      "defaultValue": null,
+      "modelName": "ENTRY_UID"
+    },
+    {
+      "name": "ENTRY_WHEN",
+      "type": "esriFieldTypeDate",
+      "alias": "ENTRY_WHEN",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 8,
+      "defaultValue": null,
+      "modelName": "ENTRY_WHEN"
+    },
+    {
+      "name": "GISID",
+      "type": "esriFieldTypeInteger",
+      "alias": "GISID",
+      "domain": null,
+      "editable": true,
+      "nullable": false,
+      "defaultValue": null,
+      "modelName": "GISID"
+    },
+    {
+      "name": "PARENTID",
+      "type": "esriFieldTypeString",
+      "alias": "PARENTID",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 1073741822,
+      "defaultValue": null,
+      "modelName": "PARENTID"
+    },
+    {
+      "name": "GLOBALID",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GLOBALID",
+      "domain": null,
+      "editable": false,
+      "nullable": false,
+      "length": 38,
+      "defaultValue": null,
+      "modelName": "GLOBALID"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "SHAPE.STArea()",
+      "domain": null,
+      "editable": false,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "SHAPE.STArea()"
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "SHAPE.STLength()",
+      "domain": null,
+      "editable": false,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "SHAPE.STLength()"
+    }
+  ],
+  "geometryField": {
+    "name": "SHAPE",
+    "type": "esriFieldTypeGeometry",
+    "alias": "Shape",
+    "domain": null,
+    "editable": true,
+    "nullable": true,
+    "defaultValue": null,
+    "modelName": "Shape"
+  },
+  "indexes": [
+    {
+      "name": "R546_pk",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "UUID_546",
+      "fields": "GLOBALID",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "S466_idx",
+      "fields": "SHAPE",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    }
+  ],
+  "datesInUnknownTimezone": false,
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Admin_OP_Community_Boundary",
+      "description": "",
+      "prototype": {
+        "attributes": {
+          "PARENTID": null,
+          "GISID": 0,
+          "COMMUNITY": " ",
+          "PLANNING_COMMUNITY": null,
+          "ENTRY_UID": null,
+          "ENTRY_WHEN": null
+        }
+      },
+      "drawingTool": "esriFeatureEditToolPolygon"
+    }
+  ],
+  "maxRecordCount": 2000,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+  "capabilities": "Query",
+  "useStandardizedQueries": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "standardMaxRecordCount": 4000,
+  "tileMaxRecordCount": 4000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "maxRecordCountFactor": 1,
+  "serviceItemId": "5f7f059d100d424cb5ee7d23d4346c6e"
+}

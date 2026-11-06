@@ -1,0 +1,22 @@
+[
+  {
+    "publisher": "City of Toronto",
+    "title": "Neighbourhoods - 4326.geojson",
+    "catalogueUrl": "https://open.toronto.ca/dataset/neighbourhoods/",
+    "downloadUrl": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/fc443770-ef0a-4025-9c2c-2cb558bfab00/resource/0719053b-28b7-48ea-b863-068823a93aaa/download/neighbourhoods-4326.geojson",
+    "path": "data/municipal/toronto/neighbourhoods.geojson",
+    "sha256": "b0cb58077f5b3a47e0e56a68913c6980cfaf39d37d7d020fd91b60650c480233",
+    "license": "open-government-licence-toronto",
+    "retrieved": "2026-11-06"
+  },
+  {
+    "publisher": "City of Toronto",
+    "title": "neighbourhood-profiles-2021-158-model",
+    "catalogueUrl": "https://open.toronto.ca/dataset/neighbourhood-profiles/",
+    "downloadUrl": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/6e19a90f-971c-46b3-852c-0c48c436d1fc/resource/19d4a806-7385-4889-acf2-256f1e079060/download/nbhd_2021_census_profile_full_158model.xlsx",
+    "path": "data/municipal/toronto/profiles-2021.xlsx",
+    "sha256": "9a3c372907e9de09407d847398703146a9cfc0f5b2217446fd61ab8ab35345eb",
+    "license": "open-government-licence-toronto",
+    "retrieved": "2026-11-06"
+  }
+]

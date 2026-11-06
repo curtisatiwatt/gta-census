@@ -1,0 +1,70 @@
+{
+  "id": "191ce073f90040628dec42b292664a30",
+  "owner": "lisah_caledon",
+  "ownerId": "5a583a6bbacf40d1a9a9445f0834c4ff",
+  "orgId": "AbUjpCl3KckkXVBh",
+  "created": 1676479196000,
+  "modified": 1679595606000,
+  "guid": null,
+  "name": "Zone_Map_Index_Layers",
+  "title": "Zone Map Index Layers",
+  "type": "Feature Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Feature Access",
+    "Feature Service",
+    "Metadata",
+    "Multilayer",
+    "Service",
+    "Hosted Service"
+  ],
+  "description": "",
+  "tags": [
+    "Zoning",
+    "2006-50"
+  ],
+  "snippet": "layers for Zone Map Index Webmap",
+  "thumbnail": "thumbnail/thumbnail.png",
+  "documentation": null,
+  "extent": [
+    [
+      -80.14677489011068,
+      43.67288065168369
+    ],
+    [
+      -79.69178280983334,
+      43.99311257251276
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "26917",
+  "accessInformation": "",
+  "classification": null,
+  "licenseInfo": "",
+  "culture": "en-us",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://services3.arcgis.com/AbUjpCl3KckkXVBh/arcgis/rest/services/Zone_Map_Index_Layers/FeatureServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 2990080,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": false,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 193417,
+  "scoreCompleteness": 51,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "lastViewed": 1793995200000
+}

@@ -1,0 +1,751 @@
+{
+  "datasets": [
+    {
+      "id": "toronto",
+      "title": "Social Planning Neighbourhoods v3.0 (158) and 2021 profiles",
+      "path": "data/municipal/toronto/neighbourhoods.geojson",
+      "nameField": "AREA_NAME",
+      "idField": "AREA_SHORT_CODE",
+      "geographyType": "neighbourhood",
+      "publisher": "City of Toronto",
+      "sourceUrl": "https://open.toronto.ca/dataset/neighbourhoods/",
+      "profilePath": "data/municipal/toronto/profiles-selected.json",
+      "reference": "Toronto Social Planning Neighbourhoods v3.0, City of Toronto 2022; 2021 Census profiles",
+      "license": "Open Government Licence – Toronto",
+      "partialCoverage": false,
+      "municipalityCode": "3520005",
+      "numericProfileId": true
+    },
+    {
+      "id": "york-edi-2021",
+      "title": "Early Development Instrument (EDI) Neighbourhoods and Demographics (2021 Census)",
+      "path": "data/municipal/york/york-edi-demographics.geojson",
+      "rawPath": "data/municipal/york/york-edi-demographics.geojson",
+      "nameField": "NBHDNAME",
+      "idField": "NBHDCODE",
+      "geographyType": "neighbourhood",
+      "geographyLabel": "York Region EDI neighbourhood",
+      "publisher": "The Regional Municipality of York",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "boundarySourceUrl": "https://www.arcgis.com/home/item.html?id=424f0630283a452db5ac90db5d784422",
+      "downloadUrl": "https://services1.arcgis.com/GzvOwaQBbX7KLiuG/arcgis/rest/services/EDI_Demo_Dan/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "license": "York Region Open Data Licence 1.0",
+      "licenseUrl": "https://www.arcgis.com/sharing/rest/content/items/78cc02388af248c0b7a30eda6adfade0/data",
+      "attribution": "Contains public sector information made available under The Regional Municipality of York's Open Data Licence",
+      "retrievedDate": "2026-11-06",
+      "statisticalReferenceYear": 2021,
+      "totalPopulationField": "Total_Pop",
+      "statistics": {
+        "totalPopulation": {
+          "field": "Total_Pop",
+          "definition": "Total population including institutional residents",
+          "year": 2021
+        },
+        "income": null,
+        "populationGroups": null,
+        "children": null,
+        "householdSize": null
+      },
+      "statisticsLimitations": "Med_Income is economic-family income, not household income; visible-minority fields refer only to children aged 0–5, not all residents. These incompatible fields must not be used for the app household-income or population-composition charts. Total_Pop applies only to the entire unchanged EDI polygon.",
+      "boundaryNote": "Official regional social-planning neighbourhoods, developed with community consultation and based on whole dissemination areas. Names are preserved verbatim; some official names are broad (e.g. Richmond Hill B/C). EDI boundaries cross municipal limits. Keep whole polygons for their total population; if clipping to a city, discard full-area statistics.",
+      "membershipNote": "municipalityCode is a primary community/name-based UI assignment audited against CSD boundaries. municipalityCodes adds municipalities sharing at least 1% of the EDI area. This field does not modify geometry or assert EDI follows municipal borders.",
+      "profilePath": "data/municipal/york/profiles-selected.json",
+      "type": "Regional neighbourhood",
+      "typeLabel": "区域社区",
+      "clipToMunicipality": true
+    },
+    {
+      "id": "pickering-neighbourhoods",
+      "municipality": "Pickering",
+      "municipalityName": "Pickering",
+      "municipalityCode": "3518001",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/pickering-communities.geojson",
+      "nameField": "Nhood",
+      "idField": "NhoodNum",
+      "geographyType": "planning_area",
+      "publisher": "City of Pickering",
+      "sourceUrl": "https://services8.arcgis.com/PE9fNg6S0CDTs96v/arcgis/rest/services/OpenData/FeatureServer/8",
+      "downloadUrl": "https://services8.arcgis.com/PE9fNg6S0CDTs96v/arcgis/rest/services/OpenData/FeatureServer/8/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.pickering.ca/media/depbgebg/opendatalicencepickeringv1_acc.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "d5a6cbfec58ed2e64035962e9fcbd0ad95929ecfbffbf0cae63a82ad615efc54",
+      "featureCount": 21,
+      "partialCoverage": true,
+      "priority": 100,
+      "label": "Urban neighbourhood",
+      "notes": "The 21 officially named South Pickering and Seaton urban planning neighbourhoods. Rural lands are outside this dataset. The City publishes 2021 neighbourhood PDF profiles, but ethnicity uses ethnic origins, not the 13 visible-minority categories.",
+      "title": "Urban neighbourhood",
+      "reference": "The 21 officially named South Pickering and Seaton urban planning neighbourhoods. Rural lands are outside this dataset. The City publishes 2021 neighbourhood PDF profiles, but ethnicity uses ethnic origins, not the 13 visible-minority categories.",
+      "profilePath": null,
+      "type": "Municipal planning area",
+      "typeLabel": "市政规划区"
+    },
+    {
+      "id": "pickering-hamlets",
+      "municipality": "Pickering",
+      "municipalityName": "Pickering",
+      "municipalityCode": "3518001",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/pickering-hamlets-communities.geojson",
+      "nameField": "Name",
+      "idField": "OBJECTID",
+      "geographyType": "planning_area",
+      "publisher": "City of Pickering",
+      "sourceUrl": "https://services8.arcgis.com/PE9fNg6S0CDTs96v/arcgis/rest/services/OpenData/FeatureServer/7",
+      "downloadUrl": "https://services8.arcgis.com/PE9fNg6S0CDTs96v/arcgis/rest/services/OpenData/FeatureServer/7/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.pickering.ca/media/depbgebg/opendatalicencepickeringv1_acc.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "5c5db12c56a236274eef1a82ed9ffc28194054b8ae2aa2cfe6901091072710dd",
+      "featureCount": 15,
+      "partialCoverage": true,
+      "priority": 110,
+      "label": "Hamlet / rural settlement",
+      "notes": "15 named municipal hamlets and rural residential settlements. Potential nesting within urban areas must be resolved explicitly; do not copy population statistics from enclosing census tracts.",
+      "title": "Hamlet / rural settlement",
+      "reference": "15 named municipal hamlets and rural residential settlements. Potential nesting within urban areas must be resolved explicitly; do not copy population statistics from enclosing census tracts.",
+      "profilePath": null,
+      "type": "Municipal planning area",
+      "typeLabel": "市政规划区"
+    },
+    {
+      "id": "ajax-neighbourhoods",
+      "municipality": "Ajax",
+      "municipalityName": "Ajax",
+      "municipalityCode": "3518005",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/ajax-neighbourhoods.geojson",
+      "nameField": "displayName",
+      "idField": "OBJECTID",
+      "geographyType": "neighbourhood",
+      "publisher": "Town of Ajax",
+      "sourceUrl": "https://opendata.ajax.ca/datasets/ac85c5244bc8409c9a657004a5abcdd7_17/about",
+      "downloadUrl": "https://ajaxmaps.ajax.ca/gisernie/rest/services/Public/Ajax_Open_Data/MapServer/17/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://townofajax.maps.arcgis.com/sharing/rest/content/items/22e2d8e248724d7cb0310dc2db675abd/data",
+      "retrievedDate": "2026-11-06",
+      "sha256": "57d4c4a92b4b21bd171457c3cef27acc2c0d3597d1fa8db14c74b827a44b93ba",
+      "featureCount": 28,
+      "partialCoverage": false,
+      "priority": 100,
+      "label": "Municipal neighbourhood",
+      "rawPath": "data/municipal/durham/ajax-communities.geojson",
+      "notes": "Raw source includes 2011 population only; it is not used as 2021 data. Source OBJECTID 337 has a corrupted NAME containing its historical paragraph; displayName is repaired to Pickering Village using its PROFILE_2018 and the Town technical guidelines.",
+      "nameCorrections": [
+        {
+          "field": "OBJECTID",
+          "value": 337,
+          "displayName": "Pickering Village",
+          "sourceUrl": "https://www.ajax.ca/en/business-and-growth/resources/Planning/Development-Approvals-Charges-and-Applications/Town-of-Ajax-Site-Plan-Review-Technical-Guidelines_Feb-2024.pdf",
+          "evidence": "Section 5.3.2 identifies the Pickering Village neighbourhood; the same source feature PROFILE_2018 explicitly describes Pickering Village."
+        }
+      ],
+      "title": "Municipal neighbourhood",
+      "reference": "Raw source includes 2011 population only; it is not used as 2021 data. Source OBJECTID 337 has a corrupted NAME containing its historical paragraph; displayName is repaired to Pickering Village using its PROFILE_2018 and the Town technical guidelines.",
+      "profilePath": null,
+      "type": "Municipal neighbourhood",
+      "typeLabel": "市政社区"
+    },
+    {
+      "id": "oshawa-communities",
+      "municipality": "Oshawa",
+      "municipalityName": "Oshawa",
+      "municipalityCode": "3518013",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/oshawa-neighbourhoods.geojson",
+      "nameField": "displayName",
+      "idField": "COMM",
+      "geographyType": "neighbourhood",
+      "publisher": "City of Oshawa",
+      "sourceUrl": "https://city-oshawa.opendata.arcgis.com/datasets/oshawa::oshawa-community-boundaries",
+      "downloadUrl": "https://opendata.arcgis.com/api/v3/datasets/1d9e2d22e339458d8486ee5af8fa6ff8_2/downloads/data?format=geojson&spatialRefId=4326",
+      "license": "https://map.oshawa.ca/OpenData/Open%20Government%20Licence%20version%202.0%20-%20Oshawa.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "0d32ce78417067d6b0bc66189f5f144c58309de1aaec38f61886c5f02ba1c6f4",
+      "featureCount": 20,
+      "partialCoverage": false,
+      "priority": 100,
+      "label": "Municipal community",
+      "rawPath": "data/municipal/durham/oshawa-communities.geojson",
+      "notes": "20 official named communities. Chosen over the separate municipal NeighbourhoodBoundaries layer whose smaller subdivisions are numbered. Display names normalize uppercase source labels and preserve McLaughlin spelling. Direct query returned HTTP 403; the official ArcGIS Hub download succeeded.",
+      "title": "Municipal community",
+      "reference": "20 official named communities. Chosen over the separate municipal NeighbourhoodBoundaries layer whose smaller subdivisions are numbered. Display names normalize uppercase source labels and preserve McLaughlin spelling. Direct query returned HTTP 403; the official ArcGIS Hub download succeeded.",
+      "profilePath": null,
+      "type": "Municipal neighbourhood",
+      "typeLabel": "市政社区"
+    },
+    {
+      "id": "whitby-health-neighbourhoods",
+      "municipality": "Whitby",
+      "municipalityName": "Whitby",
+      "municipalityCode": "3518009",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/whitby-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "c1460a27fa6c4609df5219dd122bf5e7c1206706a5d133d2e07947d9cc0b36d7",
+      "featureCount": 10,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "title": "Regional health neighbourhood",
+      "reference": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "profilePath": "data/municipal/durham/health-statistics-2021.json",
+      "type": "Regional neighbourhood",
+      "typeLabel": "区域社区",
+      "clipToMunicipality": true
+    },
+    {
+      "id": "clarington-health-neighbourhoods",
+      "municipality": "Clarington",
+      "municipalityName": "Clarington",
+      "municipalityCode": "3518017",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/clarington-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "b79531dc18430c79e27798e40a7eba7efa4dfda566c95fe6d5a28737f385e616",
+      "featureCount": 7,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "title": "Regional health neighbourhood",
+      "reference": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "profilePath": "data/municipal/durham/health-statistics-2021.json",
+      "type": "Regional neighbourhood",
+      "typeLabel": "区域社区",
+      "clipToMunicipality": true
+    },
+    {
+      "id": "uxbridge-health-neighbourhoods",
+      "municipality": "Uxbridge",
+      "municipalityName": "Uxbridge",
+      "municipalityCode": "3518029",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/uxbridge-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "fc54ad34987e9f6ffc9e2ebedb28d31bda43633d2e87ef0060cf6b50ea3c5b9e",
+      "featureCount": 2,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "title": "Regional health neighbourhood",
+      "reference": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "profilePath": "data/municipal/durham/health-statistics-2021.json",
+      "type": "Regional neighbourhood",
+      "typeLabel": "区域社区",
+      "clipToMunicipality": true
+    },
+    {
+      "id": "scugog-health-neighbourhoods",
+      "municipality": "Scugog",
+      "municipalityName": "Scugog",
+      "municipalityCode": "3518020",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/scugog-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "2fe18e452e133614c98ce87e348f82582b0380928f1881429a7e65bbb2d73afb",
+      "featureCount": 2,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "title": "Regional health neighbourhood",
+      "reference": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "profilePath": "data/municipal/durham/health-statistics-2021.json",
+      "type": "Regional neighbourhood",
+      "typeLabel": "区域社区",
+      "clipToMunicipality": true
+    },
+    {
+      "id": "brock-health-neighbourhoods",
+      "municipality": "Brock",
+      "municipalityName": "Brock",
+      "municipalityCode": "3518039",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/brock-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "aff2e6ac077de9f1875f07f773048928ee056d8110298a65c624527f2eea33eb",
+      "featureCount": 1,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "title": "Regional health neighbourhood",
+      "reference": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics.",
+      "profilePath": "data/municipal/durham/health-statistics-2021.json",
+      "type": "Regional neighbourhood",
+      "typeLabel": "区域社区",
+      "clipToMunicipality": true
+    },
+    {
+      "municipalityCode": "3521005",
+      "municipality": "Mississauga",
+      "nameField": "Geog",
+      "idField": "OBJECTID",
+      "geographyType": "neighbourhood",
+      "publisher": "City of Mississauga",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=f189743f279b4d06945689dce525b746",
+      "downloadUrl": "https://services6.arcgis.com/hM5ymMLbxIyWTjn2/arcgis/rest/services/2021_Census_Mapping_City_Ward_MTSA_Neighbourhood/FeatureServer/0",
+      "where": "GeogCat = 'Neighbourhood'",
+      "fields": "OBJECTID,GeogCat,Geog",
+      "license": "Statistics Canada Open Licence; City of Mississauga open data terms",
+      "licenseUrl": "https://www.statcan.gc.ca/en/reference/licence",
+      "partialCoverage": false,
+      "boundaryReference": "Municipal neighbourhood geography used for the City's custom 2021 Census profiles; not the 2026 Official Plan 2051 map.",
+      "statistics": "Official custom 2021 Census neighbourhood tabulation. Match Geog; GEN=All. Household income is unavailable in the selected table.",
+      "path": "data/municipal/peel-halton/mississauga-neighbourhoods-2021.geojson",
+      "retrieved": "2026-11-06",
+      "featureCount": 56,
+      "sha256": "728eca550452cd3589130ab9a58fc1fe4001ed5916a2bbf4524c9c01bef4ec86",
+      "requestUrl": "https://services6.arcgis.com/hM5ymMLbxIyWTjn2/arcgis/rest/services/2021_Census_Mapping_City_Ward_MTSA_Neighbourhood/FeatureServer/0/query?where=GeogCat+%3D+%27Neighbourhood%27&outFields=OBJECTID%2CGeogCat%2CGeog&outSR=4326&returnGeometry=true&f=geojson&resultRecordCount=2000",
+      "coverageOf2021MunicipalityArea": 0.992649,
+      "overlapFraction": 4e-08,
+      "sourceGeometryIssues": [
+        {
+          "id": 13,
+          "name": "Streetsville NHD",
+          "reason": "Nested shells[-79.7130357687352 43.5764968282873]"
+        }
+      ],
+      "geometryHandling": "Raw WGS84 source retained unchanged. Use make_valid (not buffer(0)) before display processing. Area coverage measured in EPSG:26917 against 2021 Statistics Canada municipal boundaries, which can differ from current municipal data.",
+      "profilesPath": "data/municipal/peel-halton/profiles-selected.json",
+      "profileJoin": "records keyed by source geometry OBJECTID; source CSV joined exactly on Geog and filtered GEN=All",
+      "profileSha256": "45df99198d65295264ffb6e272c5ac34b32ea1d6e84cc0759dfad6631cb8b9d6",
+      "id": "mississauga",
+      "title": "Official named neighbourhoods and planning areas",
+      "reference": "Municipal neighbourhood geography used for the City's custom 2021 Census profiles; not the 2026 Official Plan 2051 map.",
+      "profilePath": "data/municipal/peel-halton/profiles-selected.json",
+      "type": "Municipal neighbourhood",
+      "typeLabel": "市政社区"
+    },
+    {
+      "municipalityCode": "3521010",
+      "municipality": "Brampton",
+      "nameField": "NEIGHBOURHOOD_NAME",
+      "idField": "OBJECTID",
+      "geographyType": "neighbourhood",
+      "publisher": "City of Brampton",
+      "sourceUrl": "https://geohub.brampton.ca/maps/nnp-neighbourhood-boundary-areas",
+      "itemId": "404d43d1f5be4e23a3ee421132539379",
+      "downloadUrl": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/NNP_Neighbourhood_Layers_OpenData/FeatureServer/2",
+      "fields": "OBJECTID,NEIGHBOURHOOD_NAME",
+      "license": "CC BY",
+      "licenseUrl": "https://www.arcgis.com/home/item.html?id=404d43d1f5be4e23a3ee421132539379",
+      "partialCoverage": true,
+      "boundaryReference": "Nurturing Neighbourhoods Program boundaries; major roads, natural features and historic settlement areas.",
+      "statistics": "No matching neighbourhood Census profile found. City Census dashboards publish census tracts; Peel Health Data Zones are a different geography.",
+      "path": "data/municipal/peel-halton/brampton-neighbourhoods.geojson",
+      "retrieved": "2026-11-06",
+      "featureCount": 53,
+      "sha256": "22bfaf774fca8885a5dd24e5b32d7d268fd082110add53826547ad58ef36d46a",
+      "requestUrl": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/NNP_Neighbourhood_Layers_OpenData/FeatureServer/2/query?where=1%3D1&outFields=OBJECTID%2CNEIGHBOURHOOD_NAME&outSR=4326&returnGeometry=true&f=geojson&resultRecordCount=2000",
+      "coverageOf2021MunicipalityArea": 0.627996,
+      "overlapFraction": 2.362e-05,
+      "sourceGeometryIssues": [
+        {
+          "id": 36,
+          "name": "SANDALWOOD EAST (MOUNTAINASH)",
+          "reason": "Ring Self-intersection[-79.7300670997573 43.769028769789]"
+        }
+      ],
+      "geometryHandling": "Raw WGS84 source retained unchanged. Use make_valid (not buffer(0)) before display processing. Area coverage measured in EPSG:26917 against 2021 Statistics Canada municipal boundaries, which can differ from current municipal data.",
+      "id": "brampton",
+      "title": "Official named neighbourhoods and planning areas",
+      "reference": "Nurturing Neighbourhoods Program boundaries; major roads, natural features and historic settlement areas.",
+      "profilePath": null,
+      "type": "Municipal neighbourhood",
+      "typeLabel": "市政社区"
+    },
+    {
+      "municipalityCode": "3521024",
+      "municipality": "Caledon",
+      "nameField": "NAME",
+      "idField": "SettlementCode",
+      "geographyType": "planning_area",
+      "publisher": "Town of Caledon",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=191ce073f90040628dec42b292664a30",
+      "itemId": "191ce073f90040628dec42b292664a30",
+      "downloadUrl": "https://services3.arcgis.com/AbUjpCl3KckkXVBh/ArcGIS/rest/services/Zone_Map_Index_Layers/FeatureServer/3",
+      "fields": "OBJECTID,NAME,STRUCTURE,SettlementCode",
+      "license": "No separate licence statement in the public municipal layer metadata; credited to Town of Caledon",
+      "licenseUrl": "https://www.arcgis.com/home/item.html?id=191ce073f90040628dec42b292664a30",
+      "partialCoverage": true,
+      "boundaryReference": "Current Official Plan Settlement Area Boundary, as named by the municipal map service; only settlement extents, not surrounding rural land.",
+      "statistics": "No matching settlement-level 2021 income and population-group profile found.",
+      "path": "data/municipal/peel-halton/caledon-settlements.geojson",
+      "retrieved": "2026-11-06",
+      "featureCount": 21,
+      "sha256": "68eea36260d8927eac8c03840b2d99502779124b74b22670619ee5d1206d124a",
+      "requestUrl": "https://services3.arcgis.com/AbUjpCl3KckkXVBh/ArcGIS/rest/services/Zone_Map_Index_Layers/FeatureServer/3/query?where=1%3D1&outFields=OBJECTID%2CNAME%2CSTRUCTURE%2CSettlementCode&outSR=4326&returnGeometry=true&f=geojson&resultRecordCount=2000",
+      "coverageOf2021MunicipalityArea": 0.071558,
+      "overlapFraction": -0.0,
+      "sourceGeometryIssues": [
+        {
+          "id": 13,
+          "name": "MAYFIELD WEST",
+          "reason": "Ring Self-intersection[-79.8328334105652 43.7308252623332]"
+        }
+      ],
+      "geometryHandling": "Raw WGS84 source retained unchanged. Use make_valid (not buffer(0)) before display processing. Area coverage measured in EPSG:26917 against 2021 Statistics Canada municipal boundaries, which can differ from current municipal data.",
+      "id": "caledon",
+      "title": "Official named neighbourhoods and planning areas",
+      "reference": "Current Official Plan Settlement Area Boundary, as named by the municipal map service; only settlement extents, not surrounding rural land.",
+      "profilePath": null,
+      "type": "Municipal planning area",
+      "typeLabel": "市政规划区"
+    },
+    {
+      "municipalityCode": "3524001",
+      "municipality": "Oakville",
+      "nameField": "COMMUNITY",
+      "idField": "GISID",
+      "geographyType": "planning_area",
+      "publisher": "Town of Oakville",
+      "sourceUrl": "https://maps.oakville.ca/oakgis/rest/services/PGISREF_BULK/Admin_OP_Community_Boundary/FeatureServer/5",
+      "downloadUrl": "https://maps.oakville.ca/oakgis/rest/services/PGISREF_BULK/Admin_OP_Community_Boundary/FeatureServer/5",
+      "fields": "OBJECTID,COMMUNITY,PLANNING_COMMUNITY,GISID",
+      "license": "Open Government Licence - Town of Oakville",
+      "licenseUrl": "https://www.oakville.ca/town-hall/plans-strategies/open-data/open-data-licence/",
+      "partialCoverage": true,
+      "attribution": "Contains information licensed under the Open Government Licence – Town of Oakville.",
+      "boundaryReference": "Municipal Admin_OP_Community_Boundary layer, including residential and industrial planning communities.",
+      "statistics": "No matching planning-community 2021 income and population-group profile found. Town demographic dashboard uses census areas.",
+      "path": "data/municipal/peel-halton/oakville-planning-communities.geojson",
+      "retrieved": "2026-11-06",
+      "featureCount": 23,
+      "sha256": "88c4ebead8f8a69e70a8097c898009cf0b50ca1b8ce02400e0dbfe9214918e63",
+      "requestUrl": "https://maps.oakville.ca/oakgis/rest/services/PGISREF_BULK/Admin_OP_Community_Boundary/FeatureServer/5/query?where=1%3D1&outFields=OBJECTID%2CCOMMUNITY%2CPLANNING_COMMUNITY%2CGISID&outSR=4326&returnGeometry=true&f=geojson&resultRecordCount=2000",
+      "coverageOf2021MunicipalityArea": 0.851155,
+      "overlapFraction": 1.714e-05,
+      "sourceGeometryIssues": [],
+      "geometryHandling": "Raw WGS84 source retained unchanged. Use make_valid (not buffer(0)) before display processing. Area coverage measured in EPSG:26917 against 2021 Statistics Canada municipal boundaries, which can differ from current municipal data.",
+      "id": "oakville",
+      "title": "Official named neighbourhoods and planning areas",
+      "reference": "Municipal Admin_OP_Community_Boundary layer, including residential and industrial planning communities.",
+      "profilePath": null,
+      "type": "Municipal planning area",
+      "typeLabel": "市政规划区"
+    },
+    {
+      "municipalityCode": "3524002",
+      "municipality": "Burlington",
+      "nameField": "PLANNING_COMMUNITY",
+      "idField": "OBJECTID",
+      "geographyType": "planning_area",
+      "publisher": "City of Burlington",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1afaa4cd5c1148f89480817fce4c0469",
+      "itemId": "1afaa4cd5c1148f89480817fce4c0469",
+      "downloadUrl": "https://mapping.burlington.ca/arcgisweb/rest/services/COB/PlanningCommunities/MapServer/1",
+      "fields": "OBJECTID,PLANNING_COMMUNITY",
+      "license": "City of Burlington Open Data Terms of Use",
+      "licenseUrl": "https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf",
+      "partialCoverage": false,
+      "boundaryReference": "Official Planning Communities, including Rural and Employment. Preferred to the unrelated 2020 holiday-route neighbourhood layer.",
+      "statistics": "No matching planning-community 2021 income and population-group profile found.",
+      "path": "data/municipal/peel-halton/burlington-planning-communities.geojson",
+      "retrieved": "2026-11-06",
+      "featureCount": 22,
+      "sha256": "289e7c5875ea36e4be10a4d6454eab87fa94c2ff88a6ff2984a4816d3d9dfc2c",
+      "requestUrl": "https://mapping.burlington.ca/arcgisweb/rest/services/COB/PlanningCommunities/MapServer/1/query?where=1%3D1&outFields=OBJECTID%2CPLANNING_COMMUNITY&outSR=4326&returnGeometry=true&f=geojson&resultRecordCount=2000",
+      "coverageOf2021MunicipalityArea": 0.998654,
+      "overlapFraction": 0.0,
+      "sourceGeometryIssues": [],
+      "geometryHandling": "Raw WGS84 source retained unchanged. Use make_valid (not buffer(0)) before display processing. Area coverage measured in EPSG:26917 against 2021 Statistics Canada municipal boundaries, which can differ from current municipal data.",
+      "id": "burlington",
+      "title": "Official named neighbourhoods and planning areas",
+      "reference": "Official Planning Communities, including Rural and Employment. Preferred to the unrelated 2020 holiday-route neighbourhood layer.",
+      "profilePath": null,
+      "type": "Municipal planning area",
+      "typeLabel": "市政规划区"
+    },
+    {
+      "municipalityCode": "3524009",
+      "municipality": "Milton",
+      "nameField": "NAME",
+      "idField": "OBJECTID",
+      "geographyType": "neighbourhood",
+      "publisher": "Town of Milton",
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=6c26ff98c86c48e38a01860c264b4eab",
+      "itemId": "6c26ff98c86c48e38a01860c264b4eab",
+      "downloadUrl": "https://api.milton.ca/arcgis/rest/services/Datasets/Neighbourhoods/MapServer/0",
+      "fields": "OBJECTID,NAME",
+      "license": "Town of Milton disclaimer and terms of use",
+      "licenseUrl": "https://discover-milton.hub.arcgis.com/pages/disclaimer-and-terms-of-use",
+      "partialCoverage": false,
+      "boundaryReference": "Town Neighbourhoods dataset, described as updated on a daily schedule; includes rural and industrial named areas.",
+      "statistics": "No matching neighbourhood 2021 income and population-group profile found. Census Information Hub uses dissemination areas.",
+      "path": "data/municipal/peel-halton/milton-neighbourhoods.geojson",
+      "retrieved": "2026-11-06",
+      "featureCount": 26,
+      "sha256": "9d1f4df494ad8003faaa901ee1fb09eda247b8f609d53214deff502134468716",
+      "requestUrl": "https://api.milton.ca/arcgis/rest/services/Datasets/Neighbourhoods/MapServer/0/query?where=1%3D1&outFields=OBJECTID%2CNAME&outSR=4326&returnGeometry=true&f=geojson&resultRecordCount=2000",
+      "coverageOf2021MunicipalityArea": 0.998948,
+      "overlapFraction": 2.626e-05,
+      "sourceGeometryIssues": [],
+      "geometryHandling": "Raw WGS84 source retained unchanged. Use make_valid (not buffer(0)) before display processing. Area coverage measured in EPSG:26917 against 2021 Statistics Canada municipal boundaries, which can differ from current municipal data.",
+      "id": "milton",
+      "title": "Official named neighbourhoods and planning areas",
+      "reference": "Town Neighbourhoods dataset, described as updated on a daily schedule; includes rural and industrial named areas.",
+      "profilePath": null,
+      "type": "Municipal neighbourhood",
+      "typeLabel": "市政社区"
+    },
+    {
+      "municipalityCode": "3524015",
+      "municipality": "Halton Hills",
+      "nameField": "AreaName",
+      "idField": "OBJECTID",
+      "geographyType": "planning_area",
+      "publisher": "Town of Halton Hills",
+      "sourceUrl": "https://www.haltonhills.ca/Live/Maps",
+      "downloadUrl": "https://map.haltonhills.ca/awse/rest/services/eP/MapServer/9",
+      "fields": "OBJECTID,AreaName,AreaType",
+      "license": "Town of Halton Hills website: content may be shared or reproduced with proper attribution",
+      "licenseUrl": "https://www.haltonhills.ca/Live/Maps",
+      "partialCoverage": true,
+      "boundaryReference": "Public MapLinks Urban, Hamlet, Rural Area layer; includes Acton, Georgetown, Glen Williams, Norval and rural clusters. Rural land outside settlements is not assigned a fabricated neighbourhood.",
+      "statistics": "No matching settlement-level 2021 income and population-group profile found.",
+      "path": "data/municipal/peel-halton/halton-hills-settlements.geojson",
+      "retrieved": "2026-11-06",
+      "featureCount": 15,
+      "sha256": "ed46f96b4fa4830315d356dfc6ac063d7f33c496304f6c8d82c63ef84ca50642",
+      "requestUrl": "https://map.haltonhills.ca/awse/rest/services/eP/MapServer/9/query?where=1%3D1&outFields=OBJECTID%2CAreaName%2CAreaType&outSR=4326&returnGeometry=true&f=geojson&resultRecordCount=2000",
+      "coverageOf2021MunicipalityArea": 0.226325,
+      "overlapFraction": 0.00077389,
+      "sourceGeometryIssues": [],
+      "geometryHandling": "Raw WGS84 source retained unchanged. Use make_valid (not buffer(0)) before display processing. Area coverage measured in EPSG:26917 against 2021 Statistics Canada municipal boundaries, which can differ from current municipal data.",
+      "id": "halton-hills",
+      "title": "Official named neighbourhoods and planning areas",
+      "reference": "Public MapLinks Urban, Hamlet, Rural Area layer; includes Acton, Georgetown, Glen Williams, Norval and rural clusters. Rural land outside settlements is not assigned a fabricated neighbourhood.",
+      "profilePath": null,
+      "type": "Municipal planning area",
+      "typeLabel": "市政规划区",
+      "subtractFeatures": {
+        "947": [
+          "18"
+        ]
+      }
+    }
+  ],
+  "municipalities": {
+    "3520005": {
+      "datasets": [
+        "toronto"
+      ],
+      "completeCoverage": true
+    },
+    "3519036": {
+      "datasets": [
+        "york-edi-2021"
+      ],
+      "completeCoverage": true
+    },
+    "3519038": {
+      "datasets": [
+        "york-edi-2021"
+      ],
+      "completeCoverage": true
+    },
+    "3519028": {
+      "datasets": [
+        "york-edi-2021"
+      ],
+      "completeCoverage": true
+    },
+    "3519046": {
+      "datasets": [
+        "york-edi-2021"
+      ],
+      "completeCoverage": true
+    },
+    "3519048": {
+      "datasets": [
+        "york-edi-2021"
+      ],
+      "completeCoverage": true
+    },
+    "3519044": {
+      "datasets": [
+        "york-edi-2021"
+      ],
+      "completeCoverage": true
+    },
+    "3519049": {
+      "datasets": [
+        "york-edi-2021"
+      ],
+      "completeCoverage": true
+    },
+    "3519054": {
+      "datasets": [
+        "york-edi-2021"
+      ],
+      "completeCoverage": true
+    },
+    "3519070": {
+      "datasets": [
+        "york-edi-2021"
+      ],
+      "completeCoverage": true
+    },
+    "3518001": {
+      "datasets": [
+        "pickering-neighbourhoods",
+        "pickering-hamlets"
+      ]
+    },
+    "3518005": {
+      "datasets": [
+        "ajax-neighbourhoods"
+      ],
+      "completeCoverage": true
+    },
+    "3518013": {
+      "datasets": [
+        "oshawa-communities"
+      ],
+      "completeCoverage": true
+    },
+    "3518009": {
+      "datasets": [
+        "whitby-health-neighbourhoods"
+      ],
+      "completeCoverage": true
+    },
+    "3518017": {
+      "datasets": [
+        "clarington-health-neighbourhoods"
+      ],
+      "completeCoverage": true
+    },
+    "3518029": {
+      "datasets": [
+        "uxbridge-health-neighbourhoods"
+      ],
+      "completeCoverage": true
+    },
+    "3518020": {
+      "datasets": [
+        "scugog-health-neighbourhoods"
+      ],
+      "completeCoverage": true
+    },
+    "3518039": {
+      "datasets": [
+        "brock-health-neighbourhoods"
+      ],
+      "completeCoverage": true
+    },
+    "3521005": {
+      "datasets": [
+        "mississauga"
+      ],
+      "completeCoverage": true
+    },
+    "3521010": {
+      "datasets": [
+        "brampton"
+      ]
+    },
+    "3521024": {
+      "datasets": [
+        "caledon"
+      ]
+    },
+    "3524001": {
+      "datasets": [
+        "oakville"
+      ]
+    },
+    "3524002": {
+      "datasets": [
+        "burlington"
+      ],
+      "completeCoverage": true
+    },
+    "3524009": {
+      "datasets": [
+        "milton"
+      ],
+      "completeCoverage": true
+    },
+    "3524015": {
+      "datasets": [
+        "halton-hills"
+      ]
+    },
+    "3518022": {
+      "datasets": [],
+      "fallbackReason": "No verified official named sub-community polygons were obtained for this First Nation; its federal census geography is retained separately."
+    },
+    "3519076": {
+      "datasets": [],
+      "fallbackReason": "No verified official named sub-community polygons were obtained for this First Nation; its federal census geography is retained separately."
+    }
+  }
+}

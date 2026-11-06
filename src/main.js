@@ -17,6 +17,7 @@ import { initTheme, refreshThemeControl, isDarkTheme } from './theme.js';
 import { createMapTooltip } from './map-tooltip.js';
 import { createCommunityHighlight } from './community-highlight.js';
 import { createContextLayers } from './context-layers.js';
+import { parseScopeHash, scopeHash, hasPopulationRecord } from './geography-utils.js';
 import { INCOME_BINS, isNumber, colorFor, money, number, percent, searchFeatures, summarize, escapeHtml as esc, safeUrl, hashCode } from './map-utils.js';
 import { POPULATION_BINS, populationShare, populationColor, donutSvg } from './population-utils.js';
 
@@ -26,6 +27,7 @@ const sidebar = document.querySelector('.sidebar');
 const dialog = $('method-dialog');
 const PALETTE = ['#518a7b', '#c29b4d', '#7e85af', '#5c8eac', '#b67768', '#8d9963', '#947cac', '#bb8c67', '#688b92', '#a18696', '#7f8990', '#b7a268', '#c2c9bd'];
 const state = {
+  boundaryMode: 'neighbourhoods', geographies: {},
   allFeatures: [], features: [], byCode: new Map(), scopes: [], scope: null, metadata: {}, counts: {}, data: null, basemap: null,
   operatingTransit: null, greenTransit: null, transitLines: [], geographicContext: null, orientationLandmarks: null,
   roads: true, labels: true, transit: false, landmarks: false,
@@ -51,10 +53,37 @@ function scopeFeatures(scope) {
   return state.allFeatures.filter(feature => String(feature.properties[property]) === String(scope.id));
 }
 function linkedScopeId() {
-  if (!location.hash.startsWith('#scope=')) return null;
-  try { return decodeURIComponent(location.hash.slice(7)); } catch { return null; }
+  return parseScopeHash(location.hash)?.scopeId || null;
 }
 function scopeName() { return state.scope?.name || 'GTA'; }
+function boundaryLabel() { return t(state.boundaryMode === 'neighbourhoods' ? '市政社区与规划区' : '普查统计区'); }
+function setBoundaryMode(mode, rebuild = true) {
+  if (!state.geographies[mode]) return;
+  const context = activeContexts()[0];
+  const view = context?.map._loaded ? { center: context.map.getCenter(), zoom: context.map.getZoom() } : null;
+  state.boundaryMode = mode;
+  state.allFeatures = state.geographies[mode].features;
+  state.data.communities = state.geographies[mode].records;
+  $('boundary-mode').value = mode;
+  $('scope-boundary-mode').value = mode;
+  closeSearch();
+  if (rebuild) {
+    setScope(state.scope.id);
+    if (view) {
+      state.wholeCity = false;
+      activeContexts().forEach(item => item.map.setView(view.center, view.zoom, { animate: false }));
+    }
+  }
+}
+function linkedFeature(hash = location.hash) {
+  const modes = [state.boundaryMode, ...Object.keys(state.geographies).filter(mode => mode !== state.boundaryMode)];
+  for (const mode of modes) {
+    const features = state.geographies[mode].features;
+    const code = hashCode(hash, features);
+    if (code) return { mode, feature: features.find(feature => feature.properties.code === code) };
+  }
+  return null;
+}
 function metadataText(key) {
   return currentLanguage() === 'en' ? state.metadata.english?.[key] || state.metadata[key] || '' : state.metadata[key] || '';
 }
@@ -65,6 +94,7 @@ function renderScopes() {
   const option = scope => `<option value="${esc(scope.id)}">${esc(scope.name)}${scope.type === 'region' ? ` · ${t('整个地区')}` : ''}</option>`;
   $('scope-select').innerHTML = (whole ? option(whole) : '') + (toronto ? option(toronto) : '') + regions.map(region => `<optgroup label="${esc(region.name)}">${option(region)}${state.scopes.filter(scope => scope.type === 'municipality' && String(scope.regionCode) === String(region.id)).sort((a, b) => a.name.localeCompare(b.name)).map(option).join('')}</optgroup>`).join('');
   $('scope-select').value = state.scope.id === '3520' ? '3520005' : state.scope.id;
+  $('scope-boundary-mode').value = state.boundaryMode;
   $('scope-button-label').textContent = state.scope.type === 'gta' ? 'GTA' : scopeName();
   $('scope-button').title = `${t('选择地区')} · ${scopeName()}`;
   $('scope-reference-label').textContent = scopeName();
@@ -96,7 +126,7 @@ function setScope(id, rebuild = true) {
   if (state.mode === 'distribution') rebuildComparison({ preserveView: false });
   else fitCity();
   mobileUI?.refresh();
-  try { history.replaceState(null, '', `${location.pathname}${location.search}#scope=${encodeURIComponent(scope.id)}`); } catch { /* Embedded preview. */ }
+  try { history.replaceState(null, '', `${location.pathname}${location.search}${scopeHash(scope.id, state.boundaryMode)}`); } catch { /* Embedded preview. */ }
 }
 function openScopeDialog() {
   mobileUI?.closeTransient(); toggleGroups(false); toggleLayers(false); closeTooltips();
@@ -160,14 +190,14 @@ function renderMetadata() {
   $('data-edition').textContent = `${m.populationYear} 普查 · ${m.incomeYear} 收入`;
   $('income-detail-label').textContent = `家庭税前年收入中位数 · ${m.incomeYear}`;
   $('city-income').textContent = isNumber(state.scope?.incomeMedian) ? `${scopeName()} ${money(state.scope.incomeMedian)}` : '';
-  $('coverage-text').textContent = `${state.counts.total} 个区域 · ${m.populationYear} 普查`;
+  $('coverage-text').textContent = `${boundaryLabel()} · ${state.counts.total} ${t('个区域')}`;
   $('year-definition').textContent = `人口资料来自 ${m.populationYear} 年人口普查，收入参考期为 ${m.incomeYear} 年，不是今天的收入与人口。`;
   $('income-definition').textContent = metadataText('incomeDefinition');
   $('latest-census-note').textContent = metadataText('latestCensusNote');
   $('population-groups-definition').textContent = metadataText('populationGroupsDefinition');
   $('coverage-definition').textContent = currentLanguage() === 'en'
-    ? `${scopeName()}: ${state.counts.total} statistical areas, ${state.features.filter(feature => populationRecord(feature.properties.code)).length} with population categories and ${state.counts.income} with income data.`
-    : `${scopeName()}：${state.counts.total} 个统计区域，${state.features.filter(feature => populationRecord(feature.properties.code)).length} 个有人口分类，${state.counts.income} 个有收入数据。`;
+    ? `${scopeName()}: ${state.counts.total} areas, ${state.features.filter(feature => hasPopulationRecord(populationRecord(feature.properties.code))).length} with population categories and ${state.counts.income} with income data.`
+    : `${scopeName()}：${state.counts.total} 个区域，${state.features.filter(feature => hasPopulationRecord(populationRecord(feature.properties.code))).length} 个有人口分类，${state.counts.income} 个有收入数据。`;
   $('boundary-note').textContent = metadataText('boundaryNote');
   $('scope-note').textContent = metadataText('scopeNote');
   $('prepared-note').textContent = m.preparedDate ? `原始数据整理于 ${m.preparedDate}；本图为官方资料快照。` : '';
@@ -232,9 +262,15 @@ function renderDetail() {
   const p = feature.properties;
   const record = populationRecord(p.code);
   $('community-name').textContent = p.name;
-  $('community-meta').innerHTML = [p.region, p.typeLabel].filter(Boolean).map(tag => `<span>${esc(tag)}</span>`).join('');
-  $('population').textContent = number(record?.population ?? p.population);
-  $('collapsed-summary').textContent = `人口 ${number(record?.population ?? p.population)} · 家庭收入 ${money(p.income)}`;
+  $('community-meta').innerHTML = [p.municipality, p.typeLabel].filter(Boolean).map(tag => `<span>${esc(tag)}</span>`).join('');
+  $('census-detail-button').hidden = state.boundaryMode === 'census' || (!p.municipalSource && p.geographyType !== 'census_remainder');
+  const boundaryUrl = safeUrl(p.boundarySourceUrl);
+  $('boundary-source-link').hidden = !boundaryUrl;
+  if (boundaryUrl) $('boundary-source-link').href = boundaryUrl;
+  const population = record?.population ?? p.population;
+  $('population-label').textContent = t(isNumber(population) ? '私人住户人口 · 2021' : '总人口 · 2021');
+  $('population').textContent = number(population ?? p.totalPopulation);
+  $('collapsed-summary').textContent = `人口 ${number(population ?? p.totalPopulation)} · 家庭收入 ${money(p.income)}`;
   $('income-value').textContent = money(p.income);
   $('income-value').classList.toggle('missing', !isNumber(p.income));
   const median = state.scope?.incomeMedian;
@@ -526,8 +562,8 @@ function updateLabels(context) {
     if (p.code === state.selected && state.selectionActive) return true;
     if (zoom < 13 && p.type === 'Census tract') return false;
     if (/^\d/.test(p.name)) return false;
-    if (zoom < 12.5 && (!isNumber(p.population) || p.population < tier.minPopulation)) return false;
-    return zoom >= 13 || p.type === 'Census subdivision';
+    if (zoom < 12.5 && !p.municipalSource && (!isNumber(p.population) || p.population < tier.minPopulation)) return false;
+    return Boolean(p.municipalSource) || zoom >= 13 || p.type === 'Census subdivision';
   }).map(feature => {
     const p = feature.properties;
     const bounds = context.layers.get(p.code)?.getBounds();
@@ -681,9 +717,9 @@ function renderSearch() {
   $('search-results').innerHTML = state.searchMatches.length ? state.searchMatches.map((match, i) => {
     const p = match.feature?.properties;
     const name = match.scope?.name || p.name;
-    const sublabel = match.scope ? t(match.scope.type === 'gta' ? '整个 GTA' : match.scope.type === 'region' ? '地区' : '城市或市镇') : `${p.region || ''} · ${t(p.typeLabel)}`;
+    const sublabel = match.scope ? t(match.scope.type === 'gta' ? '整个 GTA' : match.scope.type === 'region' ? '地区' : '城市或市镇') : `${p.municipality || p.region || ''} · ${t(p.typeLabel)}`;
     return `<button class="search-result" id="search-option-${i}" role="option" aria-selected="false" data-result="${i}"><span><strong>${esc(name)}</strong><small>${esc(sublabel)}</small></span><span>${match.scope ? '↗' : money(p.income)}</span></button>`;
-  }).join('') : '<p class="no-results">没有找到结果，可输入城市名或普查区编号。</p>';
+  }).join('') : '<p class="no-results">没有找到结果，可输入城市或社区名；普查编号请切换至普查统计区。</p>';
   localize($('search-results'));
 }
 function chooseSearchResult(index) {
@@ -700,7 +736,7 @@ function chooseSearchResult(index) {
 }
 
 function setReady(ready) {
-  document.querySelectorAll('.view-tabs button,#groups-button,#group-search,#default-groups,#all-groups,#clear-groups,#income-toggle,#layers-button,#roads-toggle,#labels-toggle,#transit-toggle,#landmarks-toggle,#search,#fit-city,#zoom-in,#zoom-out,#focus-community,#scope-button').forEach(control => { control.disabled = !ready; });
+  document.querySelectorAll('.view-tabs button,#groups-button,#group-search,#default-groups,#all-groups,#clear-groups,#income-toggle,#layers-button,#roads-toggle,#labels-toggle,#transit-toggle,#landmarks-toggle,#search,#fit-city,#zoom-in,#zoom-out,#focus-community,#scope-button,#boundary-mode,#scope-boundary-mode').forEach(control => { control.disabled = !ready; });
 }
 
 function initializeControls() {
@@ -724,6 +760,8 @@ function initializeControls() {
     selectView(mode); $(`${mode}-tab`).focus();
   });
   $('layers-button').addEventListener('click', () => toggleLayers($('layers-panel').hidden));
+  $('boundary-mode').addEventListener('change', event => setBoundaryMode(event.target.value));
+  $('census-detail-button').addEventListener('click', () => setBoundaryMode('census'));
   $('close-layers').addEventListener('click', () => { toggleLayers(false); (mobile() ? $('mobile-more') : $('layers-button')).focus(); });
   for (const layer of ['roads', 'labels', 'transit', 'landmarks']) $(`${layer}-toggle`).addEventListener('change', event => { state[layer] = event.target.checked; updateLayerVisibility(); });
   $('groups-button').addEventListener('click', () => toggleGroups($('groups-panel').hidden));
@@ -745,7 +783,10 @@ function initializeControls() {
   $('fit-city').addEventListener('click', fitCity);
   $('scope-button').addEventListener('click', openScopeDialog);
   $('close-scope').addEventListener('click', () => $('scope-dialog').close());
-  $('apply-scope').addEventListener('click', () => { setScope($('scope-select').value); $('scope-dialog').close(); });
+  $('apply-scope').addEventListener('click', () => {
+    setBoundaryMode($('scope-boundary-mode').value, false);
+    setScope($('scope-select').value); $('scope-dialog').close();
+  });
   $('scope-dialog').addEventListener('close', () => (mobile() ? $('mobile-more') : $('scope-button')).focus({ preventScroll: true }));
   $('scope-dialog').addEventListener('click', event => {
     if (event.target !== $('scope-dialog')) return;
@@ -792,9 +833,12 @@ function initializeControls() {
     }
   });
   window.addEventListener('hashchange', () => {
-    if (location.hash.startsWith('#scope=')) { setScope(linkedScopeId()); return; }
-    const code = hashCode(location.hash, state.allFeatures);
-    const feature = state.allFeatures.find(item => item.properties.code === code);
+    const scopeLink = parseScopeHash(location.hash);
+    if (scopeLink) { setBoundaryMode(scopeLink.mode, false); setScope(scopeLink.scopeId); return; }
+    const linked = linkedFeature();
+    if (linked && linked.mode !== state.boundaryMode) setBoundaryMode(linked.mode);
+    const feature = linked?.feature;
+    const code = feature?.properties.code;
     if (feature && !state.byCode.has(code)) setScope(feature.properties.municipalityCode);
     if (code && (!state.selectionActive || code !== state.selected)) selectCommunity(code);
   });
@@ -831,15 +875,19 @@ async function init() {
   desktopUI = initDesktopUI({ onLayoutChange: () => { activeContexts().forEach(updateLabels); updateDonuts(); } });
   try {
     const data = await loadData();
-    state.metadata = data.metadata; state.allFeatures = data.features; state.scopes = data.metadata.scopes; state.data = data.populationData; state.basemap = data.basemap;
+    state.metadata = data.metadata; state.geographies = data.geographies; state.scopes = data.metadata.scopes; state.data = data.populationData; state.basemap = data.basemap;
+    setBoundaryMode('neighbourhoods', false);
+    const scopeLink = parseScopeHash(location.hash);
+    if (scopeLink) setBoundaryMode(scopeLink.mode, false);
     state.operatingTransit = data.operatingTransit; state.greenTransit = data.greenTransit; state.geographicContext = data.geographicContext; state.orientationLandmarks = data.orientationLandmarks; state.transitLines = data.transitLines;
     state.groups = data.populationData.groups; state.groupById = new Map(state.groups.map(g => [g.id, g]));
     state.colors = Object.fromEntries(state.groups.map((g, i) => [g.id, PALETTE[i % PALETTE.length]]));
     state.selectedGroups = [];
-    const linkedCode = hashCode(location.hash, state.allFeatures);
-    const linkedFeature = state.allFeatures.find(feature => feature.properties.code === linkedCode);
+    const linked = linkedFeature();
+    if (linked) setBoundaryMode(linked.mode, false);
+    const linkedCode = linked?.feature.properties.code;
     const linkedScope = linkedScopeId();
-    setScope(linkedFeature?.properties.municipalityCode || (state.scopes.some(scope => scope.id === linkedScope) ? linkedScope : '3520005'), false);
+    setScope(linked?.feature.properties.municipalityCode || (state.scopes.some(scope => scope.id === linkedScope) ? linkedScope : '3520005'), false);
     renderDonutKey();
     $('group-count').textContent = state.selectedGroups.length;
     state.composition = createMap('composition-map');

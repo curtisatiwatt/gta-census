@@ -1,0 +1,48 @@
+{
+  "retrieved": "2026-11-06",
+  "selectionRationale": "Municipal neighbourhood or planning community boundaries are preferred to wards and federal census tracts. Full official source geometries are pinned without assigning census-tract statistics to them.",
+  "mississauga": {
+    "chosen": "Official custom 2021 neighbourhood Census geography, matching 56 All-gender profile rows exactly by Geog.",
+    "currentPlan": "Official Plan 2051 came into effect on March 24, 2026. The profile geography is a historical municipal reporting boundary, not a claim about current zoning.",
+    "currentPlanSource": "https://www.mississauga.ca/city-of-mississauga-news/news/province-approves-plan-for-mississaugas-growth-and-development/",
+    "alternativeLayer": "https://services6.arcgis.com/hM5ymMLbxIyWTjn2/arcgis/rest/services/CharacterAreas_NewOP/FeatureServer/36",
+    "alternativeReasonNotUsed": "Current plan geometry has not been shown to match the published 2021 custom tabulation. Do not attach those counts merely by name.",
+    "definitionEvidence": "mississauga-2021-census-legend.pdf is the official code legend included in the published CSV ZIP. The .txt companion is a text extraction for automated review.",
+    "sourceFiles": {
+      "mississauga-2021-neighbourhoods.zip": "b736424894f4063b4bf7481e6bfea38a87be09a77225a4ae931fde76f460afe8",
+      "mississauga-2021-neighbourhoods.csv": "cc2dd1251ddb79f52222eb9ca7274ee3986764eae9cf605d538b5c3d46af33a2",
+      "mississauga-2021-census-legend.pdf": "836e3b8f3d3e94f632826aaa0aff0f4e27f66e28cc51d33549125b12ba943a9d"
+    },
+    "noMedianHouseholdIncome": "IS_MI15M is median personal total income among recipients; ISNEF_MTI is income for people not in census families. Neither is median household income.",
+    "geographicRepair": "Streetsville NHD has a nested shell at the Streetsville CN area. make_valid yields a Polygon with a hole and zero overlap with Streetsville CN; buffer(0) incorrectly fills that hole."
+  },
+  "otherStatisticsChecked": {
+    "Brampton": [
+      "https://geohub.brampton.ca/",
+      "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Census_2021/FeatureServer",
+      "https://www.arcgis.com/home/item.html?id=971575ea39f845b3ac50a1698439a9f0"
+    ],
+    "Caledon": [
+      "https://www.arcgis.com/home/item.html?id=971575ea39f845b3ac50a1698439a9f0",
+      "https://www.arcgis.com/home/item.html?id=ad23e37d65514a98bf5ae950852f06d6"
+    ],
+    "Oakville": [
+      "https://www.arcgis.com/apps/dashboards/7bf171aba7de48e4bbec025ea21c066a",
+      "https://www.oakville.ca/business-development/planning-development/official-plan/"
+    ],
+    "Burlington": [
+      "https://www.burlington.ca/en/council-and-city-administration/resources/Council/Council-Information-Packages/Council-Information-Package-February-25-2022.pdf",
+      "https://mapping.burlington.ca/arcgisweb/rest/services/COB/PlanningCommunities/MapServer"
+    ],
+    "Milton": [
+      "https://milton.maps.arcgis.com/apps/instant/portfolio/index.html?appid=0e3be195f2a24d57a8d19d1e656e6276",
+      "https://www.arcgis.com/home/item.html?id=2d2084641b42494a8778c0761cd174a7"
+    ],
+    "Halton Hills": [
+      "https://www.haltonhills.ca/Live/Maps",
+      "https://map.haltonhills.ca/HT5/Index.html?viewer=p.HT5",
+      "https://services3.arcgis.com/Nn3SWZrtm4WZaUtd/arcgis/rest/services"
+    ]
+  },
+  "alternativeStatistics": "Peel Health Data Zones publish 2021 median household income and 13 visible-minority categories, but they are custom aggregates of census tracts, not the selected municipal community boundaries. Kept separate."
+}

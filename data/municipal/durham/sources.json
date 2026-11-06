@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "retrievedDate": "2026-11-06",
+  "sources": [
+    {
+      "id": "pickering-neighbourhoods",
+      "municipality": "Pickering",
+      "municipalityName": "Pickering",
+      "municipalityCode": "3518001",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/pickering-communities.geojson",
+      "nameField": "Nhood",
+      "idField": "NhoodNum",
+      "geographyType": "planning_area",
+      "publisher": "City of Pickering",
+      "sourceUrl": "https://services8.arcgis.com/PE9fNg6S0CDTs96v/arcgis/rest/services/OpenData/FeatureServer/8",
+      "downloadUrl": "https://services8.arcgis.com/PE9fNg6S0CDTs96v/arcgis/rest/services/OpenData/FeatureServer/8/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.pickering.ca/media/depbgebg/opendatalicencepickeringv1_acc.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "d5a6cbfec58ed2e64035962e9fcbd0ad95929ecfbffbf0cae63a82ad615efc54",
+      "featureCount": 21,
+      "partialCoverage": true,
+      "priority": 100,
+      "label": "Urban neighbourhood",
+      "notes": "The 21 officially named South Pickering and Seaton urban planning neighbourhoods. Rural lands are outside this dataset. The City publishes 2021 neighbourhood PDF profiles, but ethnicity uses ethnic origins, not the 13 visible-minority categories."
+    },
+    {
+      "id": "pickering-hamlets",
+      "municipality": "Pickering",
+      "municipalityName": "Pickering",
+      "municipalityCode": "3518001",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/pickering-hamlets-communities.geojson",
+      "nameField": "Name",
+      "idField": "OBJECTID",
+      "geographyType": "planning_area",
+      "publisher": "City of Pickering",
+      "sourceUrl": "https://services8.arcgis.com/PE9fNg6S0CDTs96v/arcgis/rest/services/OpenData/FeatureServer/7",
+      "downloadUrl": "https://services8.arcgis.com/PE9fNg6S0CDTs96v/arcgis/rest/services/OpenData/FeatureServer/7/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.pickering.ca/media/depbgebg/opendatalicencepickeringv1_acc.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "5c5db12c56a236274eef1a82ed9ffc28194054b8ae2aa2cfe6901091072710dd",
+      "featureCount": 15,
+      "partialCoverage": true,
+      "priority": 110,
+      "label": "Hamlet / rural settlement",
+      "notes": "15 named municipal hamlets and rural residential settlements. Potential nesting within urban areas must be resolved explicitly; do not copy population statistics from enclosing census tracts."
+    },
+    {
+      "id": "ajax-neighbourhoods",
+      "municipality": "Ajax",
+      "municipalityName": "Ajax",
+      "municipalityCode": "3518005",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/ajax-neighbourhoods.geojson",
+      "nameField": "displayName",
+      "idField": "OBJECTID",
+      "geographyType": "neighbourhood",
+      "publisher": "Town of Ajax",
+      "sourceUrl": "https://opendata.ajax.ca/datasets/ac85c5244bc8409c9a657004a5abcdd7_17/about",
+      "downloadUrl": "https://ajaxmaps.ajax.ca/gisernie/rest/services/Public/Ajax_Open_Data/MapServer/17/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://townofajax.maps.arcgis.com/sharing/rest/content/items/22e2d8e248724d7cb0310dc2db675abd/data",
+      "retrievedDate": "2026-11-06",
+      "sha256": "57d4c4a92b4b21bd171457c3cef27acc2c0d3597d1fa8db14c74b827a44b93ba",
+      "featureCount": 28,
+      "partialCoverage": false,
+      "priority": 100,
+      "label": "Municipal neighbourhood",
+      "rawPath": "data/municipal/durham/ajax-communities.geojson",
+      "notes": "Raw source includes 2011 population only; it is not used as 2021 data. Source OBJECTID 337 has a corrupted NAME containing its historical paragraph; displayName is repaired to Pickering Village using its PROFILE_2018 and the Town technical guidelines.",
+      "nameCorrections": [
+        {
+          "field": "OBJECTID",
+          "value": 337,
+          "displayName": "Pickering Village",
+          "sourceUrl": "https://www.ajax.ca/en/business-and-growth/resources/Planning/Development-Approvals-Charges-and-Applications/Town-of-Ajax-Site-Plan-Review-Technical-Guidelines_Feb-2024.pdf",
+          "evidence": "Section 5.3.2 identifies the Pickering Village neighbourhood; the same source feature PROFILE_2018 explicitly describes Pickering Village."
+        }
+      ]
+    },
+    {
+      "id": "oshawa-communities",
+      "municipality": "Oshawa",
+      "municipalityName": "Oshawa",
+      "municipalityCode": "3518013",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/oshawa-neighbourhoods.geojson",
+      "nameField": "displayName",
+      "idField": "COMM",
+      "geographyType": "neighbourhood",
+      "publisher": "City of Oshawa",
+      "sourceUrl": "https://city-oshawa.opendata.arcgis.com/datasets/oshawa::oshawa-community-boundaries",
+      "downloadUrl": "https://opendata.arcgis.com/api/v3/datasets/1d9e2d22e339458d8486ee5af8fa6ff8_2/downloads/data?format=geojson&spatialRefId=4326",
+      "license": "https://map.oshawa.ca/OpenData/Open%20Government%20Licence%20version%202.0%20-%20Oshawa.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "0d32ce78417067d6b0bc66189f5f144c58309de1aaec38f61886c5f02ba1c6f4",
+      "featureCount": 20,
+      "partialCoverage": false,
+      "priority": 100,
+      "label": "Municipal community",
+      "rawPath": "data/municipal/durham/oshawa-communities.geojson",
+      "notes": "20 official named communities. Chosen over the separate municipal NeighbourhoodBoundaries layer whose smaller subdivisions are numbered. Display names normalize uppercase source labels and preserve McLaughlin spelling. Direct query returned HTTP 403; the official ArcGIS Hub download succeeded."
+    },
+    {
+      "id": "whitby-health-neighbourhoods",
+      "municipality": "Whitby",
+      "municipalityName": "Whitby",
+      "municipalityCode": "3518009",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/whitby-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "c1460a27fa6c4609df5219dd122bf5e7c1206706a5d133d2e07947d9cc0b36d7",
+      "featureCount": 10,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics."
+    },
+    {
+      "id": "clarington-health-neighbourhoods",
+      "municipality": "Clarington",
+      "municipalityName": "Clarington",
+      "municipalityCode": "3518017",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/clarington-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "b79531dc18430c79e27798e40a7eba7efa4dfda566c95fe6d5a28737f385e616",
+      "featureCount": 7,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics."
+    },
+    {
+      "id": "uxbridge-health-neighbourhoods",
+      "municipality": "Uxbridge",
+      "municipalityName": "Uxbridge",
+      "municipalityCode": "3518029",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/uxbridge-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "fc54ad34987e9f6ffc9e2ebedb28d31bda43633d2e87ef0060cf6b50ea3c5b9e",
+      "featureCount": 2,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics."
+    },
+    {
+      "id": "scugog-health-neighbourhoods",
+      "municipality": "Scugog",
+      "municipalityName": "Scugog",
+      "municipalityCode": "3518020",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/scugog-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "2fe18e452e133614c98ce87e348f82582b0380928f1881429a7e65bbb2d73afb",
+      "featureCount": 2,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics."
+    },
+    {
+      "id": "brock-health-neighbourhoods",
+      "municipality": "Brock",
+      "municipalityName": "Brock",
+      "municipalityCode": "3518039",
+      "regionCode": "3518",
+      "region": "Durham",
+      "path": "data/municipal/durham/brock-health-neighbourhoods.geojson",
+      "nameField": "COMMON_NAME",
+      "idField": "MUNICIPAL_ID",
+      "geographyType": "neighbourhood",
+      "publisher": "Region of Durham Health Department",
+      "sourceUrl": "https://www.durham.ca/health-and-wellness/health-information-services/health-neighbourhoods/",
+      "downloadUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/Durham_OpenData/MapServer/12/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "retrievedDate": "2026-11-06",
+      "sha256": "aff2e6ac077de9f1875f07f773048928ee056d8110298a65c624527f2eea33eb",
+      "featureCount": 1,
+      "partialCoverage": false,
+      "priority": 80,
+      "label": "Regional health neighbourhood",
+      "geographySubtype": "health_neighbourhood",
+      "statisticsPath": "data/municipal/durham/health-statistics-2021.json",
+      "statisticsIdField": "MUNICIPAL_ID",
+      "statisticsGeometryMatch": "All 50 profile geometries exactly equal the official boundary geometries.",
+      "notes": "Regional government named neighbourhoods, built from adjacent DAs along physical barriers. These are health-analysis neighbourhoods, not municipal statutory planning districts. Keep the complete boundaries to preserve the exact 2021 profile statistics."
+    }
+  ],
+  "coverageResearch": [
+    {
+      "municipality": "Whitby",
+      "municipalityCode": "3518009",
+      "searched": [
+        "https://www.whitby.ca/media/gipclnhn/whitby-official-plan-maps-2025-jan.pdf",
+        "https://www.arcgis.com/home/item.html?id=b1c11167459c4067a09bbe3d4f877832"
+      ],
+      "reason": "Secondary-plan maps exist, but no redistributable complete named municipal neighbourhood polygon partition was obtained. Whitby GIS data carries a personal, non-commercial use limitation; use open Durham Health neighbourhoods."
+    },
+    {
+      "municipality": "Clarington",
+      "municipalityCode": "3518017",
+      "searched": [
+        "https://www.clarington.net/officialplan",
+        "https://www.clarington.net/media/ej3p52bb/data-sources-aoda.pdf"
+      ],
+      "reason": "Official Plan contains separate secondary plan areas rather than a complete named community partition. No matching complete municipal polygon layer obtained; use open Durham Health neighbourhoods."
+    },
+    {
+      "municipality": "Uxbridge",
+      "municipalityCode": "3518029",
+      "searched": [
+        "https://www.uxbridge.ca/town-hall/ward-map",
+        "https://opendata.durham.ca/"
+      ],
+      "reason": "Municipal ward maps do not serve as named neighbourhood boundaries. Regional planning hamlets are partial coverage, retained only as an optional candidate. Use full Urban Uxbridge and Rural Uxbridge Health neighbourhoods."
+    },
+    {
+      "municipality": "Scugog",
+      "municipalityCode": "3518020",
+      "searched": [
+        "https://www.scugog.ca/home-property-roads/zoning/",
+        "https://www.scugog.ca/business-support/community-profile/",
+        "https://www.scugog.ca/building-development/community-improvement-plan/"
+      ],
+      "reason": "Zoning and community improvement maps are not a complete named neighbourhood partition. Use the two official health neighbourhoods, Port Perry and Rural Scugog."
+    },
+    {
+      "municipality": "Brock",
+      "municipalityCode": "3518039",
+      "searched": [
+        "https://www.townshipofbrock.ca/building-and-business-development/planning-and-development/official-plan/"
+      ],
+      "reason": "Official Plan settlement maps exist for Beaverton, Cannington, Sunderland and hamlets, with partial rather than complete township coverage. Regional planning hamlets retained only as a candidate. Brock is one complete official health neighbourhood."
+    },
+    {
+      "municipality": "Mississaugas of Scugog Island",
+      "municipalityCode": "3518022",
+      "searched": [
+        "https://www.scugog.ca/parks-recreation-culture/mississaugas-of-scugog-island-first-nation-msifn/",
+        "https://opendata.durham.ca/"
+      ],
+      "reason": "No verified named sub-community polygon partition obtained. Preserve the official First Nation / census-subdivision area; do not label it as part of Scugog or a municipal planning neighbourhood.",
+      "fallback": "census_subdivision"
+    }
+  ],
+  "statisticsNotes": [
+    "Health 2021 source has only median AFTER-TAX household income, so atlas before-tax income is null.",
+    "Health source publishes only the total visible-minority category, not its 13 component categories. Do not substitute ethnic-origin percentages from Pickering profiles.",
+    "Health children statistic is directly published percentage / 100. Total population is the directly published numerator of population density. No area weighting or median aggregation is performed."
+  ],
+  "supplementaryCandidates": [
+    {
+      "path": "data/municipal/durham/durham-planning-hamlets.geojson",
+      "sourceUrl": "https://maps.durham.ca/arcgis/rest/services/Open_Data/OfficialPlanConsolidation2024_Map1/MapServer/15",
+      "nameField": "NAME",
+      "municipalityField": "Munic",
+      "license": "https://www.durham.ca/en/regional-government/resources/Documents/OpenDataLicenceAgreement.pdf",
+      "includeByDefault": false,
+      "reason": "Partial planning settlement coverage; not used to cut complete health-profile geometries."
+    }
+  ],
+  "files": {
+    "uxbridge-health-neighbourhoods.geojson": {
+      "sha256": "fc54ad34987e9f6ffc9e2ebedb28d31bda43633d2e87ef0060cf6b50ea3c5b9e",
+      "bytes": 10429
+    },
+    "health-population-2021-geometry.geojson.gz": {
+      "sha256": "fb87b4ab5b778273f6a8372ef6695b48240b57e63df8df6d2d6c31d170e0bf43",
+      "bytes": 133786
+    },
+    "health-profiles-2021-raw.json.gz": {
+      "sha256": "22e0446f6c83dd2d0db7af11a9e3a4fc8c24e04ee6060022343fec31478ef57d",
+      "bytes": 90226
+    },
+    "whitby-health-neighbourhoods.geojson": {
+      "sha256": "c1460a27fa6c4609df5219dd122bf5e7c1206706a5d133d2e07947d9cc0b36d7",
+      "bytes": 45882
+    },
+    "pickering-hamlets-communities.geojson": {
+      "sha256": "5c5db12c56a236274eef1a82ed9ffc28194054b8ae2aa2cfe6901091072710dd",
+      "bytes": 44820
+    },
+    "brock-health-neighbourhoods.geojson": {
+      "sha256": "aff2e6ac077de9f1875f07f773048928ee056d8110298a65c624527f2eea33eb",
+      "bytes": 26633
+    },
+    "ajax-neighbourhoods.geojson": {
+      "sha256": "57d4c4a92b4b21bd171457c3cef27acc2c0d3597d1fa8db14c74b827a44b93ba",
+      "bytes": 229751
+    },
+    "pickering-item-metadata.json": {
+      "sha256": "26f2074bc5e36f5d2e96b60e3aeaa0d7d07015b83fec03ac50eb2d5d275d9a18",
+      "bytes": 1901
+    },
+    "clarington-health-neighbourhoods.geojson": {
+      "sha256": "b79531dc18430c79e27798e40a7eba7efa4dfda566c95fe6d5a28737f385e616",
+      "bytes": 59129
+    },
+    "durham-health-neighbourhoods.geojson": {
+      "sha256": "c448a71422712518407309d6da14507c95c265b44aa0dd2c107f2d46e36ebeb7",
+      "bytes": 344765
+    },
+    "pickering-communities.geojson": {
+      "sha256": "d5a6cbfec58ed2e64035962e9fcbd0ad95929ecfbffbf0cae63a82ad615efc54",
+      "bytes": 229566
+    },
+    "health-item-metadata.json": {
+      "sha256": "1ca39dc357612f7c2c0a58fc97ddba8d23f5f5598b487eee38a3ab94d7c507ee",
+      "bytes": 1652
+    },
+    "ajax-communities.geojson": {
+      "sha256": "5115129ab995cdb7e19521a9ab66a61dbc054ccd38683b52649eef9d2e8b7dcf",
+      "bytes": 237551
+    },
+    "ajax-item-metadata.json": {
+      "sha256": "b1e80f5dbb9c59e42e36d41ae18ed3b991897f5bb99256b71a943726322642db",
+      "bytes": 1745
+    },
+    "oshawa-neighbourhoods.geojson": {
+      "sha256": "0d32ce78417067d6b0bc66189f5f144c58309de1aaec38f61886c5f02ba1c6f4",
+      "bytes": 585435
+    },
+    "oshawa-communities.geojson": {
+      "sha256": "29b7eea7a45c5c0f5a59ffc2ecf3c174ca8ac19539cb2f1febdfba4c35314247",
+      "bytes": 670615
+    },
+    "health-statistics-2021.json": {
+      "sha256": "997855ac72e014812964d724bf67b293a3afeacb9eb5cbd9d4fe9b427a37e115",
+      "bytes": 12289
+    },
+    "durham-planning-hamlets.geojson": {
+      "sha256": "21f74b04e0c741dac0d36e4c1805c8e6be909e076874f233d601c8ace030a1fa",
+      "bytes": 207626
+    },
+    "scugog-health-neighbourhoods.geojson": {
+      "sha256": "2fe18e452e133614c98ce87e348f82582b0380928f1881429a7e65bbb2d73afb",
+      "bytes": 33122
+    },
+    "oshawa-item-metadata.json": {
+      "sha256": "53c7526901fc57786fe6e54178d3f94e5a740de6e4a7e2156f4531dec411a52f",
+      "bytes": 2237
+    }
+  }
+}

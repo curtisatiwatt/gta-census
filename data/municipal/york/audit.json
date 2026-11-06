@@ -1,0 +1,1074 @@
+{
+  "featureCount": 64,
+  "allGeometriesValid": true,
+  "pairwiseAreaOverlapProportion": 3.651962508457393e-11,
+  "totalPopulationSum": 1173325,
+  "municipalityOverlapMethod": "Area fractions in longitude/latitude coordinate space are diagnostics only, not population allocations. Full official geometries preserved.",
+  "municipalityOverlaps": [
+    {
+      "code": "AA",
+      "name": "Around Maple",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.99984018
+        },
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 0.0001361
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 2.372e-05
+        }
+      ]
+    },
+    {
+      "code": "AB",
+      "name": "Aurora Centre North",
+      "primaryMunicipalityCode": "3519046",
+      "overlaps": [
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.99996362
+        },
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 3.638e-05
+        }
+      ]
+    },
+    {
+      "code": "AC",
+      "name": "Aurora Centre South West",
+      "primaryMunicipalityCode": "3519046",
+      "overlaps": [
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.99996459
+        },
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 3.541e-05
+        }
+      ]
+    },
+    {
+      "code": "AD",
+      "name": "Aurora Centre West",
+      "primaryMunicipalityCode": "3519046",
+      "overlaps": [
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "AE",
+      "name": "Aurora North West",
+      "primaryMunicipalityCode": "3519046",
+      "overlaps": [
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.99992849
+        },
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 7.151e-05
+        }
+      ]
+    },
+    {
+      "code": "AF",
+      "name": "Aurora South East",
+      "primaryMunicipalityCode": "3519046",
+      "overlaps": [
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.9998381
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.0001619
+        }
+      ]
+    },
+    {
+      "code": "AG",
+      "name": "Aurora South West",
+      "primaryMunicipalityCode": "3519046",
+      "overlaps": [
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.99989405
+        },
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 6.33e-05
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 4.265e-05
+        }
+      ]
+    },
+    {
+      "code": "AH",
+      "name": "Ballantrae-Stouffville",
+      "primaryMunicipalityCode": "3519044",
+      "overlaps": [
+        {
+          "municipalityCode": "3519044",
+          "municipality": "Whitchurch-Stouffville",
+          "areaFraction": 0.99105926
+        },
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.00434979
+        },
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.00209842
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.00201985
+        },
+        {
+          "municipalityCode": "3519054",
+          "municipality": "East Gwillimbury",
+          "areaFraction": 1.51e-05
+        }
+      ]
+    },
+    {
+      "code": "AI",
+      "name": "Buttonville",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.9839553
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.0160447
+        }
+      ]
+    },
+    {
+      "code": "AJ",
+      "name": "Concord-Vaughan",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.99993453
+        },
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 2.433e-05
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 1.585e-05
+        }
+      ]
+    },
+    {
+      "code": "AK",
+      "name": "Cornell",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.99997344
+        }
+      ]
+    },
+    {
+      "code": "AL",
+      "name": "East Gwillimbury Heights",
+      "primaryMunicipalityCode": "3519048",
+      "overlaps": [
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "AM",
+      "name": "Keswick East",
+      "primaryMunicipalityCode": "3519070",
+      "overlaps": [
+        {
+          "municipalityCode": "3519070",
+          "municipality": "Georgina",
+          "areaFraction": 0.99998899
+        },
+        {
+          "municipalityCode": "3519054",
+          "municipality": "East Gwillimbury",
+          "areaFraction": 1.101e-05
+        }
+      ]
+    },
+    {
+      "code": "AN",
+      "name": "Keswick South",
+      "primaryMunicipalityCode": "3519070",
+      "overlaps": [
+        {
+          "municipalityCode": "3519070",
+          "municipality": "Georgina",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "AO",
+      "name": "Keswick West",
+      "primaryMunicipalityCode": "3519070",
+      "overlaps": [
+        {
+          "municipalityCode": "3519070",
+          "municipality": "Georgina",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "AP",
+      "name": "King City",
+      "primaryMunicipalityCode": "3519049",
+      "overlaps": [
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 0.99833327
+        },
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.00165129
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 7.96e-06
+        },
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 7.48e-06
+        }
+      ]
+    },
+    {
+      "code": "AQ",
+      "name": "Kleinburg",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.99958657
+        }
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "Maple",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "AS",
+      "name": "Maple Teston",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "AT",
+      "name": "Markham 16th",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.99982444
+        },
+        {
+          "municipalityCode": "3519044",
+          "municipality": "Whitchurch-Stouffville",
+          "areaFraction": 0.00016721
+        }
+      ]
+    },
+    {
+      "code": "AU",
+      "name": "Markham Cathedral",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.98602716
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.01397284
+        }
+      ]
+    },
+    {
+      "code": "AV",
+      "name": "Markham Central East",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "AW",
+      "name": "Markham East",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.99992623
+        }
+      ]
+    },
+    {
+      "code": "AX",
+      "name": "Markham Hagerman",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "AY",
+      "name": "Markham Village",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "AZ",
+      "name": "Markham West",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.99904335
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 2.77e-06
+        }
+      ]
+    },
+    {
+      "code": "BA",
+      "name": "Milliken East",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.99965798
+        }
+      ]
+    },
+    {
+      "code": "BB",
+      "name": "Milliken West",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.99982415
+        }
+      ]
+    },
+    {
+      "code": "BC",
+      "name": "Mount Albert",
+      "primaryMunicipalityCode": "3519054",
+      "overlaps": [
+        {
+          "municipalityCode": "3519054",
+          "municipality": "East Gwillimbury",
+          "areaFraction": 0.99997363
+        },
+        {
+          "municipalityCode": "3519070",
+          "municipality": "Georgina",
+          "areaFraction": 8.45e-06
+        },
+        {
+          "municipalityCode": "3519044",
+          "municipality": "Whitchurch-Stouffville",
+          "areaFraction": 6.42e-06
+        }
+      ]
+    },
+    {
+      "code": "BD",
+      "name": "Newmarket Armitage",
+      "primaryMunicipalityCode": "3519048",
+      "overlaps": [
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 0.96482992
+        },
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.03517008
+        }
+      ]
+    },
+    {
+      "code": "BE",
+      "name": "Newmarket Clearmeadow/Glenway",
+      "primaryMunicipalityCode": "3519048",
+      "overlaps": [
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 0.79071087
+        },
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 0.20534774
+        },
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.00394139
+        }
+      ]
+    },
+    {
+      "code": "BF",
+      "name": "Newmarket College Manor",
+      "primaryMunicipalityCode": "3519048",
+      "overlaps": [
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "BG",
+      "name": "Newmarket Leslie Valley",
+      "primaryMunicipalityCode": "3519048",
+      "overlaps": [
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 0.99931474
+        },
+        {
+          "municipalityCode": "3519054",
+          "municipality": "East Gwillimbury",
+          "areaFraction": 0.00068526
+        }
+      ]
+    },
+    {
+      "code": "BH",
+      "name": "Newmarket Military",
+      "primaryMunicipalityCode": "3519048",
+      "overlaps": [
+        {
+          "municipalityCode": "3519044",
+          "municipality": "Whitchurch-Stouffville",
+          "areaFraction": 0.73977152
+        },
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 0.25864409
+        },
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.00155332
+        },
+        {
+          "municipalityCode": "3519054",
+          "municipality": "East Gwillimbury",
+          "areaFraction": 3.107e-05
+        }
+      ]
+    },
+    {
+      "code": "BI",
+      "name": "Newmarket North West",
+      "primaryMunicipalityCode": "3519048",
+      "overlaps": [
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 0.99571205
+        },
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 0.00428795
+        }
+      ]
+    },
+    {
+      "code": "BJ",
+      "name": "Newmarket Quaker Hill/Haskett Park",
+      "primaryMunicipalityCode": "3519048",
+      "overlaps": [
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "BK",
+      "name": "Newmarket Stonehaven",
+      "primaryMunicipalityCode": "3519048",
+      "overlaps": [
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 0.99446548
+        },
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 0.00553452
+        }
+      ]
+    },
+    {
+      "code": "BL",
+      "name": "Nobleton",
+      "primaryMunicipalityCode": "3519049",
+      "overlaps": [
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 0.99570285
+        },
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.00426472
+        }
+      ]
+    },
+    {
+      "code": "BM",
+      "name": "Pefferlaw",
+      "primaryMunicipalityCode": "3519070",
+      "overlaps": [
+        {
+          "municipalityCode": "3519070",
+          "municipality": "Georgina",
+          "areaFraction": 0.99777714
+        },
+        {
+          "municipalityCode": "3519076",
+          "municipality": "Chippewas of Georgina Island First Nation",
+          "areaFraction": 0.00013569
+        }
+      ]
+    },
+    {
+      "code": "BN",
+      "name": "Queensville-Sharon-HL",
+      "primaryMunicipalityCode": "3519054",
+      "overlaps": [
+        {
+          "municipalityCode": "3519054",
+          "municipality": "East Gwillimbury",
+          "areaFraction": 0.82329054
+        },
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 0.17389321
+        },
+        {
+          "municipalityCode": "3519048",
+          "municipality": "Newmarket",
+          "areaFraction": 0.00258764
+        },
+        {
+          "municipalityCode": "3519070",
+          "municipality": "Georgina",
+          "areaFraction": 1.435e-05
+        },
+        {
+          "municipalityCode": "3519044",
+          "municipality": "Whitchurch-Stouffville",
+          "areaFraction": 1.281e-05
+        }
+      ]
+    },
+    {
+      "code": "BO",
+      "name": "Ravenshoe West",
+      "primaryMunicipalityCode": "3519070",
+      "overlaps": [
+        {
+          "municipalityCode": "3519070",
+          "municipality": "Georgina",
+          "areaFraction": 0.99929129
+        },
+        {
+          "municipalityCode": "3519054",
+          "municipality": "East Gwillimbury",
+          "areaFraction": 8.148e-05
+        }
+      ]
+    },
+    {
+      "code": "BP",
+      "name": "Richmond Hill B",
+      "primaryMunicipalityCode": "3519038",
+      "overlaps": [
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.98129204
+        },
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.01869502
+        },
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 1.294e-05
+        }
+      ]
+    },
+    {
+      "code": "BQ",
+      "name": "Richmond Hill Bathurst",
+      "primaryMunicipalityCode": "3519038",
+      "overlaps": [
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.99992337
+        },
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 4.9e-05
+        },
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 2.763e-05
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "Richmond Hill C",
+      "primaryMunicipalityCode": "3519038",
+      "overlaps": [
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "BS",
+      "name": "Richmond Hill Doncrest",
+      "primaryMunicipalityCode": "3519038",
+      "overlaps": [
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.9962048
+        },
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.0037952
+        }
+      ]
+    },
+    {
+      "code": "BT",
+      "name": "Richmond Hill East",
+      "primaryMunicipalityCode": "3519038",
+      "overlaps": [
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "BU",
+      "name": "Richmond Hill North East",
+      "primaryMunicipalityCode": "3519038",
+      "overlaps": [
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "BV",
+      "name": "Richmond Hill North West",
+      "primaryMunicipalityCode": "3519038",
+      "overlaps": [
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.99991445
+        },
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 8.555e-05
+        }
+      ]
+    },
+    {
+      "code": "BW",
+      "name": "Richmond Hill Richvale",
+      "primaryMunicipalityCode": "3519038",
+      "overlaps": [
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.99862951
+        },
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.00137049
+        }
+      ]
+    },
+    {
+      "code": "BX",
+      "name": "Roches Point",
+      "primaryMunicipalityCode": "3519070",
+      "overlaps": [
+        {
+          "municipalityCode": "3519070",
+          "municipality": "Georgina",
+          "areaFraction": 0.9791423
+        },
+        {
+          "municipalityCode": "3519076",
+          "municipality": "Chippewas of Georgina Island First Nation",
+          "areaFraction": 0.00736056
+        }
+      ]
+    },
+    {
+      "code": "BY",
+      "name": "Schomberg",
+      "primaryMunicipalityCode": "3519049",
+      "overlaps": [
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 0.99921822
+        }
+      ]
+    },
+    {
+      "code": "BZ",
+      "name": "South of Maple",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.99929597
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "Stouffville",
+      "primaryMunicipalityCode": "3519044",
+      "overlaps": [
+        {
+          "municipalityCode": "3519044",
+          "municipality": "Whitchurch-Stouffville",
+          "areaFraction": 0.99840938
+        },
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.00153199
+        }
+      ]
+    },
+    {
+      "code": "CB",
+      "name": "Sutton",
+      "primaryMunicipalityCode": "3519070",
+      "overlaps": [
+        {
+          "municipalityCode": "3519070",
+          "municipality": "Georgina",
+          "areaFraction": 0.8234918
+        },
+        {
+          "municipalityCode": "3519076",
+          "municipality": "Chippewas of Georgina Island First Nation",
+          "areaFraction": 0.17649419
+        },
+        {
+          "municipalityCode": "3519054",
+          "municipality": "East Gwillimbury",
+          "areaFraction": 7.88e-06
+        }
+      ]
+    },
+    {
+      "code": "CC",
+      "name": "The Hill",
+      "primaryMunicipalityCode": "3519038",
+      "overlaps": [
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.9999798
+        },
+        {
+          "municipalityCode": "3519046",
+          "municipality": "Aurora",
+          "areaFraction": 8.93e-06
+        },
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 6.47e-06
+        },
+        {
+          "municipalityCode": "3519049",
+          "municipality": "King",
+          "areaFraction": 4.8e-06
+        }
+      ]
+    },
+    {
+      "code": "CD",
+      "name": "Thornhill North",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.99913826
+        },
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.00075416
+        },
+        {
+          "municipalityCode": "3519038",
+          "municipality": "Richmond Hill",
+          "areaFraction": 0.00010758
+        }
+      ]
+    },
+    {
+      "code": "CE",
+      "name": "Thornhill South",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 0.99907384
+        },
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.00043017
+        }
+      ]
+    },
+    {
+      "code": "CF",
+      "name": "Unionville",
+      "primaryMunicipalityCode": "3519036",
+      "overlaps": [
+        {
+          "municipalityCode": "3519036",
+          "municipality": "Markham",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "CG",
+      "name": "Woodbridge Centre",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "Woodbridge East",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.99996559
+        }
+      ]
+    },
+    {
+      "code": "CI",
+      "name": "Woodbridge North",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 1.0
+        }
+      ]
+    },
+    {
+      "code": "CJ",
+      "name": "Woodbridge South East",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.99840069
+        }
+      ]
+    },
+    {
+      "code": "CK",
+      "name": "Woodbridge South West",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.99962052
+        }
+      ]
+    },
+    {
+      "code": "CL",
+      "name": "Woodbridge West",
+      "primaryMunicipalityCode": "3519028",
+      "overlaps": [
+        {
+          "municipalityCode": "3519028",
+          "municipality": "Vaughan",
+          "areaFraction": 0.99992702
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "aurora-secondary-plans.geojson": "66b38a4621a639b0d9077ae463d2249422452d1a26473b3a82d54944693e81ed",
+    "markham-secondary-plans.geojson": "f2e3045dbaaf16e16e1136179184a999f54b22af8e68774ed185080b83bef9ee",
+    "newmarket-residential-character.geojson": "9d74fd747c1746f741cd4c1e0be10ca136646b4d44fb3dd31547e081fa696fdf",
+    "sources.json": "5dcd1249c687315dbbe5640f5afa1dc76de5059c52ed7949fa7730e23645f3b0",
+    "vaughan-planning-blocks.geojson": "fa7a54769df5572095033ed874e0e5f6b82f44531f059ff1a4d928956ac3e1a7",
+    "york-edi-demographics-layer.json": "7080098ee8cb28f683187302f1085ef1770ab807b5838cd885e54bdb67595fc0",
+    "york-edi-demographics.geojson": "c6f3f1c4616e1a654f8de703634eb272277bd9c3670a7fe3c97141bea6bd72d0",
+    "york-edi.geojson": "7d7da4269fd157c78285a9acf635525a24a1da7c2187f4a9d10be6fda98365aa",
+    "york-neighbourhoods.geojson": "218bda5992bf7123d23217c5c85d01b0496b8b71aa7888ca38a4de2975b2f676",
+    "york-open-data-licence.pdf": "9f3572c2c1ad39fe133a21a6eeb73654d0eb3c2d50872a1c777bb42b845b5a13"
+  }
+}

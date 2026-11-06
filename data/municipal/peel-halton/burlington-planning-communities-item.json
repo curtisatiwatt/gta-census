@@ -1,0 +1,71 @@
+{
+  "id": "1afaa4cd5c1148f89480817fce4c0469",
+  "owner": "GISCOB",
+  "ownerId": "8132a5669758a7e08c27a96d0447911a",
+  "orgId": "xbWF6o8qyXoMFa8L",
+  "created": 1495109171000,
+  "modified": 1684294916000,
+  "guid": null,
+  "name": null,
+  "title": "Planning Communities",
+  "type": "Feature Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Feature Access",
+    "Feature Service",
+    "Service"
+  ],
+  "description": "<div>City of Burlington Planning Communities</div><div><br /></div>",
+  "tags": [
+    "Open Data",
+    "Burlington Ontario",
+    "Planning Communities",
+    "Planning",
+    "Disctricts",
+    "Land Use"
+  ],
+  "snippet": "City of Burlington Planning Communities\n",
+  "thumbnail": "thumbnail/thumbnail.png",
+  "documentation": null,
+  "extent": [
+    [
+      -79.9615,
+      43.2848
+    ],
+    [
+      -79.7225,
+      43.4772
+    ]
+  ],
+  "categories": [],
+  "spatialReference": null,
+  "accessInformation": "City of Burlington",
+  "classification": null,
+  "licenseInfo": "<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>The use of the data is subject only to the </span><a href='https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf' style='color:rgb(0, 121, 193); text-decoration-line:none; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;' target='_blank' rel='nofollow ugc noopener noreferrer'>Open Data Terms of Use</a>",
+  "culture": "en-us",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://mapping.burlington.ca/arcgisweb/rest/services/COB/PlanningCommunities/MapServer/1",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 89,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 4438,
+  "scoreCompleteness": 80,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "lastViewed": 1793962800000
+}

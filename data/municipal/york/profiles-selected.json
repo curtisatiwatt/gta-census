@@ -1,0 +1,644 @@
+{
+  "records": {
+    "AA": {
+      "totalPopulation": 62605,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AB": {
+      "totalPopulation": 27645,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AC": {
+      "totalPopulation": 11585,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AD": {
+      "totalPopulation": 4325,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AE": {
+      "totalPopulation": 5110,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AF": {
+      "totalPopulation": 7640,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AG": {
+      "totalPopulation": 5750,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AH": {
+      "totalPopulation": 28690,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AI": {
+      "totalPopulation": 18440,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AJ": {
+      "totalPopulation": 56325,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AK": {
+      "totalPopulation": 30755,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AL": {
+      "totalPopulation": 5025,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AM": {
+      "totalPopulation": 7450,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AN": {
+      "totalPopulation": 6900,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AO": {
+      "totalPopulation": 3615,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AP": {
+      "totalPopulation": 9450,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AQ": {
+      "totalPopulation": 31745,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AR": {
+      "totalPopulation": 33150,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AS": {
+      "totalPopulation": 17890,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AT": {
+      "totalPopulation": 66095,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AU": {
+      "totalPopulation": 28495,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AV": {
+      "totalPopulation": 12615,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AW": {
+      "totalPopulation": 34445,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AX": {
+      "totalPopulation": 19630,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AY": {
+      "totalPopulation": 24865,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "AZ": {
+      "totalPopulation": 24050,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BA": {
+      "totalPopulation": 20005,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BB": {
+      "totalPopulation": 15205,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BC": {
+      "totalPopulation": 8515,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BD": {
+      "totalPopulation": 8240,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BE": {
+      "totalPopulation": 18335,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BF": {
+      "totalPopulation": 5530,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BG": {
+      "totalPopulation": 8450,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BH": {
+      "totalPopulation": 5820,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BI": {
+      "totalPopulation": 16290,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BJ": {
+      "totalPopulation": 10795,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BK": {
+      "totalPopulation": 10400,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BL": {
+      "totalPopulation": 9970,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BM": {
+      "totalPopulation": 6165,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BN": {
+      "totalPopulation": 26960,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BO": {
+      "totalPopulation": 8350,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BP": {
+      "totalPopulation": 17195,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BQ": {
+      "totalPopulation": 19925,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BR": {
+      "totalPopulation": 16305,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BS": {
+      "totalPopulation": 22555,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BT": {
+      "totalPopulation": 22655,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BU": {
+      "totalPopulation": 17235,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BV": {
+      "totalPopulation": 26805,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BW": {
+      "totalPopulation": 22645,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BX": {
+      "totalPopulation": 5915,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BY": {
+      "totalPopulation": 6450,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "BZ": {
+      "totalPopulation": 14580,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CA": {
+      "totalPopulation": 20860,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CB": {
+      "totalPopulation": 9455,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CC": {
+      "totalPopulation": 36700,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CD": {
+      "totalPopulation": 14615,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CE": {
+      "totalPopulation": 11750,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CF": {
+      "totalPopulation": 17545,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CG": {
+      "totalPopulation": 8940,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CH": {
+      "totalPopulation": 16630,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CI": {
+      "totalPopulation": 51020,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CJ": {
+      "totalPopulation": 7280,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CK": {
+      "totalPopulation": 18500,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    },
+    "CL": {
+      "totalPopulation": 4445,
+      "income": null,
+      "population": null,
+      "counts": null,
+      "sourceUrl": "https://www.arcgis.com/home/item.html?id=1ee128ff00154af5876b241e5abae15c",
+      "statisticsMethod": "municipal_profile",
+      "caveat": "York区域政府EDI社区；总人口为2021年数据。原表的收入是经济家庭收入，人群指标只覆盖0–5岁儿童，均不套用到本图的住户收入和全体人口构成。",
+      "caveatEn": "York Region EDI neighbourhood; total population is from 2021. Source income refers to economic families and population-group indicators cover children aged 0–5 only, so neither is used as household income or all-resident composition."
+    }
+  }
+}
